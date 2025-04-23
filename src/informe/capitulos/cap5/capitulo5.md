@@ -70,7 +70,6 @@ header-includes:
   \newtcolorbox{outline-box}{colback=cyan!5!white,arc=0pt,outer arc=0pt,colframe=cyan!60!black,title=\textbf{Outline:}}
   \newtcolorbox{prereqs-box}{colback=red!5!white,arc=0pt,outer arc=0pt,colframe=red!60!black,title=\textbf{Prerequisites:}}
   \newtcolorbox{labtime-box}{colback=yellow!5!white,arc=0pt,outer arc=0pt,colframe=yellow!60!black,title=\textbf{Lab:}}
-  \newcommand{\pandocbounded}[1]{#1} 
   ```
 pandoc-latex-environment:
   tcolorbox: [box]
@@ -94,25 +93,615 @@ pandoc-latex-environment:
 
 # Capítulo V: Solution UI/UX Design
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+La experiencia del usuario es uno de los pilares más importantes para el éxito de RutaKids, dado que involucra a múltiples actores como padres, colegios y operadores de transporte. Esta sección presenta el diseño UX/UI propuesto para cada uno de los productos digitales que forman parte de nuestra solución. Se incluyen desde las guías de estilo y decisiones de arquitectura de información, hasta wireframes, mockups, user flows y prototipos interactivos. Todo el diseño se ha planteado pensando en la simplicidad, claridad y accesibilidad, asegurando una navegación intuitiva, consistente y centrada en el usuario. La propuesta busca maximizar el valor percibido y reducir la fricción en la experiencia diaria de cada segmento objetivo.
 
-\newpage
 
 ## Style Guidelines.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+![Artefacto creado en Figma](src/img/cap5/cover.png)
+
+Las directrices de estilo cumplen un papel clave en garantizar una identidad visual coherente en todos los productos de RutaKids. Estas pautas nos permiten mantener consistencia en los elementos gráficos, facilitando una experiencia clara y uniforme para los usuarios. A continuación, se detallan las guías generales y específicas aplicadas en cada plataforma.
+
 
 \newpage
 
 ### General Style Guidelines.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+En el diseño de productos digitales, la estética no es solo una cuestión de apariencia, sino una herramienta estratégica para facilitar la interacción del usuario. Un lenguaje visual bien definido, que incluya criterios claros sobre identidad de marca, esquema de colores, tipografía y tono comunicacional, contribuye a que la experiencia sea coherente, fluida y significativa.
+
+\vspace{1em}
+
+\begin{quote}
+Rijgersberg (2025) argumenta que reducir la complejidad visual y estructurar la información de manera accesible disminuye la carga cognitiva, permitiendo que los usuarios avancen con claridad hacia sus objetivos. Bajo esta lógica, la simplicidad no implica ausencia de diseño, sino decisiones intencionales orientadas a la funcionalidad.
+\end{quote}
+
+\vspace{1em}
+
+Por eso, contar con principios de diseño sólidos no solo mejora la accesibilidad y la eficiencia del producto, sino que también habilita su evolución en distintos contextos y dispositivos. Así, se construye una identidad visual adaptable, al servicio tanto de la experiencia del usuario como de la narrativa de la organización.
+
+\vspace{2em}
+
+
+**Branding:**
+
+*Rutakids* es una solución tecnológica pensada para brindar seguridad y control en el transporte escolar. Su identidad visual refleja confianza, cercanía y modernidad, valores clave para padres y colegios. La plataforma busca simplificar la experiencia de seguimiento escolar a través de una interfaz clara, accesible y conectada en tiempo real.
+Cada elemento del branding (colores, tipografía y estilo visual) está diseñado para reforzar la misión de *RutaKids*: ofrecer tranquilidad a las familias y eficiencia a las instituciones, con una experiencia intuitiva y coherente en todos sus canales digitales.
+
+
+\vspace{2em}
+
+
+**Logotipo:**
+
+El logotipo de *RutaKids* fue diseñado para representar visualmente los valores fundamentales de la solución: movimiento, seguridad y tecnología accesible. Su símbolo principal es una rueda estilizada en movimiento, lo cual hace alusión directa al concepto de transporte escolar eficiente y monitoreado en tiempo real.
+La elección del color azul vibrante busca transmitir confianza, profesionalismo y tranquilidad, mientras que las formas redondeadas del logotipo refuerzan la cercanía y la facilidad de uso que caracterizan a la plataforma. Además, se han definido variantes del logotipo para asegurar su correcta adaptación en diferentes fondos y contextos, sin comprometer la legibilidad ni la identidad visual del producto.
+
+![Artefacto creado en Figma](src/img/cap5/LogoStyle.png)
+
+\vspace{1em}
+
+**Iconografía de la Aplicación**
+
+La iconografía de *RutaKids* se basa en el uso del imagotipo de la marca (una rueda estilizada en movimiento) como símbolo principal en su versión para dispositivos móviles. Este elemento mantiene la coherencia gráfica de la marca al tiempo que asegura versatilidad y reconocimiento en pantallas reducidas. Además, para garantizar su legibilidad y funcionalidad, se desarrollaron distintas variantes del ícono, adaptables a diferentes fondos y contextos de uso. Su forma simplificada y su alto contraste permiten una fácil identificación desde la pantalla de inicio de cualquier dispositivo, reforzando la presencia visual de *RutaKids* dentro de su ecosistema digital.
+
+
+
+![Artefacto creado en Figma](src/img/cap5/Icon_App.png)
+
+\vspace{1em}
+
+
+**Colores**
+
+La paleta de colores de *RutaKids* está estructurada en dos grupos principales: los colores utilizados en la interfaz de usuario y aquellos aplicados en las variantes del logotipo e iconos. Esta clasificación permite mantener una coherencia visual sólida, adaptando el uso del color según su función en la experiencia del usuario y en la identidad de marca.
+
+- **Colores Principales (Interfaz de la Aplicación)**
+
+  Estos colores se aplican en la landing page, la aplicación web y la app móvil. Su selección busca optimizar la legibilidad, facilitar la navegación y establecer jerarquías visuales claras.
+    
+  - **Azul (#2979FF):** Color principal de acento, utilizado en botones, enlaces, íconos activos y llamadas a la acción. Simboliza tecnología, dinamismo y confiabilidad, atributos clave para una plataforma tecnológica dirigida al entorno infantil y familiar. Su intensidad favorece la visibilidad y guía la atención del usuario hacia las zonas de interacción.
+  
+  - **Blanco (#FFFFFF):** Funciona como fondo predominante en la interfaz. Su neutralidad permite maximizar la claridad, mejorar la percepción del contenido y generar una sensación de amplitud visual. Es fundamental para evitar la saturación cromática y facilitar la lectura en distintos dispositivos.
+  
+  - **Gris (#93868A):** Aplicado en textos secundarios, descripciones, etiquetas y componentes del dashboard. Este tono contribuye a una organización jerárquica de la información, diferenciando elementos sin provocar distracción visual. Su uso estratégico mejora la legibilidad y evita el contraste excesivo.
+  
+  - **Negro (#000000):** Utilizado en títulos, encabezados y textos primarios. Su alto contraste frente al blanco garantiza máxima legibilidad, especialmente en contenido textual de alta relevancia. Además, refuerza el énfasis visual y aporta un carácter formal a la estructura gráfica
+
+  
+  ![Artefacto creado en Figma](src/img/cap5/PrimaryColors.png)
+
+
+- **Colores Secundarios (Variantes de Logos e Iconos)**
+
+  Estos tonos de azul se emplean para asegurar que el logotipo y los íconos mantengan su visibilidad y coherencia visual en diferentes fondos y dispositivos. Las variantes permiten adaptar la marca sin perder identidad.
+
+  - **Azul (#256CE4):** Empleado principalmente en variantes del logotipo sobre fondos claros. Ofrece buena visibilidad sin generar un contraste excesivo, manteniendo una apariencia amigable y moderna.
+  
+  - **Azul (#205EC6):** Alternativa versátil que proporciona equilibrio visual entre contraste y presencia de marca. Es útil para contextos digitales y materiales impresos donde se requiere mantener una estética sobria sin perder fuerza gráfica.
+  
+  - **Azul Oscuro (#123672):** Aplicado sobre fondos oscuros o saturados. Este tono profundo refuerza la elegancia, seriedad y profesionalismo de la marca, siendo apropiado para presentaciones formales, documentación institucional o entornos corporativos.
+  
+  ![Artefacto creado en Figma](src/img/cap5/SecondColors.png)
+
+
+**Tipografía**
+
+La identidad tipográfica de *RutaKids* ha sido cuidadosamente definida para asegurar legibilidad, jerarquía visual y consistencia en todas sus plataformas: landing page, aplicación web y aplicación móvil. Se emplean diferentes fuentes según el entorno, adaptadas a las necesidades visuales y funcionales de cada interfaz.
+
+1. ***Landing Page***
+
+- ***DM Sans* (Google Fonts)**
+  
+  - Pesos utilizados: *Bold, Medium, Regular, Italic*
+  
+  DM Sans es la tipografía principal utilizada en la landing page de RutaKids. Su diseño limpio y geométrico facilita la lectura tanto en títulos como en cuerpos de texto. La versión Bold se aplica a encabezados principales, Medium en párrafos destacados, y Regular e Italic en textos complementarios o citas.
+
+  ![Artefacto creado en Figma](src/img/cap5/Typography_DMSans_landing.png)
+
+
+- ***Space Grotesk* (Google Fonts)**
+  
+  - Peso utilizado: *Regular*
+  
+  Space Grotesk se utiliza de manera puntual en elementos destacados, como subtítulos o frases clave. Su estilo contemporáneo y ligeramente técnico aporta una personalidad moderna al diseño general de la landing page.
+
+  ![Artefacto creado en Figma](src/img/cap5/Typography_SpaceGrotesk_landing.png)
+
+
+2. **Aplicación Web**
+
+- ***Outfit* (Google Fonts)**
+  
+  - Peso utilizado: *Bold, Medium, Regular*
+  
+  *Outfit* es la fuente principal empleada en la interfaz web. Su estructura sencilla y bien espaciada la hace ideal para entornos digitales centrados en la usabilidad. El peso Bold se asigna a títulos, Medium a subtítulos y elementos intermedios, y Regular al contenido general del sistema.
+
+  ![Artefacto creado en Figma](src/img/cap5/Typography_Outfit_web.png)
+
+
+3. **Aplicación Web**
+
+- ***Urbanist* (Google Fonts)**
+  
+  - Peso utilizado: *Medium*
+  
+  La tipografía *Urbanist* se implementa en los encabezados y títulos principales de la app móvil. Su trazo limpio y geométrico favorece la lectura rápida y jerarquiza visualmente la información, proyectando una estética moderna alineada con la experiencia de usuario fluida y tecnológica que busca la plataforma.
+
+  ![Artefacto creado en Figma](src/img/cap5/Typography_Urbanist_app.png)
+
+
+- ***Work Sans* (Google Fonts)**
+  
+  - Pesos utilizados: *Bold* y *Regular*
+  
+  Work Sans estructura los textos de contenido y los botones interactivos. El peso Bold destaca acciones prioritarias, mientras que Regular mantiene un ritmo de lectura cómodo en el cuerpo de texto, optimizando la accesibilidad y la comprensión en distintos tamaños de pantalla.
+
+  ![Artefacto creado en Figma](src/img/cap5/Typography_WorkSans_app.png)
+
+
+\newpage
+
+**Tonos de Comunicación**
+
+El tono de voz de *RutaKids* fue cuidadosamente definido para alinearse con los valores del proyecto: seguridad, confiabilidad y eficiencia. Dado que se trata de una solución orientada al seguimiento de estudiantes en transporte escolar, la comunicación debe ser clara, profesional y empática. Por ello, se eligieron cuatro atributos clave que guían el estilo comunicativo en todas las plataformas y puntos de contacto:
+
+- **Neutral:** Se emplea un lenguaje objetivo y sin juicios, especialmente útil en mensajes informativos, técnicos o institucionales. Este tono permite que la información sea comprendida sin ambigüedades ni interpretaciones subjetivas, ideal para notificaciones automatizadas o estados del sistema.
+
+- **Formal:** Se emplea una redacción cuidada y profesional, adecuada para un entorno donde participan instituciones educativas y familias.  Este tono se aplica en secciones como configuraciones, paneles administrativos o documentación, donde se requiere precisión y credibilidad. Aporta seriedad y estructura sin resultar distante.
+
+- **Respetuoso:** La comunicación se construye desde el respeto hacia todos los usuarios, considerando que se trata de un servicio vinculado al cuidado de menores. Este tono se refleja en el lenguaje empleado en interfaces, correos, mensajes de error o ayuda, evitando cualquier forma invasiva o autoritaria.
+
+- **Objetivo:** Utilizado principalmente en situaciones críticas o informativas, este tono se enfoca en presentar los hechos de forma concisa y sin adornos. Es ideal para notificaciones de llegada/salida, alertas de seguridad, confirmaciones y registros. Aporta precisión y rapidez en la toma de decisiones.
+
+La combinación de estos tonos permite que RutaKids mantenga una comunicación funcional, empática y profesional, fortaleciendo la experiencia del usuario y consolidando la confianza en la solución.
+
+![Artefacto creado en Figma](src/img/cap5/ToneOfVoice.png)
+
+\vspace{1em}
+
+**Eslogan**
+
+El eslogan de RutaKids, “Seguridad que te acompaña”, expresa de manera clara el propósito de la plataforma: ofrecer protección y acompañamiento continuo a los estudiantes durante sus trayectos escolares. Con un tono cercano y directo, transmite la tranquilidad que sienten padres y colegios al saber que cada viaje está monitoreado.
+La palabra “acompaña” destaca el compromiso de la marca con una presencia constante, mientras que “seguridad” refuerza su enfoque en el bienestar infantil.
+
+![Artefacto creado en Figma](src/img/cap5/Eslogan.png)
+
 
 \newpage
 
 ### Web, Mobile and IoT Style Guidelines.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+![Artefacto creado en Figma](src/img/cap5/cover2.png)
+
+Esta sección ilustra cómo se aplican los principios generales de estilo dentro de cada interfaz de usuario del sistema RutaKids. A través de componentes visuales como grillas, botones, formularios y más, se establece una experiencia coherente para las aplicaciones web, móviles (padres y choferes) y el dispositivo IoT.
+Cada componente documentado cumple una función específica para facilitar la interacción de los distintos tipos de usuarios con el sistema, por lo tanto, su correcta implementación y coherencia visual son claves para garantizar accesibilidad, claridad y eficiencia.
+Puedes complementar cada bloque con mockups, capturas de pantalla o ejemplos visuales correspondientes.
+
+1. **Sistema de Grillas (*Grid System*)**
+
+- **Propósito**
+
+  El sistema de grillas es el esqueleto visual que sostiene toda la experiencia de usuario. Su función es establecer un orden lógico y visualmente armónico en la disposición de los elementos en pantalla. 
+
+  Al definir una grilla flexible y adaptativa, garantizamos que los contenidos sean legibles, accesibles y coherentes, independientemente del dispositivo utilizado. 
+
+  En un sistema como *RutaKids* (que abarca interfaces para administración, uso cotidiano en movilidad y visualización de datos IoT) establecer una grilla clara y bien definida es esencial para mantener una experiencia consistente y profesional.
+
+- **Justificación de las decisiones de diseño**
+
+  Para definir las resoluciones y columnas, se tomaron como referencia los siguientes criterios:
+
+  - Estándares de diseño responsive ampliamente adoptados, como los establecidos por *Material Design* y *Bootstrap* (12 columnas para escritorio, reducción progresiva para móviles).
+
+  - Análisis de los dispositivos más utilizados por los distintos perfiles de usuarios de *RutaKids*, obtenido a partir de entrevistas y encuestas realizadas durante la fase de investigación, en las que se indagó sobre el acceso y frecuencia de uso de dispositivos móviles, tablets y computadoras portátiles.
+
+  - Escenarios de uso específicos: 
+    - La interfaz del chofer debe ser simple, táctil y sin distracciones.  
+    - La del padre debe ser clara, emocional y centrada en el seguimiento.  
+    - La web debe soportar administración avanzada.
+
+- **Configuración técnica adoptada**
+
+  A continuación, se muestra una tabla con las configuraciones técnicas definidas para cada tipo de plataforma:
+
+  
+\begin{longtable}{|c|c|c|c|c|}
+\hline
+\textbf{Plataforma} & \textbf{Resolución} & \textbf{Columnas} & \textbf{Gutter (px)} & \textbf{Ancho de columna (px)} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Plataforma} & \textbf{Resolución} & \textbf{Columnas} & \textbf{Gutter (px)} & \textbf{Ancho de columna (px)} \\
+\hline
+\endhead
+Web HD & 1440 $\times$ 1024 & 12 & 30 & 65 \\
+\hline
+Web Estándar & 1024 $\times$ 1024 & 12 & 30 & 50 \\
+\hline
+Tablet & 768 $\times$ 1024 & 6 & 30 & 88 \\
+\hline
+Smartphone & 320 $\times$ 1024 & 2 & 30 & 130 \\
+\hline
+\end{longtable}
+
+Estas configuraciones permiten que el contenido se distribuya de forma eficiente y visualmente armónica en cada contexto de uso.
+
+- **Aplicación por plataforma**
+
+  - **Aplicación Web (Administración):** Permite una estructura modular y detallada para tablas, formularios y paneles de control, maximizando el uso del espacio sin perder claridad.
+
+
+  - **App Móvil (Padres):** Favorece el uso de componentes tipo card, centrados en legibilidad, jerarquía visual y navegación intuitiva.
+
+
+  - **App Móvil (Chofer):** Usa una grilla simplificada con botones e información espaciada, optimizada para su uso en movimiento y condiciones de visibilidad variables.
+
+
+  - **IoT:** Si bien el dispositivo no tiene pantalla, sus eventos se reflejan visualmente en interfaces web y móviles que respetan esta estructura.
+
+
+![Artefacto creado en Figma](src/img/cap5/Grid.png)
+
+\newpage
+
+2. **Botones y Enlaces (*Buttons & Links*)**
+
+- **Propósito**
+
+  Los botones y enlaces son puntos clave de interacción en cualquier interfaz. Representan las intenciones del usuario: avanzar, retroceder, confirmar, editar o salir. Un buen diseño de botones no solo comunica visualmente su función, sino que también debe ser accesible, jerárquico y reconocible en todos los estados (activo, inactivo, al pasar el cursor, etc.).
+
+  En un sistema como *RutaKids*, que combina usuarios con distintos niveles de familiaridad tecnológica (administradores, padres y choferes), los botones deben ser universales, comprensibles y consistentes en todas las plataformas.
+
+- **Criterios de diseño evaluados para definir los botones**
+
+  Las siguientes decisiones se tomaron con base en análisis de usabilidad, buenas prácticas de diseño y pruebas con usuarios:
+
+  - **Jerarquía visual clara:** Se definieron tres tipos de botones según su prioridad: **Primario** (acción principal), **Secundario** (acciones alternativas) y **Ghost** (acciones pasivas o complementarias).
+
+  - **Tamaños escalables:** *Small*, *Medium* y *Large*, para adaptarse a distintos contextos (tablas, formularios, pantallas táctiles o pantallas reducidas).
+
+  - **Estados de interacción definidos:** Cada botón tiene estados diferenciados para indicar interacción (*hover*, *focus*, *active*, *disabled*). Esto permite al usuario tener retroalimentación visual inmediata.
+
+  - **Compatibilidad responsive:** Los botones deben escalar correctamente según el dispositivo y respetar las reglas del grid.
+
+  - **Tipografía, relleno y espaciado:** Ajustado según proporciones legibles y cómodas al tacto (padding vertical/horizontal según tamaño, tamaño de fuente proporcional).
+
+- **Configuración técnica adoptada**
+
+\begin{longtable}{|c|c|c|c|}
+\hline
+\textbf{Tamaño} & \textbf{Padding vertical} & \textbf{Padding horizontal} & \textbf{Font size} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Tamaño} & \textbf{Padding vertical} & \textbf{Padding horizontal} & \textbf{Font size} \\
+\hline
+\endhead
+Small & 12 px & 24 px & 14 px \\
+\hline
+Medium & 14 px & 32 px & 16 px \\
+\hline
+Large & 16 px & 48 px & 18 px \\
+\hline
+\end{longtable}
+
+- **Tipos de botón:**
+
+  - **Primario:** Alto contraste, usado para llamadas a la acción principales.
+  - **Secundario:** Color neutro, para acciones complementarias.
+  - **Ghost:** Botón sin fondo, usado para acciones menos frecuentes.
+
+- **Estados definidos y su función en la experiencia del usuario:**
+
+  - **Default:** Estado por defecto del botón. Muestra cómo luce cuando está disponible para ser presionado. Es el estado de reposo, sin interacción.
+  - **Hover:** Estado visible cuando el usuario pasa el cursor sobre el botón (en interfaces web). Permite anticipar que el botón es interactivo, mejorando la respuesta cognitiva.
+  - **Active:** Estado momentáneo cuando el botón es presionado. Aporta retroalimentación inmediata que confirma al usuario que su acción fue reconocida.
+  - **Focus:** Estado que indica que el botón ha sido seleccionado por teclado (por ejemplo, con la tecla “Tab”). Este estado mejora la navegación accesible, especialmente en interfaces web.
+  - **Disabled:** Estado en el que el botón está inactivo o no disponible. Suele verse atenuado, sin permitir clic ni interacción. Es útil para guiar al usuario y evitar errores (por ejemplo, cuando aún no ha completado un formulario).
+
+- **Aplicación por plataforma**
+
+  - **Aplicación Web (Administración):**  Los botones se usan en formularios, dashboards, acciones de navegación y operaciones CRUD (crear, editar, eliminar, exportar). El tamaño Medium es el más frecuente por precisión con el mouse. El botón Primario se reserva para acciones importantes (ej. “Guardar”, “Asignar”). El estado “hover” es clave para usuarios acostumbrados a interfaces de escritorio.
+
+  - **App Móvil (Padres):**  Se priorizan botones Large o Medium, con iconos y etiquetas claras. Botones como “Ver estado del hijo” o “Configurar alertas” deben ser de fácil acceso y tener colores familiares. Los estados como “focus” o “active” están optimizados para interfaces táctiles.
+
+
+  - **App Móvil (Chofer):**  Aquí los botones deben ser grandes, de alto contraste y accesibles con una sola mano. Acciones como “Iniciar ruta” o “Confirmar subida” requieren respuesta visual y táctil inmediata.
+
+
+![Artefacto creado en Figma](src/img/cap5/Button_Link.png)
+
+
+\newpage
+
+3. **Campos de Entrada (*Input Fields*)**
+
+- **Propósito**
+
+  Los campos de entrada son puntos de contacto fundamentales entre el usuario y el sistema. A través de ellos se recopila información clave como nombres, correos, rutas, preferencias o comentarios.
+
+  En un ecosistema como *RutaKids* —que involucra padres, choferes y personal administrativo—, el diseño claro y accesible de estos campos garantiza que los datos sean introducidos correctamente y sin fricciones, reduciendo errores y mejorando la experiencia general.
+
+  Un input mal diseñado puede generar dudas, causar errores de validación o entorpecer el flujo natural de interacción. Por eso, cada campo debe comunicar visualmente su propósito, su estado y su contexto.
+
+- **Criterios de diseño evaluados para definir los campos de entrada**
+
+  - **Claridad visual y jerarquía de información:** Se definieron distintos tipos de campos (con etiqueta, con ícono, con texto de ayuda, etc.) que ayudan al usuario a comprender qué se espera introducir en cada caso.
+
+  - **Retroalimentación inmediata:** Se incorporaron estados que comunican si el campo está activo, lleno, con error o deshabilitado. Esto mejora la accesibilidad y reduce la frustración.
+
+  - **Compatibilidad con dispositivos táctiles y de escritorio:** Los tamaños y espacios están pensados para permitir interacción precisa tanto con mouse como con dedo.
+
+  - **Soporte para validaciones visuales:** Colores, iconos y mensajes de ayuda permiten identificar errores de manera no intrusiva.
+
+  - **Uso mínimo e intencional:** Solo se muestran campos cuando son estrictamente necesarios, alineándose con el principio de simplicidad.
+
+- **Tipos de campo definidos**
+
+\begin{longtable}{|c|p{10cm}|}
+\hline
+\textbf{Tipo} & \textbf{Uso previsto} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Tipo} & \textbf{Uso previsto} \\
+\hline
+\endhead
+Texto simple & Entradas generales como nombre, correo, etc. \\
+\hline
+Ícono a la derecha & Mostrar información adicional o acción contextual (ej. ver contraseña). \\
+\hline
+Etiquetado & Reforzar el significado del campo mediante texto flotante o persistente. \\
+\hline
+Texto asistivo & Mostrar mensajes de ayuda, tips o reglas de validación. \\
+\hline
+Redimensionable & Permitir expansión del campo para textos largos. \\
+\hline
+\end{longtable}
+
+- **Estados definidos y su propósito**
+
+\begin{longtable}{|c|p{10cm}|}
+\hline
+\textbf{Estado} & \textbf{Función} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Estado} & \textbf{Función} \\
+\hline
+\endhead
+Normal & Campo vacío, sin interacción aún. Indica que puede recibir datos. \\
+\hline
+Focus & Se activa cuando el usuario hace clic o toca el campo. Ayuda a ubicar visualmente el punto de entrada. \\
+\hline
+Error (Status color) & Indica que la información ingresada no es válida o falta algo obligatorio. Debe ser visualmente claro y accesible. \\
+\hline
+Disabled & Campo no editable. Útil para mostrar información fija o condicionar flujos dependientes. \\
+\hline
+\end{longtable}
+
+- **Aplicación por plataforma**
+
+  - **Aplicación Web (Administradores):** Inputs utilizados para formularios de creación y edición de rutas, estudiantes, conductores y configuraciones. Se hace uso extensivo de validaciones, etiquetas y mensajes de error.
+
+  - **App Móvil (Padres):** Uso limitado. Principalmente para edición de datos personales, cambio de contraseña, contactos de emergencia o configuración de alertas. Deben ser inputs simples, con etiquetas claras y suficiente espacio para el dedo.
+
+  - **App Móvil (Chofer):** Inputs mínimos. Se usan, por ejemplo, para confirmar un código de ruta o agregar una nota. La prioridad es rapidez y legibilidad, evitando el uso innecesario del teclado.
+
+![Artefacto creado en Figma](src/img/cap5/Input_fields.png)
+
+\newpage
+
+4. **Diálogos Emergentes (*Dialogs*)**
+
+- **Propósito**
+
+  Los diálogos emergentes son elementos que interrumpen temporalmente la navegación para llamar la atención sobre una acción importante, confirmar decisiones críticas o mostrar mensajes urgentes.
+
+  En un entorno como *RutaKids*, donde las acciones pueden tener implicaciones de seguridad (ej. registrar a un estudiante en una ruta o cancelar un viaje), los diálogos cumplen un rol clave en la prevención de errores y la toma de decisiones informadas.
+
+  También ayudan a simplificar la interfaz principal, mostrando información relevante solo cuando se necesita.
+
+- **Criterios de diseño evaluados para definir los diálogos**
+
+  - **Claridad y enfoque:** Cada diálogo debe tener un mensaje claro, sin distracciones ni elementos innecesarios. Se recomienda incluir un título, un mensaje breve y acciones principales.
+
+  - **Accesibilidad visual y jerarquía de botones:** Se mantiene un orden lógico en las acciones (ej. botón principal a la derecha), y se da prioridad visual al botón más recomendable.
+
+  - **Compatibilidad responsive:** Los diálogos se adaptan a distintos tamaños de pantalla, desde móviles pequeños hasta pantallas de escritorio, asegurando visibilidad y usabilidad.
+
+  - **Tamaños escalables:** Se definen tamaños de diálogos desde *xs* hasta *xl*, para ajustarse a la cantidad de información que deben mostrar y al tipo de acción.
+
+  - **Retroalimentación inmediata:** Tras una acción (confirmar, cerrar, guardar), se activa una notificación o cambio de estado para validar que la interacción fue procesada.
+
+- **Tamaños disponibles**
+
+\begin{longtable}{|c|p{10cm}|}
+\hline
+\textbf{Tamaño} & \textbf{Uso recomendado} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Tamaño} & \textbf{Uso recomendado} \\
+\hline
+\endhead
+XS & Mensajes de alerta, confirmaciones simples \\
+\hline
+SM & Acciones rápidas o formularios mínimos \\
+\hline
+MD & Diálogos estándar con uno o dos campos \\
+\hline
+LG & Formularios de edición o múltiples acciones \\
+\hline
+XL & Visualización de datos extensos (ej. historial, detalles de ruta) \\
+\hline
+\end{longtable}
+
+- **Aplicación por plataforma**
+
+  - **Aplicación Web (Administradores):** Se utilizan para confirmar eliminación de rutas o estudiantes, editar datos, cargar archivos o mostrar advertencias. Deben ser claros y no ocupar más del 80% del *viewport*. Acciones como “Guardar”, “Cancelar” y “Eliminar” deben estar bien jerarquizadas.
+
+  - **App Móvil (Padres):** Se activan al realizar acciones importantes como activar alertas, cambiar notificaciones o salir de la cuenta. Deben ocupar un área contenida de la pantalla, con botones táctiles accesibles y texto de fácil lectura.
+
+  - **App Móvil (Chofer):** Se emplean para confirmar inicio/finalización de ruta o alertas relacionadas al escaneo RFID. El diálogo debe poder resolverse con un solo toque, y ser visible incluso bajo luz solar (contraste alto).
+
+  - **IoT:** El lector RFID no genera diálogos físicos, pero sus eventos pueden activar diálogos automáticos en la interfaz web o móvil conectada, por ejemplo, cuando ocurre un error de escaneo o se detecta un registro duplicado.
+
+![Artefacto creado en Figma](src/img/cap5/Dialog.png)
+
+\newpage
+5. **Pestañas de Navegación (*Tabs*)**
+
+- **Propósito**
+
+  Las pestañas son un componente esencial para organizar contenido jerárquico o categorizado dentro de una misma vista. Su función principal es facilitar la navegación entre secciones relacionadas sin recargar la interfaz ni obligar al usuario a cambiar de pantalla.
+
+  En el contexto de *RutaKids*, donde distintas interfaces presentan múltiples vistas (ej. rutas, estudiantes, historial, configuración), el uso de tabs permite acceder rápidamente a cada una sin comprometer claridad ni eficiencia.
+
+- **Criterios de diseño para definir las tabs**
+
+  - **Eficiencia de navegación:** Las tabs mejoran la exploración sin sacrificar contexto. Son ideales para contenido agrupado pero frecuentemente consultado.
+
+  - **Adaptabilidad:** Se contemplaron versiones horizontales y verticales, según la plataforma y espacio disponible.
+
+  - **Escenarios de movilidad:** Se priorizó el diseño táctil en pantallas pequeñas y la visibilidad del estado activo. En móviles, las tabs *scrollables* permiten más opciones sin saturar el ancho.
+
+  - **Visibilidad del estado activo:** Se definió un subrayado visual claro, junto a íconos opcionales para ayudar al reconocimiento.
+
+  - **Patrones consistentes con Angular/Daxa y Material Design:** Se siguen principios establecidos para garantizar cohesión entre componentes, rendimiento y accesibilidad.
+
+- **Variantes disponibles**
+
+\begin{longtable}{|c|c|p{9cm}|}
+\hline
+\textbf{Orientación} & \textbf{Tipos} & \textbf{Características principales} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Orientación} & \textbf{Tipos} & \textbf{Características principales} \\
+\hline
+\endhead
+Horizontal & Standard & 2–4 pestañas visibles, sin scroll. \\
+\hline
+Horizontal & Scrollable & Permite desplazamiento si hay muchas secciones. \\
+\hline
+Horizontal & Full Width & Las tabs se ajustan al ancho total del contenedor. \\
+\hline
+Vertical & Standard & Organización tipo menú lateral, ideal para configuración. \\
+\hline
+Vertical & Scrollable & Utilizado cuando hay múltiples categorías anidadas. \\
+\hline
+Vertical & Full Height & Ocupa toda la altura disponible del contenedor. \\
+\hline
+\end{longtable}
+
+- **Aplicación por plataforma**
+
+  - **Aplicación Web (Administradores):** Usadas principalmente para gestionar múltiples vistas relacionadas, como “Rutas | Estudiantes | Choferes | Configuración”. Se prefiere el modo horizontal en dashboards y vertical en paneles laterales (ej. ajustes).
+
+  - **App Móvil (Padres):** Las pestañas permiten cambiar entre funcionalidades como seguimiento del estudiante, historial, configuración, etc. El uso de scroll horizontal es útil para no saturar pantallas pequeñas. El estado activo debe ser muy visible y los íconos ayudan al reconocimiento.
+
+  - **App Móvil (Chofer):** Secciones como “Mapa de ruta | Lista de alumnos | Alertas” pueden estar distribuidas mediante tabs. Deben ser grandes, con alta legibilidad y acción táctil optimizada.
+
+
+![Artefacto creado en Figma](src/img/cap5/Tabs.png)
+
+\newpage
+
+6. **Rutas de Navegación (*Breadcrumbs*)**
+
+- **Propósito**
+
+  Las rutas de navegación (o *breadcrumbs*) son un patrón de interfaz clave para mejorar la orientación del usuario dentro de estructuras jerárquicas. Permiten visualizar la ubicación actual dentro del sistema y facilitan el regreso a niveles anteriores sin necesidad de depender de menús laterales o botones de retroceso.
+
+  En plataformas como la aplicación web de *RutaKids*, donde la navegación puede profundizar varios niveles (por ejemplo, Administración > Rutas > Bus 5 > Lista de estudiantes), este patrón aporta claridad estructural y reduce la carga cognitiva del usuario.
+
+- **Criterios de diseño y elección**
+
+  - **Jerarquía visual clara:** Se diseñó una separación entre cada nivel mediante íconos y estilos tipográficos. La ruta completa debe ser legible de un vistazo, con un enfoque especial en el último nivel (ubicación actual).
+
+  - **Adaptabilidad:** En pantallas más pequeñas o rutas muy largas, se contempla el colapso automático de secciones intermedias con puntos suspensivos (“...”) para mantener la limpieza visual.
+
+  - **Consistencia visual:** Los *breadcrumbs* utilizan la misma tipografía y colorimetría que el resto del sistema, integrándose fluidamente en cualquier sección del dashboard o módulo administrativo.
+
+  - **Íconos opcionales:** El uso de íconos contextuales junto al texto (por ejemplo, un ícono de autobús junto a "Bus 5") ayuda a identificar secciones rápidamente y mejora la experiencia para usuarios frecuentes.
+
+  - **Consideraciones de accesibilidad:** Cada *breadcrumb* es un enlace interactivo con soporte para lectores de pantalla y navegación por teclado.
+
+- **Aplicación por plataforma**
+
+\begin{longtable}{|c|p{11cm}|}
+\hline
+\textbf{Plataforma} & \textbf{Uso y propósito} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Plataforma} & \textbf{Uso y propósito} \\
+\hline
+\endhead
+Web App & Esencial en vistas de administración profunda (ej. ver historial de un estudiante en una ruta específica). Mejora el flujo de navegación para gestores y personal del colegio. \\
+\hline
+App Padres & Su uso es limitado o nulo, ya que la navegación se mantiene más plana e intuitiva. Se prioriza la navegación por *tabs* y *cards*. \\
+\hline
+App Chofer & No se implementa debido a la simplicidad de navegación y al enfoque de accesos directos. \\
+\hline
+IoT & No aplica, dado que el lector no posee una interfaz visual con navegación jerárquica. \\
+\hline
+\end{longtable}
+
+![Artefacto creado en Figma](src/img/cap5/Breadcrumbs.png)
+
+\newpage
+
+7. **Componentes IoT**
+
+- **Propósito**
+
+  Los componentes IoT en *RutaKids* se centran en una interacción sencilla, segura y eficiente entre los estudiantes, el conductor y el sistema digital. Aunque el lector RFID no cuenta con una pantalla táctil, genera respuestas visuales y sonoras que deben interpretarse de forma inmediata, tanto por el chofer como por los sistemas conectados (apps móvil y web).
+
+  Este tipo de componentes debe ser diseñado con base en patrones perceptuales altamente reconocibles (colores, sonidos, vibraciones) y tener una representación digital coherente en las interfaces.
+
+- **Decisiones de diseño y funcionalidad**
+
+  **A. Dispositivo RFID (Interacción física)**
+
+  El lector RFID es un dispositivo autónomo que registra la subida y bajada de los estudiantes al escanear sus pulseras. Su lenguaje visual se compone de:
+
+  - **Luces de estado (LEDs):**
+    - **Verde:** Escaneo exitoso (subida/bajada registrada).
+    - **Rojo:** Pulsera inválida o error en el escaneo.
+    - **Azul:** En espera de escaneo (modo activo, pero sin lectura aún).
+
+  - **Señales sonoras (beeps):**
+    - **Beep agudo (1 tono):** Registro exitoso.
+    - **Beep grave o doble tono:** Error de lectura o rechazo.
+
+  Estas señales están optimizadas para funcionar incluso en contextos de ruido (por ejemplo, dentro de un bus con estudiantes) y asegurar respuestas inmediatas al conductor.
+
+  **B. Representación digital de la acción del lector**
+
+  Las interfaces de *RutaKids* transforman los datos recibidos desde el dispositivo RFID en información comprensible para padres, choferes y administradores. Se utilizaron componentes como cards, tablas y alertas con códigos de color y jerarquía clara para representar el estado de los escaneos.
+
+- **Aplicación por plataforma**
+
+\begin{longtable}{|c|p{5cm}|p{8cm}|}
+\hline
+\textbf{Plataforma} & \textbf{Elemento diseñado} & \textbf{Propósito} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Plataforma} & \textbf{Elemento diseñado} & \textbf{Propósito} \\
+\hline
+\endhead
+App Chofer & Visualización de mapa interactivo con paradas programadas y ruta en tiempo real & Facilita la navegación del chofer mostrando la ubicación actual del bus, las casas de los estudiantes (paradas) y el destino final (colegio), permitiendo un recorrido ordenado y monitoreado. \\
+\hline
+App Padres & Card por hijo con estado actual (ej. “En camino”), hora de escaneo y notificación & Ofrece tranquilidad al informar de manera clara y en tiempo real. \\
+\hline
+Web App & Tabla detallada con registros de escaneo por ruta, fecha, estudiante y estado & Administra el historial de viajes, permite validar reportes y detectar inconsistencias. \\
+\hline
+IoT (lector) & Luces LED + sonidos (interfaz física) & Permite retroalimentación inmediata para el chofer, sin distracciones. \\
+\hline
+\end{longtable}
 
 \newpage
 
