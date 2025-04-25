@@ -219,25 +219,15 @@ La identidad tipográfica de *RutaKids* ha sido cuidadosamente definida para ase
   ![Artefacto creado en Figma](src/img/cap5/Typography_Outfit_web.png)
 
 
-3. **Aplicación Web**
+3. **Aplicación Movil**
 
-- ***Urbanist* (Google Fonts)**
+- ***Poppins* (Google Fonts)**
   
-  - Peso utilizado: *Medium*
+  - Peso utilizado: *Bold, Medium, Regular*
   
-  La tipografía *Urbanist* se implementa en los encabezados y títulos principales de la app móvil. Su trazo limpio y geométrico favorece la lectura rápida y jerarquiza visualmente la información, proyectando una estética moderna alineada con la experiencia de usuario fluida y tecnológica que busca la plataforma.
+   *Poppins* es la tipografía principal de la app móvil. Su diseño geométrico y moderno contribuye a una interfaz clara y coherente. La versión Bold se utiliza para títulos y acciones clave, aportando énfasis visual. Medium se aplica en subtítulos y encabezados secundarios, manteniendo una jerarquía visual sólida. Y regular es ideal para el cuerpo del texto, asegurando una lectura fluida y accesible.
 
-  ![Artefacto creado en Figma](src/img/cap5/Typography_Urbanist_app.png)
-
-
-- ***Work Sans* (Google Fonts)**
-  
-  - Pesos utilizados: *Bold* y *Regular*
-  
-  Work Sans estructura los textos de contenido y los botones interactivos. El peso Bold destaca acciones prioritarias, mientras que Regular mantiene un ritmo de lectura cómodo en el cuerpo de texto, optimizando la accesibilidad y la comprensión en distintos tamaños de pantalla.
-
-  ![Artefacto creado en Figma](src/img/cap5/Typography_WorkSans_app.png)
-
+  ![Artefacto creado en Figma](src/img/cap5/Typography_Poppins_app.png)
 
 \newpage
 
