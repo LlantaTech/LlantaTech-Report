@@ -70,6 +70,7 @@ header-includes:
   \newtcolorbox{outline-box}{colback=cyan!5!white,arc=0pt,outer arc=0pt,colframe=cyan!60!black,title=\textbf{Outline:}}
   \newtcolorbox{prereqs-box}{colback=red!5!white,arc=0pt,outer arc=0pt,colframe=red!60!black,title=\textbf{Prerequisites:}}
   \newtcolorbox{labtime-box}{colback=yellow!5!white,arc=0pt,outer arc=0pt,colframe=yellow!60!black,title=\textbf{Lab:}}
+  \newcommand{\pandocbounded}[1]{#1} 
 
   ```
 pandoc-latex-environment:
@@ -94,7 +95,7 @@ pandoc-latex-environment:
 
 # Capítulo II: Requirements Elicitation & Analysis
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Antes de construir una solución tecnológica efectiva, es esencial entender a fondo el problema, a los usuarios y el entorno en el que la solución será implementada. Este capítulo presenta el proceso de Requirements Elicitation & Analysis, una fase crítica en el desarrollo de soluciones centradas en el usuario. Aquí se identifican y analizan las necesidades del público objetivo, se estudia a la competencia y se utilizan técnicas como entrevistas, mapeo de tareas y escenarios para definir con claridad los requisitos funcionales y no funcionales del sistema. La información obtenida en esta etapa servirá como base sólida para el diseño e implementación de un producto alineado con las expectativas del mercado y con alto impacto en su adopción y uso.
 
 \newpage
 
@@ -325,7 +326,7 @@ Las entrevistas están diseñadas para recolectar tanto información objetiva (e
 ![Recurso extraído de Canva](src/img/cap2/entrevistas-introduccion.png)
 
 ::: note
-Para acceder al video de las entrevistas, haga click en la [URL]( )
+Para acceder al video de las entrevistas, haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EV28HExaIsFIh22vN6-VY-sBzdw5JApHhMXCx5KyLMdBPQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=X20C3t)
 :::
 
 \newpage
@@ -470,7 +471,7 @@ Entender cómo los padres viven la experiencia del transporte escolar, sus nivel
 \textbf{Edad}                 & 55 años                   \\ \hline
 \textbf{Ubicación geográfica} & Paiján, Ascope, La Libertad, Perú \\ \hline
 \textbf{Cargo}                & Docente de secundaria y asesor tecnológico \\ \hline
-\textbf{Tiempo de entrevista} & 00:00 - 00:00             \\ \hline
+\textbf{Tiempo de entrevista} & 00:00 - 10:34             \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
@@ -497,7 +498,7 @@ El principal obstáculo para la implementación es el costo adicional para las f
 \textbf{Edad}                 & 32 años                   \\ \hline
 \textbf{Ubicación geográfica} & Paiján, Ascope, La Libertad, Perú \\ \hline
 \textbf{Cargo}                & Directora de institución educativa privada \\ \hline
-\textbf{Tiempo de entrevista} & 00:00 - 00:00             \\ \hline
+\textbf{Tiempo de entrevista} & 10:34 - 19:40             \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
@@ -530,7 +531,7 @@ En cuanto a la viabilidad de este tipo de solución, cree que los padres estarí
 \textbf{Edad}                 & 52 años                   \\ \hline
 \textbf{Ubicación geográfica} & Paiján, Ascope, La Libertad, Perú \\ \hline
 \textbf{Cargo}                & Promotora de institución educativa \\ \hline
-\textbf{Tiempo de entrevista} & 00:00 - 00:00             \\ \hline
+\textbf{Tiempo de entrevista} & 19:40 - 29:26             \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
@@ -571,7 +572,7 @@ Está convencida de que sería viable implementar esta solución en su colegio y
 \textbf{Ubicación geográfica} & Trujillo, La libertad \\ \hline
 \textbf{Ocupación}            & Obstetra \\ \hline
 \textbf{Relación con la educación} & Madre de un estudiante de secundaria \\ \hline
-\textbf{Tiempo de entrevista} & 00:00 - 00:00             \\ \hline
+\textbf{Tiempo de entrevista} & 29:26 - 39:23             \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
@@ -603,7 +604,7 @@ Finalmente, considera que lo más importante en una solución tecnológica de es
 \textbf{Ubicación geográfica} & Trujillo, La libertad \\ \hline
 \textbf{Ocupación}            & Obstetra \\ \hline
 \textbf{Relación con la educación} & Madre de cuatro hijos (tres en primaria y una bebé) \\ \hline
-\textbf{Tiempo de entrevista} & 00:00 - 00:00             \\ \hline
+\textbf{Tiempo de entrevista} & 39:23 - 45:15             \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
@@ -642,7 +643,7 @@ Zoila estaría dispuesta a pagar un costo adicional por este servicio digital, s
 \textbf{Ubicación geográfica} & Paiján, Ascope, La Libertad \\ \hline
 \textbf{Ocupación}            & Docente \\ \hline
 \textbf{Relación con la educación} & Madre de una niña en tercer grado de primaria \\ \hline
-\textbf{Tiempo de entrevista} & 00:00 - 00:00             \\ \hline
+\textbf{Tiempo de entrevista} & 45:15 - 51:52             \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
@@ -956,40 +957,157 @@ Existe una clara expectativa de que el colegio sea el actor responsable en imple
 
 ## Needfinding.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Para garantizar que las soluciones propuestas respondan efectivamente a los problemas reales de los usuarios, resultó fundamental comprender a fondo sus necesidades, contextos y comportamientos. En un contexto donde el transporte escolar enfrenta retos crecientes debido a las demandas de seguridad y eficiencia, era imprescindible adoptar un enfoque de investigación centrado en el usuario que permitiera identificar oportunidades de innovación genuina. Durante esta etapa de needfinding, se llevó a cabo una exploración detallada mediante técnicas como la observación directa, entrevistas semiestructuradas y la aplicación de herramientas de empatía. Este proceso no solo nos permitió detectar las tareas clave, frustraciones, expectativas y objetivos de los distintos actores involucrados (padres, estudiantes, colegios y operadores de transporte), sino también descubrir tensiones ocultas y necesidades latentes que no siempre son explícitas en interacciones superficiales.
+
+A partir de la información recolectada, se desarrollaron perfiles de usuario que capturan las características esenciales de nuestros grupos de interés. Asimismo, la elaboración de mapas de empatía nos permitió comprender mejor los pensamientos, emociones, preocupaciones y aspiraciones de los usuarios frente al servicio de transporte escolar. Complementariamente, a través de customer journeys se mapeó la experiencia completa de los usuarios, identificando momentos críticos de fricción y oportunidad a lo largo del proceso de traslado.
+
+![Imagen extraída de Canva](src/img/cap2/intro_needfinding.png)
 
 \newpage
 
 ### User Personas.
+Presentamos perfiles representativos de nuestros usuarios objetivos. Estos arquetipos nos ayudan a diseñar centrados en sus motivaciones, frustraciones y objetivos.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+**User Persona 1 - Segmento Tutor/Padre Apoderado**
+
+Esteban representa a los padres que buscan seguridad, puntualidad y confianza en el servicio de transporte escolar.
+
+![User Persona 1 - Recurso de Figma](https://i.postimg.cc/5tVd8BDb/user-person-esteban.png)
+
+\newpage
+
+**User Persona 2 - Segmento Administrador Educativo**
+
+Carolina representa a las administradoras que necesitan eficiencia, control y visibilidad en la gestión del transporte escolar.
+
+![User Persona 2 - Recurso de Figma](https://i.postimg.cc/GmYnB77X/user-person-carolina.png)
 
 \newpage
 
 ### User Task Matrix.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Se mapea la relación entre los usuarios y sus tareas principales. Esto nos permite priorizar funcionalidades clave del sistema según las necesidades del segmento.
+
+![User Task Matrix - Recurso de Miro](https://i.postimg.cc/JnKLrs6m/task-matrix.png)
 
 \newpage
 
 ### User Journey Mapping.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Visualizamos el recorrido actual de cada usuario con el servicio. Esta herramienta permite identificar puntos de dolor, emociones y oportunidades de mejora.
+
+**User Journey – Esteban (Padre de familia)**
+Muestra cómo Esteban experimenta el servicio día a día, destacando momentos críticos como la espera o la llegada del bus.
+
+![User Journey Mapping 1 - Recurso de Miro](https://i.postimg.cc/vHCdZFz1/user-journey-esteban.png){ width=90% }
+
+**User Journey – Carolina (Administradora)**
+Refleja las acciones y frustraciones que Carolina enfrenta al gestionar manualmente el transporte escolar.
+
+![User Journey Mapping 2 - Recurso de Miro](https://i.postimg.cc/ZKWSmKrt/user-journey-carolina.png){ width=90% }
 
 \newpage
 
 ### Empathy Mapping.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Ayuda a profundizar en la perspectiva emocional y racional de cada usuario: lo que piensa, siente, ve, escucha, dice y hace.
+
+**Empathy Map – Esteban**
+
+Nos permite entender el entorno emocional de Esteban frente a la seguridad y control del transporte escolar.
+
+![Empathy Mapping 1 - Recurso de Miro](https://i.postimg.cc/Y2nHTmLz/empathy-esteban.png)
+
+\newpage
+
+**Empathy Map – Carolina**
+
+Expone las preocupaciones, necesidades y entorno de Carolina como gestora del sistema de transporte.
+
+![Empathy Mapping 2 - Recurso de Miro](https://i.postimg.cc/BbVfFdfV/empathy-carolina.png)
 
 \newpage
 
 ### As-is Scenario Mapping.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Describe cómo es actualmente la experiencia del usuario sin una solución tecnológica centralizada. Se evidencian fricciones, ineficiencias y oportunidades.
+
+**As-Is Scenario – Esteban**
+
+Esteban enfrenta incertidumbre en los horarios y poca información en tiempo real.
+
+![As-is Scenario Mapping 1 - Recurso de Miro](https://i.postimg.cc/tJTHY9w6/as-is-esteban.png){ width=75% }
+
+**As-Is Scenario – Carolina**
+
+Carolina gestiona procesos con llamadas y hojas de cálculo, con baja automatización.
+
+![As-is Scenario Mapping 2 - Recurso de Miro](https://i.postimg.cc/50fJWBmn/as-is-carolina.png){ width=75% }
 
 \newpage
 
 ## Ubiquitous Language.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+- **Alumno**: Niño o niña que utiliza el servicio de transporte escolar. Es quien porta la Tarjeta RFID y genera eventos de abordaje y descenso. (Sinónimos: Estudiante, Niño)
+
+- **Padre de Familia**: Persona responsable del Alumno (padre, madre o apoderado) que recibe notificaciones y puede gestionar permisos. (Sinónimos: Padre, Madre, Apoderado)
+
+- **Conductor**: Chofer designado para una Unidad de Transporte; interactúa con la app Conductor y valida abordajes/desabordajes. (Sinónimos: Chofer)
+
+- **Administrador Escolar**: Personal de la institución que configura Rutas, Paradas, Alumnos y Conductores y supervisa reportes. (Sinónimos: Admin, Colegio)
+
+- **Tarjeta RFID**: Tarjeta (o llavero) pasiva, asignada de forma única a un Alumno para autenticarse al acercarla al Lector.
+
+- **Lector RFID**: Dispositivo IoT instalado en la Unidad que lee la Tarjeta RFID y envía eventos en tiempo real.
+
+- **Unidad de Transporte**: Vehículo escolar identificado por placa y código interno, equipado con Lector RFID y GPS.
+
+- **App RutaKids Conductor**: Aplicación móvil vinculada a la Unidad; muestra la lista de Alumnos por Parada y confirma incidentes.
+
+- **Backend RutaKids**: Plataforma en la nube que procesa eventos, reglas de negocio y persiste datos.
+
+- **Panel de Control**: Interfaz web para Administradores Escolares y Operadores de Flota.
+
+- **Ruta**: Conjunto ordenado de Paradas asociadas a una Institución y un Horario recurrente.
+
+- **Parada**: Punto geográfico donde se recoge o deja Alumnos. Incluye ventana de tiempo y lista de Alumnos asignados.
+
+- **Trayecto**: Ejecución diaria de una Ruta en una fecha concreta.
+
+- **Horario**: Reglas de recurrencia de la Ruta (días laborables, hora de inicio y fin estimada).
+
+- **Alumno Abordó Unidad**: Evento emitido cuando un Alumno validó su Tarjeta y subió a la Unidad.
+
+- **Alumno Descendió Unidad**: Evento emitido cuando un Alumno validó su Tarjeta al salir de la Unidad.
+
+- **Tarjeta No Reconocida**: Evento emitido cuando se leyó un UID no asociado a ningún Alumno.
+
+- **Incidencia Reportada**: Evento emitido cuando el Conductor registra un evento anómalo (retraso, avería, etc.).
+
+- **Cambio De Ruta Programado**: Evento emitido cuando un Admin modificó la configuración de una Ruta.
+
+- **Registrar Alumno**: Comando para crear la Entidad Alumno y vincular al Padre de Familia.
+
+- **Asignar Tarjeta**: Comando para asociar Tarjeta RFID a Alumno.
+
+- **Programar Ruta**: Comando para crear o actualizar una Ruta, su Horario y Paradas.
+
+- **Marcar Abordaje**: Comando para forzar confirmación manual de abordaje (modo fallback).
+
+- **Enviar Notificación**: Comando para avisar a Padres de Familia sobre un Evento.
+
+- **Servicio De Autenticación RFID**: Servicio que valida UID, levanta Eventos y asegura consistencia.
+
+- **Servicio De Notificaciones**: Servicio que orquesta avisos (push, correo, SMS) a Padres de Familia y Admins.
+
+- **Servicio De Rutas**: Servicio que calcula tiempos estimados, detecta desvíos y actualiza Estado de Trayecto.
+
+- **Servicio De Reportes**: Servicio que genera KPIs: puntualidad, asistencia y uso de Rutas.
+
+- **Estado de Trayecto**: Secuencia Pendiente → EnCurso → Finalizado / Cancelado.
+
+- **Rol**: Identidades posibles en el sistema: Alumno, Padre de Familia, Conductor, Administrador Escolar, Operador de Flota.
+
+- **Modo de Notificación**: Tipos de aviso soportados: Push, SMS, Email.
+
+- **Incidencia**: Registro de evento no deseado (retraso, exceso de velocidad, ruta cambiada).

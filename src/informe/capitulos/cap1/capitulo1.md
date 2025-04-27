@@ -100,11 +100,11 @@ pandoc-latex-environment:
   \hline
   tb1 & 25/04/2025 & Ortega Huaraca, Abel & Ayudé con la estructura del informe en general. Respecto a los puntos específicos, contribuí con la elaboración del \textit{Solution Profile}, \textit{Startup Profile}, Segmentos objetivo, \textit{User Stories} y una introducción para los \textit{Requirements Specification}. \\
   \hline
-  tb1 & 25/04/2025 & Ramos Rios, Belén del Rocio & completar \\
+  tb1 & 25/04/2025 & Ramos Rios, Belén del Rocio & Realicé el análisis competitivo, estrategias frente a competidores, entrevistas (diseño, registro y análisis) y los apartados de \textit{Requirements Specification} incluyendo \textit{To-Be Scenario Mapping}, \textit{Impact Mapping} y \textit{Product Backlog}. \\
   \hline
-  tb1 & 25/04/2025 & Vilchez Rios, Mateo Alejandro & completar \\
+  tb1 & 25/04/2025 & Vilchez Rios, Mateo Alejandro & Elaboré los apartados de \textit{Lean UX Process} dentro del \textit{Solution Profile} y la sección de \textit{Solution Software Design} incluyendo \textit{Strategic-Level Domain-Driven Design} y \textit{EventStorming}. \\
   \hline
-  tb1 & 25/04/2025 & Avila Asto, Alex Ramon Alberto & completar \\
+  tb1 & 25/04/2025 & Avila Asto, Alex Ramon Alberto & Desarrollé la sección de \textit{Software Architecture}, incluyendo \textit{Context Mapping}, \textit{Candidate Context Discovery}, \textit{Domain Message Flows Modeling}, \textit{Bounded Context Canvases} y la definición de las capas de la arquitectura a nivel de contexto (Domain, Interface, Application e Infrastructure Layer). \\
   \hline
 \end{longtable}
 
@@ -112,17 +112,33 @@ pandoc-latex-environment:
 
 ***Project Report Collaboration Insights***
 
-::: warn
-Para mayor información, haga click en la [URL](https://github.com/orgs/LlantaTech/projects/2) 
-:::
-
-:::caution
-Faltan colocar imagenes
-:::
 
 **TB1:**
 
+::: warn
+Para acceder los insights de este proyecto, haga click a la [URL](https://github.com/LlantaTech/LlantaTech-Report/pulse)
+:::
+
+**Tablero Kanban:**
+
+![Organización LlantaTech, imagen extraída de Github](src/img/cap5/insights-kanban-todo-1.png){ width=85% }
+
+**Kanban List:**
+
+![Organización LlantaTech, imagen extraída de Github](src/img/cap5/insights-kanban-list-1.png){ width=85% }
+
 \newpage
+
+**Network Graph:**
+
+![Organización LlantaTech, imagen extraída de Github](src/img/cap5/insights-network-graph-1.png){ width=85% }
+
+**Traffic Map:**
+
+![Organización LlantaTech, imagen extraída de Github](src/img/cap5/insights-traffic-1.png){ width=85% }
+
+\newpage
+
 
 ***Student Outcome***
 
@@ -131,6 +147,7 @@ El curso contribuye al cumplimiento del ***Student Outcome ABET:*** *ABET-EAC - 
 * **Criterio:** *La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos*.
 
 En el siguiente cuadro se describe las acciones realizadas y enunciadas de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro de ***ABET - EAC - Student Outcome 5.***
+
 
 \begin{longtable}{|p{4cm}|p{6cm}|p{5cm}|}
 \hline
@@ -144,20 +161,19 @@ En el siguiente cuadro se describe las acciones realizadas y enunciadas de concl
 \parbox[t]{6cm}{
 \textbf{TB1:} \\
 \textbf{Abel Angel Ortega Huaraca} \\
-FALTA COMPLETAR \\
-\textbf{Belen del Rocio Ramos Rios} \\
-FALTA COMPLETAR \\
+Propuse que dividiéramos el proyecto en entregas parciales semanales y organicé la primera reunión de planificación. Me encargué de explicar al grupo cómo debíamos vincular los perfiles de usuario con los segmentos de mercado para mantener la coherencia en el flujo del documento. También compartí ejemplos externos para ilustrar la conexión correcta. \\
+\textbf{Belén del Rocio Ramos Rios} \\
+Organicé el espacio de trabajo compartido en Google Drive y sugerí la creación de una carpeta de “Recursos” donde subimos artículos y ejemplos que nos ayudaron a mejorar nuestro análisis. Además, expliqué al equipo cómo debíamos estructurar los apartados de entrevistas de usuario para que tuvieran un enfoque coherente con los requerimientos del proyecto. \\
 \textbf{Mateo Alejandro Vilchez Rios} \\
-FALTA COMPLETAR \\
+Propuse el uso de Trello para visualizar las tareas pendientes y completadas, y tomé la iniciativa de revisar que todos los entregables estuvieran bien enlazados entre sí. Organicé una breve capacitación interna sobre técnicas de priorización (MoSCoW) para definir qué partes del proyecto debíamos atacar primero. \\
 \textbf{Alex Avila Asto} \\
-FALTA COMPLETAR
-\\} 
+Me encargué de coordinar las reuniones técnicas donde discutimos cómo debía ser la arquitectura del sistema. Expliqué al grupo el flujo de eventos entre los contextos de dominio, asegurando que todos comprendieran cómo interactuaban las diferentes partes del sistema antes de escribir la documentación.
+}
 &
 \parbox[t]{5cm}{
 \textbf{TB1:} \\
-FALTA COMPLETAR \\
+Asumimos el liderazgo de forma compartida durante todo el desarrollo del proyecto, apoyándonos mutuamente en la explicación de conceptos clave y en la organización del trabajo para mantener la coherencia en los avances.
 } \\ 
-
 \hline
 
 \parbox[t]{4cm}{
@@ -167,20 +183,22 @@ FALTA COMPLETAR \\
 \parbox[t]{6cm}{
 \textbf{TB1:} \\
 \textbf{Abel Angel Ortega Huaraca} \\
-FALTA COMPLETAR \\
-\textbf{Belen del Rocio Ramos Rios} \\
-FALTA COMPLETAR \\
+Promoví una dinámica de entregas parciales para detectar errores a tiempo y garantizar un avance ordenado. \\
+\textbf{Belén del Rocio Ramos Rios} \\
+Organicé un cronograma claro de fechas internas de revisión, lo que ayudó a mantener el ritmo de trabajo constante. \\
 \textbf{Mateo Alejandro Vilchez Rios} \\
-FALTA COMPLETAR \\
+Coordiné reuniones de revisión para alinear avances y asegurar que todos los entregables siguieran un mismo hilo conductor. \\
 \textbf{Alex Avila Asto} \\
-FALTA COMPLETAR \\}
+Me aseguré de que las entregas técnicas se adaptaran a los tiempos definidos, integrando todos los aportes de manera lógica y estructurada.
+}
 &
 \parbox[t]{5cm}{
 \textbf{TB1:} \\
-FALTA COMPLETAR \\
+Logramos planificar adecuadamente nuestras tareas, estableciendo metas claras y cumpliendo los plazos establecidos, lo que permitió que el proyecto avanzara de manera fluida y ordenada.
 } \\
 \hline
 \end{longtable}
+
 
 \newpage
 
@@ -253,7 +271,7 @@ Soy una persona con buenas habilidades y adaptabilidad para todo lo relacionado 
 \begin{minipage}[c]{0.65\textwidth}
 \textbf{Belen del Rocio Ramos Rios} \\
 \textit{Ingeniera de Software} \\
-Soy estudiante del sexto ciclo de la carrera de Ingeniería de Software. A lo largo de mi formación, he adquirido conocimientos en diversos lenguajes de programación, como Java, C++, y SQL. Además, manejo frameworks como Spring Boot para el desarrollo backend, y tanto Vue como Angular para el desarrollo frontend.
+Soy estudiante del séptimo ciclo de la carrera de Ingeniería de Software. A lo largo de mi formación, he adquirido conocimientos en diversos lenguajes de programación como Java, C++, SQL y recientemente Kotlin. También tengo experiencia en el uso de frameworks como Spring Boot para el desarrollo backend, y Vue, Angular y Flutter para el desarrollo frontend. Me considero una persona comprometida, con habilidades para el trabajo en equipo y siempre dispuesta a dar lo mejor de mí en cada proyecto que emprendo.
 \end{minipage}
 }
 \end{tcolorbox}
@@ -267,7 +285,7 @@ Soy estudiante del sexto ciclo de la carrera de Ingeniería de Software. A lo la
 \begin{minipage}[c]{0.65\textwidth}
 \textbf{Mateo Alejandro Vilchez Rios} \\
 \textit{Ingeniero de Software} \\
-Soy estudiante de la carrera de Ingeniería de Software cursando actualmente el 6to ciclo. Me considero una persona eficiente, disciplinada y responsable. Poseo conocimientos básicos en C++, Java y JavaScript. Manejo de Base de Datos relacionales. Conocimientos en Frameworks como Angular y Spring. Me comprometo a brindar todo el apoyo necesario para cumplir con todos los requerimientos.
+Soy estudiante de la carrera de Ingeniería de Software cursando actualmente el 7mo ciclo. Me considero una persona eficiente, disciplinada y responsable. Poseo conocimientos Java, JavaScript y TypeScript. Manejo de Base de Datos relacionales. Conocimientos en Frameworks como Angular y Spring. Me comprometo a brindar todo el apoyo necesario para cumplir con todos los requerimientos.
 \end{minipage}
 }
 \end{tcolorbox}
