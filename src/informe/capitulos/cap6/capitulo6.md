@@ -14,6 +14,7 @@ date: "2025-01"
 subject: "Markdown"
 keywords: [Markdown, Report]
 subtitle: "Desarrollo de Soluciones IOT - 15185 - 1ASI0572"
+block-headings: true
 lang: "es"
 colorlinks: true
 footer-left: "LLantaTech"

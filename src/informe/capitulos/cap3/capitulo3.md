@@ -14,6 +14,7 @@ date: "2025-01"
 subject: "Markdown"
 keywords: [Markdown, Report]
 subtitle: "Desarrollo de Soluciones IOT - 15185 - 1ASI0572"
+block-headings: true
 lang: "es"
 colorlinks: true
 footer-left: "LLantaTech"
@@ -98,19 +99,29 @@ La sección de Especificación de Requisitos tiene como objetivo describir de fo
 
 Los requisitos presentados en esta sección se han recopilado a través de investigaciones con usuarios, entrevistas con los interesados y análisis de los procesos actuales. Están organizados de manera que reflejan tanto las necesidades del usuario como la viabilidad técnica. Este documento servirá como guía durante todas las etapas del ciclo de vida del proyecto: diseño, implementación, pruebas y mantenimiento.
 
+![Recurso extraído de Canva](src/img/cap3/requirements-specification-intro.png)
+
 \newpage
 
 ## To-Be Scenario Mapping.
 
 **To-Be Scenario – Marco (Padre de familia)**
+
 Con la solución digital, Marco tiene información en tiempo real, alertas personalizadas y tranquilidad al saber que su hijo está seguro.
 
 ![To-be Scenario Mapping 1 - Recurso de Miro](https://i.postimg.cc/vZRHS6CS/to-be-esteban.png)
 
+En el escenario futuro, Marco deja atrás la incertidumbre del día a día. La tecnología le permite monitorear fácilmente la rutina de su hijo, recibir notificaciones relevantes y tomar decisiones informadas de forma inmediata. La solución no solo mejora su experiencia como padre, sino que también fortalece su confianza en el entorno que rodea a su familia. Esto representa un cambio significativo respecto al escenario actual, en el que la falta de información y control genera ansiedad y preocupación constante.
+
+\newpage
+
 **To-Be Scenario – Carolina (Administradora)**
+
 Carolina ahora gestiona rutas, asistencia y comunicaciones desde una plataforma centralizada, reduciendo el caos operativo y ganando eficiencia.
 
 ![To-be Scenario Mapping 2 - Recurso de Miro](https://i.postimg.cc/fTSRKvq9/to-be-carolina.png)
+
+En este escenario futuro, Carolina cuenta con una plataforma digital unificada que le permite supervisar y coordinar todas las operaciones logísticas en un solo lugar. Ya no necesita depender de múltiples canales o procesos manuales: puede gestionar rutas, controlar la asistencia del personal y mantener una comunicación fluida con padres y conductores de forma eficiente. Esta solución le permite enfocarse en la toma de decisiones estratégicas y mejora significativamente la productividad del equipo administrativo.
 
 \newpage 
 
@@ -1579,6 +1590,8 @@ alineando así las acciones de los usuarios con los objetivos estratégicos de l
 **Segmento Objetivo 2**
 
 ![Artefacto creado en UXPressia](src/img/cap3/ImpactMapping2.png)
+
+\newpage
 
 ## Product Backlog.
 

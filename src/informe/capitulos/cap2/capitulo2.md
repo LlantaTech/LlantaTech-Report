@@ -14,6 +14,7 @@ date: "2025-01"
 subject: "Markdown"
 keywords: [Markdown, Report]
 subtitle: "Desarrollo de Soluciones IOT - 15185 - 1ASI0572"
+block-headings: true
 lang: "es"
 colorlinks: true
 footer-left: "LLantaTech"
@@ -96,8 +97,6 @@ pandoc-latex-environment:
 # Capítulo II: Requirements Elicitation & Analysis
 
 Antes de construir una solución tecnológica efectiva, es esencial entender a fondo el problema, a los usuarios y el entorno en el que la solución será implementada. Este capítulo presenta el proceso de Requirements Elicitation & Analysis, una fase crítica en el desarrollo de soluciones centradas en el usuario. Aquí se identifican y analizan las necesidades del público objetivo, se estudia a la competencia y se utilizan técnicas como entrevistas, mapeo de tareas y escenarios para definir con claridad los requisitos funcionales y no funcionales del sistema. La información obtenida en esta etapa servirá como base sólida para el diseño e implementación de un producto alineado con las expectativas del mercado y con alto impacto en su adopción y uso.
-
-\newpage
 
 ## Competidores.
 

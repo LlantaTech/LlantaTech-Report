@@ -14,6 +14,7 @@ date: "2025-01"
 subject: "Markdown"
 keywords: [Markdown, Report]
 subtitle: "Desarrollo de Soluciones IOT - 15185 - 1ASI0572"
+block-headings: true
 lang: "es"
 colorlinks: true
 footer-left: "LLantaTech"
@@ -112,7 +113,6 @@ pandoc-latex-environment:
 
 ***Project Report Collaboration Insights***
 
-
 **TB1:**
 
 ::: warn
@@ -121,21 +121,21 @@ Para acceder los insights de este proyecto, haga click a la [URL](https://github
 
 **Tablero Kanban:**
 
-![Organización LlantaTech, imagen extraída de Github](src/img/cap5/insights-kanban-todo-1.png){ width=85% }
+![Organización LlantaTech, imagen extraída de Github](src/img/cap6/insights-kanban-todo-1.png){ width=85% }
 
 **Kanban List:**
 
-![Organización LlantaTech, imagen extraída de Github](src/img/cap5/insights-kanban-list-1.png){ width=85% }
+![Organización LlantaTech, imagen extraída de Github](src/img/cap6/insights-kanban-list-1.png){ width=85% }
 
 \newpage
 
 **Network Graph:**
 
-![Organización LlantaTech, imagen extraída de Github](src/img/cap5/insights-network-graph-1.png){ width=85% }
+![Organización LlantaTech, imagen extraída de Github](src/img/cap6/insights-network-graph-1.png){ width=85% }
 
 **Traffic Map:**
 
-![Organización LlantaTech, imagen extraída de Github](src/img/cap5/insights-traffic-1.png){ width=85% }
+![Organización LlantaTech, imagen extraída de Github](src/img/cap6/insights-traffic-1.png){ width=85% }
 
 \newpage
 
@@ -161,18 +161,18 @@ En el siguiente cuadro se describe las acciones realizadas y enunciadas de concl
 \parbox[t]{6cm}{
 \textbf{TB1:} \\
 \textbf{Abel Angel Ortega Huaraca} \\
-Propuse que dividiéramos el proyecto en entregas parciales semanales y organicé la primera reunión de planificación. Me encargué de explicar al grupo cómo debíamos vincular los perfiles de usuario con los segmentos de mercado para mantener la coherencia en el flujo del documento. También compartí ejemplos externos para ilustrar la conexión correcta. \\
+Propuse que dividiéramos el proyecto en entregas parciales semanales y organicé la primera reunión de planificación. Asimismo, compartí ejemplos externos para ilustrar la conexión correcta. \\
 \textbf{Belén del Rocio Ramos Rios} \\
-Organicé el espacio de trabajo compartido en Google Drive y sugerí la creación de una carpeta de “Recursos” donde subimos artículos y ejemplos que nos ayudaron a mejorar nuestro análisis. Además, expliqué al equipo cómo debíamos estructurar los apartados de entrevistas de usuario para que tuvieran un enfoque coherente con los requerimientos del proyecto. \\
+Organicé el espacio de trabajo compartido en Google Drive y sugerí la creación de una carpeta de “Recursos” donde subimos artículos y ejemplos que nos ayudaron a mejorar nuestro análisis. \\
 \textbf{Mateo Alejandro Vilchez Rios} \\
-Propuse el uso de Trello para visualizar las tareas pendientes y completadas, y tomé la iniciativa de revisar que todos los entregables estuvieran bien enlazados entre sí. Organicé una breve capacitación interna sobre técnicas de priorización (MoSCoW) para definir qué partes del proyecto debíamos atacar primero. \\
+Propuse el uso de Trello para visualizar las tareas pendientes y completadas, y tomé la iniciativa de revisar que todos los entregables estuvieran bien enlazados entre sí. \\
 \textbf{Alex Avila Asto} \\
-Me encargué de coordinar las reuniones técnicas donde discutimos cómo debía ser la arquitectura del sistema. Expliqué al grupo el flujo de eventos entre los contextos de dominio, asegurando que todos comprendieran cómo interactuaban las diferentes partes del sistema antes de escribir la documentación.
+Me encargué de coordinar las reuniones técnicas donde discutimos cómo debía ser la arquitectura del sistema. Expliqué al grupo el flujo de eventos entre los contextos de dominio, asegurando que todos comprendieran cómo interactuaban las diferentes partes del sistema antes de escribir la documentación. \\
 }
 &
 \parbox[t]{5cm}{
 \textbf{TB1:} \\
-Asumimos el liderazgo de forma compartida durante todo el desarrollo del proyecto, apoyándonos mutuamente en la explicación de conceptos clave y en la organización del trabajo para mantener la coherencia en los avances.
+A lo largo del desarrollo del proyecto, se evidenció un liderazgo compartido y una colaboración activa entre todos los integrantes del equipo. Cada miembro asumió responsabilidades clave que aportaron significativamente a la organización y avance del trabajo. Desde la planificación inicial, la estructuración del entorno colaborativo, el seguimiento de tareas, hasta las discusiones técnicas sobre la arquitectura del sistema, cada aporte reflejó iniciativa y compromiso con los objetivos comunes. Esta distribución equitativa del liderazgo permitió que las decisiones se tomaran de forma consensuada y que cada integrante guiara al grupo en distintos momentos según sus fortalezas, lo que fortaleció la cohesión y eficiencia del equipo.
 } \\ 
 \hline
 
@@ -183,18 +183,18 @@ Asumimos el liderazgo de forma compartida durante todo el desarrollo del proyect
 \parbox[t]{6cm}{
 \textbf{TB1:} \\
 \textbf{Abel Angel Ortega Huaraca} \\
-Promoví una dinámica de entregas parciales para detectar errores a tiempo y garantizar un avance ordenado. \\
+Propuse una dinámica basada en entregas parciales semanales que nos permitió identificar errores de forma temprana y distribuir mejor la carga de trabajo. Esto ayudó a mantener un flujo de avance ordenado y fomentó la participación continua de todos los miembros. \\
 \textbf{Belén del Rocio Ramos Rios} \\
-Organicé un cronograma claro de fechas internas de revisión, lo que ayudó a mantener el ritmo de trabajo constante. \\
+Elaboré un cronograma detallado con fechas internas de revisión y entrega, lo cual sirvió como guía para mantener el ritmo de trabajo constante. Este cronograma fue compartido y ajustado en función del consenso del grupo, promoviendo así una planificación inclusiva. \\
 \textbf{Mateo Alejandro Vilchez Rios} \\
-Coordiné reuniones de revisión para alinear avances y asegurar que todos los entregables siguieran un mismo hilo conductor. \\
+Me encargué de coordinar reuniones periódicas de seguimiento donde revisamos el estado de avance de cada integrante. Estas sesiones nos ayudaron a mantenernos alineados con los objetivos establecidos y asegurar que cada entrega se integrara de forma coherente. \\
 \textbf{Alex Avila Asto} \\
-Me aseguré de que las entregas técnicas se adaptaran a los tiempos definidos, integrando todos los aportes de manera lógica y estructurada.
+Supervisé que las entregas técnicas se ajustaran al cronograma general del equipo y que los aportes individuales se integraran correctamente. Me aseguré de que la estructura y secuencia de los entregables mantuvieran consistencia, reforzando así la calidad final del proyecto. \\
 }
 &
 \parbox[t]{5cm}{
 \textbf{TB1:} \\
-Logramos planificar adecuadamente nuestras tareas, estableciendo metas claras y cumpliendo los plazos establecidos, lo que permitió que el proyecto avanzara de manera fluida y ordenada.
+A lo largo del desarrollo del proyecto, el equipo demostró una sólida capacidad para crear un entorno colaborativo e inclusivo, en el que todos los miembros participaron activamente en la planificación, el establecimiento de metas y el cumplimiento de los objetivos. La propuesta de entregas parciales por parte de Abel permitió una distribución equilibrada del trabajo y una identificación oportuna de posibles errores, mientras que el cronograma interno gestionado por Belén promovió una planificación estructurada y transparente. Mateo reforzó la coordinación mediante reuniones periódicas que mantuvieron al equipo alineado, y Alex aseguró que los entregables técnicos respetaran tanto los tiempos como la coherencia del sistema. Cada una de estas acciones no solo favoreció la eficiencia del grupo, sino que también fortaleció el compromiso de los integrantes y la integración de sus aportes. La planificación colectiva y la comunicación constante contribuyeron a un ambiente de trabajo equitativo, donde se valoraron tanto las ideas individuales como los acuerdos comunes. \\
 } \\
 \hline
 \end{longtable}
