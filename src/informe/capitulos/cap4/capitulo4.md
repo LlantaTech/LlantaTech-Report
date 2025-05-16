@@ -116,45 +116,40 @@ En **RutaKids**, este enfoque resulta fundamental para gestionar eficazmente los
 
 En el proyecto **RutaKids**, EventStorming fue empleado para mapear los procesos esenciales del sistema, facilitando la definición de Bounded Contexts y preparando el terreno para el diseño de una arquitectura de microservicios eficiente, alineada al negocio y enfocada en las necesidades reales de los usuarios.\newline
 
-***General Overview***
+***Big Picture***
 
-![Artefacto creado en PlantUML](src/img/cap4/event_storming/general.png)
+El Big Picture Event Storming que desarrollamos representa el flujo general del sistema RutaKids, desde que el chofer inicia sesión hasta que se notifican los eventos a los padres. Se enfoca en la trazabilidad de estudiantes con tecnología RFID, la integración con sistemas distribuidos (IoT + Kafka) y la visualización de eventos en tiempo real.
 
-Este EventStorming proporciona una visión global de los eventos principales del sistema RutaKids. Se identifican los flujos generales como la autenticación de usuarios, la gestión de estudiantes, las movilidades, las rutas escolares y la supervisión general del transporte. Sirve como mapa de alto nivel para comprender la interacción entre los principales contextos.\newline
+El Big Picture Event Storming del administrador representa, de forma general y secuencial, todas las acciones clave que este actor puede realizar dentro del sistema, como registrar estudiantes, gestionar choferes y movilidades, crear rutas escolares, enviar notificaciones y visualizar reportes del sistema IoT. Cada acción se modela como un comando que genera un evento de dominio visible, permitiendo identificar claramente los procesos más importantes del sistema desde el punto de vista de la gestión educativa. Además, se destacan puntos críticos (hot spots), como la validación de acceso y la gestión masiva de datos, así como oportunidades de mejora, como automatización, dashboards inteligentes y predicción de incidencias.
 
-***Authentication Context***
+![Big Picture Admin - Artefacto creado en Figma [URL](https://www.figma.com/design/Pud8p1wK4lUwpGIUS9Tl8Q/Event-Storming--Community-?node-id=38-3558&t=s5qnJhg7EeCUxuMy-1)](src/img/cap4/administrador.png) 
 
-![Artefacto creado en PlantUML](src/img/cap4/event_storming/auth.png)
+El Big Picture Event Storming del conductor muestra el flujo general de tareas que este realiza en el sistema, como iniciar sesión, visualizar su ruta escolar asignada, activar la ruta al iniciar el recorrido, registrar subidas y bajadas de estudiantes mediante RFID, y finalizar la ruta. Cada una de estas acciones genera eventos clave como RutaIniciada, EstudianteSube, EstudianteBaja y RutaFinalizada. También se consideran puntos críticos como la conectividad con dispositivos IoT y la sincronización de eventos en tiempo real, y se identifican oportunidades como la incorporación de rutas alternativas o alertas automáticas ante desvíos.
 
-En este diagrama se modela el flujo de autenticación y autorización de usuarios dentro de RutaKids. Se capturan eventos como "Usuario inicia sesión", "Usuario olvida contraseña", "Usuario restablece contraseña" y "Usuario cierra sesión", reflejando los procesos de seguridad necesarios para proteger el acceso a la plataforma.\newline
+![Big Picture School Transport - Artefacto creado en Figma [URL](https://www.figma.com/design/Pud8p1wK4lUwpGIUS9Tl8Q/Event-Storming--Community-?node-id=38-3558&t=s5qnJhg7EeCUxuMy-1)](src/img/cap4/Conductor.png) 
+
+El Big Picture del padre refleja las acciones relacionadas con el monitoreo y comunicación, como registrarse, vincular a su hijo, recibir notificaciones del sistema, visualizar en tiempo real la ubicación del transporte escolar y consultar el historial de asistencia. Estos comandos generan eventos como PadreRegistrado, HijoVinculado, NotificaciónRecibida y UbicaciónActualizada. Se destacan puntos críticos como la precisión del rastreo y la protección de datos personales, y se detectan oportunidades como la integración con alertas personalizadas, mapas interactivos y sistemas de retroalimentación.
+
+![Big Picture Parents - Artefacto creado en Figma [URL](https://www.figma.com/design/Pud8p1wK4lUwpGIUS9Tl8Q/Event-Storming--Community-?node-id=38-3558&t=s5qnJhg7EeCUxuMy-1)](src/img/cap4/PadreFamilia.png) 
 
 
-***Students Context***
+***Software Design***
 
-![Artefacto creado en PlantUML](src/img/cap4/event_storming/students.png)
+El Software Design dentro del Event Storming es la etapa donde se transforma la visión general del negocio en una arquitectura técnica concreta. A partir de los eventos y comandos identificados en el Big Picture, se definen los componentes del sistema siguiendo principios como Domain-Driven Design (DDD). Esto incluye comandos, eventos, políticas, agregados, modelos de lectura y sistemas externos. El objetivo es detallar cómo responderá el software ante las acciones de los usuarios, asegurando que la lógica del dominio esté bien representada y sea escalable, mantenible y alineada con las necesidades reales del negocio.
 
-Este EventStorming se centra en la administración de estudiantes. Incluye eventos como "Estudiante registrado", "Estudiante editado" y "Estudiante asignado a ruta escolar", mostrando cómo el sistema permite gestionar la información de los alumnos y su asociación posterior a rutas de transporte.\newline
 
-***School Transport Context***
+El diseño para el padre se basa en comandos como VincularHijo, VisualizarUbicación, RecibirNotificación, procesados mediante políticas que aseguran la autorización del vínculo y la privacidad. El agregado Padre valida las acciones y dispara eventos como HijoVinculado o UbicaciónConsultada. Los modelos de lectura muestran al padre la ubicación en tiempo real, historial de asistencia y mensajes del sistema. Se integran servicios como mapas, notificaciones push y logs históricos para garantizar una experiencia completa y segura.
 
-![Artefacto creado en PlantUML](src/img/cap4/event_storming/school_transport.png)
+![Software Design Parents - Artefacto creado en Figma [URL](https://www.figma.com/design/Pud8p1wK4lUwpGIUS9Tl8Q/Event-Storming--Community-?node-id=38-3558&t=s5qnJhg7EeCUxuMy-1)](src/img/cap4/Software-Design-Parents.png) 
 
-Aquí se modela la gestión de movilidades escolares. Se representan eventos como "Movilidad registrada", "Movilidad editada" y "Movilidad asignada a ruta", que permiten un control preciso de la flota de transporte destinada al traslado de estudiantes, asegurando trazabilidad y organización.
+El diseño de software para el administrador se centra en comandos como CrearEstudiante, CrearMovilidad, CrearRuta, procesados por agregados como Estudiante, Movilidad y RutaEscolar, que validan reglas y emiten eventos como EstudianteRegistrado, MovilidadAsignada y RutaCreada. Las políticas manejan reglas como evitar duplicados o validar zonas geográficas. Los modelos de lectura (Read Models) permiten construir vistas como el panel de control, listas de usuarios o reportes IoT. Se conectan con sistemas externos como bases de datos y servicios de notificaciones.
 
-\newpage
+![Software Design Admin - Artefacto creado en Figma [URL](https://www.figma.com/design/Pud8p1wK4lUwpGIUS9Tl8Q/Event-Storming--Community-?node-id=38-3558&t=s5qnJhg7EeCUxuMy-1)](src/img/cap4/Software-Design-Admin.png) 
 
-***School Routes Context***
+Para el conductor, los comandos clave como IniciarRuta, RegistrarSubidaRFID y FinalizarRuta activan políticas que verifican la validez de la ruta y el estado de los estudiantes. El agregado principal es RutaEscolar, que gestiona el ciclo completo del transporte y emite eventos como RutaIniciada, EstudianteSubido, RutaFinalizada. El modelo de lectura permite al conductor ver su ruta, lista de estudiantes y paraderos. También hay interacción con servicios IoT y el backend para el registro en tiempo real.
 
-![Artefacto creado en PlantUML](src/img/cap4/event_storming/school_routes.png)
 
-Este EventStorming describe la planificación y gestión de rutas escolares. Se modelan acciones como "Ruta creada", "Ruta actualizada" y "Estudiantes asignados a ruta", permitiendo comprender cómo se organiza la cobertura de transporte a nivel operativo dentro del sistema.\newline
-
-***IoT and Monitoring Context***
-
-![Artefacto creado en PlantUML](src/img/cap4/event_storming/iot.png)
-
-Este diagrama anticipa la integración de dispositivos IoT (como GPS y lectores RFID) para el monitoreo en tiempo real de movilidades escolares. 
-\newpage
+![Software Design School Transportation - Artefacto creado en Figma [URL](https://www.figma.com/design/Pud8p1wK4lUwpGIUS9Tl8Q/Event-Storming--Community-?node-id=38-3558&t=s5qnJhg7EeCUxuMy-1)](src/img/cap4/school-transportation.png) 
 
 #### Candidate Context Discovery.
 
