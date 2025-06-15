@@ -71,6 +71,7 @@ header-includes:
   \newtcolorbox{outline-box}{colback=cyan!5!white,arc=0pt,outer arc=0pt,colframe=cyan!60!black,title=\textbf{Outline:}}
   \newtcolorbox{prereqs-box}{colback=red!5!white,arc=0pt,outer arc=0pt,colframe=red!60!black,title=\textbf{Prerequisites:}}
   \newtcolorbox{labtime-box}{colback=yellow!5!white,arc=0pt,outer arc=0pt,colframe=yellow!60!black,title=\textbf{Lab:}}
+  \newcommand{\pandocbounded}[1]{#1} 
   ```
 pandoc-latex-environment:
   tcolorbox: [box]
@@ -95,7 +96,6 @@ pandoc-latex-environment:
 # Capítulo V: Solution UI/UX Design
 
 La experiencia del usuario es uno de los pilares más importantes para el éxito de RutaKids, dado que involucra a múltiples actores como padres, colegios y operadores de transporte. Esta sección presenta el diseño UX/UI propuesto para cada uno de los productos digitales que forman parte de nuestra solución. Se incluyen desde las guías de estilo y decisiones de arquitectura de información, hasta wireframes, mockups, user flows y prototipos interactivos. Todo el diseño se ha planteado pensando en la simplicidad, claridad y accesibilidad, asegurando una navegación intuitiva, consistente y centrada en el usuario. La propuesta busca maximizar el valor percibido y reducir la fricción en la experiencia diaria de cada segmento objetivo.
-
 
 ## Style Guidelines.
 
@@ -208,6 +208,7 @@ La identidad tipográfica de *RutaKids* ha sido cuidadosamente definida para ase
 
   ![Artefacto creado en Figma](src/img/cap5/Typography_SpaceGrotesk_landing.png)
 
+\newpage
 
 2. **Aplicación Web**
 
@@ -450,6 +451,8 @@ Redimensionable & Permitir expansión del campo para textos largos. \\
 \hline
 \end{longtable}
 
+\newpage
+
 - **Estados definidos y su propósito**
 
 \begin{longtable}{|c|p{10cm}|}
@@ -605,8 +608,6 @@ Vertical & Full Height & Ocupa toda la altura disponible del contenedor. \\
 
   Las rutas de navegación (o *breadcrumbs*) son un patrón de interfaz clave para mejorar la orientación del usuario dentro de estructuras jerárquicas. Permiten visualizar la ubicación actual dentro del sistema y facilitan el regreso a niveles anteriores sin necesidad de depender de menús laterales o botones de retroceso.
 
-  En plataformas como la aplicación web de *RutaKids*, donde la navegación puede profundizar varios niveles (por ejemplo, Administración > Rutas > Bus 5 > Lista de estudiantes), este patrón aporta claridad estructural y reduce la carga cognitiva del usuario.
-
 - **Criterios de diseño y elección**
 
   - **Jerarquía visual clara:** Se diseñó una separación entre cada nivel mediante íconos y estilos tipográficos. La ruta completa debe ser legible de un vistazo, con un enfoque especial en el último nivel (ubicación actual).
@@ -640,6 +641,8 @@ IoT & No aplica, dado que el lector no posee una interfaz visual con navegación
 \hline
 \end{longtable}
 
+\newpage
+
 ![Artefacto creado en Figma](src/img/cap5/Breadcrumbs.png)
 
 \newpage
@@ -672,6 +675,8 @@ IoT & No aplica, dado que el lector no posee una interfaz visual con navegación
   **B. Representación digital de la acción del lector**
 
   Las interfaces de *RutaKids* transforman los datos recibidos desde el dispositivo RFID en información comprensible para padres, choferes y administradores. Se utilizaron componentes como cards, tablas y alertas con códigos de color y jerarquía clara para representar el estado de los escaneos.
+
+\newpage
 
 - **Aplicación por plataforma**
 
@@ -713,15 +718,25 @@ En el desarrollo de RutaKids, se adoptó una estructura centrada en los principa
 
 A continuación se presentan los mapas generales de arquitectura de información correspondientes a cada tipo de usuario:
 
+\newpage
+
+::: info
 **Arquitectura de Información – App Móvil para Padres**
+:::
 
-![Artefacto creado en Figma](src/img/cap5/AppPadres.png)
+![Artefacto creado en Figma](src/img/cap5/AppPadres.png){ height=35% }
 
+::: info
 **Arquitectura de Información – App Móvil para Conductores**
+:::
 
-![Artefacto creado en Figma](src/img/cap5/AppConductores.png)
+![Artefacto creado en Figma](src/img/cap5/AppConductores.png){ height=35% }
 
+\newpage
+
+::: info
 **Arquitectura de Información – Plataforma Web para Administradores**
+:::
 
 ![Artefacto creado en Figma](src/img/cap5/AppWeb.png)
 
@@ -732,19 +747,21 @@ Las secciones siguientes profundizan en los sistemas implementados para organiza
 
 ### Organization Systems.
 
-- **Propósito**
+**Propósito**
 
-  La arquitectura organizativa de un producto digital permite estructurar la información de forma que los usuarios accedan rápida y eficientemente a los contenidos que necesitan. 
+La arquitectura organizativa de un producto digital permite estructurar la información de forma que los usuarios accedan rápida y eficientemente a los contenidos que necesitan. 
 
-  Según Morville y Rosenfeld (2006), “los sistemas de organización son esenciales para transformar el caos en claridad, facilitando que los usuarios comprendan la lógica detrás del contenido digital”. 
+> Según Morville y Rosenfeld (2006), “los sistemas de organización son esenciales para transformar el caos en claridad, facilitando que los usuarios comprendan la lógica detrás del contenido digital”. 
 
-  En el caso de *RutaKids*, se han diseñado diversos sistemas de organización visual y estructural adaptados tanto a padres como a administradores educativos.
+En el caso de *RutaKids*, se han diseñado diversos sistemas de organización visual y estructural adaptados tanto a padres como a administradores educativos.
 
-- **Organización para padres de familia (App móvil)**
+::: info
+**Organización para padres de familia (App móvil)**
+:::
 
-  La aplicación móvil muestra la información más relevante sobre el estado de sus hijos y el transporte escolar. La información sigue un modelo jerárquico en su interfaz principal y secuencial en el monitoreo de rutas.
+La aplicación móvil muestra la información más relevante sobre el estado de sus hijos y el transporte escolar. La información sigue un modelo jerárquico en su interfaz principal y secuencial en el monitoreo de rutas.
 
-\begin{longtable}{|p{3cm}|p{4.5cm}|p{3.5cm}|p{5cm}|}
+\begin{longtable}{|p{3cm}|p{4cm}|p{3cm}|p{4cm}|}
 \hline
 \textbf{Tópico} & \textbf{Sistema de Organización Visual} & \textbf{Categorización Aplicada} & \textbf{Descripción} \\
 \hline
@@ -763,11 +780,13 @@ Hijos registrados & Jerárquico visual & Por audiencia (por cada hijo) & Cada hi
 \hline
 \end{longtable}
 
-- **Organización para administradores educativos (Plataforma web)**
+::: info
+**Organización para administradores educativos (Plataforma web)**
+:::
 
-  La plataforma web está orientada a la administración y seguimiento operativo. Utiliza una estructura modular con categorización por tópicos y por audiencia (vehículos, estudiantes, rutas, conductores).
+La plataforma web está orientada a la administración y seguimiento operativo. Utiliza una estructura modular con categorización por tópicos y por audiencia (vehículos, estudiantes, rutas, conductores).
 
-\begin{longtable}{|p{3cm}|p{3.5cm}|p{3.5cm}|p{4.5cm}|}
+\begin{longtable}{|p{3cm}|p{4cm}|p{3cm}|p{4cm}|}
 \hline
 \textbf{Tópico} & \textbf{Sistema de Organización Visual} & \textbf{Categorización Aplicada} & \textbf{Descripción} \\
 \hline
@@ -789,11 +808,13 @@ Reportes e incidencias & Modular & Cronológica / por evento & Acceso a reportes
 \end{longtable}
 
 
-- **Organización en la Landing Page (Sitio Estático)**
+::: info
+**Organización en la Landing Page (Sitio Estático)**
+:::
 
-  La landing page está diseñada para atraer y guiar a nuevos usuarios. Utiliza una estructura secuencial, pensada para recorrer la información desde el valor de la app hasta las secciones específicas según audiencia.
+La landing page está diseñada para atraer y guiar a nuevos usuarios. Utiliza una estructura secuencial, pensada para recorrer la información desde el valor de la app hasta las secciones específicas según audiencia.
 
-\begin{longtable}{|p{3cm}|p{4cm}|p{3.5cm}|p{5cm}|}
+\begin{longtable}{|p{3cm}|p{4cm}|p{3cm}|p{4cm}|}
 \hline
 \textbf{Tópico} & \textbf{Organización Visual} & \textbf{Categorización Aplicada} & \textbf{Descripción} \\
 \hline
@@ -812,22 +833,21 @@ CTA (Call to Action) & Jerárquico visual final & Ninguna & Botones de descarga 
 
 Esta organización garantiza que tanto padres como administradores puedan interactuar de forma clara, eficiente y segura con la plataforma, reduciendo fricción y mejorando la toma de decisiones y la supervisión del servicio de transporte escolar.
 
-
 \newpage
 
 ### Labeling Systems.
 
-6. **Sistemas de Etiquetado**
+**Propósito**
 
-- **Propósito**
+Los sistemas de etiquetado son fundamentales para la claridad del contenido y la navegación en cualquier producto digital. Una correcta nomenclatura ayuda a los usuarios a comprender de inmediato qué acciones pueden realizar, qué información están observando y qué pasos seguir.
 
-  Los sistemas de etiquetado son fundamentales para la claridad del contenido y la navegación en cualquier producto digital. Una correcta nomenclatura ayuda a los usuarios a comprender de inmediato qué acciones pueden realizar, qué información están observando y qué pasos seguir.
+En *RutaKids*, las etiquetas han sido desarrolladas con un enfoque en simplicidad, consistencia y significado contextual, garantizando una experiencia clara para los distintos tipos de usuarios: padres, administradores y conductores.
 
-  En *RutaKids*, las etiquetas han sido desarrolladas con un enfoque en simplicidad, consistencia y significado contextual, garantizando una experiencia clara para los distintos tipos de usuarios: padres, administradores y conductores.
+::: info
+**App móvil – Padres de familia**
+:::
 
-- **App móvil – Padres de familia**
-
-\begin{longtable}{|p{4cm}|p{10.5cm}|}
+\begin{longtable}{|p{5cm}|p{10cm}|}
 \hline
 \textbf{Tópico} & \textbf{Definición} \\
 \hline
@@ -846,9 +866,11 @@ Cuenta & Acceso a la configuración de perfil del padre, donde puede editar dato
 \hline
 \end{longtable}
 
-- **App móvil – Conductores**
+::: info
+**App móvil – Conductores**
+:::
 
-\begin{longtable}{|p{4cm}|p{10.5cm}|}
+\begin{longtable}{|p{5cm}|p{10cm}|}
 \hline
 \textbf{Tópico} & \textbf{Definición} \\
 \hline
@@ -869,89 +891,86 @@ Finalizar ruta & Permite al conductor cerrar el recorrido una vez completado, re
 
 ### SEO Tags and Meta Tags
 
-
 - **Propósito**
 
   En la aplicación *RutaKids*, los *SEO Tags* y *Meta Tags* juegan un rol crucial para garantizar la visibilidad del producto tanto en motores de búsqueda como en tiendas de aplicaciones móviles. 
 
-  Aunque el producto incluye una plataforma web y una aplicación móvil, la *landing page* cumple un rol estratégico al actuar como primer punto de contacto para nuevos usuarios, por lo que ha sido optimizada mediante el uso de etiquetas específicas.
+Aunque el producto incluye una plataforma web y una aplicación móvil, la *landing page* cumple un rol estratégico al actuar como primer punto de contacto para nuevos usuarios, por lo que ha sido optimizada mediante el uso de etiquetas específicas.
 
 
-- **SEO Tags**
+**SEO Tags**
 
-  Los SEO Tags permiten mejorar el posicionamiento de la landing page de *RutaKids* en buscadores como Google, facilitando que padres y colegios interesados encuentren rápidamente el producto. A continuación se muestran algunos ejemplos aplicados:
+Los SEO Tags permiten mejorar el posicionamiento de la landing page de *RutaKids* en buscadores como Google, facilitando que padres y colegios interesados encuentren rápidamente el producto. A continuación se muestran algunos ejemplos aplicados:
 
-  - **Title Tag**  
-    Especifica el título visible en los resultados de búsqueda.
-
-    ```html
-    <title>RutaKids - Seguridad y Monitoreo Escolar en Tiempo Real</title>
-    ```
-
-  - **Meta Description**  
-    Describe brevemente el contenido de la página.
-
-    ```html
-    <meta name="description" content="RutaKids es una plataforma de movilidad escolar con pulseras RFID. Permite a los padres monitorear en tiempo real los recorridos escolares de sus hijos y a los colegios gestionar rutas de forma eficiente." />
-    ```
-
-  - **Header Tags**  
-    Estructuran jerárquicamente el contenido.
-
-    ```html
-    <h1>Movilidad Escolar Inteligente</h1>
-    <h2>Monitorea a tus hijos en tiempo real</h2>
-    <h3>Gestiona flotas escolares con tecnología RFID</h3>
-    ```
-
-
-- **Meta Tags**
-
-  Los Meta Tags proporcionan información técnica a navegadores y motores de búsqueda, mejorando la experiencia del usuario y el SEO técnico. Algunos utilizados en *RutaKids* son:
-
-  - **Charset Meta Tag**
-
-    ```html
-    <meta charset="UTF-8">
-    ```
-
-  - **Viewport Meta Tag**
-
-    ```html
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    ```
-
-  - **Robots Meta Tag**
-
-    ```html
-    <meta name="robots" content="index, follow">
-    ```
-
-  - **Canonical Tag**
-
-    ```html
-    <link rel="canonical" href="https://rutakids.com">
-    ```
-
-
-- **Landing Page SEO Tags (para la aplicación móvil)**
-
-  Además de las etiquetas estándar, se han definido etiquetas específicas para promover la aplicación móvil directamente desde la landing page:
+- **Title Tag**  
+  Especifica el título visible en los resultados de búsqueda.
 
   ```html
-  <title>RutaKids | Transporte Escolar Seguro y Conectado</title>
-  <meta name="description" content="RutaKids permite a padres monitorear a sus hijos durante el transporte escolar mediante pulseras RFID. Disponible para iOS y Android.">
-  <meta name="keywords" content="app transporte escolar, seguridad infantil, GPS escolar, pulseras RFID, monitoreo niños">
-  <meta name="author" content="LlantaTech">
-  <link rel="canonical" href="https://rutakids.com/">
-    ```
+  <title>RutaKids - Seguridad y Monitoreo Escolar en Tiempo Real</title>
+  ```
 
-- **App Store Optimization (ASO)**
+- **Meta Description**  
+  Describe brevemente el contenido de la página.
 
-  Para aumentar la visibilidad de la aplicación en tiendas como Google Play o App Store, RutaKids aplica estrategias de ASO (App Store Optimization) que incluyen título, descripción, palabras clave y categorías.
+  ```html
+  <meta name="description" content="RutaKids es una plataforma de movilidad escolar con pulseras RFID. Permite a los padres monitorear en tiempo real los recorridos escolares de sus hijos y a los colegios gestionar rutas de forma eficiente." />
+  ```
+
+- **Header Tags**  
+  Estructuran jerárquicamente el contenido.
+
+  ```html
+  <h1>Movilidad Escolar Inteligente</h1>
+  <h2>Monitorea a tus hijos en tiempo real</h2>
+  <h3>Gestiona flotas escolares con tecnología RFID</h3>
+  ```
+
+**Meta Tags**
+
+Los Meta Tags proporcionan información técnica a navegadores y motores de búsqueda, mejorando la experiencia del usuario y el SEO técnico. Algunos utilizados en *RutaKids* son:
+
+- **Charset Meta Tag**
+
+  ```html
+  <meta charset="UTF-8">
+  ```
+
+- **Viewport Meta Tag**
+
+  ```html
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  ```
+
+- **Robots Meta Tag**
+
+  ```html
+  <meta name="robots" content="index, follow">
+  ```
+
+- **Canonical Tag**
+
+  ```html
+  <link rel="canonical" href="https://rutakids.com">
+  ```
+
+**Landing Page SEO Tags (para la aplicación móvil)**
+
+Además de las etiquetas estándar, se han definido etiquetas específicas para promover la aplicación móvil directamente desde la landing page:
+
+```html
+<title>RutaKids | Transporte Escolar Seguro y Conectado</title>
+<meta name="description" content="RutaKids permite a padres monitorear a sus hijos durante el transporte escolar mediante pulseras RFID. Disponible para iOS y Android.">
+<meta name="keywords" content="app transporte escolar, seguridad infantil, GPS escolar, pulseras RFID, monitoreo niños">
+<meta name="author" content="LlantaTech">
+<link rel="canonical" href="https://rutakids.com/">
+  ```
+
+**App Store Optimization (ASO)**
+
+Para aumentar la visibilidad de la aplicación en tiendas como Google Play o App Store, RutaKids aplica estrategias de ASO (App Store Optimization) que incluyen título, descripción, palabras clave y categorías.
 
 
-\begin{longtable}{|p{4cm}|p{10.5cm}|}
+\begin{longtable}{|p{5cm}|p{10cm}|}
 \hline
 \textbf{Elemento} & \textbf{Valor propuesto} \\
 \hline
@@ -981,22 +1000,19 @@ URL descarga iOS & \url{https://apps.apple.com/app/rutakids/id123456789} \\
 
 El uso estratégico de SEO Tags y Meta Tags en RutaKids no solo mejora la visibilidad en buscadores y redes sociales, sino que también facilita la experiencia del usuario desde el primer contacto con la plataforma. Además, las etiquetas ASO aseguran un buen posicionamiento en las tiendas de aplicaciones, promoviendo así la descarga y uso efectivo del producto.
 
-
+\newpage
 
 ### Searching Systems.
 
+**Propósito**
 
-- **Propósito**
+Los sistemas de búsqueda en productos digitales permiten al usuario navegar grandes volúmenes de información de forma efectiva, evitando pérdida de tiempo y frustración.
 
-  Los sistemas de búsqueda en productos digitales permiten al usuario navegar grandes volúmenes de información de forma efectiva, evitando pérdida de tiempo y frustración.
+En *RutaKids*, la búsqueda activa está implementada únicamente en la plataforma web de administradores, ya que la aplicación móvil está diseñada para mostrar información personalizada y filtrada automáticamente para los padres de familia.
 
-  En *RutaKids*, la búsqueda activa está implementada únicamente en la plataforma web de administradores, ya que la aplicación móvil está diseñada para mostrar información personalizada y filtrada automáticamente para los padres de familia.
+**Filtros y herramientas de búsqueda en la Web App**
 
-
-
-- **Filtros y herramientas de búsqueda en la Web App**
-
-\begin{longtable}{|p{5cm}|p{9.5cm}|}
+\begin{longtable}{|p{5cm}|p{10cm}|}
 \hline
 \textbf{Filtro / Función} & \textbf{Definición} \\
 \hline
@@ -1026,21 +1042,21 @@ Búsqueda combinada avanzada & Combina múltiples filtros (ej. por nombre + ruta
 \end{longtable}
 
 
+**Diseño de resultados y experiencia de búsqueda**
 
-- **Diseño de resultados y experiencia de búsqueda**
-
-  - Resultados ordenados alfabéticamente o por fecha según el módulo.
-  - Interfaz con autocompletado en campos de búsqueda (como nombres o placas).
-  - Posibilidad de acceder al detalle directamente desde los resultados.
-  - Visualización clara en tarjetas o tablas, según el tipo de información.
-
+- Resultados ordenados alfabéticamente o por fecha según el módulo.
+- Interfaz con autocompletado en campos de búsqueda (como nombres o placas).
+- Posibilidad de acceder al detalle directamente desde los resultados.
+- Visualización clara en tarjetas o tablas, según el tipo de información.
 
 
-- **App móvil – Padres de familia**
+\newpage
 
-  En la app móvil, no se requiere una herramienta de búsqueda, ya que toda la información está pre-filtrada por el sistema. Cada padre solo visualiza la información correspondiente a sus hijos y sus viajes.
+**App móvil – Padres de familia**
 
-\begin{longtable}{|p{5cm}|p{9.5cm}|}
+En la app móvil, no se requiere una herramienta de búsqueda, ya que toda la información está pre-filtrada por el sistema. Cada padre solo visualiza la información correspondiente a sus hijos y sus viajes.
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
 \hline
 \textbf{Característica} & \textbf{Función} \\
 \hline
@@ -1058,7 +1074,6 @@ Alertas personalizadas & Solo muestra notificaciones relevantes al estudiante re
 \end{longtable}
 
 
-
 Esta combinación de sistemas asegura que tanto administradores como padres puedan encontrar información crítica sin esfuerzo, optimizando el uso del sistema y mejorando la experiencia general.
 
 
@@ -1066,19 +1081,20 @@ Esta combinación de sistemas asegura que tanto administradores como padres pued
 
 ### Navigation Systems.
 
-- **Propósito**
+**Propósito**
 
-  Los sistemas de navegación son el conjunto de elementos y patrones que permiten a los usuarios moverse a través del contenido y funcionalidades de una interfaz. Una buena navegación no solo facilita el desplazamiento, sino que también guía, orienta y reduce el esfuerzo cognitivo.
+Los sistemas de navegación son el conjunto de elementos y patrones que permiten a los usuarios moverse a través del contenido y funcionalidades de una interfaz. Una buena navegación no solo facilita el desplazamiento, sino que también guía, orienta y reduce el esfuerzo cognitivo.
 
-  Como afirman Garrett (2011), “la navegación efectiva proporciona al usuario una sensación de lugar, dirección y control dentro de un producto digital”.
+> Como afirman Garrett (2011), “la navegación efectiva proporciona al usuario una sensación de lugar, dirección y control dentro de un producto digital”.
 
-  En *RutaKids*, se implementan sistemas de navegación adaptados a cada tipo de usuario: padres (app móvil), conductores (app móvil simplificada) y administradores escolares (plataforma web). En cada caso, la navegación fue diseñada para ajustarse al nivel de interacción y al contexto de uso.
+En *RutaKids*, se implementan sistemas de navegación adaptados a cada tipo de usuario: padres (app móvil), conductores (app móvil simplificada) y administradores escolares (plataforma web). En cada caso, la navegación fue diseñada para ajustarse al nivel de interacción y al contexto de uso.
 
 
+::: info
+**App móvil – Padres de familia**
+:::
 
-- **App móvil – Padres de familia**
-
-\begin{longtable}{|p{5cm}|p{9.5cm}|}
+\begin{longtable}{|p{5cm}|p{10cm}|}
 \hline
 \textbf{Elemento de navegación} & \textbf{Descripción} \\
 \hline
@@ -1098,10 +1114,11 @@ Navegación simplificada & Solo se muestran las funciones relevantes al rol del 
 \end{longtable}
 
 
+::: info
+**App móvil – Conductores**
+:::
 
-- **App móvil – Conductores**
-
-\begin{longtable}{|p{5cm}|p{9.5cm}|}
+\begin{longtable}{|p{5cm}|p{10cm}|}
 \hline
 \textbf{Elemento de navegación} & \textbf{Descripción} \\
 \hline
@@ -1119,10 +1136,13 @@ Diseño de una sola vista & La app evita navegación compleja; el conductor solo
 \end{longtable}
 
 
+\newpage
 
-- **Plataforma Web – Administradores**
+::: info
+**Plataforma Web – Administradores**
+:::
 
-\begin{longtable}{|p{5cm}|p{9.5cm}|}
+\begin{longtable}{|p{5cm}|p{10cm}|}
 \hline
 \textbf{Elemento de navegación} & \textbf{Descripción} \\
 \hline
@@ -1146,54 +1166,1043 @@ Accesos rápidos & Acciones frecuentes resaltadas visualmente (botones flotantes
 
 \newpage
 
+
 ## Landing Page UI Design.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+El diseño de la interfaz de usuario (UI) de la landing page fue concebido con un enfoque centrado en el usuario, priorizando la claridad, accesibilidad y jerarquía visual. A través de un lenguaje visual coherente y elementos interactivos bien distribuidos, se buscó comunicar el valor de la plataforma de manera inmediata y efectiva. La estructura de la landing page permite a los usuarios identificar rápidamente las secciones clave, generando interés y facilitando la navegación hacia las áreas de mayor conversión. Este proceso de diseño incluyó tanto la creación de wireframes como mockups, permitiendo validar la experiencia antes de su implementación definitiva
 
-\newpage
+::: warn
+Para acceder a los wireframes de la landing page, haga click en la [URL](https://www.figma.com/design/hWQCYGLq8uiSZolh8ChRN7/Untitled?node-id=0-1&t=r3o6PxgMClNo9kx7-1)
+:::
 
 ### Landing Page Wireframe.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Los wireframes representan la estructura básica de la landing page, enfocándose en la disposición de los elementos sin distraer con colores o estilos visuales complejos. Esta etapa fue clave para definir la jerarquía de la información, la ubicación de llamados a la acción (CTAs) y la secuencia de navegación esperada. Cada sección fue diseñada para cumplir un objetivo específico dentro del recorrido del usuario, desde la presentación inicial hasta los beneficios, características, segmentos objetivo (padres y colegios), equipo, demostración y contacto. El uso de wireframes permitió validar la lógica de la interfaz antes de pasar a etapas más detalladas de diseño visual.
+
+**Landing Page Wireframe 1:**
+
+![Figma CodeMinds Wireframe](https://i.postimg.cc/Jh7nbHyD/wireframe-inicio.png)
+
+\newpage
+
+**Landing Page Wireframe 2:**
+
+![Figma CodeMinds Wireframe](https://i.postimg.cc/CxgdxQS4/wireframe-beneficios.png){ height=40% }
+
+**Landing Page Wireframe 3:**
+
+![Figma CodeMinds Wireframe](https://i.postimg.cc/J4JGmLVn/wireframe-caracteristicas.png){ height=40% }
+
+\newpage
+
+**Landing Page Wireframe 4:**
+
+![Figma CodeMinds Wireframe](https://i.postimg.cc/FFYYWST0/wireframe-padres.png){ height=40% }
+
+**Landing Page Wireframe 5:**
+
+![Figma CodeMinds Wireframe](https://i.postimg.cc/66FyDQPg/wireframe-colegios.png){ height=40% }
+
+\newpage
+
+**Landing Page Wireframe 6:**
+
+![Figma CodeMinds Wireframe](https://i.postimg.cc/jCV0vmZ3/wireframe-team.png){ height=40% }
+
+**Landing Page Wireframe 7:**
+
+![Figma CodeMinds Wireframe](https://i.postimg.cc/C1QVnzDg/wireframe-demo.png){ height=40% }
+
+\newpage
+
+**Landing Page Wireframe 8:**
+
+![Figma CodeMinds Wireframe](https://i.postimg.cc/0QQsNpzn/wireframe-contactanos-footer.png)
 
 \newpage
 
 ### Landing Page Mock-up.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Los mockups son representaciones de alta fidelidad de la interfaz, incorporando el estilo visual definitivo, paleta de colores, tipografías, imágenes y demás elementos gráficos. En esta etapa, se reflejó la identidad visual de la plataforma, asegurando coherencia entre el mensaje y la estética. Los mockups también permiten evaluar aspectos como el contraste, el espaciado, la legibilidad y el impacto visual de cada sección. Gracias a esta representación visual detallada, fue posible obtener retroalimentación específica y realizar ajustes antes de iniciar la implementación del diseño en código.
+
+::: warn
+Para acceder a los mockups de la landing page, haga click en la [URL](https://www.figma.com/design/hWQCYGLq8uiSZolh8ChRN7/Untitled?node-id=0-1&t=r3o6PxgMClNo9kx7-1)
+:::
+
+**Landing Page Mockups 1:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/Kj3hPxrg/mockup-inicio.png)
 
 \newpage
 
-## Applications UX/UI Design.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+**Landing Page Mockups 2:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/q7prPf09/mockup-beneficios.png){ height=40% }
+
+**Landing Page Mockups 3:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/k5wC9jgD/mockup-caracteristicas.png){ height=40% }
+
+\newpage
+
+**Landing Page Mockups 4:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/RZ79pCr7/mockup-padres.png){ height=40% }
+
+**Landing Page Mockups 5:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/RZ54T6YC/mockup-colegios.png){ height=40% }
 
 \newpage
 
-### Applications Wireframes.
+**Landing Page Mockups 6:**
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+![Figma CodeMinds Mockups](https://i.postimg.cc/BQ1JDcMw/mockup-team.png){ height=40% }
+
+**Landing Page Mockups 7:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/kMHnBhFb/mockup-demo.png){ height=40% }
+
+\newpage
+
+**Landing Page Mockups 8:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/2y1r04my/mockup-contactanos-footer.png)
 
 \newpage
 
-### Applications Wireflow Diagrams.
+## Applications UX/UI Design
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+El diseño UX/UI de aplicaciones móviles desempeña un papel fundamental en la creación de experiencias digitales que no solo sean funcionales, sino también agradables y emocionalmente satisfactorias para el usuario. UX (User Experience) se enfoca en comprender las necesidades, expectativas y comportamientos del usuario, mientras que UI (User Interface) se encarga de la apariencia visual y la disposición de los elementos con los que el usuario interactúa.
+
+En este proyecto, se ha adoptado un enfoque de diseño centrado en el usuario, lo que implica realizar un análisis profundo de los perfiles de los tutores legales que utilizarán la aplicación. A partir de esta investigación, se diseñaron interfaces limpias, intuitivas y coherentes, que permiten una navegación fluida y natural. Se priorizó la claridad en la disposición de la información y la reducción de la carga cognitiva, asegurando que cada acción dentro de la aplicación sea fácilmente comprensible y ejecutable sin fricciones.
+
+Además, se incorporaron principios clave de usabilidad, como la retroalimentación inmediata, la consistencia visual y la prevención de errores, con el objetivo de brindar una experiencia segura y predecible. La accesibilidad también fue una prioridad, asegurando que personas con diferentes niveles de habilidad o condiciones visuales puedan utilizar la aplicación sin barreras, mediante el uso de contrastes adecuados, textos legibles y controles táctiles optimizados.
+
+![Recurso extraído de Canva](src/img/cap5/ux-ui-design.png)
 
 \newpage
+
+### Applications Wireframes
+
+::: box
+**Mobile Applications Wireframes**
+:::
+
+Los wireframes de aplicaciones móviles son representaciones visuales que permiten planificar la estructura y funcionalidad de la interfaz antes de su desarrollo.
+A través de esquemas de baja y alta fidelidad, se definen la disposición de elementos, los flujos de navegación y las interacciones clave, asegurando que las necesidades del usuario se aborden de manera efectiva.
+
+Este proyecto presenta wireframes que priorizan la claridad, la usabilidad y la accesibilidad, facilitando una supervisión intuitiva del transporte escolar por parte de los tutores legales.
+
+::: warn
+Para acceder a los wireframes de la mobile app, haga click en la [URL](https://www.figma.com/design/ph6aTjM4mzxkNic0Hk4VLX/RutaKids?node-id=275-3006&t=8oFGZm5oHMybkhay-1)
+:::
+
+**Mobile Application Wireframes - Splash:**
+
+![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/splash.png){ height=35% }
+
+\newpage
+
+**Mobile Application Wireframes - Bienvenida:**
+
+![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/bienvenida.png){ height=35% }
+
+**Mobile Application Wireframes - Login:**
+
+![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/login.png){ height=35% }
+
+\newpage
+
+**Mobile Application Wireframes - Recuperar Contraseña:**
+
+![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/recuperar-password.png){ height=35% }
+
+**Mobile Application Wireframes - Home:**
+
+![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/principal.png){ height=35% }
+
+\newpage
+
+**Mobile Application Wireframes - Home - Notificaciones:**
+
+![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/principal-notificaciones.png){ height=35% }
+
+**Mobile Application Wireframes - Home - Notificaciones - Popup:**
+
+![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/principal-notificaciones-popup.png){ height=35% }
+
+\newpage
+
+**Mobile Application Wireframes - Home - Detalles:**
+
+![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/principal-detalles.png){ height=35% }
+
+**Mobile Application Wireframes - Home - Detalles - Popup:**
+
+![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/principal-detalles-popup.png){ height=35% }
+
+\newpage
+
+**Mobile Application Wireframes - Monitoreo:**
+
+![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/monitoreo.png){ height=35% }
+
+**Mobile Application Wireframes - Monitoreo - Cam:**
+
+![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/monitoreo-cam.png){ height=35% }
+
+\newpage
+
+**Mobile Application Wireframes - Historial:**
+
+![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/historial.png){ height=35% }
+
+**Mobile Application Wireframes - Cuenta:**
+
+![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/cuenta.png){ height=35% }
+
+\newpage
+
+**Mobile Application Wireframes - Cuenta - Settings:**
+
+![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/cuenta-settings.png){ height=35% }
+
+\newpage
+
+
+::: box
+**Web Applications Wireframes**
+:::
+
+**Inicio de sesión - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/sign_in.png){ height=35% }
+
+**Recuperación de contraseña - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/forgot_password.png){ height=35% }
+
+\newpage
+
+**Reinicio de contraseña - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/reset_password.png){ height=35% }
+
+**Cambio de contraseña - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/change_password.png){ height=35% }
+
+\newpage
+
+**Dashboard general - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/dashboard.png){ height=35% }
+
+**Notificaciones - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/notifications.png){ height=35% }
+
+\newpage
+
+**Preguntas frecuentes - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/faq.png){ height=35% }
+
+**Política de privacidad - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/privacy_policy.png){ height=35% }
+
+\newpage
+
+**Cerrar sesión - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/log_out.png){ height=35% }
+
+**Terminos y condiciones - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/terms.png){ height=35% }
+
+\newpage
+
+::: info
+**Gestión de estudiantes**
+:::
+
+**Crear estudiante - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/create_student.png){ height=35% }
+
+**Lista de estudiantes - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/students_list.png){ height=35% }
+
+\newpage
+
+**Tarjetas de estudiantes - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/students_cards.png){ height=35% }
+
+\newpage
+
+::: info
+**Gestión de movilidades y rutas escolares**
+:::
+
+**Crear movilidad escolar - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/create_school_trans.png){ height=35% }
+
+
+**Listado de movilidades - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/school_trans_list.png){ height=35% }
+
+\newpage
+
+**Crear ruta escolar - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/create_school_routes.png){ height=35% }
+
+**Listado de rutas escolares - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/school_routes_list.png){ height=35% }
+
+\newpage
+
+### Applications Wireflow Diagrams
+
+::: box
+**Mobile Applications Wireflow Diagrams**
+:::
+
+En esta sección se presentan los wireflows diseñados para RutaKids. A través de estos diagramas, se busca representar de manera clara y estructurada cómo los padres de familia o tutores legales pueden navegar por la app, realizar tareas esenciales como el inicio de sesión, la visualización de trayectos en tiempo real, la recepción de notificaciones, el acceso al historial de viajes, entre otros.
+
+Cada wireflow incluye tanto los objetivos del usuario como la descripción paso a paso del flujo de tareas, facilitando así la comprensión del recorrido de usuario y la funcionalidad de la aplicación.
+
+::: info
+**Wireflow Diagram 1: Inicio de Sesión**
+:::
+
+- **User Goal**
+
+  El tutor legal desea acceder a la aplicación móvil para monitorear el transporte escolar de su hijo/a.
+
+- **Task Flow (Flujo de tareas del usuario)**
+
+  1. Visualiza la pantalla de carga con el logo de la aplicación al abrir la app por primera vez.
+  2. Visualiza la pantalla con información de lo que ofrece la aplicación
+  3. Accede a la pantalla de inicio de sesión.
+  4. Ingresa sus credenciales (correo electrónico y contraseña).
+  5. En caso de haber olvidado la contraseña, solicita su recuperación mediante correo electrónico.
+  6. Si las credenciales son válidas, el sistema redirige a la pantalla de carga mientras valida la sesión.
+  7. Finalmente, accede a la pantalla principal (dashboard) desde donde podrá realizar el monitoreo del transporte.
+
+A continuación, se muestran de forma secuencial las pantallas involucradas en el proceso de inicio de sesión de un tutor legal, detallando las interacciones principales y transiciones posibles desde la carga inicial de la aplicación hasta el acceso exitoso al panel de monitoreo.
+
+\newpage
+
+**Wireflow:  Inicio de Sesión**
+
+![Artefacto creado en Figma](src/img/cap5/WD/WD_SignIn.png)
+
+\newpage
+
+::: info
+**Wireflow Diagram 2: Visualización de eventos del recorrido (línea de tiempo)**
+:::
+
+- **User Goal**  
+
+  El tutor legal desea consultar el estado y el avance del recorrido escolar para asegurar el cumplimiento del trayecto.
+
+- **Task Flow (Flujo de tareas del usuario)**
+
+  1. Desde la pantalla principal, el tutor identifica el seguimiento activo del transporte.
+  2. Presiona el botón "Detalles" ubicado en la parte inferior de la tarjeta del trayecto.
+  3. El sistema redirige a una pantalla donde se presenta una línea de tiempo con los eventos del recorrido.
+  4. En esta línea de tiempo, el usuario puede observar:
+
+     - Inicio del recorrido
+     - Llegada del conductor al punto de encuentro
+     - Abordaje de los estudiantes
+     - Estado "en camino"
+     - Llegada al colegio
+     - Descenso de los estudiantes
+     - Finalización del trayecto
+
+  5. El usuario puede tocar eventos interactivos (como el abordaje) para ver un modal con información adicional: nombres, horarios y matrícula del vehículo.
+  6. El usuario puede regresar o navegar entre vistas sin perder el progreso visual del seguimiento.
+
+**Wireflow: Timeline Details**
+
+![Artefacto creado en Figma](src/img/cap5/WD/WD_Details.png){ width=80% }
+
+\newpage
+
+::: info
+**Wireflow Diagram 3: Notificaciones de eventos**
+:::
+
+- **User Goal**  
+
+  El tutor legal desea recibir alertas sobre momentos importantes del viaje, como el inicio del recorrido o la llegada al punto de encuentro, para mantenerse informado sobre el trayecto de su hijo/a.
+
+- **Task Flow (Flujo de tareas del usuario)**
+
+  1. El sistema genera automáticamente notificaciones push cuando ocurre un evento clave del recorrido escolar, por ejemplo:
+
+     - El conductor inicia el recorrido.
+     - La unidad llega al punto de encuentro.
+
+  2. El tutor recibe una alerta en su dispositivo móvil.
+  3. Al abrir la aplicación, accede a la sección "Notificaciones" desde el ícono de campana o desde la barra inferior.
+  4. Visualiza una lista de eventos relevantes en orden cronológico.
+  5. Puede seleccionar una notificación específica para ver más detalles.
+  6. Se despliega una tarjeta informativa con:
+
+     - Iconografía del evento
+     - Mensaje descriptivo
+     - Hora exacta del suceso
+     - Fecha y unidad asociada
+
+  7. El tutor puede regresar a la vista anterior tras consultar el detalle.
+
+**Wireflow: Notificaciones**
+
+![Artefacto creado en Figma](src/img/cap5/WD/WD_Notifications.png){ width=80% }
+
+\newpage
+
+::: info
+**Wireflow Diagram 4: Visualización del trayecto del transporte escolar en mapa en tiempo real**
+:::
+
+- **User Goal**  
+
+  El tutor legal desea visualizar en tiempo real la ruta que sigue la unidad de transporte escolar, con información resumida del conductor, clima y estado del viaje.
+
+- **Task Flow (Flujo de tareas del usuario)**
+
+  1. Desde la pantalla principal (Inicio), el tutor identifica la tarjeta con información de su unidad asignada.
+  2. Presiona el botón “Detalles”.
+  3. El sistema redirige al usuario a una pantalla con mapa en vivo.
+  4. En esta pantalla se visualiza:
+
+     - Ruta actual del transporte (de punto A al punto B)
+     - Ubicación en tiempo real del bus
+     - Nombre y contacto del conductor
+     - Estado: "En tránsito"
+     - Tiempo estimado de llegada
+     - Temperatura actual
+     - Pasajeros a bordo
+
+  5. La información se actualiza automáticamente durante el trayecto.
+  6. El usuario puede regresar a la pantalla principal en cualquier momento desde la navegación inferior.
+
+**Wireflow: Home a Monitoreo**
+
+![Artefacto creado en Figma](src/img/cap5/WD/WD_LiveMap.png){ width=80% }
+
+\newpage
+
+::: info
+**Wireflow Diagram 5: Visualización en vivo del interior de la unidad**
+:::
+
+- **User Goal**  
+
+  El tutor legal desea observar visualmente la unidad de transporte en tiempo real para verificar las condiciones internas y confirmar que su hijo/a viaja de forma segura.
+
+- **Task Flow (Flujo de tareas del usuario)**
+
+  1. Desde la pantalla de Detalles del viaje (mapa con ruta y datos del transporte), el tutor identifica el botón "Visualizar Unidad".
+  2. Presiona el botón y es redirigido a una nueva vista.
+  3. La aplicación muestra una transmisión en tiempo real del interior del vehículo.
+  4. En la parte inferior de la pantalla se presenta:
+
+     - La temperatura interna del vehículo.
+     - El botón de regreso para volver a la vista anterior.
+
+  5. El tutor puede observar sin interactuar y cerrar la vista cuando lo desee.
+  6. Al cerrar la visualización, vuelve a la pantalla de “Detalles del viaje”.
+
+**Wireflow: Visualizar Cámara**
+
+![Artefacto creado en Figma](src/img/cap5/WD/WD_LiveInteriorView.png)
+
+Esta vista permite monitorear visualmente las condiciones internas del vehículo, incluyendo el comportamiento de los estudiantes y el estado del entorno. Además, se ofrece la temperatura interna del bus como dato adicional. Esta funcionalidad está diseñada para reforzar la percepción de seguridad y confianza del tutor legal durante el trayecto escolar.
+
+\newpage
+
+::: info
+**Wireflow Diagram 6: Consulta de historial de viajes**
+:::
+
+- **User Goal**  
+
+  El tutor legal desea revisar los viajes anteriores para verificar detalles como la hora de salida y llegada, la ruta recorrida y las condiciones generales del transporte escolar.
+
+- **Task Flow (Flujo de tareas del usuario)**
+
+  1. Desde la pantalla principal, el tutor accede a la sección "Historial" mediante la barra de navegación inferior.
+  2. Se despliega una lista de viajes completados organizados por fecha (más reciente primero).
+  3. Cada tarjeta de viaje muestra:
+
+     - Fecha del recorrido
+     - Hora de llegada
+     - Dirección de origen y destino
+     - Clima registrado
+     - Cantidad de pasajeros a bordo
+     - Iconografía de estado
+     
+  4. El tutor puede desplazarse por la lista para explorar días anteriores.
+  5. Al finalizar la consulta, el tutor puede navegar hacia otra sección mediante el menú inferior.
+
+**Wireflow: Historial de Viajes**
+
+![Artefacto creado en Figma](src/img/cap5/WD/WD_Record.png){ width=80% }
+
+Este wireflow corresponde a la funcionalidad de consulta del historial de viajes previos. Al acceder desde el menú principal, el tutor visualiza una lista de recorridos completados, organizados por fecha.
+
+\newpage
+
+::: info
+**Wireflow Diagram 7: Gestión de cuenta**
+:::
+
+- **User Goal**  
+
+  El tutor legal desea configurar y gestionar sus datos personales, seguridad, privacidad y notificaciones desde su perfil en la aplicación.
+
+- **Task Flow (Flujo de tareas del usuario)**
+
+  1. Desde cualquier vista de la app, el tutor accede a la sección "Cuenta" mediante el ícono del menú inferior.
+  2. En la pantalla principal, se muestran las siguientes opciones:
+
+     - Información personal
+     - Seguridad
+     - Protección de datos
+     - Notificaciones
+
+  3. Si selecciona "Información personal", accede a una vista donde puede consultar y actualizar:
+
+     - Nombre
+     - Número de teléfono
+     - Correo electrónico
+
+  4. Si selecciona "Seguridad", puede:
+
+     - Cambiar su contraseña
+     - Activar o revisar la verificación en dos pasos
+     - Ver el correo de soporte técnico
+
+  5. En "Protección de datos", el tutor puede revisar:
+
+     - Términos y condiciones
+     - Políticas de privacidad
+     - Información sobre protección de datos
+
+  6. En "Notificaciones", puede activar o desactivar alertas específicas relacionadas a:
+
+     - Transporte
+     - Mapa
+     - Seguimiento
+     - Otros servicios
+
+  7. El tutor puede volver a la pantalla principal de cuenta mediante el ícono de retroceso o la barra inferior.
+
+A continuación, se muestran de forma secuencial las pantallas involucradas en el proceso de gestión de cuenta, detallando las interacciones principales y transiciones posibles desde el acceso al menú de configuración hasta la actualización o consulta de datos personales, seguridad y preferencias.
+
+**Wireflow: Gestión de Cuenta**
+
+![Artefacto creado en Figma](src/img/cap5/WD/WD_AccountConfiguration.png)
+
+\newpage
+
+::: box
+**Web Applications Wireflow Diagrams**
+:::
+
+Los wireflows representan visualmente la navegación entre las diferentes pantallas de la aplicación RutaKids, permitiendo comprender la lógica de interacción del usuario antes del desarrollo de las interfaces finales. Estos diagramas combinan los wireframes de cada vista con las conexiones funcionales entre ellas, trazando el recorrido esperado que realizarán los usuarios al interactuar con el sistema. La construcción de estos wireflows se realizó en **Uizard**, destacando la navegación entre módulos clave como autenticación, gestión de estudiantes, movilidades, rutas escolares y configuraciones. Este enfoque permite validar anticipadamente la usabilidad, fluidez y estructura lógica de la experiencia de usuario en RutaKids.
+
+**Inicio de sesión y autenticación**
+
+![Inicio de sesión – Artefacto creado en Uizard](src/img/cap5/rutakids_wireflows/login.jpeg)
+
+Este wireflow representa el flujo completo de autenticación de usuarios en la aplicación. Desde la pantalla de inicio de sesión se habilita la navegación hacia funciones clave como la recuperación de contraseña, el restablecimiento de credenciales y el acceso al dashboard principal en caso de inicio exitoso. También se contempla el proceso de cierre de sesión. El objetivo es garantizar un acceso seguro y fluido, permitiendo que directivos, padres o personal autorizado ingresen a la plataforma con la menor fricción posible.
+
+\newpage
+
+**Gestión de estudiantes**
+
+![Gestión de estudiantes – Artefacto creado en Uizard](src/img/cap5/rutakids_wireflows/students.jpeg)
+
+Este wireflow muestra la navegación entre las secciones relacionadas a los estudiantes: listado general, vista en tarjetas individuales y el formulario de creación de nuevo alumno. Cada flujo parte desde el dashboard y está pensado para facilitar la gestión visual y estructurada de los alumnos registrados en el sistema, permitiendo búsquedas ágiles, navegación fluida entre vistas y registro eficiente de nuevos estudiantes.
+
+**Gestión de movilidades escolares**
+
+![Gestión de movilidades – Artefacto creado en Uizard](src/img/cap5/rutakids_wireflows/school_trans.jpeg)
+
+Este flujo refleja la administración de los vehículos escolares asignados a cada ruta. A partir del dashboard, se puede acceder a la lista de movilidades registradas y a la vista para crear nuevas, incluyendo datos como matrícula, chofer y características del vehículo. El wireflow evidencia cómo el sistema facilita un control centralizado de la flota activa, promoviendo orden y eficiencia en la planificación logística del transporte.
+
+\newpage
+
+**Gestión de rutas escolares**
+
+![Gestión de rutas escolares – Artefacto creado en Uizard](src/img/cap5/rutakids_wireflows/school_routes.jpeg)
+
+Este wireflow detalla la navegación entre las vistas de lista y creación de rutas escolares. A partir del dashboard, se accede a las rutas activas con posibilidad de registrar nuevas, asignar alumnos y vincular una movilidad. La visualización jerárquica de esta sección permite una asignación clara y rastreable, asegurando cobertura y trazabilidad en cada recorrido escolar.
+
+\newpage
+
+**Configuración y secciones administrativas**
+
+![Configuraciones y políticas – Artefacto creado en Uizard](src/img/cap5/rutakids_wireflows/settings.jpeg)
+
+Aquí se detallan los flujos relacionados con la configuración personal del usuario, incluyendo el cambio de contraseña, política de privacidad y términos y condiciones. Todas las rutas se originan en el dashboard y apuntan a mejorar la transparencia del sistema, ofreciendo acceso fácil a las políticas institucionales y a la personalización de la cuenta, mejorando la confianza del usuario.
+
+\newpage
+
+**Otras funcionalidades complementarias**
+
+![Otras funcionalidades – Artefacto creado en Uizard](src/img/cap5/rutakids_wireflows/others.jpeg)
+
+Este wireflow agrupa funciones de soporte como las notificaciones y la sección de preguntas frecuentes (FAQ). Estos apartados permiten mejorar la experiencia del usuario mediante respuestas rápidas y una comunicación efectiva. La navegación parte desde el dashboard y está diseñada para no interferir con las tareas principales, pero sí ofrecer valor añadido al sistema en términos de asistencia y seguimiento.
+
+\newpage
+
 
 ### Applications Mock-ups.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+::: box
+**Mobile Applications Mock-ups**
+:::
+
+En esta sección se presentan los mockups de la aplicación RutaKids, los cuales representan visualmente las principales pantallas y funcionalidades diseñadas. Estas interfaces han sido construidas siguiendo principios de diseño centrado en el usuario, diseño inclusivo, accesibilidad y consistencia visual, conforme al Design System definido para este producto digital.
+
+**Inicio de sesión - Mock-up**
+
+![Artefacto creado en Figma](src/img/cap5/Mockups/SignIn.png)
+
+**Notificaciones - Mock-up**
+
+![Artefacto creado en Figma](src/img/cap5/Mockups/Notifications.png)
+
+\newpage
+
+**Visualización del mapa - Mock-up**
+
+![Artefacto creado en Figma](src/img/cap5/Mockups/Details.png)
+
+**Cámara activada - Mock-up**
+
+![Artefacto creado en Figma](src/img/cap5/Mockups/LiveInteriorView.png)
+
+\newpage
+
+**Historial de viajes - Mock-up**
+
+![Artefacto creado en Figma](src/img/cap5/Mockups/Record.png)
+
+**Gestión de cuenta - Mock-up**
+
+![Artefacto creado en Figma](src/img/cap5/Mockups/AccountConfiguration.png)
+
+\newpage
+
+::: box
+**Web Applications Mock-ups**
+:::
+
+::: info
+**Autenticación y recuperación de acceso**
+:::
+
+**Inicio de sesión - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/sign_in.png){ height=30% }
+
+**Recuperación de contraseña - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/forgot_password.png){ height=30% }
+
+\newpage
+
+**Reinicio de contraseña - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/reset_password.png){ height=35% }
+
+**Cambio de contraseña - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/change_password.png){ height=35% }
+
+\newpage
+
+::: info
+**Navegación y funcionalidades complementarias**
+:::
+
+**Dashboard general - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/dashboard.png){ height=35% }
+
+**Notificaciones - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/notifications.png){ height=35% }
+
+\newpage
+
+**Preguntas frecuentes - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/faq.png){ height=38% }
+
+**Política de privacidad - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/privacy_policy.png){ height=35% }
+
+\newpage
+
+**Cerrar sesión - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/log_out.png){ height=35% }
+
+**Terminos y condiciones - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/terms.png){ height=35% }
+
+\newpage
+
+::: info
+**Gestión de estudiantes**
+:::
+
+**Crear estudiante - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/create_student.png){ height=35% }
+
+**Lista de estudiantes - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/students_list.png){ height=35% }
+
+\newpage
+
+**Tarjetas de estudiantes - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/students_cards.png){ height=35% }
+
+\newpage
+
+::: info
+**Gestión de movilidades y rutas escolares**
+:::
+
+**Crear movilidad escolar - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/create_school_trans.png){ height=35% }
+
+**Listado de movilidades - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/school_trans_list.png){ height=35% }
+
+\newpage
+
+**Crear ruta escolar - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/create_school_routes.png){ height=35% }
+
+**Listado de rutas escolares - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/school_routes_list.png){ height=35% }
 
 \newpage
 
 ### Applications User Flow Diagrams.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+::: box
+**Mobile Applications User Flow Diagrams**
+:::
+
+En esta sección se presentan los flujos de usuario diseñados para RutaKids, enfocados en ofrecer a los tutores legales una experiencia clara, segura y eficiente en el monitoreo del transporte escolar de sus hijos/as.
+Cada diagrama describe paso a paso cómo el usuario interactúa con la aplicación para cumplir sus objetivos principales, contemplando rutas típicas, alternativas y escenarios excepcionales.
+Estos flujos buscan garantizar la transparencia, la facilidad de uso y la confianza en cada interacción, abordando funcionalidades clave como el acceso al sistema, la visualización en tiempo real del trayecto, la recepción de notificaciones, la consulta de historial de viajes y la gestión de la cuenta personal.
+
+::: info
+**Inicio de Sesión**
+:::
+
+**User Goal**
+
+El tutor legal desea acceder a la aplicación móvil para monitorear el transporte escolar de su hijo/a.
+
+
+![Artefacto creado en Figma](src/img/cap5/UF/SignIn.png){ height=40% }
+
+Este User Flow inicia con la carga del sistema y guía al tutor legal hacia la pantalla de login, donde se permite ingresar sus credenciales o iniciar el proceso de recuperación de contraseña. Se ha considerado un flujo alternativo para usuarios que olvidan su contraseña, así como una condición de éxito que los redirige a la pantalla principal. El proceso incluye interacciones simples y claras, con rutas diferenciadas para escenarios típicos y excepcionales.
+
+::: info
+**Visualización de eventos del recorrido (línea de tiempo)**
+:::
+
+**User Goal**  
+
+El tutor legal desea consultar el estado y el avance del recorrido escolar para asegurar el cumplimiento del trayecto.
+
+![Artefacto creado en Figma](src/img/cap5/UF/Details.png)
+
+Este diagrama de flujo de usuario muestra el proceso mediante el cual el tutor legal accede a la línea de tiempo del recorrido escolar actual. Desde la pantalla principal, el usuario selecciona el botón “Detalles”, lo que lo redirige a una vista que presenta los hitos del viaje en orden cronológico.
+La línea de tiempo muestra eventos clave como el inicio del trayecto, el abordaje de los estudiantes, el trayecto en curso, y la llegada al colegio.
+Para una trazabilidad más detallada, algunos eventos incluyen íconos interactivos que permiten abrir ventanas modales con información adicional, como los nombres de los estudiantes que abordaron y la placa del vehículo. Esta funcionalidad permite al tutor monitorear el cumplimiento del servicio de transporte escolar de forma clara y precisa, fomentando la transparencia y confianza en el proceso.
 
 \newpage
 
+::: info
+**Notificaciones de eventos**
+:::
+
+**User Goal**  
+
+El tutor legal desea recibir alertas sobre momentos importantes del viaje, como el inicio del recorrido o la llegada al punto de encuentro, para mantenerse informado sobre el trayecto de su hijo/a.
+
+![Artefacto creado en Figma](src/img/cap5/UF/Notifications.png)
+
+Este diagrama representa el flujo de usuario para acceder a las notificaciones generadas automáticamente por la aplicación durante el recorrido escolar.
+El tutor legal, desde la pantalla principal, puede visualizar un ícono de campana que indica nuevas alertas. Al presionarlo, se accede a una lista cronológica de eventos relevantes, como el inicio del recorrido o la llegada al punto de encuentro.
+Cada notificación incluye iconografía, texto descriptivo, hora y fecha. Al seleccionar una notificación específica, se despliega una tarjeta con información extendida del evento.
+Esta funcionalidad permite al tutor mantenerse informado en tiempo real, fortaleciendo el acompañamiento del trayecto sin necesidad de interacción directa con el sistema de transporte.
+
+\newpage
+
+::: info
+**Visualización del trayecto del transporte escolar en mapa en tiempo real**
+:::
+
+**User Goal**  
+
+El tutor legal desea visualizar en tiempo real la ruta que sigue la unidad de transporte escolar, con información resumida del conductor, clima y estado del viaje.
+
+![Artefacto creado en Figma](src/img/cap5/UF/LiveMap.png)
+
+Este diagrama de flujo de usuario representa la funcionalidad de monitoreo del trayecto escolar mediante un mapa en vivo.
+El tutor legal accede a esta vista a través del botón “Monitoreo” en la barra inferior de navegación.
+Al ingresar, se presenta una pantalla que muestra la ubicación actual del vehículo en tiempo real, junto con la ruta estimada desde el punto de origen hasta el destino.
+Además, se incluyen datos complementarios como el nombre y placa del conductor, número de pasajeros a bordo, clima actual y tiempo estimado de llegada.
+Esta vista se actualiza de manera automática sin necesidad de interacción por parte del usuario, permitiendo un seguimiento continuo y preciso del recorrido escolar.
+Esta funcionalidad mejora significativamente la visibilidad y tranquilidad del tutor respecto a la seguridad y puntualidad del transporte.
+
+\newpage
+
+::: info
+**Visualización en vivo del interior de la unidad**
+:::
+
+**User Goal**  
+
+El tutor legal desea observar visualmente la unidad de transporte en tiempo real para verificar las condiciones internas y confirmar que su hijo/a viaja de forma segura.
+
+![Artefacto creado en Figma](src/img/cap5/UF/LiveInteriorView.png)
+
+Este flujo de usuario muestra la funcionalidad que permite al tutor legal acceder a una vista en tiempo real del interior del vehículo escolar.
+Desde la pantalla de “Detalles del viaje”, el tutor puede presionar el botón “Visualizar unidad”, lo cual redirige a una vista dedicada donde se transmite un video en vivo del interior del bus.
+Esta transmisión permite observar las condiciones internas, incluyendo el comportamiento de los estudiantes y el ambiente dentro de la unidad durante el trayecto.
+Además, se muestra la temperatura interna del vehículo en la parte inferior de la pantalla como dato contextual relevante.
+Esta funcionalidad tiene como objetivo principal fortalecer la confianza y seguridad del tutor legal, proporcionando una capa adicional de supervisión visual.
+
+\newpage
+
+::: info
+**Consulta de historial de viajes**
+:::
+
+**User Goal**  
+
+El tutor legal desea revisar los viajes anteriores para verificar detalles como la hora de salida y llegada, la ruta recorrida y las condiciones generales del transporte escolar.
+
+![Artefacto creado en Figma](src/img/cap5/UF/Record.png)
+
+Este flujo de usuario describe cómo el tutor legal puede acceder al historial de recorridos realizados por la unidad de transporte escolar.
+Desde la pantalla principal, el tutor presiona el ícono de “Historial” ubicado en la barra de navegación inferior.
+El sistema redirige a una nueva vista que presenta una lista cronológica de los viajes completados, ordenados desde el más reciente.
+Cada tarjeta de viaje muestra información clave como:
+
+- Fecha y hora del trayecto
+- Dirección de origen
+- Número de pasajeros a bordo
+- Condiciones climáticas registradas
+- Iconografía del estado del viaje
+
+Esta funcionalidad permite al tutor verificar la puntualidad del servicio, confirmar que el trayecto se ha cumplido adecuadamente y llevar un registro retrospectivo de la actividad escolar de sus hijos/as.
+
+\newpage
+
+::: info
+**Gestión de cuenta**
+:::
+
+**User Goal**  
+
+El tutor legal desea configurar y gestionar sus datos personales, seguridad, privacidad y notificaciones desde su perfil en la aplicación.
+
+![Artefacto creado en Figma](src/img/cap5/UF/AccountConfiguration.png)
+
+Este flujo de usuario representa cómo el tutor legal accede y gestiona su configuración personal dentro de la aplicación RutaKids.
+Desde cualquier pantalla, el tutor puede ingresar a la sección de cuenta ya sea presionando el ícono de perfil en la parte superior o a través del botón “Cuenta” en la barra inferior de navegación.
+En la vista principal de cuenta, se le presentan cuatro opciones principales:
+
+- **Información personal:** Permite visualizar y editar nombre, número telefónico y correo electrónico.
+- **Seguridad:** Ofrece opciones para cambiar la contraseña, activar la verificación en dos pasos y contactar al soporte.
+- **Protección de datos:** Muestra los términos y condiciones, políticas de privacidad y configuraciones sobre protección de datos personales.
+- **Notificaciones:** El usuario puede activar o desactivar distintos tipos de alertas, como aquellas relacionadas con el transporte, el mapa, el seguimiento del viaje y otros servicios.
+
+Cada sección está diseñada para brindar al tutor control total sobre su perfil y preferencias dentro de la app, promoviendo una experiencia personalizada, segura y transparente.
+
+
+\newpage
+
+::: box
+**Web Applications User Flow Diagrams**
+:::
+
+Los wireflows representan visualmente la navegación entre las diferentes pantallas de la aplicación RutaKids, permitiendo comprender la lógica de interacción del usuario antes del desarrollo de las interfaces finales. Estos diagramas combinan los wireframes de cada vista con las conexiones funcionales entre ellas, trazando el recorrido esperado que realizarán los usuarios al interactuar con el sistema. La construcción de estos wireflows se realizó en **Uizard**, destacando la navegación entre módulos clave como autenticación, gestión de estudiantes, movilidades, rutas escolares y configuraciones. Este enfoque permite validar anticipadamente la usabilidad, fluidez y estructura lógica de la experiencia de usuario en RutaKids.
+
+::: info
+**Inicio de sesión y autenticación**
+:::
+
+![Inicio de sesión – Artefacto creado en Uizard](src/img/cap5/rutakids_userflows/login.jpeg)
+
+Este wireflow representa el flujo completo de autenticación de usuarios en la aplicación. Desde la pantalla de inicio de sesión se habilita la navegación hacia funciones clave como la recuperación de contraseña, el restablecimiento de credenciales y el acceso al dashboard principal en caso de inicio exitoso. También se contempla el proceso de cierre de sesión. El objetivo es garantizar un acceso seguro y fluido, permitiendo que directivos, padres o personal autorizado ingresen a la plataforma con la menor fricción posible.
+
+\newpage
+
+::: info
+**Gestión de estudiantes**
+:::
+
+![Gestión de estudiantes – Artefacto creado en Uizard](src/img/cap5/rutakids_userflows/students.jpeg)
+
+Este wireflow muestra la navegación entre las secciones relacionadas a los estudiantes: listado general, vista en tarjetas individuales y el formulario de creación de nuevo alumno. Cada flujo parte desde el dashboard y está pensado para facilitar la gestión visual y estructurada de los alumnos registrados en el sistema, permitiendo búsquedas ágiles, navegación fluida entre vistas y registro eficiente de nuevos estudiantes.
+
+::: info
+**Gestión de movilidades escolares**
+:::
+
+![Gestión de movilidades – Artefacto creado en Uizard](src/img/cap5/rutakids_userflows/school_trans.jpeg)
+
+Este flujo refleja la administración de los vehículos escolares asignados a cada ruta. A partir del dashboard, se puede acceder a la lista de movilidades registradas y a la vista para crear nuevas, incluyendo datos como matrícula, chofer y características del vehículo. El wireflow evidencia cómo el sistema facilita un control centralizado de la flota activa, promoviendo orden y eficiencia en la planificación logística del transporte.
+
+\newpage
+
+::: info
+**Gestión de rutas escolares**
+:::
+
+![Gestión de rutas escolares – Artefacto creado en Uizard](src/img/cap5/rutakids_userflows/school_routes.jpeg)
+
+Este wireflow detalla la navegación entre las vistas de lista y creación de rutas escolares. A partir del dashboard, se accede a las rutas activas con posibilidad de registrar nuevas, asignar alumnos y vincular una movilidad. La visualización jerárquica de esta sección permite una asignación clara y rastreable, asegurando cobertura y trazabilidad en cada recorrido escolar.
+
+\newpage
+
+::: info
+**Configuración y secciones administrativas**
+:::
+
+![Configuraciones y políticas – Artefacto creado en Uizard](src/img/cap5/rutakids_userflows/settings.jpeg)
+
+Aquí se detallan los flujos relacionados con la configuración personal del usuario, incluyendo el cambio de contraseña, política de privacidad y términos y condiciones. Todas las rutas se originan en el dashboard y apuntan a mejorar la transparencia del sistema, ofreciendo acceso fácil a las políticas institucionales y a la personalización de la cuenta, mejorando la confianza del usuario.
+
+\newpage
+
+::: info
+**Otras funcionalidades complementarias**
+:::
+
+![Otras funcionalidades – Artefacto creado en Uizard](src/img/cap5/rutakids_userflows/others.jpeg)
+
+Este wireflow agrupa funciones de soporte como las notificaciones y la sección de preguntas frecuentes (FAQ). Estos apartados permiten mejorar la experiencia del usuario mediante respuestas rápidas y una comunicación efectiva. La navegación parte desde el dashboard y está diseñada para no interferir con las tareas principales, pero sí ofrecer valor añadido al sistema en términos de asistencia y seguimiento.
+
+\newpage
+
+
 ## Applications Prototyping.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+::: box
+**Mobile Applications Prototyping**
+:::
+
+Esta sección presenta los prototipos interactivos desarrollados para las aplicaciones móviles, los cuales permiten simular la experiencia de usuario en condiciones reales de navegación, alineados con los User Flow Diagrams previamente definidos. Los prototipos contemplan el comportamiento esperado de la interfaz ante acciones como toques, desplazamientos y navegación entre pantallas, y fueron diseñados utilizando Figma como herramienta principal de diseño y simulación.
+
+![Recurso extraído de Canva](src/img/cap5/mobile-applications-prototyping.png)
+
+**Justificación de decisiones de diseño e interacción**
+
+El diseño de interacción responde a una arquitectura de información centrada en el usuario, basada en jerarquías claras y flujos de navegación predecibles. Para ello se han definido rutas esperadas (happy paths) que guían al tutor legal desde el acceso inicial a la aplicación hasta funcionalidades clave como el monitoreo en tiempo real, la recepción de notificaciones o la gestión de cuenta personal.
+
+El sistema de navegación utiliza una barra inferior persistente, con íconos universalmente reconocibles, que agrupa las secciones principales: Inicio, Monitoreo, Historial y Cuenta. Esta estructura se eligió por su efectividad en dispositivos móviles, permitiendo que el usuario navegue sin esfuerzo entre vistas relacionadas sin necesidad de regresar a menús superiores.
+
+**Consistencia y adaptabilidad**
+
+A pesar de que los prototipos fueron desarrollados inicialmente con frames de iOS para facilitar el testeo visual, todas las decisiones fueron tomadas considerando el desarrollo futuro con Flutter como framework multiplataforma. Esto asegura que los elementos visuales, tamaños de fuente, márgenes y estilos de interacción son adaptables a sistemas operativos Android, y que cualquier ajuste de microinteracción puede realizarse posteriormente sin romper la coherencia de experiencia.
+
+\newpage
+
+### Android Mobile Applications Prototyping.
+
+La versión prototipada corresponde a la arquitectura funcional de Android, replicando los mismos flujos de navegación definidos para iOS.
+Gracias al enfoque cross-platform con Flutter, las decisiones de interacción son consistentes entre sistemas.
+
+::: warn
+Para acceder al prototipo de la Android Mobile, haga click en la [URL](https://www.figma.com/proto/eciWGdnbz2vbcafpC3ry61/RutaKids?node-id=1-191&t=Q43WuZLUjqqKj29U-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A191)
+:::
+
+::: warn
+Para ver la demo en Microsoft Stream - Min(00:33), haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EWNyaDk6mgdMlrmkd3YCekQBkWfpMUBC7oBkGaqmv3HQIA?e=ZCJBW6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+:::
+
+
+![Android Prototyping - Figma](src/img/cap5/android-proto.png)
+
+\newpage
+
+**iOS Mobile Applications Prototyping**
+
+La interfaz se prototipó inicialmente para iOS siguiendo las guías de diseño de Apple (Human Interface Guidelines), aplicando principios de accesibilidad y navegación móvil.
+
+::: warn
+Para acceder al prototipo de la iOS Mobile, haga click en la [URL](https://www.figma.com/proto/eciWGdnbz2vbcafpC3ry61/RutaKids?node-id=5-1336&t=xAeh2weCXXUvbcOx-1&scaling=scale-down&content-scaling=fixed&page-id=5%3A1185&starting-point-node-id=5%3A1336)
+:::
+
+::: warn
+Para ver la demo en Microsoft Stream - Min(01:57), haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EWNyaDk6mgdMlrmkd3YCekQBkWfpMUBC7oBkGaqmv3HQIA?e=ZCJBW6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+:::
+
+![iOS Prototyping - Figma](src/img/cap5/ios-proto.png)
+
+\newpage
+
+**Web Applications UX/UI Design**
+
+![Recurso estraído de Google](src/img/cap5/angular.jpg)
+
+En esta sección se presenta el proceso de diseño UX/UI desarrollado para la aplicación web de RutaKids, centrado en ofrecer una experiencia funcional, accesible y coherente con las necesidades de sus principales usuarios: colegios, padres de familia y operadores de transporte escolar. A partir de una investigación previa, se definieron flujos clave, se estructuraron wireframes en baja fidelidad y se evolucionó hacia interfaces modernas, basadas en principios de usabilidad y diseño centrado en el usuario. El objetivo es garantizar que cada interacción dentro del sistema sea intuitiva, segura y alineada a los objetivos del proyecto.
+
+::: warn
+Para visualizar todo el diseño de los wireframes y mockups de la aplicación, haga click en la [URL](https://app.uizard.io/p/726b9d4c)
+:::
+
+\newpage
+
+::: box
+**Web Applications Prototyping**
+:::
+
+::: warn
+Para visualizar el video del prototipo de la aplicación,  haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EWNyaDk6mgdMlrmkd3YCekQBkWfpMUBC7oBkGaqmv3HQIA?e=ZCJBW6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+)
+:::
+
+![Captura de Microsoft Stream](src/img/cap5/web-application-prototyping-video.png)
+
+\newpage
+

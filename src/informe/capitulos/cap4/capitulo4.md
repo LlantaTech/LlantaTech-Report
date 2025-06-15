@@ -97,7 +97,7 @@ pandoc-latex-environment:
 
 El diseño de la solución de software constituye una etapa crítica para garantizar que el sistema responda de manera eficaz a las necesidades estratégicas del dominio de negocio identificado. A partir de la estructura de Bounded Contexts previamente definida, se propone una arquitectura modular basada en microservicios, donde cada servicio es responsable de una parte específica del dominio y se comunica a través de interfaces bien delimitadas.
 
-En **RutaKids**, esta solución se implementa mediante una combinación de tecnologías modernas como **Spring Boot** para el desarrollo de microservicios, **Kafka** para la comunicación asíncrona basada en eventos, **OAuth2 / Keycloak** para la autenticación segura de usuarios, y **Angular 17** como framework principal para el frontend modularizado. Además, se adoptan principios de arquitectura orientada a eventos, utilizando técnicas como EventStorming, Domain Message Flow Modeling y Bounded Context Canvas para asegurar una alineación continua entre el diseño técnico y los objetivos de negocio.
+En RutaKids, esta solución se implementa mediante una combinación de tecnologías modernas como Spring Boot para el desarrollo de microservicios, Kafka para la comunicación asíncrona basada en eventos, OAuth2 / Keycloak para la autenticación segura de usuarios, y Angular 17 como framework principal para el frontend modularizado. Además, se adoptan principios de arquitectura orientada a eventos, utilizando técnicas como EventStorming, Domain Message Flow Modeling y Bounded Context Canvas para asegurar una alineación continua entre el diseño técnico y los objetivos de negocio.
 
 A continuación, se detallan los principales artefactos de diseño generados, los cuales representan la estructura, comunicación y responsabilidades de los diferentes componentes que conforman la plataforma RutaKids.
 
@@ -109,51 +109,135 @@ A continuación, se detallan los principales artefactos de diseño generados, lo
 
 El diseño estratégico en Domain-Driven Design (DDD) se centra en comprender y modelar el dominio del negocio, estableciendo límites claros —conocidos como *Bounded Contexts*— que reflejan las divisiones naturales de conocimiento y responsabilidad dentro del sistema. A diferencia de un enfoque técnico o puramente arquitectónico, el Strategic-Level DDD busca alinear la estructura del software con la realidad organizacional, permitiendo que cada contexto evolucione de manera independiente y coherente. 
 
-En **RutaKids**, este enfoque resulta fundamental para gestionar eficazmente los diferentes dominios que intervienen en la operación de la plataforma, tales como la administración de estudiantes, la gestión de movilidades escolares, la planificación de rutas escolares y la autenticación de usuarios. Al identificar y delimitar explícitamente estos contextos, se facilita no solo la escalabilidad técnica, sino también la colaboración interdisciplinaria y el mantenimiento a largo plazo del sistema. A continuación, se presentarán técnicas como EventStorming, Candidate Context Discovery y Domain Message Flow Modeling, que permiten descubrir y modelar de forma colaborativa los Bounded Contexts pertinentes para RutaKids.
+En RutaKids, este enfoque resulta fundamental para gestionar eficazmente los diferentes dominios que intervienen en la operación de la plataforma, tales como la administración de estudiantes, la gestión de movilidades escolares, la planificación de rutas escolares y la autenticación de usuarios. Al identificar y delimitar explícitamente estos contextos, se facilita no solo la escalabilidad técnica, sino también la colaboración interdisciplinaria y el mantenimiento a largo plazo del sistema. A continuación, se presentarán técnicas como EventStorming, Candidate Context Discovery y Domain Message Flow Modeling, que permiten descubrir y modelar de forma colaborativa los Bounded Contexts pertinentes para RutaKids.
 
+![Recurso creado en Canva](src/img/cap4/strategic-level-domain-driven-design.png)
+
+\newpage
 
 ### EventStorming.
 
-En el proyecto **RutaKids**, EventStorming fue empleado para mapear los procesos esenciales del sistema, facilitando la definición de Bounded Contexts y preparando el terreno para el diseño de una arquitectura de microservicios eficiente, alineada al negocio y enfocada en las necesidades reales de los usuarios.\newline
+En el proyecto RutaKids, EventStorming fue empleado para mapear los procesos esenciales del sistema, facilitando la definición de Bounded Contexts y preparando el terreno para el diseño de una arquitectura de microservicios eficiente, alineada al negocio y enfocada en las necesidades reales de los usuarios.
 
+::: info
+***Big Picture***
+:::
+
+El Big Picture Event Storming que desarrollamos representa el flujo general del sistema RutaKids, desde que el chofer inicia sesión hasta que se notifican los eventos a los padres. Se enfoca en la trazabilidad de estudiantes con tecnología RFID, la integración con sistemas distribuidos (IoT + Kafka) y la visualización de eventos en tiempo real.
+
+::: norm
+***Big Picture Event Storming*** - **Administrador**
+:::
+
+El Big Picture Event Storming del administrador representa, de forma general y secuencial, todas las acciones clave que este actor puede realizar dentro del sistema, como registrar estudiantes, gestionar choferes y movilidades, crear rutas escolares, enviar notificaciones y visualizar reportes del sistema IoT. Cada acción se modela como un comando que genera un evento de dominio visible, permitiendo identificar claramente los procesos más importantes del sistema desde el punto de vista de la gestión educativa. Además, se destacan puntos críticos (hot spots), como la validación de acceso y la gestión masiva de datos, así como oportunidades de mejora, como automatización, dashboards inteligentes y predicción de incidencias.
+
+![Big Picture Admin - Artefacto creado en Figma [URL](https://www.figma.com/design/Pud8p1wK4lUwpGIUS9Tl8Q/Event-Storming--Community-?node-id=38-3558&t=s5qnJhg7EeCUxuMy-1)](src/img/cap4/administrador.png) 
+
+
+::: norm
+***Big Picture Event Storming*** - **Conductor**
+:::
+
+El Big Picture Event Storming del conductor muestra el flujo general de tareas que este realiza en el sistema, como iniciar sesión, visualizar su ruta escolar asignada, activar la ruta al iniciar el recorrido, registrar subidas y bajadas de estudiantes mediante RFID, y finalizar la ruta. Cada una de estas acciones genera eventos clave como RutaIniciada, EstudianteSube, EstudianteBaja y RutaFinalizada. También se consideran puntos críticos como la conectividad con dispositivos IoT y la sincronización de eventos en tiempo real, y se identifican oportunidades como la incorporación de rutas alternativas o alertas automáticas ante desvíos.
+
+![Big Picture School Transport - Artefacto creado en Figma [URL](https://www.figma.com/design/Pud8p1wK4lUwpGIUS9Tl8Q/Event-Storming--Community-?node-id=38-3558&t=s5qnJhg7EeCUxuMy-1)](src/img/cap4/Conductor.png) 
+
+::: norm
+***Big Picture Event Storming*** - **Padres**
+:::
+
+El Big Picture del padre refleja las acciones relacionadas con el monitoreo y comunicación, como registrarse, vincular a su hijo, recibir notificaciones del sistema, visualizar en tiempo real la ubicación del transporte escolar y consultar el historial de asistencia. Estos comandos generan eventos como PadreRegistrado, HijoVinculado, NotificaciónRecibida y UbicaciónActualizada. Se destacan puntos críticos como la precisión del rastreo y la protección de datos personales, y se detectan oportunidades como la integración con alertas personalizadas, mapas interactivos y sistemas de retroalimentación.
+
+![Big Picture Parents - Artefacto creado en Figma [URL](https://www.figma.com/design/Pud8p1wK4lUwpGIUS9Tl8Q/Event-Storming--Community-?node-id=38-3558&t=s5qnJhg7EeCUxuMy-1)](src/img/cap4/PadreFamilia.png) 
+
+\newpage
+
+::: info
+***Software Design***
+:::
+
+El Software Design dentro del Event Storming es la etapa donde se transforma la visión general del negocio en una arquitectura técnica concreta. A partir de los eventos y comandos identificados en el Big Picture, se definen los componentes del sistema siguiendo principios como Domain-Driven Design (DDD). Esto incluye comandos, eventos, políticas, agregados, modelos de lectura y sistemas externos. El objetivo es detallar cómo responderá el software ante las acciones de los usuarios, asegurando que la lógica del dominio esté bien representada y sea escalable, mantenible y alineada con las necesidades reales del negocio.
+
+
+::: norm
+***Software Design*** - **Padres**
+:::
+
+El diseño para el padre se basa en comandos como VincularHijo, VisualizarUbicación, RecibirNotificación, procesados mediante políticas que aseguran la autorización del vínculo y la privacidad. El agregado Padre valida las acciones y dispara eventos como HijoVinculado o UbicaciónConsultada. Los modelos de lectura muestran al padre la ubicación en tiempo real, historial de asistencia y mensajes del sistema. Se integran servicios como mapas, notificaciones push y logs históricos para garantizar una experiencia completa y segura.
+
+![Software Design Parents - Artefacto creado en Figma [URL](https://www.figma.com/design/Pud8p1wK4lUwpGIUS9Tl8Q/Event-Storming--Community-?node-id=38-3558&t=s5qnJhg7EeCUxuMy-1)](src/img/cap4/Software-Design-Parents.png) 
+
+::: norm
+***Software Design*** - **Administrador**
+:::
+
+El diseño de software para el administrador se centra en comandos como CrearEstudiante, CrearMovilidad, CrearRuta, procesados por agregados como Estudiante, Movilidad y RutaEscolar, que validan reglas y emiten eventos como EstudianteRegistrado, MovilidadAsignada y RutaCreada. Las políticas manejan reglas como evitar duplicados o validar zonas geográficas. Los modelos de lectura (Read Models) permiten construir vistas como el panel de control, listas de usuarios o reportes IoT. Se conectan con sistemas externos como bases de datos y servicios de notificaciones.
+
+![Software Design Admin - Artefacto creado en Figma [URL](https://www.figma.com/design/Pud8p1wK4lUwpGIUS9Tl8Q/Event-Storming--Community-?node-id=38-3558&t=s5qnJhg7EeCUxuMy-1)](src/img/cap4/Software-Design-Admin.png) 
+
+::: norm
+***Software Design*** - **Conductor**
+:::
+
+Para el conductor, los comandos clave como IniciarRuta, RegistrarSubidaRFID y FinalizarRuta activan políticas que verifican la validez de la ruta y el estado de los estudiantes. El agregado principal es RutaEscolar, que gestiona el ciclo completo del transporte y emite eventos como RutaIniciada, EstudianteSubido, RutaFinalizada. El modelo de lectura permite al conductor ver su ruta, lista de estudiantes y paraderos. También hay interacción con servicios IoT y el backend para el registro en tiempo real.
+
+
+![Software Design School Transportation - Artefacto creado en Figma [URL](https://www.figma.com/design/Pud8p1wK4lUwpGIUS9Tl8Q/Event-Storming--Community-?node-id=38-3558&t=s5qnJhg7EeCUxuMy-1)](src/img/cap4/school-transportation.png) 
+
+\newpage
+
+::: norm
 ***General Overview***
+:::
 
 ![Artefacto creado en PlantUML](src/img/cap4/event_storming/general.png)
 
-Este EventStorming proporciona una visión global de los eventos principales del sistema RutaKids. Se identifican los flujos generales como la autenticación de usuarios, la gestión de estudiantes, las movilidades, las rutas escolares y la supervisión general del transporte. Sirve como mapa de alto nivel para comprender la interacción entre los principales contextos.\newline
+Este Artefacto proporciona una visión global de los eventos principales del sistema RutaKids. Se identifican los flujos generales como la autenticación de usuarios, la gestión de estudiantes, las movilidades, las rutas escolares y la supervisión general del transporte. Sirve como mapa de alto nivel para comprender la interacción entre los principales contextos.
 
+::: norm
 ***Authentication Context***
+:::
 
 ![Artefacto creado en PlantUML](src/img/cap4/event_storming/auth.png)
 
-En este diagrama se modela el flujo de autenticación y autorización de usuarios dentro de RutaKids. Se capturan eventos como "Usuario inicia sesión", "Usuario olvida contraseña", "Usuario restablece contraseña" y "Usuario cierra sesión", reflejando los procesos de seguridad necesarios para proteger el acceso a la plataforma.\newline
+En este diagrama se modela el flujo de autenticación y autorización de usuarios dentro de RutaKids. Se capturan eventos como "Usuario inicia sesión", "Usuario olvida contraseña", "Usuario restablece contraseña" y "Usuario cierra sesión", reflejando los procesos de seguridad necesarios para proteger el acceso a la plataforma.
 
+\newpage
 
+::: norm
 ***Students Context***
+:::
 
-![Artefacto creado en PlantUML](src/img/cap4/event_storming/students.png)
+![Artefacto creado en PlantUML](src/img/cap4/event_storming/students.png){ height=25% }
 
-Este EventStorming se centra en la administración de estudiantes. Incluye eventos como "Estudiante registrado", "Estudiante editado" y "Estudiante asignado a ruta escolar", mostrando cómo el sistema permite gestionar la información de los alumnos y su asociación posterior a rutas de transporte.\newline
+Este Artefacto se centra en la administración de estudiantes. Incluye eventos como "Estudiante registrado", "Estudiante editado" y "Estudiante asignado a ruta escolar", mostrando cómo el sistema permite gestionar la información de los alumnos y su asociación posterior a rutas de transporte.
 
+::: norm
 ***School Transport Context***
+:::
 
-![Artefacto creado en PlantUML](src/img/cap4/event_storming/school_transport.png)
+![Artefacto creado en PlantUML](src/img/cap4/event_storming/school_transport.png){ height=25% }
 
 Aquí se modela la gestión de movilidades escolares. Se representan eventos como "Movilidad registrada", "Movilidad editada" y "Movilidad asignada a ruta", que permiten un control preciso de la flota de transporte destinada al traslado de estudiantes, asegurando trazabilidad y organización.
 
 \newpage
 
+::: norm
 ***School Routes Context***
+:::
 
-![Artefacto creado en PlantUML](src/img/cap4/event_storming/school_routes.png)
+![Artefacto creado en PlantUML](src/img/cap4/event_storming/school_routes.png){ height=25% }
 
-Este EventStorming describe la planificación y gestión de rutas escolares. Se modelan acciones como "Ruta creada", "Ruta actualizada" y "Estudiantes asignados a ruta", permitiendo comprender cómo se organiza la cobertura de transporte a nivel operativo dentro del sistema.\newline
+Este Artefacto describe la planificación y gestión de rutas escolares. Se modelan acciones como "Ruta creada", "Ruta actualizada" y "Estudiantes asignados a ruta", permitiendo comprender cómo se organiza la cobertura de transporte a nivel operativo dentro del sistema.
 
+::: norm
 ***IoT and Monitoring Context***
+:::
 
-![Artefacto creado en PlantUML](src/img/cap4/event_storming/iot.png)
+![Artefacto creado en PlantUML](src/img/cap4/event_storming/iot.png){ height=40% }
 
 Este diagrama anticipa la integración de dispositivos IoT (como GPS y lectores RFID) para el monitoreo en tiempo real de movilidades escolares. 
+
 \newpage
 
 #### Candidate Context Discovery.
@@ -182,6 +266,12 @@ A continuación, se detallan los principales *Candidate Contexts* identificados:
 \hline
 \end{longtable}
 
+\newpage
+
+::: info
+***Candidates Contexts***
+:::
+
 ![Artefacto creado en Structurizr](src/img/cap4/CandidateContextMap.png)
 
 \newpage
@@ -190,7 +280,7 @@ A continuación, se detallan los principales *Candidate Contexts* identificados:
 
 Una vez definidos los contextos candidatos, se procede a modelar los flujos de mensajes que ocurren entre ellos. Esta actividad permite identificar cómo los diferentes módulos del sistema intercambian información, qué eventos o comandos son necesarios y qué dependencias se establecen.
 
-En **RutaKids**, dado el enfoque orientado a eventos y la necesidad de mantener contextos altamente desacoplados, se privilegia el intercambio mediante **eventos asíncronos** siempre que sea posible. A continuación, se detalla el modelo preliminar de flujos de mensajes:
+En RutaKids, dado el enfoque orientado a eventos y la necesidad de mantener contextos altamente desacoplados, se privilegia el intercambio mediante eventos asíncronos siempre que sea posible. A continuación, se detalla el modelo preliminar de flujos de mensajes:
 
 \begin{longtable}{|p{4cm}|p{5cm}|p{4cm}|p{1cm}|}
 \hline
@@ -220,7 +310,7 @@ Estos flujos de comunicación establecen la base para el diseño de contratos de
 
 #### Bounded Context Canvases.
 
-A partir de la identificación de los Candidate Contexts en el sistema **RutaKids**, se detallan a continuación los *Bounded Context Canvases* correspondientes. Cada uno define el propósito, responsabilidades, interacciones y reglas de negocio específicas, facilitando la alineación técnica y funcional del diseño basado en Domain-Driven Design (DDD).
+A partir de la identificación de los Candidate Contexts en el sistema RutaKids, se detallan a continuación los *Bounded Context Canvases* correspondientes. Cada uno define el propósito, responsabilidades, interacciones y reglas de negocio específicas, facilitando la alineación técnica y funcional del diseño basado en Domain-Driven Design (DDD).
 
 ::: box
 **Authentication Context**
@@ -414,7 +504,7 @@ La esencia de esta arquitectura radica en su capacidad para capturar las necesid
 
 #### Software Architecture System Landscape Diagram.
 
-![System Landscape Diagram - C4](src/img/cap4/structurizr-landscape_rutakids_ecosistema.png){ height=70% }
+![System Landscape Diagram - C4](src/img/cap4/structurizr-landscape_rutakids_ecosistema.png){ height=65% }
 
 ![System Landscape Diagram - C4 - Keys](src/img/cap4/structurizr-landscape_rutakids_ecosistema-keys.png)
 
@@ -458,7 +548,7 @@ El enfoque táctico favorece la creación de modelos que son tanto ricos en sign
 
 ### Bounded Context: Parent Service
 
-El **Bounded Context: Parent Service** define un dominio autónomo encargado de gestionar todo lo relacionado con los tutores (*Parents*), sus dependientes (*Children*) y la vinculación con usuarios registrados (*Users*). Dentro de este límite conceptual se modelan las reglas de negocio, las invariantes de los agregados y los casos de uso asociados a la exploración, creación y actualización de padres, la consulta de sus hijos y la obtención de información de usuario. Al aislar este contexto, garantizamos que el lenguaje ubicuo (términos como *Parent*, *Child*, *User*) se mantenga coherente y que los cambios internos no propaguen efectos indeseados a otros dominios de la plataforma.
+El Bounded Context: Parent Service define un dominio autónomo encargado de gestionar todo lo relacionado con los tutores (*Parents*), sus dependientes (*Children*) y la vinculación con usuarios registrados (*Users*). Dentro de este límite conceptual se modelan las reglas de negocio, las invariantes de los agregados y los casos de uso asociados a la exploración, creación y actualización de padres, la consulta de sus hijos y la obtención de información de usuario. Al aislar este contexto, garantizamos que el lenguaje ubicuo (términos como *Parent*, *Child*, *User*) se mantenga coherente y que los cambios internos no propaguen efectos indeseados a otros dominios de la plataforma.
 
 #### Domain Layer
 
@@ -570,9 +660,7 @@ Con esta separación clara, cada capa cumple un rol específico desde la pureza 
 Para una mejor visualización del diagrama, haga click en la [URL](https://mermaid.live/edit#pako:eNqVVF1vmzAU_SvIVd-cCkgghUqVVie8VJ0iGC9r9uCBk1ghdmSbrl2b_76L-UjaVNr2xj0HzrkcX99XVMiSoRitFd1vnG-zpXAcXf9sSyKFUbKqmNIN7jgL8rigiglzZH60DCGPZMOr8ozIyWOumfqAM1EuxTuvjKknXrDeKOuMOrh3yVqX92ieWYtT8Fw_ZXupuZGKDx5p5zFQL71N2tqcEXlqnT7g52YPTGu65mLdOd33ud3T1ZZCFrrefUzi8hJ6rGjBpWC6j56WUkE1uu3y4dI2vyDOaHT7lmv6BlE1CDlBiEXyEyTPPvMYJBv9Yz6dRWY_X8DZc22YU1IjNbil1u1zklgy_5zM06EHm4LTx2Dd7ttuv0rDV7ygDnuCtKzhsfW5NryCbgspHMOejXQEWyvZsEVFtZ6xVcN1c-aseFXFF_Nx4iczrAHdsvjC96IwGXfl6BcvzSb298-4kJVU8YXrujfv9HQ7VL3YdRLMo0FsQr4kgfvvYgoy7pSSu3k0nw5KSTJ1J__R1tYm2EklyfXcO0rdEdef_UVqEINRwoRgGJZjcjcnbIZJhuFEuxxOqRSTFOep_atTHI7StmdtEEZwxDvKS1gyr81bS2Q2bMeWKIbHkqrtEi3FAd6jtZHZiyhQbFTNMFKyXm9QvKKVhqrewxyxGadww3YDuqfiu5S7_hMoUfyKnlHseeFVOHanfhROAz_yoylGLwCH0ZXvBZNg4rleEPrBAaPfVsC9CqLAdcdeOA2vgY_GGLGyuRAP7Ya0ixLDomx-pesQLm-z2mphGmnv8AcLzMFm)
 :::
 
-![Code Level Diagram Mermaid](src/img/cap4/parent-service-code-diagram.png)
-
-\newpage
+![Code Level Diagram Mermaid](src/img/cap4/parent-service-code-diagram.png){ height=25% }
 
 ##### Bounded Context Domain Layer Class Diagrams
 
@@ -841,9 +929,7 @@ Esta capa es responsable de la orquestación de los flujos de datos, sin exponer
 Para una mejor visualización del diagrama, haga click en la [URL](https://mermaid.live/edit#pako:eNqNVWtvmzAU_SuRq36jFQGSEKpOSnlM0dZ2Clk_LEyVB06DSuwITNes6n_fNTbEeUxrFAV8z_XxuT439htKWUaQh55KvFn15kFCE3p-3ru-vu5NKSflEqek9xVvSSliCa3qXzK1Qx8bNKE9-AT-IiAveUp8RnnJioKUPyUS-4uY0IqVx0jQQgHm-Aj27-_i77fhbDFl8y94-Swyqnrd4IRmmt7JZlPkKeY5oycVa_ie5vihVR2TUjxaYQKQyg6AYIcIzTt0X1DA1jg_rUVCezLCh8dZ-O1eSZmRDatyzsptu2h4F8sEufDphGAyn-hZQt5RZng3n86nYbwIKc95TiovSahc1oA3OXP3JjiOapvSZYkrXtYpr8t_dYieotcKnkbTzwswBMxc5k9g7dECM1LgFKwilaRtgF1LXnzS_QT5fu8CYsIZ0C0HsRwoKJZY2096rOHW20cwNQ4BMWRIamUQMLahzhOxyl6w80GRq1YAWOx5hjNSAbVibKa1pgBVy3oq3hEfgGp7TpiSMkpJKsqqmuph5w_q0YJaRYdRrSQNardTcy6seF4wZVta4KoKyLKXd9Yt86LwzkI7sqLAALXsmXhnVn88jGw1vPidZ3zlWZtXI2UFK70z0zSvNDKseaXo3GgQjjs6x59EA_OjdJl0RzJFUWSHZscU3bi--WGmXDjQSgrCUTTsiIYje3Iz-g-RooKD1IjhC4-uX7sNvOqSoOWMuPlpuk_blV2OctnonDX23TTaHlK70M1UJjcVQRAZCA5dyMjgtngT_-ME8RVZkwR58Jrh8jlBCX2HPFxzFm9pijxoRWKgktVPK-QtcVHBqN5kmJMgx3BKrLvoBtMfjK3bKTBE3ht6RZ7lDC7H7nBgDR13bA1GroG2yOuPB5eW5Vh9CAPg2O67gf40BOalM3Qdxxk4Tt-xbNt0DEQycf7dyquuufEMuPFEKUohnD0Erqaaclix__4Xmh9PVQ)
 :::
 
-![Code Level Diagram Mermaid](src/img/cap4/iot-service-code-diagram.png)
-
-\newpage
+![Code Level Diagram Mermaid](src/img/cap4/iot-service-code-diagram.png){ height=25% }
 
 ##### Bounded Context Domain Layer Class Diagrams
 

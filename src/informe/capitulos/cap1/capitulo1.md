@@ -33,15 +33,28 @@ code-block-font-size: \scriptsize
 nocite: |
   @gothelf2021,
   @hernandez2018,
-  @kasparova2022,
   @kalbach2016,
-  @smith2020,
-  @johnson2019,
-  @brown2022,
+  @tarzijan2019,
+  @lin2024,
+  @rijgersberg2025,
   @igartua2019desconexion,
   @jiang2024pervasive,
   @kaspersky_privacy,
-  @collave2024datos
+  @collave2024datos,
+  @rajput2021,
+  @boyd2021,
+  @richardson2020,
+  @toussaint2020,
+  @brown2021,
+  @angular2024,
+  @freeman2022,
+  @edutransport2020,
+  @skole2020,
+  @satgeo2020,
+  @allride2020,
+  @ubusschool2020,
+  @tilkov2017,
+  @pilgrim2021
 header-includes:
 - |
   ```{=latex} 
@@ -107,6 +120,15 @@ pandoc-latex-environment:
   \hline
   tb1 & 25/04/2025 & Avila Asto, Alex Ramon Alberto & Desarrollé la sección de \textit{Software Architecture}, incluyendo \textit{Context Mapping}, \textit{Candidate Context Discovery}, \textit{Domain Message Flows Modeling}, \textit{Bounded Context Canvases} y la definición de las capas de la arquitectura a nivel de contexto (Domain, Interface, Application e Infrastructure Layer). \\
   \hline
+
+  tp1 & 14/05/2025 & Ortega Huaraca, Abel & Contribuí al Capítulo III con el \textit{To-Be Scenario Mapping}, \textit{User Stories}, y el \textit{Product Backlog}. En el Capítulo V, documenté la \textit{Software Deployment Configuration} y las evidencias de implementación (landing page, frontend, móvil y backend). En el Capítulo VI redacté las pruebas \textit{unitarias, de integración, BDD y de sistema}. Finalmente, desarrollé los apartados de \textit{Continuous Integration}, \textit{Delivery} y \textit{Deployment} en el Capítulo VII. \\
+  \hline
+  tp1 & 14/05/2025 & Ramos Rios, Belén del Rocio & Participé en el Capítulo V organizando los \textit{Sprint Backlogs} y redactando \textit{Team Collaboration Insights}. También colaboré con la validación de componentes implementados, y aporté en los flujos de trabajo descritos en DevOps (\textit{Delivery y Deployment}). \\
+  \hline
+  tp1 & 14/05/2025 & Vilchez Rios, Mateo Alejandro & En el Capítulo III colaboré con las \textit{User Stories}, \textit{Product Backlog} e \textit{Impact Mapping}. En el Capítulo V, trabajé en la documentación de las evidencias implementadas y en el Capítulo VII contribuí a los flujos de \textit{CI/CD}, especialmente en los componentes del pipeline. \\
+  \hline
+  tp1 & 14/05/2025 & Avila Asto, Alex & Apoyé en el Capítulo III con el \textit{To-Be Scenario Mapping} y validación de historias de usuario. También contribuí con la preparación visual de la landing page implementada y ayudé en la estructuración de las pruebas del Capítulo VI. \\
+  \hline
 \end{longtable}
 
 \newpage
@@ -136,6 +158,32 @@ Para acceder los insights de este proyecto, haga click a la [URL](https://github
 **Traffic Map:**
 
 ![Organización LlantaTech, imagen extraída de Github](src/img/cap6/insights-traffic-1.png){ width=85% }
+
+\newpage
+
+**TP1:**
+
+::: warn
+Para acceder los insights de este proyecto, haga click a la [URL](https://github.com/orgs/LlantaTech/repositories)
+:::
+
+**Tablero Kanban:**
+
+![Organización CodeMinds, imagen extraída de Github](src/img/cap6/insights-kanban-todo-1.png){ width=85% }
+
+**Kanban List:**
+
+![Organización CodeMinds, imagen extraída de Github](src/img/cap6/insights-kanban-list-1.png){ width=85% }
+
+\newpage
+
+**Network Graph:**
+
+![Organización CodeMinds, imagen extraída de Github](src/img/cap1/insights-network-tp1.png){ width=85% }
+
+**Traffic Map:**
+
+![Organización CodeMinds, imagen extraída de Github](src/img/cap1/insights-trafic-tp1.png){ width=85% }
 
 \newpage
 
@@ -174,6 +222,30 @@ Me encargué de coordinar las reuniones técnicas donde discutimos cómo debía 
 \textbf{TB1:} \\
 A lo largo del desarrollo del proyecto, se evidenció un liderazgo compartido y una colaboración activa entre todos los integrantes del equipo. Cada miembro asumió responsabilidades clave que aportaron significativamente a la organización y avance del trabajo. Desde la planificación inicial, la estructuración del entorno colaborativo, el seguimiento de tareas, hasta las discusiones técnicas sobre la arquitectura del sistema, cada aporte reflejó iniciativa y compromiso con los objetivos comunes. Esta distribución equitativa del liderazgo permitió que las decisiones se tomaran de forma consensuada y que cada integrante guiara al grupo en distintos momentos según sus fortalezas, lo que fortaleció la cohesión y eficiencia del equipo.
 } \\ 
+
+\parbox[t]{4cm}{
+
+} 
+&  
+\parbox[t]{6cm}{
+\textbf{TP1:} \\
+\textbf{Abel Ángel Ortega Huaraca} \\
+Me enfoqué en realizar aportes técnicos y documentales clave, asumiendo responsabilidades en las secciones de requisitos, implementación y validación. Mantuve el respeto por el trabajo del equipo, evitando prácticas deshonestas y cumpliendo con los tiempos acordados. \\
+\textbf{Belén del Rocío Ramos Ríos} \\
+Fui responsable y objetiva durante la planificación y evidencias de implementación. Mantuve una actitud ética en la redacción y en la comunicación del trabajo colaborativo, promoviendo decisiones basadas en evidencia. \\
+\textbf{Mateo Alejandro Vílchez Ríos} \\
+Aporté en la redacción de requisitos y mapeos de impacto, cuidando que la información y documentación reflejara de manera justa nuestras contribuciones y hallazgos técnicos. \\
+\textbf{Alex Avila Asto} \\
+Cuidé que las evidencias y escenarios definidos respetaran fielmente las necesidades del usuario. Fomenté una actitud ética al representar los intereses del usuario sin distorsionar datos o resultados. \\
+}
+&
+\parbox[t]{5cm}{
+\textbf{TP1:} \\
+Abel Ángel Ortega Huaraca lideró activamente áreas técnicas como los requisitos, la implementación y la validación. Belén del Rocío Ramos Ríos también asumió un rol fundamental, al orientar la planificación y la generación de evidencias de implementación con un enfoque ético y analítico. Su objetividad, tanto en la redacción como en la comunicación con sus compañeros, promovió una dinámica de trabajo donde se valoraron las decisiones fundamentadas y se incentivó un ambiente de diálogo técnico.
+Por su parte, Mateo Alejandro Vílchez Ríos mostró liderazgo desde la dimensión de la justicia y la transparencia, al encargarse de redactar los requisitos y mapeos de impacto asegurando que cada contribución fuera reconocida de forma equitativa. Finalmente, Alex Avila Asto evidenció un liderazgo centrado en el usuario y en la ética del resultado, al asegurar que los escenarios y evidencias se ajustaran con precisión a las necesidades reales del usuario. \\
+} \\ 
+
+
 \hline
 
 \parbox[t]{4cm}{
@@ -195,6 +267,28 @@ Supervisé que las entregas técnicas se ajustaran al cronograma general del equ
 \parbox[t]{5cm}{
 \textbf{TB1:} \\
 A lo largo del desarrollo del proyecto, el equipo demostró una sólida capacidad para crear un entorno colaborativo e inclusivo, en el que todos los miembros participaron activamente en la planificación, el establecimiento de metas y el cumplimiento de los objetivos. La propuesta de entregas parciales por parte de Abel permitió una distribución equilibrada del trabajo y una identificación oportuna de posibles errores, mientras que el cronograma interno gestionado por Belén promovió una planificación estructurada y transparente. Mateo reforzó la coordinación mediante reuniones periódicas que mantuvieron al equipo alineado, y Alex aseguró que los entregables técnicos respetaran tanto los tiempos como la coherencia del sistema. Cada una de estas acciones no solo favoreció la eficiencia del grupo, sino que también fortaleció el compromiso de los integrantes y la integración de sus aportes. La planificación colectiva y la comunicación constante contribuyeron a un ambiente de trabajo equitativo, donde se valoraron tanto las ideas individuales como los acuerdos comunes. \\
+} \\
+
+\parbox[t]{4cm}{
+
+}
+&  
+\parbox[t]{6cm}{
+\textbf{TP1:} \\
+\textbf{Abel Ángel Ortega Huaraca} \\
+Analicé cómo nuestra solución podía escalar a distintos contextos urbanos, considerando efectos en la rutina familiar y escolar. Evalué el impacto económico para asegurar accesibilidad y evitar exclusión de sectores vulnerables. \\
+\textbf{Belén del Rocío Ramos Ríos} \\
+Estudié el entorno competitivo con enfoque social, procurando que nuestra solución ofreciera un valor diferencial sin generar dependencia tecnológica o brechas innecesarias entre usuarios. \\
+\textbf{Mateo Alejandro Vílchez Ríos} \\
+En la definición del problema, consideré factores sociales y ambientales como el tráfico urbano y la contaminación, buscando alternativas viables que no agravaran estos problemas. \\
+\textbf{Alex Avila Asto} \\
+Al diseñar escenarios de uso, me enfoqué en la equidad social, procurando que la solución fuera accesible sin requerir tecnologías costosas, y considerando la diversidad de contextos económicos de los usuarios. \\
+}
+&
+\parbox[t]{5cm}{
+\textbf{TP1:} \\
+Abel Ángel Ortega Huaraca aportó significativamente al evaluar la escalabilidad de la solución en diversos contextos urbanos, considerando el impacto que esta tendría en la vida cotidiana de las familias y de los estudiantes. Por otro lado, Belén del Rocío Ramos Ríos mostró una visión crítica y estratégica al estudiar el entorno competitivo desde un enfoque social. Su preocupación por evitar la creación de dependencias tecnológicas o brechas digitales innecesarias muestra una sensibilidad importante frente a la diversidad de usuarios. Mateo Alejandro Vílchez Ríos, al participar en la definición del problema, integró de manera activa aspectos sociales y ambientales como el tráfico y la contaminación, orientando al equipo hacia soluciones que no solo fueran funcionales, sino también responsables con el entorno. Finalmente, Alex Avila Asto mostró un fuerte compromiso con la equidad al diseñar escenarios de uso centrados en la diversidad económica de los usuarios. \\
+
 } \\
 \hline
 \end{longtable}
@@ -595,4 +689,4 @@ En esta sección se identifican los segmentos objetivos clave a los que está di
 
 ![Artefacto creado en Figma [URL](https://www.figma.com/design/K3gw63Gdzr8KOgE32BgreJ/Lean-UX-Canvas-Template-by-Jeff-Gothelf--Community-?node-id=2015-2&t=urisk948grqgcqCL-1)](src/img/cap1/SegmentoObjetivo2.pdf) 
 
-
+\newpage

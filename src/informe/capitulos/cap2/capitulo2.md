@@ -320,6 +320,7 @@ Establecer un sistema sistemático de vigilancia del entorno competitivo para an
 \newpage
 
 ## Entrevistas.
+
 Las entrevistas están diseñadas para recolectar tanto información objetiva (edad, zona de residencia, ocupación, uso de tecnología) como subjetiva (motivaciones, frustraciones, percepción de seguridad), fundamentales para la construcción de arquetipos (User Personas), Empathy Maps y Journey Maps.
 
 ![Recurso extraído de Canva](src/img/cap2/entrevistas-introduccion.png)
@@ -327,6 +328,8 @@ Las entrevistas están diseñadas para recolectar tanto información objetiva (e
 ::: note
 Para acceder al video de las entrevistas, haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EV28HExaIsFIh22vN6-VY-sBzdw5JApHhMXCx5KyLMdBPQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=X20C3t)
 :::
+
+![Recurso extraído de Microsoft Stream](src/img/cap2/entrevistas-portada.png){ heigth=50% }
 
 \newpage
 
@@ -757,22 +760,26 @@ A pesar de no contar con sistemas digitales actualmente, los directivos muestran
 
 En esencia, estos actores educativos buscan una solución que combine tecnología con simplicidad, que les permita mejorar la seguridad sin complejizar la rutina diaria, y que transforme un sistema informal en uno institucional y confiable.
 
+\newpage
+
 **Estadísticas y Porcentajes**
 
 
-![Creado en Excel](src/img/cap2/grafico1.png)
+![Creado en Excel](src/img/cap2/grafico1.png){ height=45% }
 
-![Creado en Excel](src/img/cap2/grafico2.png)
+![Creado en Excel](src/img/cap2/grafico2.png){ height=45% }  
 
-![Creado en Excel](src/img/cap2/grafico3.png)
+\newpage                                     
 
-![Creado en Excel](src/img/cap2/grafico4.png)
+![Creado en Excel](src/img/cap2/grafico3.png){ height=45% }
+
+![Creado en Excel](src/img/cap2/grafico4.png){ height=45% }
 
 \newpage
 
 **Análisis de datos**
 
--Todos los directivos entrevistados indicaron que el transporte escolar es gestionado de forma externa por los padres, sin participación de la institución educativa. Esta situación genera preocupaciones frecuentes por la falta de control, puntualidad y seguridad.
+Todos los directivos entrevistados indicaron que el transporte escolar es gestionado de forma externa por los padres, sin participación de la institución educativa. Esta situación genera preocupaciones frecuentes por la falta de control, puntualidad y seguridad.
 
 El 33.3% de las instituciones cuenta con un sistema digital de asistencia, mientras que el 66.7% no utiliza ninguna herramienta tecnológica para registrar el ingreso escolar, lo que limita el control y la prevención de incidentes.
 
