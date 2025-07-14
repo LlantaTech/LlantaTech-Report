@@ -1181,43 +1181,43 @@ Los wireframes representan la estructura básica de la landing page, enfocándos
 
 **Landing Page Wireframe 1:**
 
-![Figma CodeMinds Wireframe](https://i.postimg.cc/Jh7nbHyD/wireframe-inicio.png)
+![Figma LLantatech Wireframe](https://i.postimg.cc/Jh7nbHyD/wireframe-inicio.png)
 
 \newpage
 
 **Landing Page Wireframe 2:**
 
-![Figma CodeMinds Wireframe](https://i.postimg.cc/CxgdxQS4/wireframe-beneficios.png){ height=40% }
+![Figma LLantatech Wireframe](https://i.postimg.cc/CxgdxQS4/wireframe-beneficios.png){ height=40% }
 
 **Landing Page Wireframe 3:**
 
-![Figma CodeMinds Wireframe](https://i.postimg.cc/J4JGmLVn/wireframe-caracteristicas.png){ height=40% }
+![Figma LLantatech Wireframe](https://i.postimg.cc/J4JGmLVn/wireframe-caracteristicas.png){ height=40% }
 
 \newpage
 
 **Landing Page Wireframe 4:**
 
-![Figma CodeMinds Wireframe](https://i.postimg.cc/FFYYWST0/wireframe-padres.png){ height=40% }
+![Figma LLantatech Wireframe](https://i.postimg.cc/FFYYWST0/wireframe-padres.png){ height=40% }
 
 **Landing Page Wireframe 5:**
 
-![Figma CodeMinds Wireframe](https://i.postimg.cc/66FyDQPg/wireframe-colegios.png){ height=40% }
+![Figma LLantatech Wireframe](https://i.postimg.cc/66FyDQPg/wireframe-colegios.png){ height=40% }
 
 \newpage
 
 **Landing Page Wireframe 6:**
 
-![Figma CodeMinds Wireframe](https://i.postimg.cc/jCV0vmZ3/wireframe-team.png){ height=40% }
+![Figma LLantatech Wireframe](https://i.postimg.cc/jCV0vmZ3/wireframe-team.png){ height=40% }
 
 **Landing Page Wireframe 7:**
 
-![Figma CodeMinds Wireframe](https://i.postimg.cc/C1QVnzDg/wireframe-demo.png){ height=40% }
+![Figma LLantatech Wireframe](https://i.postimg.cc/C1QVnzDg/wireframe-demo.png){ height=40% }
 
 \newpage
 
 **Landing Page Wireframe 8:**
 
-![Figma CodeMinds Wireframe](https://i.postimg.cc/0QQsNpzn/wireframe-contactanos-footer.png)
+![Figma LLantatech Wireframe](https://i.postimg.cc/0QQsNpzn/wireframe-contactanos-footer.png)
 
 \newpage
 
@@ -1231,44 +1231,44 @@ Para acceder a los mockups de la landing page, haga click en la [URL](https://ww
 
 **Landing Page Mockups 1:**
 
-![Figma CodeMinds Mockups](https://i.postimg.cc/Kj3hPxrg/mockup-inicio.png)
+![Figma LLantatech Mockups](https://i.postimg.cc/Kj3hPxrg/mockup-inicio.png)
 
 \newpage
 
 
 **Landing Page Mockups 2:**
 
-![Figma CodeMinds Mockups](https://i.postimg.cc/q7prPf09/mockup-beneficios.png){ height=40% }
+![Figma LLantatech Mockups](https://i.postimg.cc/q7prPf09/mockup-beneficios.png){ height=40% }
 
 **Landing Page Mockups 3:**
 
-![Figma CodeMinds Mockups](https://i.postimg.cc/k5wC9jgD/mockup-caracteristicas.png){ height=40% }
+![Figma LLantatech Mockups](https://i.postimg.cc/k5wC9jgD/mockup-caracteristicas.png){ height=40% }
 
 \newpage
 
 **Landing Page Mockups 4:**
 
-![Figma CodeMinds Mockups](https://i.postimg.cc/RZ79pCr7/mockup-padres.png){ height=40% }
+![Figma LLantatech Mockups](https://i.postimg.cc/RZ79pCr7/mockup-padres.png){ height=40% }
 
 **Landing Page Mockups 5:**
 
-![Figma CodeMinds Mockups](https://i.postimg.cc/RZ54T6YC/mockup-colegios.png){ height=40% }
+![Figma LLantatech Mockups](https://i.postimg.cc/RZ54T6YC/mockup-colegios.png){ height=40% }
 
 \newpage
 
 **Landing Page Mockups 6:**
 
-![Figma CodeMinds Mockups](https://i.postimg.cc/BQ1JDcMw/mockup-team.png){ height=40% }
+![Figma LLantatech Mockups](https://i.postimg.cc/BQ1JDcMw/mockup-team.png){ height=40% }
 
 **Landing Page Mockups 7:**
 
-![Figma CodeMinds Mockups](https://i.postimg.cc/kMHnBhFb/mockup-demo.png){ height=40% }
+![Figma LLantatech Mockups](https://i.postimg.cc/kMHnBhFb/mockup-demo.png){ height=40% }
 
 \newpage
 
 **Landing Page Mockups 8:**
 
-![Figma CodeMinds Mockups](https://i.postimg.cc/2y1r04my/mockup-contactanos-footer.png)
+![Figma LLantatech Mockups](https://i.postimg.cc/2y1r04my/mockup-contactanos-footer.png)
 
 \newpage
 
@@ -1301,73 +1301,73 @@ Para acceder a los wireframes de la mobile app, haga click en la [URL](https://w
 
 **Mobile Application Wireframes - Splash:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/splash.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/splash.png){ height=35% }
 
 \newpage
 
 **Mobile Application Wireframes - Bienvenida:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/bienvenida.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/bienvenida.png){ height=35% }
 
 **Mobile Application Wireframes - Login:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/login.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/login.png){ height=35% }
 
 \newpage
 
 **Mobile Application Wireframes - Recuperar Contraseña:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/recuperar-password.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/recuperar-password.png){ height=35% }
 
 **Mobile Application Wireframes - Home:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/principal.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/principal.png){ height=35% }
 
 \newpage
 
 **Mobile Application Wireframes - Home - Notificaciones:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/principal-notificaciones.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/principal-notificaciones.png){ height=35% }
 
 **Mobile Application Wireframes - Home - Notificaciones - Popup:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/principal-notificaciones-popup.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/principal-notificaciones-popup.png){ height=35% }
 
 \newpage
 
 **Mobile Application Wireframes - Home - Detalles:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/principal-detalles.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/principal-detalles.png){ height=35% }
 
 **Mobile Application Wireframes - Home - Detalles - Popup:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/principal-detalles-popup.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/principal-detalles-popup.png){ height=35% }
 
 \newpage
 
 **Mobile Application Wireframes - Monitoreo:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/monitoreo.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/monitoreo.png){ height=35% }
 
 **Mobile Application Wireframes - Monitoreo - Cam:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/monitoreo-cam.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/monitoreo-cam.png){ height=35% }
 
 \newpage
 
 **Mobile Application Wireframes - Historial:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/historial.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/historial.png){ height=35% }
 
 **Mobile Application Wireframes - Cuenta:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/cuenta.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/cuenta.png){ height=35% }
 
 \newpage
 
 **Mobile Application Wireframes - Cuenta - Settings:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/cuenta-settings.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/cuenta-settings.png){ height=35% }
 
 \newpage
 

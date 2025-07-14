@@ -127,8 +127,19 @@ pandoc-latex-environment:
   \hline
   tp1 & 14/05/2025 & Vilchez Rios, Mateo Alejandro & En el Capítulo III colaboré con las \textit{User Stories}, \textit{Product Backlog} e \textit{Impact Mapping}. En el Capítulo V, trabajé en la documentación de las evidencias implementadas y en el Capítulo VII contribuí a los flujos de \textit{CI/CD}, especialmente en los componentes del pipeline. \\
   \hline
-  \hline
   tp1 & 14/05/2025 & Avila Asto, Alex & Apoyé en el Capítulo III con el \textit{To-Be Scenario Mapping} y validación de historias de usuario. También contribuí con la preparación visual de la landing page implementada y ayudé en la estructuración de las pruebas del Capítulo VI. \\
+  \hline
+
+  tb2 & 15/06/2025 & Ortega Huaraca, Abel & Contribuí al desarrollo e implementación de la \textbf{aplicación móvil de RutaKids (Sprint 2)}, abarcando las historias de usuario US10 (Registro e Inicio de Sesión de Tutor), US11 (Visualización de Ubicación del Vehículo) y US12 (Configuración Inicial de Notificaciones). En el Capítulo VI, elaboré las \textbf{pruebas BDD (Gherkin) para la aplicación móvil} y participé en la definición de pruebas unitarias y de integración para sus componentes. Documenté las evidencias de implementación de la aplicación móvil en el Capítulo V y apoyé en la configuración de aspectos de \textbf{Continuous Integration/Deployment para el módulo móvil} en el Capítulo VII. \\
+  \hline
+  tb2 & 15/06/2025 & Ramos Rios, Belén del Rocio & Participé en la \textbf{actualización e integración de la Landing Page (Sprint 2)}, asegurando su coherencia con los nuevos componentes de la aplicación web de administración y la aplicación móvil para padres (US38-US43). Elaboré las \textbf{pruebas BDD (Gherkin) para la Landing Page} en el Capítulo VI. En el Capítulo V, continué con la organización de los \textbf{Sprint Backlogs (Sprint 2)} y la redacción de \textbf{Team Collaboration Insights}. Colaboré con la validación de los componentes implementados en el sprint y aporté en la documentación de los flujos de \textbf{Continuous Delivery y Deployment} del Capítulo VII. \\
+  \hline
+  tb2 & 15/06/2025 & Vilchez Rios, Mateo Alejandro & Colaboré en el desarrollo e implementación de la \textbf{aplicación web de administración de RutaKids (Sprint 2)}, enfocándome en las historias de usuario US07 (Interfaz Web: Registro e Inicio de Sesión Administrador), US08 (Interfaz Web: Dashboard Inicial y Gestión de Perfil) y US09 (Interfaz Web: Gestión Inicial de Vehículos). En el Capítulo VI, desarrollé las \textbf{pruebas BDD (Gherkin) para la aplicación web}. Documenté las evidencias de implementación de la aplicación web en el Capítulo V y contribuí a la configuración de los flujos de \textbf{CI/CD para los componentes web} en el Capítulo VII. \\
+  \hline
+  tb2 & 15/06/2025 & Avila Asto, Alex & Lideré el diseño e implementación de la \textbf{arquitectura de microservicios de RutaKids (Sprint 2)}, desarrollando los servicios para US01 (API Gestión Cuentas Admin), US02 (API Gestión Cuentas Padres), US03 (Autenticación JWT), US04 (API Gestión Flotas), US05 (API Captura Geolocalización), US06 (Infraestructura Microservicios Docker/Gateway) y US37 (Paginación y Filtrado). En el Capítulo VI, elaboré las \textbf{pruebas BDD (Gherkin) para las APIs de los microservicios} y participé en la estructuración de pruebas unitarias y de integración para el backend. Contribuí a la documentación de la configuración de despliegue de microservicios (Dockerfiles, API Gateway) en el Capítulo V. \\
+
+
+  \hline
 \end{longtable}
 
 \newpage
@@ -169,22 +180,48 @@ Para acceder los insights de este proyecto, haga click a la [URL](https://github
 
 **Tablero Kanban:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap5/insights-kanban-todo-1.png){ width=85% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/insights-kanban-todo-1.png){ width=85% }
 
 **Kanban List:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap5/insights-kanban-list-1.png){ width=85% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/insights-kanban-list-1.png){ width=85% }
 
 \newpage
 
 **Network Graph:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap1/insights-network-tp1.png){ width=85% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap1/insights-network-tp1.png){ width=85% }
 
 **Traffic Map:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap1/insights-trafic-tp1.png){ width=85% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap1/insights-trafic-tp1.png){ width=85% }
 
+\newpage
+
+
+**TB2:**
+
+::: warn
+Para acceder los insights de este proyecto, haga click a la [URL](https://github.com/orgs/LlantaTech/repositories)
+:::
+
+**Tablero Kanban:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/insights-kanban-todo-1.png){ width=85% }
+
+**Kanban List:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/insights-kanban-list-1.png){ width=85% }
+
+\newpage
+
+**Network Graph:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/insights-network-graph-tb2.png){ width=85% }
+
+**Traffic Map:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/insights-traffic-map-tb2.png){ width=85% }
 
 \newpage
 
@@ -242,7 +279,30 @@ Cuidé que las evidencias y escenarios definidos respetaran fielmente las necesi
 &
 \parbox[t]{5cm}{
 \textbf{TP1:} \\
-\textbf{Abel Ángel Ortega Huaraca} reafirmó su compromiso ético al contribuir técnicamente de forma honesta y respetuosa, fomentando un entorno confiable. \textbf{Belén del Rocío Ramos Ríos} consolidó su responsabilidad al garantizar que los aportes se basaran en hechos y evidencias. \textbf{Mateo Alejandro Vílchez Ríos} valoró la integridad en la representación de datos técnicos y decisiones de diseño. \textbf{Luis Eduardo Herrera González} fortaleció su transparencia al documentar configuraciones y guías, priorizando la claridad. \textbf{Ariana Vargas Revollé} reforzó su compromiso de representar las necesidades del usuario con fidelidad, respetando los principios éticos del diseño centrado en las personas.
+Abel Ángel Ortega Huaraca lideró activamente áreas técnicas como los requisitos, la implementación y la validación. Belén del Rocío Ramos Ríos también asumió un rol fundamental, al orientar la planificación y la generación de evidencias de implementación con un enfoque ético y analítico. Su objetividad, tanto en la redacción como en la comunicación con sus compañeros, promovió una dinámica de trabajo donde se valoraron las decisiones fundamentadas y se incentivó un ambiente de diálogo técnico.
+Por su parte, Mateo Alejandro Vílchez Ríos mostró liderazgo desde la dimensión de la justicia y la transparencia, al encargarse de redactar los requisitos y mapeos de impacto asegurando que cada contribución fuera reconocida de forma equitativa. Finalmente, Alex Avila Asto evidenció un liderazgo centrado en el usuario y en la ética del resultado, al asegurar que los escenarios y evidencias se ajustaran con precisión a las necesidades reales del usuario. \\
+} \\ 
+
+
+\parbox[t]{4cm}{
+
+} 
+&  
+\parbox[t]{6cm}{
+\textbf{TB2:} \\
+\textbf{Abel Ángel Ortega Huaraca} \\
+Me enfoqué en realizar aportes técnicos y documentales clave para la aplicación móvil, asumiendo responsabilidades desde la definición de sus requisitos (User Stories) hasta su implementación y validación inicial. \\
+\textbf{Belén del Rocío Ramos Ríos} \\
+Fui responsable y objetiva durante la planificación del Sprint 2 y la documentación de las evidencias de implementación, especialmente en la integración de la Landing Page.  \\
+\textbf{Mateo Alejandro Vílchez Ríos} \\
+Aporté en la redacción de requisitos y en la definición del impacto de las funcionalidades de la aplicación web de administración. Cuidé que la información y documentación, incluyendo las pruebas BDD, reflejara de manera justa nuestras contribuciones y los hallazgos técnicos durante la implementación de sus interfaces. \\
+\textbf{Alex Avila Asto} \\
+Cuidé que las evidencias y los escenarios definidos para los microservicios respetaran fielmente las necesidades del usuario y los requisitos funcionales. \\
+}
+&
+\parbox[t]{5cm}{
+\textbf{TB2:} \\
+Abel Ángel Ortega Huaraca lideró activamente áreas técnicas clave, desde la definición de requisitos hasta la implementación y validación de la aplicación móvil. Belén del Rocío Ramos Ríos también asumió un rol fundamental, al orientar la planificación del sprint y la generación de evidencias de implementación especialmente en la integración de la Landing Page con un enfoque ético y analítico. Por su parte, Mateo Alejandro Vílchez Ríos mostró liderazgo desde la dimensión de la justicia y la transparencia, al encargarse de redactar los requisitos y mapeos de impacto para la aplicación web de administración, asegurando que cada contribución a sus funcionalidades fuera reconocida de forma equitativa. Finalmente, Alex Avila Asto evidenció un liderazgo centrado en el usuario y en la ética del resultado, al asegurar que los escenarios y evidencias de los microservicios backend se ajustaran con precisión a las necesidades reales del usuario y a la integridad de los datos. \\
 } \\ 
 
 
@@ -287,8 +347,32 @@ Al diseñar escenarios de uso, me enfoqué en la equidad social, procurando que 
 &
 \parbox[t]{5cm}{
 \textbf{TP1:} \\
-\textbf{Abel Ángel Ortega Huaraca} emitió un juicio informado sobre la viabilidad económica y social de la solución, identificando riesgos de exclusión. \textbf{Belén del Rocío Ramos Ríos} valoró el aporte real al entorno social, cuidando que la solución no generara dependencia tecnológica. \textbf{Mateo Alejandro Vílchez Ríos} integró factores ambientales y urbanos al diagnóstico del problema, anticipando impactos negativos. \textbf{Luis Eduardo Herrera González} reflexionó sobre el respeto a la privacidad como eje social esencial en soluciones digitales dirigidas a menores. Finalmente, \textbf{Ariana Vargas Revollé} demostró conciencia sobre las barreras tecnológicas y económicas, promoviendo un diseño accesible e inclusivo para contextos diversos.
+Abel Ángel Ortega Huaraca aportó significativamente al evaluar la escalabilidad de la solución en diversos contextos urbanos, considerando el impacto que esta tendría en la vida cotidiana de las familias y de los estudiantes. Por otro lado, Belén del Rocío Ramos Ríos mostró una visión crítica y estratégica al estudiar el entorno competitivo desde un enfoque social. Su preocupación por evitar la creación de dependencias tecnológicas o brechas digitales innecesarias muestra una sensibilidad importante frente a la diversidad de usuarios. Mateo Alejandro Vílchez Ríos, al participar en la definición del problema, integró de manera activa aspectos sociales y ambientales como el tráfico y la contaminación, orientando al equipo hacia soluciones que no solo fueran funcionales, sino también responsables con el entorno. Finalmente, Alex Avila Asto mostró un fuerte compromiso con la equidad al diseñar escenarios de uso centrados en la diversidad económica de los usuarios. \\
+
 } \\
+
+
+\parbox[t]{4cm}{
+
+}
+&  
+\parbox[t]{6cm}{
+\textbf{TB2:} \\
+\textbf{Abel Ángel Ortega Huaraca} \\
+Al analizar cómo nuestra solución, y en particular la aplicación móvil para padres, podía escalar a distintos contextos urbanos, consideré sus efectos en la rutina familiar y escolar. \\
+\textbf{Belén del Rocío Ramos Ríos} \\
+Estudié el entorno competitivo con enfoque social, procurando que nuestra solución, comunicada inicialmente a través de la Landing Page, ofreciera un valor diferencial sin generar dependencia tecnológica o brechas innecesarias entre los distintos perfiles de usuarios (administradores y padres). \\
+\textbf{Mateo Alejandro Vílchez Ríos} \\
+En la definición del problema y el diseño de la aplicación web de administración, consideré factores sociales y ambientales como el tráfico urbano y la contaminación, buscando que las funcionalidades de gestión y optimización de rutas contribuyeran a alternativas viables que no agravaran estos problemas. \\
+\textbf{Alex Avila Asto} \\
+Al diseñar escenarios de uso y la arquitectura de los microservicios backend, me enfoqué en la equidad social. Procuré que la infraestructura subyacente soportara una solución global accesible. \\
+}
+&
+\parbox[t]{5cm}{
+\textbf{TB2:} \\
+Abel Ángel Ortega Huaraca aportó significativamente al evaluar la escalabilidad de la solución y cómo la aplicación móvil impactaría la vida cotidiana de las familias y estudiantes en diversos contextos urbanos. Por otro lado, Belén del Rocío Ramos Ríos mostró una visión crítica y estratégica al estudiar el entorno competitivo desde un enfoque social, lo cual se reflejó en la forma de comunicar el valor de RutaKids a través de la Landing Page. Mateo Alejandro Vílchez Ríos, al participar en la definición del problema para la aplicación web de administración, integró de manera activa aspectos sociales y ambientales. Finalmente, Alex Avila Asto mostró un fuerte compromiso con la equidad al diseñar los escenarios de uso para los microservicios backend. \\
+} \\
+
 \hline
 \end{longtable}
 
@@ -916,6 +1000,7 @@ Establecer un sistema sistemático de vigilancia del entorno competitivo para an
 \newpage
 
 ## Entrevistas.
+
 Las entrevistas están diseñadas para recolectar tanto información objetiva (edad, zona de residencia, ocupación, uso de tecnología) como subjetiva (motivaciones, frustraciones, percepción de seguridad), fundamentales para la construcción de arquetipos (User Personas), Empathy Maps y Journey Maps.
 
 ![Recurso extraído de Canva](src/img/cap2/entrevistas-introduccion.png)
@@ -923,6 +1008,8 @@ Las entrevistas están diseñadas para recolectar tanto información objetiva (e
 ::: note
 Para acceder al video de las entrevistas, haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EV28HExaIsFIh22vN6-VY-sBzdw5JApHhMXCx5KyLMdBPQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=X20C3t)
 :::
+
+![Recurso extraído de Microsoft Stream](src/img/cap2/entrevistas-portada.png){ heigth=50% }
 
 \newpage
 
@@ -1353,22 +1440,26 @@ A pesar de no contar con sistemas digitales actualmente, los directivos muestran
 
 En esencia, estos actores educativos buscan una solución que combine tecnología con simplicidad, que les permita mejorar la seguridad sin complejizar la rutina diaria, y que transforme un sistema informal en uno institucional y confiable.
 
+\newpage
+
 **Estadísticas y Porcentajes**
 
 
-![Creado en Excel](src/img/cap2/grafico1.png)
+![Creado en Excel](src/img/cap2/grafico1.png){ height=45% }
 
-![Creado en Excel](src/img/cap2/grafico2.png)
+![Creado en Excel](src/img/cap2/grafico2.png){ height=45% }  
 
-![Creado en Excel](src/img/cap2/grafico3.png)
+\newpage                                     
 
-![Creado en Excel](src/img/cap2/grafico4.png)
+![Creado en Excel](src/img/cap2/grafico3.png){ height=45% }
+
+![Creado en Excel](src/img/cap2/grafico4.png){ height=45% }
 
 \newpage
 
 **Análisis de datos**
 
--Todos los directivos entrevistados indicaron que el transporte escolar es gestionado de forma externa por los padres, sin participación de la institución educativa. Esta situación genera preocupaciones frecuentes por la falta de control, puntualidad y seguridad.
+Todos los directivos entrevistados indicaron que el transporte escolar es gestionado de forma externa por los padres, sin participación de la institución educativa. Esta situación genera preocupaciones frecuentes por la falta de control, puntualidad y seguridad.
 
 El 33.3% de las instituciones cuenta con un sistema digital de asistencia, mientras que el 66.7% no utiliza ninguna herramienta tecnológica para registrar el ingreso escolar, lo que limita el control y la prevención de incidentes.
 
@@ -3387,7 +3478,7 @@ HS03 & Acceso a Ayuda y Preguntas Frecuentes & \textbf{Como} tutor legal, \textb
 
 El diseño de la solución de software constituye una etapa crítica para garantizar que el sistema responda de manera eficaz a las necesidades estratégicas del dominio de negocio identificado. A partir de la estructura de Bounded Contexts previamente definida, se propone una arquitectura modular basada en microservicios, donde cada servicio es responsable de una parte específica del dominio y se comunica a través de interfaces bien delimitadas.
 
-En **RutaKids**, esta solución se implementa mediante una combinación de tecnologías modernas como **Spring Boot** para el desarrollo de microservicios, **Kafka** para la comunicación asíncrona basada en eventos, **OAuth2 / Keycloak** para la autenticación segura de usuarios, y **Angular 17** como framework principal para el frontend modularizado. Además, se adoptan principios de arquitectura orientada a eventos, utilizando técnicas como EventStorming, Domain Message Flow Modeling y Bounded Context Canvas para asegurar una alineación continua entre el diseño técnico y los objetivos de negocio.
+En RutaKids, esta solución se implementa mediante una combinación de tecnologías modernas como Spring Boot para el desarrollo de microservicios, Kafka para la comunicación asíncrona basada en eventos, OAuth2 / Keycloak para la autenticación segura de usuarios, y Angular 17 como framework principal para el frontend modularizado. Además, se adoptan principios de arquitectura orientada a eventos, utilizando técnicas como EventStorming, Domain Message Flow Modeling y Bounded Context Canvas para asegurar una alineación continua entre el diseño técnico y los objetivos de negocio.
 
 A continuación, se detallan los principales artefactos de diseño generados, los cuales representan la estructura, comunicación y responsabilidades de los diferentes componentes que conforman la plataforma RutaKids.
 
@@ -3399,48 +3490,136 @@ A continuación, se detallan los principales artefactos de diseño generados, lo
 
 El diseño estratégico en Domain-Driven Design (DDD) se centra en comprender y modelar el dominio del negocio, estableciendo límites claros —conocidos como *Bounded Contexts*— que reflejan las divisiones naturales de conocimiento y responsabilidad dentro del sistema. A diferencia de un enfoque técnico o puramente arquitectónico, el Strategic-Level DDD busca alinear la estructura del software con la realidad organizacional, permitiendo que cada contexto evolucione de manera independiente y coherente. 
 
-En **RutaKids**, este enfoque resulta fundamental para gestionar eficazmente los diferentes dominios que intervienen en la operación de la plataforma, tales como la administración de estudiantes, la gestión de movilidades escolares, la planificación de rutas escolares y la autenticación de usuarios. Al identificar y delimitar explícitamente estos contextos, se facilita no solo la escalabilidad técnica, sino también la colaboración interdisciplinaria y el mantenimiento a largo plazo del sistema. A continuación, se presentarán técnicas como EventStorming, Candidate Context Discovery y Domain Message Flow Modeling, que permiten descubrir y modelar de forma colaborativa los Bounded Contexts pertinentes para RutaKids.
+En RutaKids, este enfoque resulta fundamental para gestionar eficazmente los diferentes dominios que intervienen en la operación de la plataforma, tales como la administración de estudiantes, la gestión de movilidades escolares, la planificación de rutas escolares y la autenticación de usuarios. Al identificar y delimitar explícitamente estos contextos, se facilita no solo la escalabilidad técnica, sino también la colaboración interdisciplinaria y el mantenimiento a largo plazo del sistema. A continuación, se presentarán técnicas como EventStorming, Candidate Context Discovery y Domain Message Flow Modeling, que permiten descubrir y modelar de forma colaborativa los Bounded Contexts pertinentes para RutaKids.
 
+![Recurso creado en Canva](src/img/cap4/strategic-level-domain-driven-design.png)
+
+\newpage
 
 ### EventStorming.
 
-En el proyecto **RutaKids**, EventStorming fue empleado para mapear los procesos esenciales del sistema, facilitando la definición de Bounded Contexts y preparando el terreno para el diseño de una arquitectura de microservicios eficiente, alineada al negocio y enfocada en las necesidades reales de los usuarios.\newline
+En el proyecto RutaKids, EventStorming fue empleado para mapear los procesos esenciales del sistema, facilitando la definición de Bounded Contexts y preparando el terreno para el diseño de una arquitectura de microservicios eficiente, alineada al negocio y enfocada en las necesidades reales de los usuarios.
 
+::: info
 ***Big Picture***
+:::
 
 El Big Picture Event Storming que desarrollamos representa el flujo general del sistema RutaKids, desde que el chofer inicia sesión hasta que se notifican los eventos a los padres. Se enfoca en la trazabilidad de estudiantes con tecnología RFID, la integración con sistemas distribuidos (IoT + Kafka) y la visualización de eventos en tiempo real.
+
+::: norm
+***Big Picture Event Storming*** - **Administrador**
+:::
 
 El Big Picture Event Storming del administrador representa, de forma general y secuencial, todas las acciones clave que este actor puede realizar dentro del sistema, como registrar estudiantes, gestionar choferes y movilidades, crear rutas escolares, enviar notificaciones y visualizar reportes del sistema IoT. Cada acción se modela como un comando que genera un evento de dominio visible, permitiendo identificar claramente los procesos más importantes del sistema desde el punto de vista de la gestión educativa. Además, se destacan puntos críticos (hot spots), como la validación de acceso y la gestión masiva de datos, así como oportunidades de mejora, como automatización, dashboards inteligentes y predicción de incidencias.
 
 ![Big Picture Admin - Artefacto creado en Figma [URL](https://www.figma.com/design/Pud8p1wK4lUwpGIUS9Tl8Q/Event-Storming--Community-?node-id=38-3558&t=s5qnJhg7EeCUxuMy-1)](src/img/cap4/administrador.png) 
 
+
+::: norm
+***Big Picture Event Storming*** - **Conductor**
+:::
+
 El Big Picture Event Storming del conductor muestra el flujo general de tareas que este realiza en el sistema, como iniciar sesión, visualizar su ruta escolar asignada, activar la ruta al iniciar el recorrido, registrar subidas y bajadas de estudiantes mediante RFID, y finalizar la ruta. Cada una de estas acciones genera eventos clave como RutaIniciada, EstudianteSube, EstudianteBaja y RutaFinalizada. También se consideran puntos críticos como la conectividad con dispositivos IoT y la sincronización de eventos en tiempo real, y se identifican oportunidades como la incorporación de rutas alternativas o alertas automáticas ante desvíos.
 
 ![Big Picture School Transport - Artefacto creado en Figma [URL](https://www.figma.com/design/Pud8p1wK4lUwpGIUS9Tl8Q/Event-Storming--Community-?node-id=38-3558&t=s5qnJhg7EeCUxuMy-1)](src/img/cap4/Conductor.png) 
+
+::: norm
+***Big Picture Event Storming*** - **Padres**
+:::
 
 El Big Picture del padre refleja las acciones relacionadas con el monitoreo y comunicación, como registrarse, vincular a su hijo, recibir notificaciones del sistema, visualizar en tiempo real la ubicación del transporte escolar y consultar el historial de asistencia. Estos comandos generan eventos como PadreRegistrado, HijoVinculado, NotificaciónRecibida y UbicaciónActualizada. Se destacan puntos críticos como la precisión del rastreo y la protección de datos personales, y se detectan oportunidades como la integración con alertas personalizadas, mapas interactivos y sistemas de retroalimentación.
 
 ![Big Picture Parents - Artefacto creado en Figma [URL](https://www.figma.com/design/Pud8p1wK4lUwpGIUS9Tl8Q/Event-Storming--Community-?node-id=38-3558&t=s5qnJhg7EeCUxuMy-1)](src/img/cap4/PadreFamilia.png) 
 
+\newpage
 
+::: info
 ***Software Design***
+:::
 
 El Software Design dentro del Event Storming es la etapa donde se transforma la visión general del negocio en una arquitectura técnica concreta. A partir de los eventos y comandos identificados en el Big Picture, se definen los componentes del sistema siguiendo principios como Domain-Driven Design (DDD). Esto incluye comandos, eventos, políticas, agregados, modelos de lectura y sistemas externos. El objetivo es detallar cómo responderá el software ante las acciones de los usuarios, asegurando que la lógica del dominio esté bien representada y sea escalable, mantenible y alineada con las necesidades reales del negocio.
 
+
+::: norm
+***Software Design*** - **Padres**
+:::
 
 El diseño para el padre se basa en comandos como VincularHijo, VisualizarUbicación, RecibirNotificación, procesados mediante políticas que aseguran la autorización del vínculo y la privacidad. El agregado Padre valida las acciones y dispara eventos como HijoVinculado o UbicaciónConsultada. Los modelos de lectura muestran al padre la ubicación en tiempo real, historial de asistencia y mensajes del sistema. Se integran servicios como mapas, notificaciones push y logs históricos para garantizar una experiencia completa y segura.
 
 ![Software Design Parents - Artefacto creado en Figma [URL](https://www.figma.com/design/Pud8p1wK4lUwpGIUS9Tl8Q/Event-Storming--Community-?node-id=38-3558&t=s5qnJhg7EeCUxuMy-1)](src/img/cap4/Software-Design-Parents.png) 
 
+::: norm
+***Software Design*** - **Administrador**
+:::
+
 El diseño de software para el administrador se centra en comandos como CrearEstudiante, CrearMovilidad, CrearRuta, procesados por agregados como Estudiante, Movilidad y RutaEscolar, que validan reglas y emiten eventos como EstudianteRegistrado, MovilidadAsignada y RutaCreada. Las políticas manejan reglas como evitar duplicados o validar zonas geográficas. Los modelos de lectura (Read Models) permiten construir vistas como el panel de control, listas de usuarios o reportes IoT. Se conectan con sistemas externos como bases de datos y servicios de notificaciones.
 
 ![Software Design Admin - Artefacto creado en Figma [URL](https://www.figma.com/design/Pud8p1wK4lUwpGIUS9Tl8Q/Event-Storming--Community-?node-id=38-3558&t=s5qnJhg7EeCUxuMy-1)](src/img/cap4/Software-Design-Admin.png) 
+
+::: norm
+***Software Design*** - **Conductor**
+:::
 
 Para el conductor, los comandos clave como IniciarRuta, RegistrarSubidaRFID y FinalizarRuta activan políticas que verifican la validez de la ruta y el estado de los estudiantes. El agregado principal es RutaEscolar, que gestiona el ciclo completo del transporte y emite eventos como RutaIniciada, EstudianteSubido, RutaFinalizada. El modelo de lectura permite al conductor ver su ruta, lista de estudiantes y paraderos. También hay interacción con servicios IoT y el backend para el registro en tiempo real.
 
 
 ![Software Design School Transportation - Artefacto creado en Figma [URL](https://www.figma.com/design/Pud8p1wK4lUwpGIUS9Tl8Q/Event-Storming--Community-?node-id=38-3558&t=s5qnJhg7EeCUxuMy-1)](src/img/cap4/school-transportation.png) 
 
+\newpage
+
+::: norm
+***General Overview***
+:::
+
+![Artefacto creado en PlantUML](src/img/cap4/event_storming/general.png)
+
+Este Artefacto proporciona una visión global de los eventos principales del sistema RutaKids. Se identifican los flujos generales como la autenticación de usuarios, la gestión de estudiantes, las movilidades, las rutas escolares y la supervisión general del transporte. Sirve como mapa de alto nivel para comprender la interacción entre los principales contextos.
+
+::: norm
+***Authentication Context***
+:::
+
+![Artefacto creado en PlantUML](src/img/cap4/event_storming/auth.png)
+
+En este diagrama se modela el flujo de autenticación y autorización de usuarios dentro de RutaKids. Se capturan eventos como "Usuario inicia sesión", "Usuario olvida contraseña", "Usuario restablece contraseña" y "Usuario cierra sesión", reflejando los procesos de seguridad necesarios para proteger el acceso a la plataforma.
+
+\newpage
+
+::: norm
+***Students Context***
+:::
+
+![Artefacto creado en PlantUML](src/img/cap4/event_storming/students.png){ height=25% }
+
+Este Artefacto se centra en la administración de estudiantes. Incluye eventos como "Estudiante registrado", "Estudiante editado" y "Estudiante asignado a ruta escolar", mostrando cómo el sistema permite gestionar la información de los alumnos y su asociación posterior a rutas de transporte.
+
+::: norm
+***School Transport Context***
+:::
+
+![Artefacto creado en PlantUML](src/img/cap4/event_storming/school_transport.png){ height=25% }
+
+Aquí se modela la gestión de movilidades escolares. Se representan eventos como "Movilidad registrada", "Movilidad editada" y "Movilidad asignada a ruta", que permiten un control preciso de la flota de transporte destinada al traslado de estudiantes, asegurando trazabilidad y organización.
+
+\newpage
+
+::: norm
+***School Routes Context***
+:::
+
+![Artefacto creado en PlantUML](src/img/cap4/event_storming/school_routes.png){ height=25% }
+
+Este Artefacto describe la planificación y gestión de rutas escolares. Se modelan acciones como "Ruta creada", "Ruta actualizada" y "Estudiantes asignados a ruta", permitiendo comprender cómo se organiza la cobertura de transporte a nivel operativo dentro del sistema.
+
+::: norm
+***IoT and Monitoring Context***
+:::
+
+![Artefacto creado en PlantUML](src/img/cap4/event_storming/iot.png){ height=40% }
+
+Este diagrama anticipa la integración de dispositivos IoT (como GPS y lectores RFID) para el monitoreo en tiempo real de movilidades escolares. 
+
+\newpage
 
 #### Candidate Context Discovery.
 
@@ -3468,6 +3647,12 @@ A continuación, se detallan los principales *Candidate Contexts* identificados:
 \hline
 \end{longtable}
 
+\newpage
+
+::: info
+***Candidates Contexts***
+:::
+
 ![Artefacto creado en Structurizr](src/img/cap4/CandidateContextMap.png)
 
 \newpage
@@ -3476,7 +3661,7 @@ A continuación, se detallan los principales *Candidate Contexts* identificados:
 
 Una vez definidos los contextos candidatos, se procede a modelar los flujos de mensajes que ocurren entre ellos. Esta actividad permite identificar cómo los diferentes módulos del sistema intercambian información, qué eventos o comandos son necesarios y qué dependencias se establecen.
 
-En **RutaKids**, dado el enfoque orientado a eventos y la necesidad de mantener contextos altamente desacoplados, se privilegia el intercambio mediante **eventos asíncronos** siempre que sea posible. A continuación, se detalla el modelo preliminar de flujos de mensajes:
+En RutaKids, dado el enfoque orientado a eventos y la necesidad de mantener contextos altamente desacoplados, se privilegia el intercambio mediante eventos asíncronos siempre que sea posible. A continuación, se detalla el modelo preliminar de flujos de mensajes:
 
 \begin{longtable}{|p{4cm}|p{5cm}|p{4cm}|p{1cm}|}
 \hline
@@ -3506,7 +3691,7 @@ Estos flujos de comunicación establecen la base para el diseño de contratos de
 
 #### Bounded Context Canvases.
 
-A partir de la identificación de los Candidate Contexts en el sistema **RutaKids**, se detallan a continuación los *Bounded Context Canvases* correspondientes. Cada uno define el propósito, responsabilidades, interacciones y reglas de negocio específicas, facilitando la alineación técnica y funcional del diseño basado en Domain-Driven Design (DDD).
+A partir de la identificación de los Candidate Contexts en el sistema RutaKids, se detallan a continuación los *Bounded Context Canvases* correspondientes. Cada uno define el propósito, responsabilidades, interacciones y reglas de negocio específicas, facilitando la alineación técnica y funcional del diseño basado en Domain-Driven Design (DDD).
 
 ::: box
 **Authentication Context**
@@ -3744,7 +3929,7 @@ El enfoque táctico favorece la creación de modelos que son tanto ricos en sign
 
 ### Bounded Context: Parent Service
 
-El **Bounded Context: Parent Service** define un dominio autónomo encargado de gestionar todo lo relacionado con los tutores (*Parents*), sus dependientes (*Children*) y la vinculación con usuarios registrados (*Users*). Dentro de este límite conceptual se modelan las reglas de negocio, las invariantes de los agregados y los casos de uso asociados a la exploración, creación y actualización de padres, la consulta de sus hijos y la obtención de información de usuario. Al aislar este contexto, garantizamos que el lenguaje ubicuo (términos como *Parent*, *Child*, *User*) se mantenga coherente y que los cambios internos no propaguen efectos indeseados a otros dominios de la plataforma.
+El Bounded Context: Parent Service define un dominio autónomo encargado de gestionar todo lo relacionado con los tutores (*Parents*), sus dependientes (*Children*) y la vinculación con usuarios registrados (*Users*). Dentro de este límite conceptual se modelan las reglas de negocio, las invariantes de los agregados y los casos de uso asociados a la exploración, creación y actualización de padres, la consulta de sus hijos y la obtención de información de usuario. Al aislar este contexto, garantizamos que el lenguaje ubicuo (términos como *Parent*, *Child*, *User*) se mantenga coherente y que los cambios internos no propaguen efectos indeseados a otros dominios de la plataforma.
 
 #### Domain Layer
 
@@ -3856,9 +4041,7 @@ Con esta separación clara, cada capa cumple un rol específico desde la pureza 
 Para una mejor visualización del diagrama, haga click en la [URL](https://mermaid.live/edit#pako:eNqVVF1vmzAU_SvIVd-cCkgghUqVVie8VJ0iGC9r9uCBk1ghdmSbrl2b_76L-UjaVNr2xj0HzrkcX99XVMiSoRitFd1vnG-zpXAcXf9sSyKFUbKqmNIN7jgL8rigiglzZH60DCGPZMOr8ozIyWOumfqAM1EuxTuvjKknXrDeKOuMOrh3yVqX92ieWYtT8Fw_ZXupuZGKDx5p5zFQL71N2tqcEXlqnT7g52YPTGu65mLdOd33ud3T1ZZCFrrefUzi8hJ6rGjBpWC6j56WUkE1uu3y4dI2vyDOaHT7lmv6BlE1CDlBiEXyEyTPPvMYJBv9Yz6dRWY_X8DZc22YU1IjNbil1u1zklgy_5zM06EHm4LTx2Dd7ttuv0rDV7ygDnuCtKzhsfW5NryCbgspHMOejXQEWyvZsEVFtZ6xVcN1c-aseFXFF_Nx4iczrAHdsvjC96IwGXfl6BcvzSb298-4kJVU8YXrujfv9HQ7VL3YdRLMo0FsQr4kgfvvYgoy7pSSu3k0nw5KSTJ1J__R1tYm2EklyfXcO0rdEdef_UVqEINRwoRgGJZjcjcnbIZJhuFEuxxOqRSTFOep_atTHI7StmdtEEZwxDvKS1gyr81bS2Q2bMeWKIbHkqrtEi3FAd6jtZHZiyhQbFTNMFKyXm9QvKKVhqrewxyxGadww3YDuqfiu5S7_hMoUfyKnlHseeFVOHanfhROAz_yoylGLwCH0ZXvBZNg4rleEPrBAaPfVsC9CqLAdcdeOA2vgY_GGLGyuRAP7Ya0ixLDomx-pesQLm-z2mphGmnv8AcLzMFm)
 :::
 
-![Code Level Diagram Mermaid](src/img/cap4/parent-service-code-diagram.png)
-
-\newpage
+![Code Level Diagram Mermaid](src/img/cap4/parent-service-code-diagram.png){ height=25% }
 
 ##### Bounded Context Domain Layer Class Diagrams
 
@@ -4127,9 +4310,7 @@ Esta capa es responsable de la orquestación de los flujos de datos, sin exponer
 Para una mejor visualización del diagrama, haga click en la [URL](https://mermaid.live/edit#pako:eNqNVWtvmzAU_SuRq36jFQGSEKpOSnlM0dZ2Clk_LEyVB06DSuwITNes6n_fNTbEeUxrFAV8z_XxuT439htKWUaQh55KvFn15kFCE3p-3ru-vu5NKSflEqek9xVvSSliCa3qXzK1Qx8bNKE9-AT-IiAveUp8RnnJioKUPyUS-4uY0IqVx0jQQgHm-Aj27-_i77fhbDFl8y94-Swyqnrd4IRmmt7JZlPkKeY5oycVa_ie5vihVR2TUjxaYQKQyg6AYIcIzTt0X1DA1jg_rUVCezLCh8dZ-O1eSZmRDatyzsptu2h4F8sEufDphGAyn-hZQt5RZng3n86nYbwIKc95TiovSahc1oA3OXP3JjiOapvSZYkrXtYpr8t_dYieotcKnkbTzwswBMxc5k9g7dECM1LgFKwilaRtgF1LXnzS_QT5fu8CYsIZ0C0HsRwoKJZY2096rOHW20cwNQ4BMWRIamUQMLahzhOxyl6w80GRq1YAWOx5hjNSAbVibKa1pgBVy3oq3hEfgGp7TpiSMkpJKsqqmuph5w_q0YJaRYdRrSQNardTcy6seF4wZVta4KoKyLKXd9Yt86LwzkI7sqLAALXsmXhnVn88jGw1vPidZ3zlWZtXI2UFK70z0zSvNDKseaXo3GgQjjs6x59EA_OjdJl0RzJFUWSHZscU3bi--WGmXDjQSgrCUTTsiIYje3Iz-g-RooKD1IjhC4-uX7sNvOqSoOWMuPlpuk_blV2OctnonDX23TTaHlK70M1UJjcVQRAZCA5dyMjgtngT_-ME8RVZkwR58Jrh8jlBCX2HPFxzFm9pijxoRWKgktVPK-QtcVHBqN5kmJMgx3BKrLvoBtMfjK3bKTBE3ht6RZ7lDC7H7nBgDR13bA1GroG2yOuPB5eW5Vh9CAPg2O67gf40BOalM3Qdxxk4Tt-xbNt0DEQycf7dyquuufEMuPFEKUohnD0Erqaaclix__4Xmh9PVQ)
 :::
 
-![Code Level Diagram Mermaid](src/img/cap4/iot-service-code-diagram.png)
-
-\newpage
+![Code Level Diagram Mermaid](src/img/cap4/iot-service-code-diagram.png){ height=25% }
 
 ##### Bounded Context Domain Layer Class Diagrams
 
@@ -4414,6 +4595,7 @@ La identidad tipográfica de *RutaKids* ha sido cuidadosamente definida para ase
 
   ![Artefacto creado en Figma](src/img/cap5/Typography_SpaceGrotesk_landing.png)
 
+\newpage
 
 2. **Aplicación Web**
 
@@ -4656,6 +4838,8 @@ Redimensionable & Permitir expansión del campo para textos largos. \\
 \hline
 \end{longtable}
 
+\newpage
+
 - **Estados definidos y su propósito**
 
 \begin{longtable}{|c|p{10cm}|}
@@ -4811,8 +4995,6 @@ Vertical & Full Height & Ocupa toda la altura disponible del contenedor. \\
 
   Las rutas de navegación (o *breadcrumbs*) son un patrón de interfaz clave para mejorar la orientación del usuario dentro de estructuras jerárquicas. Permiten visualizar la ubicación actual dentro del sistema y facilitan el regreso a niveles anteriores sin necesidad de depender de menús laterales o botones de retroceso.
 
-  En plataformas como la aplicación web de *RutaKids*, donde la navegación puede profundizar varios niveles (por ejemplo, Administración > Rutas > Bus 5 > Lista de estudiantes), este patrón aporta claridad estructural y reduce la carga cognitiva del usuario.
-
 - **Criterios de diseño y elección**
 
   - **Jerarquía visual clara:** Se diseñó una separación entre cada nivel mediante íconos y estilos tipográficos. La ruta completa debe ser legible de un vistazo, con un enfoque especial en el último nivel (ubicación actual).
@@ -4846,6 +5028,8 @@ IoT & No aplica, dado que el lector no posee una interfaz visual con navegación
 \hline
 \end{longtable}
 
+\newpage
+
 ![Artefacto creado en Figma](src/img/cap5/Breadcrumbs.png)
 
 \newpage
@@ -4878,6 +5062,8 @@ IoT & No aplica, dado que el lector no posee una interfaz visual con navegación
   **B. Representación digital de la acción del lector**
 
   Las interfaces de *RutaKids* transforman los datos recibidos desde el dispositivo RFID en información comprensible para padres, choferes y administradores. Se utilizaron componentes como cards, tablas y alertas con códigos de color y jerarquía clara para representar el estado de los escaneos.
+
+\newpage
 
 - **Aplicación por plataforma**
 
@@ -4919,15 +5105,25 @@ En el desarrollo de RutaKids, se adoptó una estructura centrada en los principa
 
 A continuación se presentan los mapas generales de arquitectura de información correspondientes a cada tipo de usuario:
 
+\newpage
+
+::: info
 **Arquitectura de Información – App Móvil para Padres**
+:::
 
-![Artefacto creado en Figma](src/img/cap5/AppPadres.png)
+![Artefacto creado en Figma](src/img/cap5/AppPadres.png){ height=35% }
 
+::: info
 **Arquitectura de Información – App Móvil para Conductores**
+:::
 
-![Artefacto creado en Figma](src/img/cap5/AppConductores.png)
+![Artefacto creado en Figma](src/img/cap5/AppConductores.png){ height=35% }
 
+\newpage
+
+::: info
 **Arquitectura de Información – Plataforma Web para Administradores**
+:::
 
 ![Artefacto creado en Figma](src/img/cap5/AppWeb.png)
 
@@ -4938,19 +5134,21 @@ Las secciones siguientes profundizan en los sistemas implementados para organiza
 
 ### Organization Systems.
 
-- **Propósito**
+**Propósito**
 
-  La arquitectura organizativa de un producto digital permite estructurar la información de forma que los usuarios accedan rápida y eficientemente a los contenidos que necesitan. 
+La arquitectura organizativa de un producto digital permite estructurar la información de forma que los usuarios accedan rápida y eficientemente a los contenidos que necesitan. 
 
-  Según Morville y Rosenfeld (2006), “los sistemas de organización son esenciales para transformar el caos en claridad, facilitando que los usuarios comprendan la lógica detrás del contenido digital”. 
+> Según Morville y Rosenfeld (2006), “los sistemas de organización son esenciales para transformar el caos en claridad, facilitando que los usuarios comprendan la lógica detrás del contenido digital”. 
 
-  En el caso de *RutaKids*, se han diseñado diversos sistemas de organización visual y estructural adaptados tanto a padres como a administradores educativos.
+En el caso de *RutaKids*, se han diseñado diversos sistemas de organización visual y estructural adaptados tanto a padres como a administradores educativos.
 
-- **Organización para padres de familia (App móvil)**
+::: info
+**Organización para padres de familia (App móvil)**
+:::
 
-  La aplicación móvil muestra la información más relevante sobre el estado de sus hijos y el transporte escolar. La información sigue un modelo jerárquico en su interfaz principal y secuencial en el monitoreo de rutas.
+La aplicación móvil muestra la información más relevante sobre el estado de sus hijos y el transporte escolar. La información sigue un modelo jerárquico en su interfaz principal y secuencial en el monitoreo de rutas.
 
-\begin{longtable}{|p{3cm}|p{4.5cm}|p{3.5cm}|p{5cm}|}
+\begin{longtable}{|p{3cm}|p{4cm}|p{3cm}|p{4cm}|}
 \hline
 \textbf{Tópico} & \textbf{Sistema de Organización Visual} & \textbf{Categorización Aplicada} & \textbf{Descripción} \\
 \hline
@@ -4969,11 +5167,13 @@ Hijos registrados & Jerárquico visual & Por audiencia (por cada hijo) & Cada hi
 \hline
 \end{longtable}
 
-- **Organización para administradores educativos (Plataforma web)**
+::: info
+**Organización para administradores educativos (Plataforma web)**
+:::
 
-  La plataforma web está orientada a la administración y seguimiento operativo. Utiliza una estructura modular con categorización por tópicos y por audiencia (vehículos, estudiantes, rutas, conductores).
+La plataforma web está orientada a la administración y seguimiento operativo. Utiliza una estructura modular con categorización por tópicos y por audiencia (vehículos, estudiantes, rutas, conductores).
 
-\begin{longtable}{|p{3cm}|p{3.5cm}|p{3.5cm}|p{4.5cm}|}
+\begin{longtable}{|p{3cm}|p{4cm}|p{3cm}|p{4cm}|}
 \hline
 \textbf{Tópico} & \textbf{Sistema de Organización Visual} & \textbf{Categorización Aplicada} & \textbf{Descripción} \\
 \hline
@@ -4995,11 +5195,13 @@ Reportes e incidencias & Modular & Cronológica / por evento & Acceso a reportes
 \end{longtable}
 
 
-- **Organización en la Landing Page (Sitio Estático)**
+::: info
+**Organización en la Landing Page (Sitio Estático)**
+:::
 
-  La landing page está diseñada para atraer y guiar a nuevos usuarios. Utiliza una estructura secuencial, pensada para recorrer la información desde el valor de la app hasta las secciones específicas según audiencia.
+La landing page está diseñada para atraer y guiar a nuevos usuarios. Utiliza una estructura secuencial, pensada para recorrer la información desde el valor de la app hasta las secciones específicas según audiencia.
 
-\begin{longtable}{|p{3cm}|p{4cm}|p{3.5cm}|p{5cm}|}
+\begin{longtable}{|p{3cm}|p{4cm}|p{3cm}|p{4cm}|}
 \hline
 \textbf{Tópico} & \textbf{Organización Visual} & \textbf{Categorización Aplicada} & \textbf{Descripción} \\
 \hline
@@ -5018,22 +5220,21 @@ CTA (Call to Action) & Jerárquico visual final & Ninguna & Botones de descarga 
 
 Esta organización garantiza que tanto padres como administradores puedan interactuar de forma clara, eficiente y segura con la plataforma, reduciendo fricción y mejorando la toma de decisiones y la supervisión del servicio de transporte escolar.
 
-
 \newpage
 
 ### Labeling Systems.
 
-6. **Sistemas de Etiquetado**
+**Propósito**
 
-- **Propósito**
+Los sistemas de etiquetado son fundamentales para la claridad del contenido y la navegación en cualquier producto digital. Una correcta nomenclatura ayuda a los usuarios a comprender de inmediato qué acciones pueden realizar, qué información están observando y qué pasos seguir.
 
-  Los sistemas de etiquetado son fundamentales para la claridad del contenido y la navegación en cualquier producto digital. Una correcta nomenclatura ayuda a los usuarios a comprender de inmediato qué acciones pueden realizar, qué información están observando y qué pasos seguir.
+En *RutaKids*, las etiquetas han sido desarrolladas con un enfoque en simplicidad, consistencia y significado contextual, garantizando una experiencia clara para los distintos tipos de usuarios: padres, administradores y conductores.
 
-  En *RutaKids*, las etiquetas han sido desarrolladas con un enfoque en simplicidad, consistencia y significado contextual, garantizando una experiencia clara para los distintos tipos de usuarios: padres, administradores y conductores.
+::: info
+**App móvil – Padres de familia**
+:::
 
-- **App móvil – Padres de familia**
-
-\begin{longtable}{|p{4cm}|p{10.5cm}|}
+\begin{longtable}{|p{5cm}|p{10cm}|}
 \hline
 \textbf{Tópico} & \textbf{Definición} \\
 \hline
@@ -5052,9 +5253,11 @@ Cuenta & Acceso a la configuración de perfil del padre, donde puede editar dato
 \hline
 \end{longtable}
 
-- **App móvil – Conductores**
+::: info
+**App móvil – Conductores**
+:::
 
-\begin{longtable}{|p{4cm}|p{10.5cm}|}
+\begin{longtable}{|p{5cm}|p{10cm}|}
 \hline
 \textbf{Tópico} & \textbf{Definición} \\
 \hline
@@ -5075,89 +5278,86 @@ Finalizar ruta & Permite al conductor cerrar el recorrido una vez completado, re
 
 ### SEO Tags and Meta Tags
 
-
 - **Propósito**
 
   En la aplicación *RutaKids*, los *SEO Tags* y *Meta Tags* juegan un rol crucial para garantizar la visibilidad del producto tanto en motores de búsqueda como en tiendas de aplicaciones móviles. 
 
-  Aunque el producto incluye una plataforma web y una aplicación móvil, la *landing page* cumple un rol estratégico al actuar como primer punto de contacto para nuevos usuarios, por lo que ha sido optimizada mediante el uso de etiquetas específicas.
+Aunque el producto incluye una plataforma web y una aplicación móvil, la *landing page* cumple un rol estratégico al actuar como primer punto de contacto para nuevos usuarios, por lo que ha sido optimizada mediante el uso de etiquetas específicas.
 
 
-- **SEO Tags**
+**SEO Tags**
 
-  Los SEO Tags permiten mejorar el posicionamiento de la landing page de *RutaKids* en buscadores como Google, facilitando que padres y colegios interesados encuentren rápidamente el producto. A continuación se muestran algunos ejemplos aplicados:
+Los SEO Tags permiten mejorar el posicionamiento de la landing page de *RutaKids* en buscadores como Google, facilitando que padres y colegios interesados encuentren rápidamente el producto. A continuación se muestran algunos ejemplos aplicados:
 
-  - **Title Tag**  
-    Especifica el título visible en los resultados de búsqueda.
-
-    ```html
-    <title>RutaKids - Seguridad y Monitoreo Escolar en Tiempo Real</title>
-    ```
-
-  - **Meta Description**  
-    Describe brevemente el contenido de la página.
-
-    ```html
-    <meta name="description" content="RutaKids es una plataforma de movilidad escolar con pulseras RFID. Permite a los padres monitorear en tiempo real los recorridos escolares de sus hijos y a los colegios gestionar rutas de forma eficiente." />
-    ```
-
-  - **Header Tags**  
-    Estructuran jerárquicamente el contenido.
-
-    ```html
-    <h1>Movilidad Escolar Inteligente</h1>
-    <h2>Monitorea a tus hijos en tiempo real</h2>
-    <h3>Gestiona flotas escolares con tecnología RFID</h3>
-    ```
-
-
-- **Meta Tags**
-
-  Los Meta Tags proporcionan información técnica a navegadores y motores de búsqueda, mejorando la experiencia del usuario y el SEO técnico. Algunos utilizados en *RutaKids* son:
-
-  - **Charset Meta Tag**
-
-    ```html
-    <meta charset="UTF-8">
-    ```
-
-  - **Viewport Meta Tag**
-
-    ```html
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    ```
-
-  - **Robots Meta Tag**
-
-    ```html
-    <meta name="robots" content="index, follow">
-    ```
-
-  - **Canonical Tag**
-
-    ```html
-    <link rel="canonical" href="https://rutakids.com">
-    ```
-
-
-- **Landing Page SEO Tags (para la aplicación móvil)**
-
-  Además de las etiquetas estándar, se han definido etiquetas específicas para promover la aplicación móvil directamente desde la landing page:
+- **Title Tag**  
+  Especifica el título visible en los resultados de búsqueda.
 
   ```html
-  <title>RutaKids | Transporte Escolar Seguro y Conectado</title>
-  <meta name="description" content="RutaKids permite a padres monitorear a sus hijos durante el transporte escolar mediante pulseras RFID. Disponible para iOS y Android.">
-  <meta name="keywords" content="app transporte escolar, seguridad infantil, GPS escolar, pulseras RFID, monitoreo niños">
-  <meta name="author" content="LlantaTech">
-  <link rel="canonical" href="https://rutakids.com/">
-    ```
+  <title>RutaKids - Seguridad y Monitoreo Escolar en Tiempo Real</title>
+  ```
 
-- **App Store Optimization (ASO)**
+- **Meta Description**  
+  Describe brevemente el contenido de la página.
 
-  Para aumentar la visibilidad de la aplicación en tiendas como Google Play o App Store, RutaKids aplica estrategias de ASO (App Store Optimization) que incluyen título, descripción, palabras clave y categorías.
+  ```html
+  <meta name="description" content="RutaKids es una plataforma de movilidad escolar con pulseras RFID. Permite a los padres monitorear en tiempo real los recorridos escolares de sus hijos y a los colegios gestionar rutas de forma eficiente." />
+  ```
+
+- **Header Tags**  
+  Estructuran jerárquicamente el contenido.
+
+  ```html
+  <h1>Movilidad Escolar Inteligente</h1>
+  <h2>Monitorea a tus hijos en tiempo real</h2>
+  <h3>Gestiona flotas escolares con tecnología RFID</h3>
+  ```
+
+**Meta Tags**
+
+Los Meta Tags proporcionan información técnica a navegadores y motores de búsqueda, mejorando la experiencia del usuario y el SEO técnico. Algunos utilizados en *RutaKids* son:
+
+- **Charset Meta Tag**
+
+  ```html
+  <meta charset="UTF-8">
+  ```
+
+- **Viewport Meta Tag**
+
+  ```html
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  ```
+
+- **Robots Meta Tag**
+
+  ```html
+  <meta name="robots" content="index, follow">
+  ```
+
+- **Canonical Tag**
+
+  ```html
+  <link rel="canonical" href="https://rutakids.com">
+  ```
+
+**Landing Page SEO Tags (para la aplicación móvil)**
+
+Además de las etiquetas estándar, se han definido etiquetas específicas para promover la aplicación móvil directamente desde la landing page:
+
+```html
+<title>RutaKids | Transporte Escolar Seguro y Conectado</title>
+<meta name="description" content="RutaKids permite a padres monitorear a sus hijos durante el transporte escolar mediante pulseras RFID. Disponible para iOS y Android.">
+<meta name="keywords" content="app transporte escolar, seguridad infantil, GPS escolar, pulseras RFID, monitoreo niños">
+<meta name="author" content="LlantaTech">
+<link rel="canonical" href="https://rutakids.com/">
+  ```
+
+**App Store Optimization (ASO)**
+
+Para aumentar la visibilidad de la aplicación en tiendas como Google Play o App Store, RutaKids aplica estrategias de ASO (App Store Optimization) que incluyen título, descripción, palabras clave y categorías.
 
 
-\begin{longtable}{|p{4cm}|p{10.5cm}|}
+\begin{longtable}{|p{5cm}|p{10cm}|}
 \hline
 \textbf{Elemento} & \textbf{Valor propuesto} \\
 \hline
@@ -5187,22 +5387,19 @@ URL descarga iOS & \url{https://apps.apple.com/app/rutakids/id123456789} \\
 
 El uso estratégico de SEO Tags y Meta Tags en RutaKids no solo mejora la visibilidad en buscadores y redes sociales, sino que también facilita la experiencia del usuario desde el primer contacto con la plataforma. Además, las etiquetas ASO aseguran un buen posicionamiento en las tiendas de aplicaciones, promoviendo así la descarga y uso efectivo del producto.
 
-
+\newpage
 
 ### Searching Systems.
 
+**Propósito**
 
-- **Propósito**
+Los sistemas de búsqueda en productos digitales permiten al usuario navegar grandes volúmenes de información de forma efectiva, evitando pérdida de tiempo y frustración.
 
-  Los sistemas de búsqueda en productos digitales permiten al usuario navegar grandes volúmenes de información de forma efectiva, evitando pérdida de tiempo y frustración.
+En *RutaKids*, la búsqueda activa está implementada únicamente en la plataforma web de administradores, ya que la aplicación móvil está diseñada para mostrar información personalizada y filtrada automáticamente para los padres de familia.
 
-  En *RutaKids*, la búsqueda activa está implementada únicamente en la plataforma web de administradores, ya que la aplicación móvil está diseñada para mostrar información personalizada y filtrada automáticamente para los padres de familia.
+**Filtros y herramientas de búsqueda en la Web App**
 
-
-
-- **Filtros y herramientas de búsqueda en la Web App**
-
-\begin{longtable}{|p{5cm}|p{9.5cm}|}
+\begin{longtable}{|p{5cm}|p{10cm}|}
 \hline
 \textbf{Filtro / Función} & \textbf{Definición} \\
 \hline
@@ -5232,21 +5429,21 @@ Búsqueda combinada avanzada & Combina múltiples filtros (ej. por nombre + ruta
 \end{longtable}
 
 
+**Diseño de resultados y experiencia de búsqueda**
 
-- **Diseño de resultados y experiencia de búsqueda**
-
-  - Resultados ordenados alfabéticamente o por fecha según el módulo.
-  - Interfaz con autocompletado en campos de búsqueda (como nombres o placas).
-  - Posibilidad de acceder al detalle directamente desde los resultados.
-  - Visualización clara en tarjetas o tablas, según el tipo de información.
-
+- Resultados ordenados alfabéticamente o por fecha según el módulo.
+- Interfaz con autocompletado en campos de búsqueda (como nombres o placas).
+- Posibilidad de acceder al detalle directamente desde los resultados.
+- Visualización clara en tarjetas o tablas, según el tipo de información.
 
 
-- **App móvil – Padres de familia**
+\newpage
 
-  En la app móvil, no se requiere una herramienta de búsqueda, ya que toda la información está pre-filtrada por el sistema. Cada padre solo visualiza la información correspondiente a sus hijos y sus viajes.
+**App móvil – Padres de familia**
 
-\begin{longtable}{|p{5cm}|p{9.5cm}|}
+En la app móvil, no se requiere una herramienta de búsqueda, ya que toda la información está pre-filtrada por el sistema. Cada padre solo visualiza la información correspondiente a sus hijos y sus viajes.
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
 \hline
 \textbf{Característica} & \textbf{Función} \\
 \hline
@@ -5264,7 +5461,6 @@ Alertas personalizadas & Solo muestra notificaciones relevantes al estudiante re
 \end{longtable}
 
 
-
 Esta combinación de sistemas asegura que tanto administradores como padres puedan encontrar información crítica sin esfuerzo, optimizando el uso del sistema y mejorando la experiencia general.
 
 
@@ -5272,19 +5468,20 @@ Esta combinación de sistemas asegura que tanto administradores como padres pued
 
 ### Navigation Systems.
 
-- **Propósito**
+**Propósito**
 
-  Los sistemas de navegación son el conjunto de elementos y patrones que permiten a los usuarios moverse a través del contenido y funcionalidades de una interfaz. Una buena navegación no solo facilita el desplazamiento, sino que también guía, orienta y reduce el esfuerzo cognitivo.
+Los sistemas de navegación son el conjunto de elementos y patrones que permiten a los usuarios moverse a través del contenido y funcionalidades de una interfaz. Una buena navegación no solo facilita el desplazamiento, sino que también guía, orienta y reduce el esfuerzo cognitivo.
 
-  Como afirman Garrett (2011), “la navegación efectiva proporciona al usuario una sensación de lugar, dirección y control dentro de un producto digital”.
+> Como afirman Garrett (2011), “la navegación efectiva proporciona al usuario una sensación de lugar, dirección y control dentro de un producto digital”.
 
-  En *RutaKids*, se implementan sistemas de navegación adaptados a cada tipo de usuario: padres (app móvil), conductores (app móvil simplificada) y administradores escolares (plataforma web). En cada caso, la navegación fue diseñada para ajustarse al nivel de interacción y al contexto de uso.
+En *RutaKids*, se implementan sistemas de navegación adaptados a cada tipo de usuario: padres (app móvil), conductores (app móvil simplificada) y administradores escolares (plataforma web). En cada caso, la navegación fue diseñada para ajustarse al nivel de interacción y al contexto de uso.
 
 
+::: info
+**App móvil – Padres de familia**
+:::
 
-- **App móvil – Padres de familia**
-
-\begin{longtable}{|p{5cm}|p{9.5cm}|}
+\begin{longtable}{|p{5cm}|p{10cm}|}
 \hline
 \textbf{Elemento de navegación} & \textbf{Descripción} \\
 \hline
@@ -5304,10 +5501,11 @@ Navegación simplificada & Solo se muestran las funciones relevantes al rol del 
 \end{longtable}
 
 
+::: info
+**App móvil – Conductores**
+:::
 
-- **App móvil – Conductores**
-
-\begin{longtable}{|p{5cm}|p{9.5cm}|}
+\begin{longtable}{|p{5cm}|p{10cm}|}
 \hline
 \textbf{Elemento de navegación} & \textbf{Descripción} \\
 \hline
@@ -5325,10 +5523,13 @@ Diseño de una sola vista & La app evita navegación compleja; el conductor solo
 \end{longtable}
 
 
+\newpage
 
-- **Plataforma Web – Administradores**
+::: info
+**Plataforma Web – Administradores**
+:::
 
-\begin{longtable}{|p{5cm}|p{9.5cm}|}
+\begin{longtable}{|p{5cm}|p{10cm}|}
 \hline
 \textbf{Elemento de navegación} & \textbf{Descripción} \\
 \hline
@@ -5367,43 +5568,43 @@ Los wireframes representan la estructura básica de la landing page, enfocándos
 
 **Landing Page Wireframe 1:**
 
-![Figma CodeMinds Wireframe](https://i.postimg.cc/Jh7nbHyD/wireframe-inicio.png)
+![Figma LLantatech Wireframe](https://i.postimg.cc/Jh7nbHyD/wireframe-inicio.png)
 
 \newpage
 
 **Landing Page Wireframe 2:**
 
-![Figma CodeMinds Wireframe](https://i.postimg.cc/CxgdxQS4/wireframe-beneficios.png)
+![Figma LLantatech Wireframe](https://i.postimg.cc/CxgdxQS4/wireframe-beneficios.png){ height=40% }
 
 **Landing Page Wireframe 3:**
 
-![Figma CodeMinds Wireframe](https://i.postimg.cc/J4JGmLVn/wireframe-caracteristicas.png)
+![Figma LLantatech Wireframe](https://i.postimg.cc/J4JGmLVn/wireframe-caracteristicas.png){ height=40% }
 
 \newpage
 
 **Landing Page Wireframe 4:**
 
-![Figma CodeMinds Wireframe](https://i.postimg.cc/FFYYWST0/wireframe-padres.png)
+![Figma LLantatech Wireframe](https://i.postimg.cc/FFYYWST0/wireframe-padres.png){ height=40% }
 
 **Landing Page Wireframe 5:**
 
-![Figma CodeMinds Wireframe](https://i.postimg.cc/66FyDQPg/wireframe-colegios.png)
+![Figma LLantatech Wireframe](https://i.postimg.cc/66FyDQPg/wireframe-colegios.png){ height=40% }
 
 \newpage
 
 **Landing Page Wireframe 6:**
 
-![Figma CodeMinds Wireframe](https://i.postimg.cc/jCV0vmZ3/wireframe-team.png)
+![Figma LLantatech Wireframe](https://i.postimg.cc/jCV0vmZ3/wireframe-team.png){ height=40% }
 
 **Landing Page Wireframe 7:**
 
-![Figma CodeMinds Wireframe](https://i.postimg.cc/C1QVnzDg/wireframe-demo.png)
+![Figma LLantatech Wireframe](https://i.postimg.cc/C1QVnzDg/wireframe-demo.png){ height=40% }
 
 \newpage
 
 **Landing Page Wireframe 8:**
 
-![Figma CodeMinds Wireframe](https://i.postimg.cc/0QQsNpzn/wireframe-contactanos-footer.png)
+![Figma LLantatech Wireframe](https://i.postimg.cc/0QQsNpzn/wireframe-contactanos-footer.png)
 
 \newpage
 
@@ -5417,52 +5618,58 @@ Para acceder a los mockups de la landing page, haga click en la [URL](https://ww
 
 **Landing Page Mockups 1:**
 
-![Figma CodeMinds Mockups](https://i.postimg.cc/Kj3hPxrg/mockup-inicio.png)
+![Figma LLantatech Mockups](https://i.postimg.cc/Kj3hPxrg/mockup-inicio.png)
 
 \newpage
 
 
 **Landing Page Mockups 2:**
 
-![Figma CodeMinds Mockups](https://i.postimg.cc/q7prPf09/mockup-beneficios.png)
+![Figma LLantatech Mockups](https://i.postimg.cc/q7prPf09/mockup-beneficios.png){ height=40% }
 
 **Landing Page Mockups 3:**
 
-![Figma CodeMinds Mockups](https://i.postimg.cc/k5wC9jgD/mockup-caracteristicas.png)
+![Figma LLantatech Mockups](https://i.postimg.cc/k5wC9jgD/mockup-caracteristicas.png){ height=40% }
 
 \newpage
 
 **Landing Page Mockups 4:**
 
-![Figma CodeMinds Mockups](https://i.postimg.cc/RZ79pCr7/mockup-padres.png)
+![Figma LLantatech Mockups](https://i.postimg.cc/RZ79pCr7/mockup-padres.png){ height=40% }
 
 **Landing Page Mockups 5:**
 
-![Figma CodeMinds Mockups](https://i.postimg.cc/RZ54T6YC/mockup-colegios.png)
+![Figma LLantatech Mockups](https://i.postimg.cc/RZ54T6YC/mockup-colegios.png){ height=40% }
 
 \newpage
 
 **Landing Page Mockups 6:**
 
-![Figma CodeMinds Mockups](https://i.postimg.cc/BQ1JDcMw/mockup-team.png)
+![Figma LLantatech Mockups](https://i.postimg.cc/BQ1JDcMw/mockup-team.png){ height=40% }
 
 **Landing Page Mockups 7:**
 
-![Figma CodeMinds Mockups](https://i.postimg.cc/kMHnBhFb/mockup-demo.png)
+![Figma LLantatech Mockups](https://i.postimg.cc/kMHnBhFb/mockup-demo.png){ height=40% }
 
 \newpage
 
 **Landing Page Mockups 8:**
 
-![Figma CodeMinds Mockups](https://i.postimg.cc/2y1r04my/mockup-contactanos-footer.png)
+![Figma LLantatech Mockups](https://i.postimg.cc/2y1r04my/mockup-contactanos-footer.png)
 
 \newpage
 
 ## Applications UX/UI Design
 
-El diseño UX/UI de aplicaciones móviles busca crear experiencias intuitivas, eficientes y agradables que respondan a las necesidades reales de los usuarios.
-A través de un enfoque centrado en el usuario, se desarrollan interfaces funcionales y flujos de navegación claros que mejoran la interacción y fomentan la confianza en los servicios digitales.
-Este proyecto aplica principios de usabilidad, accesibilidad y diseño visual para garantizar que cada tutor legal pueda monitorear y gestionar el transporte escolar de manera segura, sencilla y confiable.
+El diseño UX/UI de aplicaciones móviles desempeña un papel fundamental en la creación de experiencias digitales que no solo sean funcionales, sino también agradables y emocionalmente satisfactorias para el usuario. UX (User Experience) se enfoca en comprender las necesidades, expectativas y comportamientos del usuario, mientras que UI (User Interface) se encarga de la apariencia visual y la disposición de los elementos con los que el usuario interactúa.
+
+En este proyecto, se ha adoptado un enfoque de diseño centrado en el usuario, lo que implica realizar un análisis profundo de los perfiles de los tutores legales que utilizarán la aplicación. A partir de esta investigación, se diseñaron interfaces limpias, intuitivas y coherentes, que permiten una navegación fluida y natural. Se priorizó la claridad en la disposición de la información y la reducción de la carga cognitiva, asegurando que cada acción dentro de la aplicación sea fácilmente comprensible y ejecutable sin fricciones.
+
+Además, se incorporaron principios clave de usabilidad, como la retroalimentación inmediata, la consistencia visual y la prevención de errores, con el objetivo de brindar una experiencia segura y predecible. La accesibilidad también fue una prioridad, asegurando que personas con diferentes niveles de habilidad o condiciones visuales puedan utilizar la aplicación sin barreras, mediante el uso de contrastes adecuados, textos legibles y controles táctiles optimizados.
+
+![Recurso extraído de Canva](src/img/cap5/ux-ui-design.png)
+
+\newpage
 
 ### Applications Wireframes
 
@@ -5481,73 +5688,73 @@ Para acceder a los wireframes de la mobile app, haga click en la [URL](https://w
 
 **Mobile Application Wireframes - Splash:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/splash.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/splash.png){ height=35% }
 
 \newpage
 
 **Mobile Application Wireframes - Bienvenida:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/bienvenida.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/bienvenida.png){ height=35% }
 
 **Mobile Application Wireframes - Login:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/login.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/login.png){ height=35% }
 
 \newpage
 
 **Mobile Application Wireframes - Recuperar Contraseña:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/recuperar-password.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/recuperar-password.png){ height=35% }
 
 **Mobile Application Wireframes - Home:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/principal.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/principal.png){ height=35% }
 
 \newpage
 
 **Mobile Application Wireframes - Home - Notificaciones:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/principal-notificaciones.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/principal-notificaciones.png){ height=35% }
 
 **Mobile Application Wireframes - Home - Notificaciones - Popup:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/principal-notificaciones-popup.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/principal-notificaciones-popup.png){ height=35% }
 
 \newpage
 
 **Mobile Application Wireframes - Home - Detalles:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/principal-detalles.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/principal-detalles.png){ height=35% }
 
 **Mobile Application Wireframes - Home - Detalles - Popup:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/principal-detalles-popup.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/principal-detalles-popup.png){ height=35% }
 
 \newpage
 
 **Mobile Application Wireframes - Monitoreo:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/monitoreo.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/monitoreo.png){ height=35% }
 
 **Mobile Application Wireframes - Monitoreo - Cam:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/monitoreo-cam.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/monitoreo-cam.png){ height=35% }
 
 \newpage
 
 **Mobile Application Wireframes - Historial:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/historial.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/historial.png){ height=35% }
 
 **Mobile Application Wireframes - Cuenta:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/cuenta.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/cuenta.png){ height=35% }
 
 \newpage
 
 **Mobile Application Wireframes - Cuenta - Settings:**
 
-![Figma CodeMinds Wireframes](src/img/cap5/mobile-wireframes/cuenta-settings.png){ height=35% }
+![Figma LLantatech Wireframes](src/img/cap5/mobile-wireframes/cuenta-settings.png){ height=35% }
 
 \newpage
 
@@ -5558,91 +5765,96 @@ Para acceder a los wireframes de la mobile app, haga click en la [URL](https://w
 
 **Inicio de sesión - Wireframe**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/sign_in.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/sign_in.png){ height=35% }
 
 **Recuperación de contraseña - Wireframe**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/forgot_password.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/forgot_password.png){ height=35% }
 
 \newpage
 
 **Reinicio de contraseña - Wireframe**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/reset_password.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/reset_password.png){ height=35% }
 
 **Cambio de contraseña - Wireframe**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/change_password.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/change_password.png){ height=35% }
 
 \newpage
 
 **Dashboard general - Wireframe**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/dashboard.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/dashboard.png){ height=35% }
 
 **Notificaciones - Wireframe**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/notifications.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/notifications.png){ height=35% }
 
 \newpage
 
 **Preguntas frecuentes - Wireframe**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/faq.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/faq.png){ height=35% }
 
 **Política de privacidad - Wireframe**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/privacy_policy.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/privacy_policy.png){ height=35% }
 
 \newpage
 
 **Cerrar sesión - Wireframe**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/log_out.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/log_out.png){ height=35% }
 
 **Terminos y condiciones - Wireframe**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/terms.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/terms.png){ height=35% }
 
 \newpage
 
+::: info
 **Gestión de estudiantes**
+:::
 
 **Crear estudiante - Wireframe**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/create_student.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/create_student.png){ height=35% }
 
 **Lista de estudiantes - Wireframe**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/students_list.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/students_list.png){ height=35% }
 
 \newpage
 
 **Tarjetas de estudiantes - Wireframe**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/students_cards.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/students_cards.png){ height=35% }
 
+\newpage
+
+::: info
 **Gestión de movilidades y rutas escolares**
+:::
 
 **Crear movilidad escolar - Wireframe**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/create_school_trans.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/create_school_trans.png){ height=35% }
 
-\newpage
 
 **Listado de movilidades - Wireframe**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/school_trans_list.png){ height=38% }
-
-**Crear ruta escolar - Wireframe**
-
-![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/create_school_routes.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/school_trans_list.png){ height=35% }
 
 \newpage
 
+**Crear ruta escolar - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/create_school_routes.png){ height=35% }
+
 **Listado de rutas escolares - Wireframe**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/school_routes_list.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_wireframes/school_routes_list.png){ height=35% }
 
 \newpage
 
@@ -5656,7 +5868,9 @@ En esta sección se presentan los wireflows diseñados para RutaKids. A través 
 
 Cada wireflow incluye tanto los objetivos del usuario como la descripción paso a paso del flujo de tareas, facilitando así la comprensión del recorrido de usuario y la funcionalidad de la aplicación.
 
+::: info
 **Wireflow Diagram 1: Inicio de Sesión**
+:::
 
 - **User Goal**
 
@@ -5682,7 +5896,9 @@ A continuación, se muestran de forma secuencial las pantallas involucradas en e
 
 \newpage
 
+::: info
 **Wireflow Diagram 2: Visualización de eventos del recorrido (línea de tiempo)**
+:::
 
 - **User Goal**  
 
@@ -5706,13 +5922,15 @@ A continuación, se muestran de forma secuencial las pantallas involucradas en e
   5. El usuario puede tocar eventos interactivos (como el abordaje) para ver un modal con información adicional: nombres, horarios y matrícula del vehículo.
   6. El usuario puede regresar o navegar entre vistas sin perder el progreso visual del seguimiento.
 
-**Wireflow:  Timeline Details**
+**Wireflow: Timeline Details**
 
-![Artefacto creado en Figma](src/img/cap5/WD/WD_Details.png){ width=90% }
+![Artefacto creado en Figma](src/img/cap5/WD/WD_Details.png){ width=80% }
 
 \newpage
 
+::: info
 **Wireflow Diagram 3: Notificaciones de eventos**
+:::
 
 - **User Goal**  
 
@@ -5740,11 +5958,13 @@ A continuación, se muestran de forma secuencial las pantallas involucradas en e
 
 **Wireflow: Notificaciones**
 
-![Artefacto creado en Figma](src/img/cap5/WD/WD_Notifications.png){ width=90% }
+![Artefacto creado en Figma](src/img/cap5/WD/WD_Notifications.png){ width=80% }
 
 \newpage
 
+::: info
 **Wireflow Diagram 4: Visualización del trayecto del transporte escolar en mapa en tiempo real**
+:::
 
 - **User Goal**  
 
@@ -5770,11 +5990,13 @@ A continuación, se muestran de forma secuencial las pantallas involucradas en e
 
 **Wireflow: Home a Monitoreo**
 
-![Artefacto creado en Figma](src/img/cap5/WD/WD_LiveMap.png)
+![Artefacto creado en Figma](src/img/cap5/WD/WD_LiveMap.png){ width=80% }
 
 \newpage
 
+::: info
 **Wireflow Diagram 5: Visualización en vivo del interior de la unidad**
+:::
 
 - **User Goal**  
 
@@ -5801,7 +6023,9 @@ Esta vista permite monitorear visualmente las condiciones internas del vehículo
 
 \newpage
 
+::: info
 **Wireflow Diagram 6: Consulta de historial de viajes**
+:::
 
 - **User Goal**  
 
@@ -5825,13 +6049,15 @@ Esta vista permite monitorear visualmente las condiciones internas del vehículo
 
 **Wireflow: Historial de Viajes**
 
-![Artefacto creado en Figma](src/img/cap5/WD/WD_Record.png)
+![Artefacto creado en Figma](src/img/cap5/WD/WD_Record.png){ width=80% }
 
 Este wireflow corresponde a la funcionalidad de consulta del historial de viajes previos. Al acceder desde el menú principal, el tutor visualiza una lista de recorridos completados, organizados por fecha.
 
 \newpage
 
+::: info
 **Wireflow Diagram 7: Gestión de cuenta**
+:::
 
 - **User Goal**  
 
@@ -5977,37 +6203,41 @@ En esta sección se presentan los mockups de la aplicación RutaKids, los cuales
 **Web Applications Mock-ups**
 :::
 
+::: info
 **Autenticación y recuperación de acceso**
+:::
 
 **Inicio de sesión - Mock-up**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/sign_in.png){ height=35% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/sign_in.png){ height=30% }
 
 **Recuperación de contraseña - Mock-up**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/forgot_password.png){ height=35% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/forgot_password.png){ height=30% }
 
 \newpage
 
 **Reinicio de contraseña - Mock-up**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/reset_password.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/reset_password.png){ height=35% }
 
 **Cambio de contraseña - Mock-up**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/change_password.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/change_password.png){ height=35% }
 
 \newpage
 
+::: info
 **Navegación y funcionalidades complementarias**
+:::
 
 **Dashboard general - Mock-up**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/dashboard.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/dashboard.png){ height=35% }
 
 **Notificaciones - Mock-up**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/notifications.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/notifications.png){ height=35% }
 
 \newpage
 
@@ -6017,57 +6247,61 @@ En esta sección se presentan los mockups de la aplicación RutaKids, los cuales
 
 **Política de privacidad - Mock-up**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/privacy_policy.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/privacy_policy.png){ height=35% }
 
 \newpage
 
 **Cerrar sesión - Mock-up**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/log_out.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/log_out.png){ height=35% }
 
 **Terminos y condiciones - Mock-up**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/terms.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/terms.png){ height=35% }
 
 \newpage
 
+::: info
 **Gestión de estudiantes**
+:::
 
 **Crear estudiante - Mock-up**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/create_student.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/create_student.png){ height=35% }
 
 **Lista de estudiantes - Mock-up**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/students_list.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/students_list.png){ height=35% }
 
 \newpage
 
 **Tarjetas de estudiantes - Mock-up**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/students_cards.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/students_cards.png){ height=35% }
 
+\newpage
+
+::: info
 **Gestión de movilidades y rutas escolares**
+:::
 
 **Crear movilidad escolar - Mock-up**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/create_school_trans.png){ height=38% }
-
-\newpage
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/create_school_trans.png){ height=35% }
 
 **Listado de movilidades - Mock-up**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/school_trans_list.png){ height=38% }
-
-**Crear ruta escolar - Mock-up**
-
-![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/create_school_routes.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/school_trans_list.png){ height=35% }
 
 \newpage
 
+**Crear ruta escolar - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/create_school_routes.png){ height=35% }
+
 **Listado de rutas escolares - Mock-up**
 
-![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/school_routes_list.png){ height=38% }
+![Artefacto creado en Uizard](src/img/cap5/rutakids_mockups/school_routes_list.png){ height=35% }
 
 \newpage
 
@@ -6081,22 +6315,26 @@ En esta sección se presentan los flujos de usuario diseñados para RutaKids, en
 Cada diagrama describe paso a paso cómo el usuario interactúa con la aplicación para cumplir sus objetivos principales, contemplando rutas típicas, alternativas y escenarios excepcionales.
 Estos flujos buscan garantizar la transparencia, la facilidad de uso y la confianza en cada interacción, abordando funcionalidades clave como el acceso al sistema, la visualización en tiempo real del trayecto, la recepción de notificaciones, la consulta de historial de viajes y la gestión de la cuenta personal.
 
+::: info
 **Inicio de Sesión**
+:::
 
-- **User Goal**
+**User Goal**
 
-  El tutor legal desea acceder a la aplicación móvil para monitorear el transporte escolar de su hijo/a.
+El tutor legal desea acceder a la aplicación móvil para monitorear el transporte escolar de su hijo/a.
 
 
-![Artefacto creado en Figma](src/img/cap5/UF/SignIn.png)
+![Artefacto creado en Figma](src/img/cap5/UF/SignIn.png){ height=40% }
 
 Este User Flow inicia con la carga del sistema y guía al tutor legal hacia la pantalla de login, donde se permite ingresar sus credenciales o iniciar el proceso de recuperación de contraseña. Se ha considerado un flujo alternativo para usuarios que olvidan su contraseña, así como una condición de éxito que los redirige a la pantalla principal. El proceso incluye interacciones simples y claras, con rutas diferenciadas para escenarios típicos y excepcionales.
 
+::: info
 **Visualización de eventos del recorrido (línea de tiempo)**
+:::
 
-- **User Goal**  
+**User Goal**  
 
-  El tutor legal desea consultar el estado y el avance del recorrido escolar para asegurar el cumplimiento del trayecto.
+El tutor legal desea consultar el estado y el avance del recorrido escolar para asegurar el cumplimiento del trayecto.
 
 ![Artefacto creado en Figma](src/img/cap5/UF/Details.png)
 
@@ -6106,11 +6344,13 @@ Para una trazabilidad más detallada, algunos eventos incluyen íconos interacti
 
 \newpage
 
+::: info
 **Notificaciones de eventos**
+:::
 
-- **User Goal**  
+**User Goal**  
 
-  El tutor legal desea recibir alertas sobre momentos importantes del viaje, como el inicio del recorrido o la llegada al punto de encuentro, para mantenerse informado sobre el trayecto de su hijo/a.
+El tutor legal desea recibir alertas sobre momentos importantes del viaje, como el inicio del recorrido o la llegada al punto de encuentro, para mantenerse informado sobre el trayecto de su hijo/a.
 
 ![Artefacto creado en Figma](src/img/cap5/UF/Notifications.png)
 
@@ -6121,11 +6361,13 @@ Esta funcionalidad permite al tutor mantenerse informado en tiempo real, fortale
 
 \newpage
 
+::: info
 **Visualización del trayecto del transporte escolar en mapa en tiempo real**
+:::
 
-- **User Goal**  
+**User Goal**  
 
-  El tutor legal desea visualizar en tiempo real la ruta que sigue la unidad de transporte escolar, con información resumida del conductor, clima y estado del viaje.
+El tutor legal desea visualizar en tiempo real la ruta que sigue la unidad de transporte escolar, con información resumida del conductor, clima y estado del viaje.
 
 ![Artefacto creado en Figma](src/img/cap5/UF/LiveMap.png)
 
@@ -6138,11 +6380,13 @@ Esta funcionalidad mejora significativamente la visibilidad y tranquilidad del t
 
 \newpage
 
+::: info
 **Visualización en vivo del interior de la unidad**
+:::
 
-- **User Goal**  
+**User Goal**  
 
-  El tutor legal desea observar visualmente la unidad de transporte en tiempo real para verificar las condiciones internas y confirmar que su hijo/a viaja de forma segura.
+El tutor legal desea observar visualmente la unidad de transporte en tiempo real para verificar las condiciones internas y confirmar que su hijo/a viaja de forma segura.
 
 ![Artefacto creado en Figma](src/img/cap5/UF/LiveInteriorView.png)
 
@@ -6154,11 +6398,13 @@ Esta funcionalidad tiene como objetivo principal fortalecer la confianza y segur
 
 \newpage
 
+::: info
 **Consulta de historial de viajes**
+:::
 
-- **User Goal**  
+**User Goal**  
 
-  El tutor legal desea revisar los viajes anteriores para verificar detalles como la hora de salida y llegada, la ruta recorrida y las condiciones generales del transporte escolar.
+El tutor legal desea revisar los viajes anteriores para verificar detalles como la hora de salida y llegada, la ruta recorrida y las condiciones generales del transporte escolar.
 
 ![Artefacto creado en Figma](src/img/cap5/UF/Record.png)
 
@@ -6177,11 +6423,13 @@ Esta funcionalidad permite al tutor verificar la puntualidad del servicio, confi
 
 \newpage
 
+::: info
 **Gestión de cuenta**
+:::
 
-- **User Goal**  
+**User Goal**  
 
-  El tutor legal desea configurar y gestionar sus datos personales, seguridad, privacidad y notificaciones desde su perfil en la aplicación.
+El tutor legal desea configurar y gestionar sus datos personales, seguridad, privacidad y notificaciones desde su perfil en la aplicación.
 
 ![Artefacto creado en Figma](src/img/cap5/UF/AccountConfiguration.png)
 
@@ -6205,7 +6453,9 @@ Cada sección está diseñada para brindar al tutor control total sobre su perfi
 
 Los wireflows representan visualmente la navegación entre las diferentes pantallas de la aplicación RutaKids, permitiendo comprender la lógica de interacción del usuario antes del desarrollo de las interfaces finales. Estos diagramas combinan los wireframes de cada vista con las conexiones funcionales entre ellas, trazando el recorrido esperado que realizarán los usuarios al interactuar con el sistema. La construcción de estos wireflows se realizó en **Uizard**, destacando la navegación entre módulos clave como autenticación, gestión de estudiantes, movilidades, rutas escolares y configuraciones. Este enfoque permite validar anticipadamente la usabilidad, fluidez y estructura lógica de la experiencia de usuario en RutaKids.
 
+::: info
 **Inicio de sesión y autenticación**
+:::
 
 ![Inicio de sesión – Artefacto creado en Uizard](src/img/cap5/rutakids_userflows/login.jpeg)
 
@@ -6213,13 +6463,17 @@ Este wireflow representa el flujo completo de autenticación de usuarios en la a
 
 \newpage
 
+::: info
 **Gestión de estudiantes**
+:::
 
 ![Gestión de estudiantes – Artefacto creado en Uizard](src/img/cap5/rutakids_userflows/students.jpeg)
 
 Este wireflow muestra la navegación entre las secciones relacionadas a los estudiantes: listado general, vista en tarjetas individuales y el formulario de creación de nuevo alumno. Cada flujo parte desde el dashboard y está pensado para facilitar la gestión visual y estructurada de los alumnos registrados en el sistema, permitiendo búsquedas ágiles, navegación fluida entre vistas y registro eficiente de nuevos estudiantes.
 
+::: info
 **Gestión de movilidades escolares**
+:::
 
 ![Gestión de movilidades – Artefacto creado en Uizard](src/img/cap5/rutakids_userflows/school_trans.jpeg)
 
@@ -6227,7 +6481,9 @@ Este flujo refleja la administración de los vehículos escolares asignados a ca
 
 \newpage
 
+::: info
 **Gestión de rutas escolares**
+:::
 
 ![Gestión de rutas escolares – Artefacto creado en Uizard](src/img/cap5/rutakids_userflows/school_routes.jpeg)
 
@@ -6235,7 +6491,9 @@ Este wireflow detalla la navegación entre las vistas de lista y creación de ru
 
 \newpage
 
+::: info
 **Configuración y secciones administrativas**
+:::
 
 ![Configuraciones y políticas – Artefacto creado en Uizard](src/img/cap5/rutakids_userflows/settings.jpeg)
 
@@ -6243,7 +6501,9 @@ Aquí se detallan los flujos relacionados con la configuración personal del usu
 
 \newpage
 
+::: info
 **Otras funcionalidades complementarias**
+:::
 
 ![Otras funcionalidades – Artefacto creado en Uizard](src/img/cap5/rutakids_userflows/others.jpeg)
 
@@ -6349,7 +6609,7 @@ Con este enfoque integral de la Gestión de Configuración de Software (SCM), ca
 
 En esta sección se detallan los productos de software que el equipo utilizará a lo largo de todo el ciclo de vida del sistema de transporte escolar. Para cada herramienta se especifica su nombre, su propósito dentro del proyecto y la forma de acceso, ya sea mediante la ruta de referencia de un servicio SaaS o el enlace de descarga para instalación local. Además, se cubren todas las fases de trabajo: gestión de proyectos, gestión de requisitos, diseño UX/UI del producto, desarrollo de software, pruebas, despliegue y documentación, garantizando que cada herramienta cumpla con las restricciones y estándares definidos por la institución.
 
-::: box
+::: norm
 **Gestión de Proyectos y Requisitos**
 :::
 
@@ -6361,7 +6621,9 @@ Nos ayudará a capturar y priorizar requerimientos mediante mapas de historias d
 
 \newpage
 
-#### Comunicación y Almacenamiento
+::: norm
+Comunicación y Almacenamiento
+:::
 
 **Discord**  
 
@@ -6377,7 +6639,9 @@ Nos ayudará a centralizar y compartir recursos estáticos (imágenes, documento
 
 \newpage
 
-#### Diseño UX/UI y Modelado
+::: norm
+Diseño UX/UI y Modelado
+:::
 
 **Figma**  
 
@@ -6399,7 +6663,9 @@ Nos ayudará a crear modelos C4 de arquitectura de software, exportables para co
 
 ![Imagen extraída de Canva](src/img/cap6/Structurizr-logo.png)
 
-#### Entornos de Desarrollo e IDEs
+::: norm
+Entornos de Desarrollo e IDEs
+:::
 
 **WebStorm**  
 
@@ -6429,7 +6695,9 @@ Nos ayudará a realizar ediciones rápidas en servidor, escribir scripts o revis
 
 ![Imagen extraída de Canva](src/img/cap6/vim-logo.png)
 
-#### Frameworks y Plataformas de Desarrollo
+::: norm
+Frameworks y Plataformas de Desarrollo
+:::
 
 **Spring Boot**  
 
@@ -6473,7 +6741,7 @@ Asimismo, se implementará el modelo GitFlow (ver “A successful Git branching 
 
 \newpage
 
-### Source Code Style Guide & Conventions.
+### Source Code Style Guide & Conventions
 
 Para el desarrollo de nuestro sistema de transporte escolar, cada solución (Landing Page, Web Application, Mobile Application y Web Services) cuenta con su propio stack tecnológico, conjunto de herramientas, convenciones de idioma y estrategia de pruebas. A continuación se detalla cada una:
 
@@ -6667,7 +6935,7 @@ Las ramas y tags se nombran así:
 
 \newpage
 
-### Software Deployment Configuration.
+### Software Deployment Configuration
 
 Esta sección describe la configuración de despliegue utilizada para cada componente de la solución digital: Landing Page, Web Services y Aplicacion Web Frontend. A partir del código fuente en los repositorios, se detallan los pasos necesarios para su correcta publicación en entornos de desarrollo y producción.
 
@@ -6677,9 +6945,9 @@ Para acceder al flujo de trabajo, haga click a la [URL](https://github.com/orgs/
 
 **Desplegar** ***Landing Page***
 
-* Clone el repositorio: *CodeMinds-LandingPage*
+* Clone el repositorio: *LLantatech-LandingPage*
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap6/landing-deploy-1.png){ width=80% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/landing-deploy-1.png){ width=80% }
 
 * Abra el proyecto en su IDE de confianza y realice lo siguiente:
 
@@ -6687,7 +6955,7 @@ Para acceder al flujo de trabajo, haga click a la [URL](https://github.com/orgs/
 
     - Ejecute el proyecto con npm
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap6/landing-deploy-2.png){ width=80% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/landing-deploy-2.png){ width=80% }
 
 \newpage
 
@@ -6695,7 +6963,7 @@ Para acceder al flujo de trabajo, haga click a la [URL](https://github.com/orgs/
 
 * Clone el repositorio: *RutaKids-WebApp*
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap6/webapp-deploy-1.png){ width=80% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/webapp-deploy-1.png){ width=80% }
 
 * Abra el proyecto en su IDE de confianza y realice lo siguiente:
 
@@ -6703,7 +6971,7 @@ Para acceder al flujo de trabajo, haga click a la [URL](https://github.com/orgs/
 
     - Ejecute el proyecto con ng
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap6/webapp-deploy-2.jpg){ width=80% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/webapp-deploy-2.jpg){ width=80% }
 
 \newpage
 
@@ -6711,7 +6979,7 @@ Para acceder al flujo de trabajo, haga click a la [URL](https://github.com/orgs/
 
 * Clone el repositorio: *RutaKids-Micro-Servicios*
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap6/webservices-deploy-1.png){ width=80% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/webservices-deploy-1.png){ width=80% }
 
 * Abra el proyecto en su IDE de confianza y realice lo siguiente:
 
@@ -6719,15 +6987,27 @@ Para acceder al flujo de trabajo, haga click a la [URL](https://github.com/orgs/
 
     - Para pruebas, ejecute cada servicio por separado
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap6/webservices-deploy-2.jpg){ width=80% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/webservices-deploy-2.jpg){ width=80% }
 
 \newpage
 
-## Landing Page, Services & Applications Implementation.
+## Landing Page, Services & Applications Implementation
+
+El desarrollo de páginas de aterrizaje (landing pages), servicios y aplicaciones implica una planificación estratégica centrada en los objetivos del negocio y las necesidades del usuario final. En este proceso, se diseñan y construyen interfaces visuales atractivas que no solo captan la atención del usuario, sino que también lo guían de forma efectiva hacia una acción deseada, como la adquisición de un producto, la suscripción a un servicio o la solicitud de información.
+
+La implementación de servicios web y funcionalidades de backend permite conectar la interfaz con la lógica del sistema, garantizando una experiencia fluida y coherente en la interacción con la plataforma. Se integran APIs, sistemas de autenticación, bases de datos y mecanismos de seguridad que permiten el funcionamiento eficiente y seguro de las aplicaciones.
+
+Además, se considera la escalabilidad y mantenibilidad del código, aplicando buenas prácticas de desarrollo como la modularidad, el uso de frameworks modernos y la documentación adecuada. Este enfoque integral asegura que tanto la landing page como los servicios asociados respondan con eficacia a los requerimientos técnicos y de negocio, aportando valor real al usuario y mejorando la presencia digital de la organización.
+
+![Recurso extraído de Canva](src/img/cap6/landing-page-services-applications.png)
+
+\newpage
 
 ### Sprint 1
 
-#### Sprint Planning 1.
+El Sprint 1 marca el inicio formal del proceso de desarrollo del proyecto, estableciendo las bases tanto a nivel técnico como organizativo. Durante esta etapa, el equipo se enfocó en la consolidación de los primeros capítulos del informe teórico (Capítulo 1 y 2), así como en la elaboración del documento de especificación de requisitos. Estos elementos resultan fundamentales para alinear al equipo en torno a una visión común del sistema a desarrollar. Asimismo, se definieron los objetivos iniciales de implementación, priorizando el desarrollo de la landing page, el análisis y elección de las tecnologías base (frameworks, herramientas y lenguajes de programación), y el inicio de la estructura del backend. Esta primera iteración permitió establecer una dinámica de trabajo colaborativa, con roles definidos y tareas distribuidas de forma equitativa, asegurando que cada integrante aporte activamente al cumplimiento del Sprint Goal.
+
+#### Sprint Planning 1
 
 \begin{longtable}{|p{5cm}|p{9cm}|}
 \hline
@@ -6751,7 +7031,7 @@ Para acceder al flujo de trabajo, haga click a la [URL](https://github.com/orgs/
 
 \newpage
 
-#### Aspect Leaders and Collaborators.
+#### Aspect Leaders and Collaborators
 
 \begin{longtable}{|p{5cm}|p{9cm}|}
 \hline
@@ -6759,22 +7039,22 @@ Para acceder al flujo de trabajo, haga click a la [URL](https://github.com/orgs/
 \endfirsthead
 
 \hline
-\textbf{Project Coordination and Sprint Management} & \textbf{Leader:} Ortega Huaraca, Abel Angel \\
+\textit{Project Coordination and Sprint Management} & \textbf{Leader:} Ortega Huaraca, Abel Angel \\
 & \textbf{Collaborator(s):} Vilchez Rios, Mateo Alejandro / Avila Asto, Alex Ramon / Ramos Rios, Belen del Rocio \\ \hline
 
-\textbf{Frontend Development (Landing Page)} & \textbf{Leader:} Ortega Huaraca, Abel Angel \\
+\textit{Frontend Development (Landing Page)} & \textbf{Leader:} Ortega Huaraca, Abel Angel \\
 & \textbf{Collaborator(s):} Vilchez Rios, Mateo Alejandro / Avila Asto, Alex Ramon / Ramos Rios, Belen del Rocio \\ \hline
 
-\textbf{Backend Development (Initial Setup)} & \textbf{Leader:} Ortega Huaraca, Abel Angel \\
+\textit{Backend Development (Initial Setup)} & \textbf{Leader:} Ortega Huaraca, Abel Angel \\
 & \textbf{Collaborator(s):} Vilchez Rios, Mateo Alejandro / Avila Asto, Alex Ramon / Ramos Rios, Belen del Rocio \\ \hline
 
-\textbf{Technology Stack Definition} & \textbf{Leader:} Ortega Huaraca, Abel Angel \\
+\textit{Technology Stack Definition} & \textbf{Leader:} Ortega Huaraca, Abel Angel \\
 & \textbf{Collaborator(s):} Vilchez Rios, Mateo Alejandro / Avila Asto, Alex Ramon / Ramos Rios, Belen del Rocio \\ \hline
 
-\textbf{Requirements Specification and Documentation} & \textbf{Leader:} Ortega Huaraca, Abel Angel \\
+\textit{Requirements Specification and Documentation} & \textbf{Leader:} Ortega Huaraca, Abel Angel \\
 & \textbf{Collaborator(s):} Vilchez Rios, Mateo Alejandro / Avila Asto, Alex Ramon / Ramos Rios, Belen del Rocio \\ \hline
 
-\textbf{Quality Review and Integration} & \textbf{Leader:} Ortega Huaraca, Abel Angel \\
+\textit{Quality Review and Integration} & \textbf{Leader:} Ortega Huaraca, Abel Angel \\
 & \textbf{Collaborator(s):} Vilchez Rios, Mateo Alejandro / Avila Asto, Alex Ramon / Ramos Rios, Belen del Rocio \\ \hline
 
 \end{longtable}
@@ -6785,7 +7065,7 @@ Para acceder al flujo de trabajo, haga click a la [URL](https://github.com/orgs/
 
 En este primer sprint, se estableció como prioridad el desarrollo de funcionalidades clave relacionadas con la landing page, el backend, la aplicacion web y la aplicación móvil de *RutaKids*. Estas tareas se organizaron en función de User Stories (Historias de Usuario) que representan los requisitos fundamentales para entregar una experiencia de usuario sólida y funcional.
 
-En este Sprint Backlog se detalla los elementos de trabajo (Work Items) asignados a cada Historia de Usuario, así como el esfuerzo estimado en horas, los responsables y el estado de progreso de cada tarea. El enfoque de este sprint ha sido garantizar que tanto la landing page como el backend y las funcionalidades de la aplicación móvil estén bien estructurados y listos para futuras integraciones.
+En la siguiente tabla se detalla los elementos de trabajo (Work Items) asignados a cada Historia de Usuario, así como el esfuerzo estimado en horas, los responsables y el estado de progreso de cada tarea. El enfoque de este sprint ha sido garantizar que tanto la landing page como el backend y las funcionalidades de la aplicación móvil estén bien estructurados y listos para futuras integraciones.
 
 \begin{longtable}{|c|p{2.5cm}|p{1cm}|p{4cm}|p{2cm}|p{2cm}|p{1cm}|}
 \hline
@@ -6840,17 +7120,21 @@ entregables, facilitando un control eficiente del progreso del proyecto.
 
 \newpage
 
-#### Development Evidence for Sprint Review.
+#### Development Evidence for Sprint Review
 
 Evidencia de colaboración en Equipo:
 
-![Imagen extraída de Github](src/img/cap6/insights-kanban-list-1.png)
+![Imagen extraída de Github](src/img/cap6/insights-kanban-list-1.png){ height=35% }
+
+![Imagen extraída de Github](src/img/cap6/evidence-sprint-tp1.png){ height=35% }
 
 \newpage
 
-#### Testing Suite Evidence for Sprint Review.
+#### Testing Suite Evidence for Sprint Review
 
+::: info
 ***Landing Page US - Gherkin***
+:::
 
 ```gherkin
 US38 - Descubrimiento intuitivo
@@ -7048,7 +7332,11 @@ Feature: Call-to-action claro
 
 ```
 
+\newpage
+
+::: info
 ***Backend US - Gherkin***
+:::
 
 ```gherkin
 
@@ -7213,7 +7501,11 @@ Examples:
 
 ```
 
+\newpage
+
+::: info
 ***Frontend US - Gherking***
+:::
 
 ```gherkin
 
@@ -7596,7 +7888,7 @@ Examples:
 
 \newpage
 
-#### Execution Evidence for Sprint Review.
+#### Execution Evidence for Sprint Review
 
 ::: box
 **Implemented Landing Page Evidence**
@@ -7608,11 +7900,11 @@ Para acceder al repositorio de este proyecto, haga click a la [URL](https://gith
 
 **Captura del repositorio:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap6/landing-deploy-1.png){ width=80% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/landing-deploy-1.png){ width=80% }
 
 **Landing Page en funcionamiento:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap6/landing-deploy-2.png){ width=80% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/landing-deploy-2.png){ width=80% }
 
 \newpage
 
@@ -7626,11 +7918,11 @@ Para acceder al repositorio de este proyecto, haga click a la [URL](https://gith
 
 **Captura del repositorio:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap6/webapp-deploy-1.png){ width=80% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/webapp-deploy-1.png){ width=80% }
 
 **Web Application en funcionamiento:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap6/webapp-deploy-2.jpg){ width=80% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/webapp-deploy-2.jpg){ width=80% }
 
 \newpage
 
@@ -7644,11 +7936,11 @@ Para acceder al repositorio de este proyecto, haga click a la [URL](https://www.
 
 **Captura del figma:**
 
-![Organización CodeMinds, imagen extraída de Figma](src/img/cap6/mobile-app-figma.png){ width=80% }
+![Organización LLantatech, imagen extraída de Figma](src/img/cap6/mobile-app-figma.png){ width=80% }
 
 **Mobile Application en mockup:**
 
-![Organización CodeMinds, imagen extraída de Figma](src/img/cap6/mobile-app-figma-view.png){ width=50% }
+![Organización LLantatech, imagen extraída de Figma](src/img/cap6/mobile-app-figma-view.png){ width=50% }
 
 \newpage
 
@@ -7662,15 +7954,15 @@ Para acceder al repositorio de este proyecto, haga click a la [URL](https://gith
 
 **Captura del repositorio:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap6/webservices-deploy-1.png){ width=80% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/webservices-deploy-1.png){ width=80% }
 
 **Web Service Application en funcionamiento:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap6/webservices-deploy-2.jpg){ width=80% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/webservices-deploy-2.jpg){ width=80% }
 
 \newpage
 
-### RESTful API documentation
+**RESTful API documentation**
 
 ::: warn
 Para acceder al repositorio de este proyecto, haga click a la [URL](https://github.com/LlantaTech/ruta-kids-microservicios)
@@ -7678,11 +7970,11 @@ Para acceder al repositorio de este proyecto, haga click a la [URL](https://gith
 
 **Captura del repositorio:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap6/webservices-doc.png)
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/webservices-doc.png)
 
 \newpage
 
-#### Services Documentation Evidence for Sprint Review.
+#### Services Documentation Evidence for Sprint Review
 
 
 En esta seccion, se muestra la documentacion de los servicios del back end de la aplicación móvil, asi como tambien se muestra el uso de Swagger para la documentacion de los servicios.
@@ -7719,21 +8011,25 @@ Utilizamos *SpringBoot*, *Spring Security*, *Spring Mongo*, *Spring Oauthclient*
 
 \newpage
 
-#### Software Deployment Evidence for Sprint Review.
+#### Software Deployment Evidence for Sprint Review
 
 ***Landing Page deployment***
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap6/landing-deploy-2.png){ width=80% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/landing-deploy-2.png){ width=80% }
 
 **Web Application deployment**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap6/webapp-deploy-2.jpg){ width=80% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/webapp-deploy-2.jpg){ width=80% }
 
-**Web Service deployment**
+\newpage
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap6/webservices-deploy-2.jpg){ width=80% }
+**Web Service Deployment**
 
-#### Team Collaboration Insights during Sprint.
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/webservices-deploy-2.jpg){ width=80% }
+
+\newpage
+
+#### Team Collaboration Insights during Sprint
 
 ::: warn
 Para acceder los insights de este proyecto, haga click a la [URL](https://github.com/orgs/LlantaTech/repositories)
@@ -7741,19 +8037,1853 @@ Para acceder los insights de este proyecto, haga click a la [URL](https://github
 
 **Tablero Kanban:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap6/insights-kanban-todo-1.png){ width=80% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/insights-kanban-todo-1.png){ width=80% }
 
 **Kanban List:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap6/insights-kanban-list-1.png){ width=80% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/insights-kanban-list-1.png){ width=80% }
+
+\newpage
 
 **Network Graph:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap6/insights-network-graph-1.png){ width=80% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/insights-network-graph-1.png){ width=80% }
 
 **Traffic Map:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap6/insights-traffic-1.png){ width=80% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/insights-traffic-1.png){ width=80% }
+
+\newpage
+
+### Sprint 2
+
+El Sprint 2 representa una etapa clave en el desarrollo del proyecto, centrada en la implementación de los componentes funcionales del sistema. Durante esta iteración, el equipo orientó sus esfuerzos hacia el desarrollo de la aplicación web, la aplicación móvil y la arquitectura basada en microservicios. Estas actividades están directamente relacionadas con los capítulos 4 y 5 del informe, los cuales abordan el diseño y la implementación del sistema propuesto.
+
+Se avanzó significativamente en la construcción de interfaces interactivas y responsivas para ambas plataformas (web y mobile), asegurando la coherencia visual y funcional entre ellas. Paralelamente, se diseñaron e implementaron microservicios que permiten una mayor escalabilidad, mantenibilidad y separación de responsabilidades dentro del sistema. Este enfoque permitió establecer una base técnica sólida que facilitará futuras integraciones y pruebas. 
+
+#### Sprint Planning 2
+
+\begin{longtable}{|p{5cm}|p{9cm}|}
+\hline
+\textbf{Sprint Planning Background} & \\ \hline
+\endfirsthead
+\hline
+\textbf{Sprint} & \textbf{Sprint 2} \\ \hline
+\endfoot
+\hline
+\textbf{Date} & 15/06/2025 \\ \hline
+\textbf{Time} & 21:00 \\ \hline
+\textbf{Location} & Discord Virtual Meeting \\ \hline
+\textbf{Prepared By} & Ortega Huaraca, Abel Angel \\ \hline
+\textbf{Attendees (to planning meeting)} & Ortega Huaraca, Abel Angel / Avila Asto, Alex Ramon / Vilchez Rios, Mateo Alejandro / Ramos Rios, Belen del Rocio \\ \hline
+\textbf{Sprint 2 Review Summary} & Se desarrollaron los primeros componentes funcionales de la aplicación web y móvil, además de los microservicios base. Todo en línea con los capítulos 4 y 5 del informe. \\ \hline
+\textbf{Sprint 2 Retrospective Summary} & Se logró cumplir con los entregables planificados. La colaboración entre los integrantes fue constante y se mantuvo una buena organización del trabajo. \\ \hline
+\textbf{Sprint Goal \& User Stories} & Desarrollar la aplicación web y mobile, e implementar microservicios base. Todo ello conforme al diseño propuesto en los capítulos 4 y 5 del informe. \\ \hline
+\textbf{Sprint 2 Velocity} & 1 Sprint cada 2 semanas \\ \hline
+\textbf{Sum of Story Points} & 120 \\ \hline
+\end{longtable}
+
+
+\newpage
+
+#### Aspect Leaders and Collaborators
+
+\begin{longtable}{|p{5cm}|p{9cm}|}
+\hline
+\textbf{Aspect} & \textbf{Leader and Collaborators} \\ \hline
+\endfirsthead
+
+\hline
+\textit{Project Coordination and Sprint Management} & \textbf{Leader:} Ortega Huaraca, Abel Angel \\
+& \textbf{Collaborator(s):} Vilchez Rios, Mateo Alejandro / Avila Asto, Alex Ramon / Ramos Rios, Belen del Rocio \\ \hline
+
+\textit{Frontend Development (Landing Page)} & \textbf{Leader:} Ortega Huaraca, Abel Angel \\
+& \textbf{Collaborator(s):} Vilchez Rios, Mateo Alejandro / Avila Asto, Alex Ramon / Ramos Rios, Belen del Rocio \\ \hline
+
+\textit{Web Application Development} & \textbf{Leader:} Ortega Huaraca, Abel Angel \\
+& \textbf{Collaborator(s):} Vilchez Rios, Mateo Alejandro / Avila Asto, Alex Ramon \\ \hline
+
+\textit{Mobile Application Development} & \textbf{Leader:} Avila Asto, Alex Ramon \\
+& \textbf{Collaborator(s):} Ortega Huaraca, Abel Angel / Ramos Rios, Belen del Rocio \\ \hline
+
+\textit{Microservices Architecture} & \textbf{Leader:} Vilchez Rios, Mateo Alejandro \\
+& \textbf{Collaborator(s):} Ortega Huaraca, Abel Angel / Avila Asto, Alex Ramon \\ \hline
+
+\textit{Technology Stack Definition} & \textbf{Leader:} Ortega Huaraca, Abel Angel \\
+& \textbf{Collaborator(s):} Vilchez Rios, Mateo Alejandro / Avila Asto, Alex Ramon / Ramos Rios, Belen del Rocio \\ \hline
+
+\textit{Requirements Specification and Documentation} & \textbf{Leader:} Ortega Huaraca, Abel Angel \\
+& \textbf{Collaborator(s):} Vilchez Rios, Mateo Alejandro / Avila Asto, Alex Ramon / Ramos Rios, Belen del Rocio \\ \hline
+
+\textit{Quality Review and Integration} & \textbf{Leader:} Ortega Huaraca, Abel Angel \\
+& \textbf{Collaborator(s):} Vilchez Rios, Mateo Alejandro / Avila Asto, Alex Ramon / Ramos Rios, Belen del Rocio \\ \hline
+
+\end{longtable}
+
+\newpage
+
+#### Sprint Backlog 2
+
+En este segundo sprint, se priorizó el desarrollo de componentes fundamentales del sistema, centrados en la implementación de la arquitectura de microservicios, la aplicación web y la aplicación móvil de *RutaKids*. Estas tareas fueron organizadas con base en Historias de Usuario que representan funcionalidades clave necesarias para comenzar a construir una experiencia de usuario fluida, escalable y coherente en todas las plataformas.
+
+La planificación se enfocó en asegurar que los microservicios proporcionen una base sólida para la integración de módulos futuros, mientras que las aplicaciones web y móvil comenzaran a tomar forma con interfaces iniciales y lógica de navegación funcional. Asimismo, se incluyó la integración con la landing page desarrollada previamente, garantizando consistencia visual y técnica.
+
+En la siguiente tabla se detallan los elementos de trabajo (Work Items) asignados a cada Historia de Usuario, junto con su esfuerzo estimado en horas, responsables y estado de avance correspondiente.
+
+
+\begin{longtable}{|c|p{2.5cm}|p{1cm}|p{4cm}|p{2cm}|p{2cm}|p{1cm}|}
+\hline
+\textbf{ID} & \textbf{User Story} & \textbf{Work Item (WI)} & \textbf{Description} & \textbf{Estimation (Hours)} & \textbf{Assigned To} & \textbf{Status} \\ \hline
+\multicolumn{7}{|l|}{\textbf{Microservicios (Implementación de Arquitectura)}} \\ \hline
+\multirow{3}{*}{US01} & \multirow{3}{*}{\parbox[t]{2.5cm}{API para Gestión de Cuentas de Administrador Educativo }} & WI01 & Diseño e implementación de endpoints para registro (Admin EP01-US01) y confirmación de cuenta (Admin EP01-US02) & 8h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI02 & Implementación de endpoints para inicio de sesión (Admin EP01-US04) y recuperación de contraseña (Admin EP01-US05) & 7h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI03 & Configuración de DTOs, validaciones y manejo de excepciones para APIs de cuentas de administrador & 5h & Alex Avila & In-Process \\ \hline
+\multirow{3}{*}{US02} & \multirow{3}{*}{\parbox[t]{2.5cm}{API para Gestión de Cuentas de Padres/Tutores }} & WI04 & Diseño e implementación de endpoints para registro e inicio de sesión de tutores (Tutor EP01-US01) & 7h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI05 & Implementación de endpoints para recuperación de contraseña (Tutor EP01-US02) y edición de perfil (Tutor EP01-US03) & 6h & Alex Avila & In-Process \\ \cline{3-7}
+ &  & WI06 & Configuración de DTOs y validaciones para APIs de cuentas de tutor & 4h & Alex Avila & To Do \\ \hline
+US03 & \parbox[t]{2.5cm}{Autenticación y Autorización (JWT) \newline (Común)} & WI07 & Implementación de la generación y validación de tokens JWT para todas las APIs seguras & 8h & Alex Avila & Done \\ \hline
+\multirow{2}{*}{US04} & \multirow{2}{*}{\parbox[t]{2.5cm}{API para Gestión Inicial de Flotas (Vehículos) }} & WI08 & Diseño e implementación de endpoints CRUD básicos para vehículos (Admin EP02-US01) & 7h & Alex Avila & In-Process \\ \cline{3-7}
+ &  & WI09 & Definición de modelos de datos y DTOs para vehículos & 4h & Alex Avila & Done \\ \hline
+\multirow{2}{*}{US05} & \multirow{2}{*}{\parbox[t]{2.5cm}{API para Captura y Consulta de Geolocalización (IoT Básico) }} & WI10 & Implementación de endpoint para recepción de datos de posición de vehículos (Admin EP04-US01) & 6h & Alex Avila & In-Process \\ \cline{3-7}
+ &  & WI11 & Implementación de endpoint para consulta de ubicación en tiempo real por la app móvil (Tutor EP02-US01) & 5h & Alex Avila & To Do \\ \hline
+\multirow{2}{*}{US06} & \multirow{2}{*}{\parbox[t]{2.5cm}{Infraestructura de Microservicios (Docker)}} & WI12 & Creación de Dockerfiles para build y compose de los microservicios de cuentas y flotas & 6h & Alex Avila & Done \\ \cline{3-7}
+ &  & WI13 & Configuración inicial de gateway API para enrutamiento a microservicios & 5h & Alex Avila & In-Process \\ \hline
+\multicolumn{7}{|l|}{\textbf{Aplicación Web (Administrador Educativo)}} \\ \hline
+\multirow{3}{*}{US07} & \multirow{3}{*}{\parbox[t]{2.5cm}{Interfaz Web: Registro e Inicio de Sesión Administrador }} & WI14 & Diseño UI/UX de las pantallas de registro, inicio de sesión y recuperación de contraseña (Web Admin) & 6h & Belén Ramos & Done \\ \cline{3-7}
+ &  & WI15 & Desarrollo del frontend para formularios y lógica de navegación (Web Admin) & 8h & Belén Ramos & In-Process \\ \cline{3-7}
+ &  & WI16 & Integración con microservicios de autenticación (US01, US03) & 5h & Mateo Vílchez & In-Process \\ \hline
+\multirow{3}{*}{US08} & \multirow{3}{*}{\parbox[t]{2.5cm}{Interfaz Web: Dashboard Inicial y Gestión de Perfil }} & WI17 & Diseño UI/UX del dashboard principal (Admin EP07-US01) y pantalla de gestión de perfil (Admin EP01-US06) & 7h & Belén Ramos & Done \\ \cline{3-7}
+ &  & WI18 & Implementación frontend del dashboard con KPIs iniciales y navegación funcional & 8h & Belén Ramos & To Do \\ \cline{3-7}
+ &  & WI19 & Implementación frontend para la gestión del perfil administrativo & 5h & Mateo Vílchez & To Do \\ \hline
+\multirow{2}{*}{US09} & \multirow{2}{*}{\parbox[t]{2.5cm}{Interfaz Web: Gestión Inicial de Vehículos }} & WI20 & Diseño UI/UX para listado, creación y edición de vehículos (Admin EP02-US01) & 6h & Belén Ramos & In-Process \\ \cline{3-7}
+ &  & WI21 & Implementación frontend CRUD para vehículos e integración con API (US04) & 8h & Mateo Vílchez & To Do \\ \hline
+\multicolumn{7}{|l|}{\textbf{Aplicación Móvil (Tutor Legal)}} \\ \hline
+\multirow{3}{*}{US10} & \multirow{3}{*}{\parbox[t]{2.5cm}{App Móvil: Registro e Inicio de Sesión de Tutor }} & WI22 & Diseño UI/UX de pantallas de registro, inicio de sesión y recuperación de contraseña (Móvil) & 6h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI23 & Implementación del frontend (Flutter) para formularios y lógica de navegación (Móvil) & 8h & Abel Ortega & In-Process \\ \cline{3-7}
+ &  & WI24 & Integración con microservicios de autenticación (US02, US03) & 5h & Abel Ortega & In-Process \\ \hline
+\multirow{3}{*}{US11} & \multirow{3}{*}{\parbox[t]{2.5cm}{App Móvil: Visualización de Ubicación del Vehículo}} & WI25 & Diseño UI/UX de la pantalla de mapa para seguimiento en tiempo real (Tutor EP02-US01) & 5h & Abel Ortega & Done \\ \cline{3-7}
+ &  & WI26 & Implementación de la visualización del mapa y marcador de vehículo & 7h & Abel Ortega & To Do \\ \cline{3-7}
+ &  & WI27 & Integración con microservicio de geolocalización (US05) & 4h & Abel Ortega & To Do \\ \hline
+\multirow{2}{*}{US12} & \multirow{2}{*}{\parbox[t]{2.5cm}{App Móvil: Configuración Inicial de Notificaciones }} & WI28 & Diseño UI/UX para la gestión de dispositivos de notificación (Tutor EP01-US04) y preferencias básicas de alertas & 4h & Abel Ortega & In-Process \\ \cline{3-7}
+ &  & WI29 & Implementación de la lógica inicial para recibir notificaciones push (e.g., abordaje Tutor EP03-US01) & 6h & Abel Ortega & To Do \\ \hline
+\multicolumn{7}{|l|}{\textbf{Integración Landing Page (Continuación Sprint Anterior)}} \\ \hline
+\multirow{3}{*}{US38} & \multirow{3}{*}{\parbox[t]{2.5cm}{Descubrimiento intuitivo \vspace{0.5cm}}} & WI30 & Diseño de la estructura HTML y navegación principal para facilitar el descubrimiento intuitivo en la landing page & 6h & Belén Ramos & Done \\ \cline{3-7}
+ &  & WI31 & Implementación de los elementos de navegación y estructura responsive & 4h & Belén Ramos & Done \\ \cline{3-7}
+ &  & WI32 & Pruebas de usabilidad para navegación y descubrimiento & 2h & Mateo Vílchez & Done \\ \hline
+\multirow{2}{*}{US39} & \multirow{2}{*}{\parbox[t]{2.5cm}{Contenido informativo \vspace{0.5cm}}} & WI33 & Redacción de todo el contenido informativo para la landing page & 3h & Belén Ramos & Done \\ \cline{3-7}
+ &  & WI34 & Implementación del contenido en la landing page & 2h & Belén Ramos & Done \\ \hline
+\multirow{2}{*}{US40} & \multirow{2}{*}{\parbox[t]{2.5cm}{Compatibilidad móvil \vspace{0.5cm}}} & WI35 & Desarrollo del diseño responsive para dispositivos móviles & 4h & Belén Ramos & Done \\ \cline{3-7}
+ &  & WI36 & Pruebas de responsividad en diferentes resoluciones & 3h & Belén Ramos & Done \\ \hline
+\multirow{2}{*}{US41} & \multirow{2}{*}{\parbox[t]{2.5cm}{Formulario de contacto \vspace{0.5cm}}} & WI37 & Diseño e implementación del formulario de contacto & 5h & Belén Ramos & Done \\ \cline{3-7}
+ &  & WI38 & Validación de formulario de contacto & 2h & Mateo Vílchez & Done \\ \hline
+\multirow{2}{*}{US42} & \multirow{2}{*}{\parbox[t]{2.5cm}{Contenido multimedia \vspace{0.5cm}}} & WI39 & Integración de imágenes, íconos y secciones visuales multimedia & 3h & Belén Ramos & Done \\ \cline{3-7}
+ &  & WI40 & Optimización de recursos multimedia para tiempos de carga más rápidos & 2h & Mateo Vílchez & Done \\ \hline
+US43 & \parbox[t]{2.5cm}{Call-to-action claro \vspace{0.5cm}} & WI41 & Diseño y optimización de los botones de call-to-action (CTA) en la landing page & 3h & Mateo Vílchez & Done \\ \hline
+\end{longtable}
+
+\newpage
+
+**Gestión de los Sprint (Tablero Kanban):**
+
+Para mejorar la gestión y seguimiento de las tareas de este sprint, se implementó un tablero Kanban.
+Este tablero permite visualizar claramente los elementos clave a desarrollar, asignar responsables
+para cada tarea, y utilizar etiquetas (labels) que categorizan los Issues de forma precisa. Además, los
+Milestones fueron utilizados estratégicamente para planificar las fechas de entrega y gestionar los
+entregables, facilitando un control eficiente del progreso del proyecto.
+
+![Imagen extraída de Canva](src/img/cap6/gestion-sprints-kanban.png)
+
+\newpage
+
+#### Development Evidence for Sprint Review
+
+Evidencia de colaboración en Equipo:
+
+![Imagen extraída de Github](src/img/cap6/insights-kanban-list-1.png){ height=35% }
+
+![Imagen extraída de Github](src/img/cap6/evidence-sprint-tp1.png){ height=35% }
+
+\newpage
+
+#### Testing Suite Evidence for Sprint Review
+
+::: info
+***Landing Page US - Gherkin***
+:::
+
+```gherkin
+Feature: US38 - Intuitive Discovery of RutaKids Landing Page
+  As a visitor interested in RutaKids,
+  I want to easily discover the main sections of the landing page
+  So that I can navigate intuitively and find the information I need about the system.
+
+  Scenario: Successful navigation on the landing page
+    Given the visitor is on the RutaKids landing page
+    When they interact with the main navigation bar
+    Then they should see clear links to the main sections (e.g., "Home", "Admin Features", "Parent App", "Contact")
+    And navigation should work smoothly when clicking these links.
+
+    Examples:
+      | Visitor Action         | Expected Result                                       |
+      | Click "Home"           | Navigates to the main section of the page.            |
+      | Click "Admin Features" | Navigates to the section detailing the admin portal. |
+      | Click "Parent App"     | Navigates to the section detailing the mobile app.   |
+      | Click "Contact"        | Navigates to the contact form.                       |
+
+  Scenario: Responsive design adapts to screen size
+    Given the visitor accesses the landing page from a mobile device
+    When they view the page
+    Then the layout should adjust to fit the screen size appropriately
+    And all sections should be accessible and readable.
+
+    Examples:
+      | Device     | Expected Behavior                                         |
+      | Smartphone | Layout adjusts, elements stack vertically.               |
+      | Tablet     | Layout adjusts, elements fit a wider screen.            |
+```
+
+```gherkin
+Feature: US39 - Informative and Updated Content on Landing Page
+  As a visitor,
+  I want to find clear and informative content on the RutaKids landing page
+  So that I can learn more about the system's features and benefits, including the admin portal and the mobile app.
+
+  Scenario: Display clear content about application features
+    Given the visitor is on the RutaKids landing page
+    When they scroll to the information sections
+    Then they should see a clear explanation of the main features of the admin portal (fleet management, user management, etc.)
+    And they should see a clear explanation of the functionalities of the mobile app for parents (real-time tracking, notifications, etc.)
+    And the text should be easy to read and understand.
+
+    Examples:
+      | Section             | Expected Content                                                                    |
+      | Admin Portal        | Explanation of key functionalities: account management, fleets, zones, drivers, students, reports. |
+      | Parent Mobile App   | Description of advantages: real-time tracking, notifications, history, communication. |
+      | How It Works        | Summary of the IoT integration, monitoring, and communication process.             |
+
+  Scenario: Ensure content is displayed correctly across devices
+    Given the visitor is on the landing page on a mobile device
+    When they scroll through the information sections
+    Then the content should remain responsive and clear
+    And images related to the portal and mobile app should load correctly.
+
+    Examples:
+      | Device   | Expected Result                                           |
+      | Mobile   | Text adjusts, images scale appropriately.                |
+      | Desktop  | Text and images adjust to full-screen size.              |
+
+```
+
+```gherkin
+Feature: US40 - Mobile Compatibility of the Landing Page
+  As a visitor,
+  I want to browse the RutaKids landing page on my mobile device
+  So that I can easily access information from any device.
+
+  Scenario: Responsive design for mobile devices
+    Given the visitor accesses the landing page on a smartphone
+    When they scroll through the content
+    Then the page should display correctly without layout issues (overlapping text, cut-off elements)
+    And images and videos should scale appropriately.
+
+    Examples:
+      | Device      | Expected Behavior                                                              |
+      | iPhone 13   | Responsive, no text overlap, easy to navigate, CTAs visible.                  |
+      | Samsung S22 | All buttons are accessible, images fit the screen size.                       |
+
+  Scenario: Test page responsiveness on tablets and desktops
+    Given the visitor accesses the page on a tablet or desktop
+    When they resize the browser window
+    Then the layout and content should adjust fluidly without breaking
+    And interactive elements must remain functional.
+
+    Examples:
+      | Device   | Expected Behavior                                                               |
+      | iPad     | Two-column layout (or appropriate), images scaled correctly.                   |
+      | Desktop  | Multi-column layout (or appropriate), full image resolution.                   |
+```
+
+```gherkin
+Feature: US41 - Functional Contact Form on the Landing Page
+  As a visitor interested in RutaKids,
+  I want to fill out the contact form on the landing page
+  So that I can get in touch with the RutaKids team for inquiries or to request a demo.
+
+  Scenario: Successful contact form submission
+    Given the visitor is on the contact section of the landing page
+    When they fill in all required fields (Name, Email, Message, Inquiry Type [e.g., "Educational Administrator", "Parent/Guardian"]) and submit the form
+    Then the system should display a confirmation message that the form has been successfully submitted
+    And the submitted details should be received by the RutaKids team.
+
+    Examples:
+      | Name       | Email                  | Message                          | Inquiry Type            | Status    |
+      | Ana Perez  | ana.perez@school.edu   | Information about implementation. | Educational Administrator | Submitted |
+      | Luis Gomez | luis.gomez@email.com   | Question about the mobile app.   | Parent/Guardian         | Submitted |
+
+  Scenario: Missing required fields in the contact form
+    Given the visitor is filling out the contact form
+    When they leave required fields empty and try to submit
+    Then the system should display an error message indicating the missing fields.
+
+    Examples:
+      | Name       | Email                  | Message                          | Missing Field | Expected Error Message     |
+      | Ana Perez  |                        | Information about implementation. | Email         | "Email is required"        |
+      |            | luis.gomez@email.com   |                                  | Message       | "Message is required"      |
+```
+
+```gherkin
+Feature: US42 - Relevant Multimedia Content on the Landing Page
+  As a visitor,
+  I want to find attractive multimedia content on the RutaKids landing page
+  So that I can learn about the features of the admin portal and mobile app in a dynamic and visual way.
+
+  Scenario: Display multimedia content successfully
+    Given the visitor is on the landing page
+    When they scroll through sections with multimedia content
+    Then they should see images, short videos, or icons that explain RutaKids' functionality (admin portal and mobile app)
+    And the multimedia content should load quickly and display correctly.
+
+    Examples:
+      | Media Type    | Expected Content                                          | Expected Behavior                               |
+      | Images        | Screenshots of the admin portal, mobile app mockups.      | Display correctly, optimized for loading.        |
+      | Short Videos  | Brief system usage demonstrations.                        | Play smoothly, without excessive buffering.      |
+      | Icons         | Representative iconography for features.                  | Scale appropriately without distortion.          |
+
+  Scenario: Ensure multimedia content is responsive across devices
+    Given the visitor accesses the landing page from different devices
+    When they view sections with multimedia content
+    Then the multimedia content should adjust to fit the screen size and resolution without losing quality or functionality.
+
+    Examples:
+      | Device   | Expected Behavior                                                         |
+      | Mobile   | Images and videos scale, layout is responsive.                           |
+      | Tablet   | Images and videos adapt to a medium screen layout.                       |
+      | Desktop  | Full resolution, multimedia fills the space appropriately.               |
+```
+
+```gherkin
+Feature: US43 - Clear and Effective Call-to-Actions (CTAs) on the Landing Page
+  As a visitor,
+  I want to find clear and prominent call-to-action (CTA) buttons on the landing page
+  So that I can take immediate actions, like registering my institution or learning more about the parent mobile app.
+
+  Scenario: Clear CTA buttons guide visitor actions towards new components
+    Given the visitor is on the RutaKids landing page
+    When they see the "Register Institution", "Learn About Parent App", or "Request Demo" buttons
+    Then the buttons should be visually prominent and easily identifiable
+    And upon clicking, they should redirect to the correct sections or pages related to the admin portal or mobile app.
+
+    Examples:
+      | CTA Text                 | Expected Behavior                                                                         |
+      | "Register Institution"   | Redirects the visitor to the start of the admin web application registration flow.       |
+      | "Learn About Parent App" | Redirects the visitor to a section/page with detailed information about the mobile app and download/access links. |
+      | "Request Demo"           | Redirects the visitor to the contact form, ideally with the demo purpose pre-selected.   |
+
+  Scenario: CTA buttons work correctly across devices
+    Given the visitor accesses the landing page from different devices (mobile, tablet, desktop)
+    When they interact with CTA buttons
+    Then the buttons should be responsive, easily clickable, and work correctly on all screen sizes.
+
+    Examples:
+      | Device   | Expected Behavior                                                                |
+      | Mobile   | Buttons are visible, appropriately sized for touch, and functional.             |
+      | Tablet   | Buttons scale correctly, remain interactive and functional.                      |
+      | Desktop  | Full-sized buttons, clear, interactive, and functional.                          |
+```
+
+\newpage
+
+::: info
+***Backend US - Gherkin***
+:::
+
+
+```gherkin
+Feature: US01 - API for Educational Administrator Account Management
+  As a client application for the RutaKids system,
+  I want to interact with secure API endpoints for managing educational administrator accounts,
+  So that administrators can register, log in, and manage their credentials.
+
+  Scenario: Successful administrator registration
+    Given the client application has valid administrator registration data (name, email, password, institution details)
+    When a POST request is made to "/api/v1/admins/register" with the administrator data
+    Then the system should create a new administrator account
+    And respond with HTTP status 201 (Created)
+    And the response should include administrator details (excluding sensitive data like password)
+    # And a confirmation process (e.g., email verification) should be initiated (Admin EP01-US02) - Implicit or separate US
+
+  Scenario: Administrator registration with an already existing email
+    Given an administrator account already exists with "admin@school.com"
+    When a POST request is made to "/api/v1/admins/register" with "admin@school.com" and other valid data
+    Then the system should not create a new administrator account
+    And respond with HTTP status 409 (Conflict)
+    And the response body should contain an error message indicating the email is already in use.
+
+  Scenario: Successful administrator login
+    Given an administrator account exists for "admin@school.com" with password "securePassword123"
+    When a POST request is made to "/api/v1/admins/login" with "admin@school.com" and "securePassword123"
+    Then the system should authenticate the administrator
+    And respond with HTTP status 200 (OK)
+    And the response body should contain a JWT access token.
+
+  Scenario: Administrator login with incorrect credentials
+    Given an administrator account exists for "admin@school.com"
+    When a POST request is made to "/api/v1/admins/login" with "admin@school.com" and "wrongPassword"
+    Then the system should not authenticate the administrator
+    And respond with HTTP status 401 (Unauthorized)
+    And the response body should contain an error message indicating invalid credentials.
+
+  Scenario: Successful administrator password recovery request
+    Given an administrator account exists for "admin@school.com"
+    When a POST request is made to "/api/v1/admins/password-recovery/request" with "email": "admin@school.com"
+    Then the system should initiate the password recovery process (e.g., send a reset link)
+    And respond with HTTP status 200 (OK)
+    And the response body should contain a success message.
+
+  Scenario: Administrator password recovery request for a non-existent email
+    When a POST request is made to "/api/v1/admins/password-recovery/request" with "email": "nonexistent@school.com"
+    Then the system should not find the administrator account
+    And respond with HTTP status 404 (Not Found)
+    And the response body should contain an error message.
+```
+
+```gherkin
+Feature: US02 - API for Parent/Tutor Account Management
+  As a client application for the RutaKids system,
+  I want to interact with secure API endpoints for managing parent/tutor accounts,
+  So that parents/tutors can register, log in, and manage their profiles.
+
+  Scenario: Successful parent/tutor registration
+    Given the client application has valid parent/tutor registration data (name, email, password, children association info)
+    When a POST request is made to "/api/v1/parents/register" with the parent/tutor data
+    Then the system should create a new parent/tutor account
+    And respond with HTTP status 201 (Created)
+    And the response should include parent/tutor details (excluding sensitive data).
+
+  Scenario: Parent/tutor registration with an already existing email
+    Given a parent/tutor account already exists with "parent@family.com"
+    When a POST request is made to "/api/v1/parents/register" with "parent@family.com" and other valid data
+    Then the system should not create a new parent/tutor account
+    And respond with HTTP status 409 (Conflict).
+
+  Scenario: Successful parent/tutor login
+    Given a parent/tutor account exists for "parent@family.com" with password "myChildsSafe123"
+    When a POST request is made to "/api/v1/parents/login" with "parent@family.com" and "myChildsSafe123"
+    Then the system should authenticate the parent/tutor
+    And respond with HTTP status 200 (OK)
+    And the response body should contain a JWT access token.
+
+  Scenario: Parent/tutor login with incorrect credentials
+    Given a parent/tutor account exists for "parent@family.com"
+    When a POST request is made to "/api/v1/parents/login" with "parent@family.com" and "wrongPassword"
+    Then the system should not authenticate the parent/tutor
+    And respond with HTTP status 401 (Unauthorized).
+
+  Scenario: Successful parent/tutor profile update
+    Given a parent/tutor is logged in with a valid JWT token for "parent@family.com"
+    And the client application has updated profile data (e.g., phone number, notification preferences)
+    When a PUT request is made to "/api/v1/parents/profile" with the updated data and the JWT token in the Authorization header
+    Then the system should update the parent/tutor's profile
+    And respond with HTTP status 200 (OK)
+    And the response should include the updated parent/tutor details.
+
+  Scenario: Attempt to update parent/tutor profile without authentication
+    When a PUT request is made to "/api/v1/parents/profile" with profile data but without a valid JWT token
+    Then the system should reject the request
+    And respond with HTTP status 401 (Unauthorized).
+```
+
+```gherkin
+Feature: US03 - JWT-based Authentication and Authorization for APIs
+  As a client application,
+  I want API endpoints to be secured using JWT (JSON Web Tokens),
+  So that only authenticated and authorized users can access protected resources.
+
+  Scenario: Successful access to a protected resource with a valid JWT
+    Given a user (administrator or parent) is logged in and has a valid JWT token
+    When a GET request is made to a protected endpoint (e.g., "/api/v1/admins/dashboard-data" or "/api/v1/parents/my-children/status") with the JWT in the Authorization header
+    Then the system should validate the JWT
+    And grant access to the resource
+    And respond with HTTP status 200 (OK)
+    And the response body should contain the requested data.
+
+  Scenario: Denied access to a protected resource with an invalid or expired JWT
+    Given a user attempts to access a protected endpoint with an invalid or expired JWT token
+    When a GET request is made to a protected endpoint (e.g., "/api/v1/admins/dashboard-data") with the invalid/expired JWT
+    Then the system should validate the JWT and find it invalid/expired
+    And deny access to the resource
+    And respond with HTTP status 401 (Unauthorized)
+    And the response body should contain an error message indicating token invalidity or expiration.
+
+  Scenario: Denied access to a protected resource without a JWT
+    When a GET request is made to a protected endpoint (e.g., "/api/v1/parents/my-children/status") without a JWT in the Authorization header
+    Then the system should deny access
+    And respond with HTTP status 401 (Unauthorized)
+    And the response body should contain an error message indicating authentication is required.
+```
+
+```gherkin
+Feature: US04 - API for Initial Fleet Management (Vehicles)
+  As an authenticated Educational Administrator client application,
+  I want to interact with API endpoints for managing vehicle information,
+  So that I can register, view, update, and list vehicles in the system.
+
+  Scenario: Successfully register a new vehicle
+    Given the client application is authenticated as an Educational Administrator
+    And has valid vehicle data (plate number "XYZ-123", model "School Bus 2023", capacity 30)
+    When a POST request is made to "/api/v1/vehicles" with the vehicle data
+    Then the system should create a new vehicle record
+    And respond with HTTP status 201 (Created)
+    And the response body should include the details of the created vehicle.
+
+  Scenario: Attempt to register a vehicle with a duplicate plate number
+    Given the client application is authenticated as an Educational Administrator
+    And a vehicle with plate number "ABC-789" already exists
+    When a POST request is made to "/api/v1/vehicles" with plate number "ABC-789" and other data
+    Then the system should not create the vehicle
+    And respond with HTTP status 409 (Conflict)
+    And the response body should contain an error message about the duplicate plate number.
+
+  Scenario: Successfully retrieve a list of all vehicles
+    Given the client application is authenticated as an Educational Administrator
+    And multiple vehicles are registered in the system
+    When a GET request is made to "/api/v1/vehicles"
+    Then the system should respond with HTTP status 200 (OK)
+    And the response body should contain a list of all registered vehicles.
+
+  Scenario: Successfully retrieve details for a specific vehicle
+    Given the client application is authenticated as an Educational Administrator
+    And a vehicle with ID "vehicle-id-001" exists
+    When a GET request is made to "/api/v1/vehicles/vehicle-id-001"
+    Then the system should respond with HTTP status 200 (OK)
+    And the response body should contain the details of vehicle "vehicle-id-001".
+
+  Scenario: Successfully update an existing vehicle's information
+    Given the client application is authenticated as an Educational Administrator
+    And a vehicle with ID "vehicle-id-002" exists
+    And the client has new data for the vehicle (e.g., capacity 35, status "Active")
+    When a PUT request is made to "/api/v1/vehicles/vehicle-id-002" with the new data
+    Then the system should update the vehicle's information
+    And respond with HTTP status 200 (OK)
+    And the response body should include the updated vehicle details.
+```
+
+```gherkin
+Feature: US05 - API for Geolocation Data Capture and Query (Basic IoT)
+  As a client application (IoT device or backend service),
+  I want to submit vehicle geolocation data,
+  And as an authenticated client application (Admin Web or Parent Mobile),
+  I want to query the real-time location of vehicles.
+
+  Scenario: Successfully submit vehicle geolocation data
+    Given an IoT device for vehicle "V-101" has new geolocation data (latitude 10.123, longitude -70.456, speed 50km/h, timestamp)
+    When a POST request is made to "/api/v1/iot/location-updates" with the geolocation data for "V-101"
+    Then the system should process and store the geolocation update
+    And respond with HTTP status 202 (Accepted) or 200 (OK) if processed synchronously.
+
+  Scenario: Attempt to submit invalid geolocation data
+    Given an IoT device attempts to submit geolocation data with missing required fields (e.g., missing vehicleId or coordinates)
+    When a POST request is made to "/api/v1/iot/location-updates" with the invalid data
+    Then the system should reject the data
+    And respond with HTTP status 400 (Bad Request)
+    And the response body should contain an error message detailing the validation errors.
+
+  Scenario: Successfully query real-time location of a specific vehicle (for Parent App)
+    Given a Parent is logged in and is authorized to view the location of the bus assigned to their child (e.g., vehicle "V-101")
+    And vehicle "V-101" has recent geolocation updates
+    When a GET request is made to "/api/v1/vehicles/V-101/location" (or similar endpoint) with a valid JWT
+    Then the system should respond with HTTP status 200 (OK)
+    And the response body should contain the latest known location (latitude, longitude, speed, timestamp) of vehicle "V-101".
+
+  Scenario: Query location for a vehicle with no recent data or non-existent vehicle (for Parent App)
+    Given a Parent is logged in and requests the location for vehicle "V-999" which has no data or doesn't exist
+    When a GET request is made to "/api/v1/vehicles/V-999/location" with a valid JWT
+    Then the system should respond with HTTP status 404 (Not Found)
+    And the response body should contain an appropriate message (e.g., "Location data not available" or "Vehicle not found").
+```
+
+```gherkin
+Feature: US06 - API Gateway Routing and Microservice Accessibility
+  As a client application,
+  I want to interact with a unified API gateway
+  So that my requests are correctly routed to the appropriate backend microservices without needing to know their individual addresses.
+
+  Scenario: API Gateway successfully routes request to Accounts Microservice
+    Given the Accounts Microservice is running and registered with the API Gateway
+    When a POST request is made to the API Gateway at "/api/v1/admins/login" with valid administrator credentials
+    Then the API Gateway should route the request to the Accounts Microservice
+    And the Accounts Microservice should process the login
+    And the API Gateway should return the Accounts Microservice's response (e.g., HTTP 200 OK with JWT).
+
+  Scenario: API Gateway successfully routes request to Fleet Microservice
+    Given the Fleet Microservice is running and registered with the API Gateway
+    And the client is authenticated as an Educational Administrator
+    When a GET request is made to the API Gateway at "/api/v1/vehicles"
+    Then the API Gateway should route the request to the Fleet Microservice
+    And the Fleet Microservice should process the request
+    And the API Gateway should return the Fleet Microservice's response (e.g., HTTP 200 OK with a list of vehicles).
+
+  Scenario: API Gateway handles request to a non-existent microservice path
+    When a GET request is made to the API Gateway at "/api/v1/non-existent-service/data"
+    Then the API Gateway should determine that no microservice handles this path
+    And respond with HTTP status 404 (Not Found) or an appropriate gateway error.
+```
+
+```gherkin
+Feature: US37 - Pagination and Filtering of API Results
+  As a client application,
+  I want to request paginated and filtered lists of resources from the API,
+  So that I can retrieve data efficiently and display it in manageable chunks.
+
+  Scenario: Retrieve a paginated list of resources (e.g., vehicles)
+    Given there are 50 vehicle records in the system
+    When a GET request is made to "/api/v1/vehicles?page=2&size=10"
+    Then the system should respond with HTTP status 200 (OK)
+    And the response body should contain 10 vehicle records, corresponding to the second page
+    And the response should include pagination metadata (total items, total pages, current page, page size).
+
+  Scenario: Retrieve a filtered list of resources (e.g., vehicles by status)
+    Given there are vehicles with status "Active" and "Inactive"
+    When a GET request is made to "/api/v1/vehicles?status=Active"
+    Then the system should respond with HTTP status 200 (OK)
+    And the response body should contain only vehicles with the status "Active".
+
+  Scenario: Retrieve a paginated and filtered list of resources
+    Given there are 30 vehicles with status "Active"
+    When a GET request is made to "/api/v1/vehicles?status=Active&page=1&size=5"
+    Then the system should respond with HTTP status 200 (OK)
+    And the response body should contain the first 5 vehicles with status "Active"
+    And the response should include relevant pagination metadata for the filtered set.
+
+    Examples: Resource Endpoints
+      | ResourcePath     | FilterParameter | Page | Size |
+      | /api/v1/vehicles | status=OutOfService | 1    | 20   |
+      | /api/v1/users    | role=driver         | 3    | 10   |
+```
+
+\newpage
+
+::: info
+***Frontend US (Web Admin Application) - Gherkin***
+:::
+
+```gherkin
+Feature: US07 - Web Admin: Administrator Registration and Login Interface
+  As an Educational Administrator,
+  I want to use a web interface to register a new institutional account and log in,
+  So that I can securely access the RutaKids administration platform.
+
+  Scenario: Successful new administrator registration via web form
+    Given I am on the RutaKids administrator registration page
+    When I fill in the registration form with valid details (institution name "Colegio Ejemplo", my name "Jane Doe", email "jane.doe@colegio.ejemplo.com", password "SecurePass123", confirm password "SecurePass123")
+    And I submit the registration form
+    Then I should see a success message indicating my registration is processing or requires confirmation
+    And I should be redirected to a confirmation pending page or the login page.
+    # And an API call to the backend (US01 - Admin Registration) should be made
+
+  Scenario: Attempt administrator registration with mismatched passwords
+    Given I am on the RutaKids administrator registration page
+    When I fill in the registration form with email "john.doe@school.org", password "Pass1", and confirm password "Pass2"
+    And I submit the registration form
+    Then I should see an error message on the page stating "Passwords do not match."
+    And the form should not be submitted.
+
+  Scenario: Attempt administrator registration with an already registered email
+    Given an administrator account with "jane.doe@colegio.ejemplo.com" already exists
+    When I attempt to register using "jane.doe@colegio.ejemplo.com" again on the web form
+    And I submit the registration form
+    Then I should see an error message on the page stating "This email is already registered."
+    # And an API call to the backend (US01 - Admin Registration) results in a conflict
+
+  Scenario: Successful administrator login via web form
+    Given I am on the RutaKids administrator login page
+    And an administrator account exists for "admin@rutakids.com" with password "AdminPass!"
+    When I enter "admin@rutakids.com" in the email field
+    And I enter "AdminPass!" in the password field
+    And I click the "Login" button
+    Then I should be redirected to the administrator dashboard
+    And I should see elements indicating a successful login (e.g., my username, dashboard content).
+    # And an API call to the backend (US01 - Admin Login) should be successful
+
+  Scenario: Administrator login with incorrect credentials via web form
+    Given I am on the RutaKids administrator login page
+    When I enter "admin@rutakids.com" in the email field
+    And I enter "WrongPassword" in the password field
+    And I click the "Login" button
+    Then I should remain on the login page or see it re-rendered
+    And I should see an error message on the page stating "Invalid email or password."
+
+  Scenario: Accessing password recovery interface
+    Given I am on the RutaKids administrator login page
+    When I click the "Forgot Password?" link
+    Then I should be navigated to the password recovery page
+    Where I can enter my email to initiate the recovery process.
+```
+
+```gherkin
+Feature: US08 - Web Admin: Initial Dashboard and Profile Management Interface
+  As an Educational Administrator,
+  I want to access an initial dashboard with key information and manage my profile settings,
+  So that I can have an overview of the system and keep my account details up to date.
+
+  Scenario: View initial administrator dashboard after login
+    Given I am an Educational Administrator and I have successfully logged into the web platform
+    When I land on the administrator dashboard page
+    Then I should see a welcome message or my institution's name
+    And I should see placeholders or initial Key Performance Indicators (KPIs) (e.g., "Total Vehicles: N/A", "Active Routes: N/A") (Ref: Admin EP07-US01)
+    And I should see navigation options to other sections of the admin portal (e.g., "Fleet Management", "User Management").
+
+  Scenario: Navigate to and view profile management page
+    Given I am logged in as an Educational Administrator
+    When I navigate to the "My Profile" or "Account Settings" section from the dashboard or main navigation
+    Then I should see a page displaying my current profile information (e.g., Name, Email, Institution) (Ref: Admin EP01-US06)
+    And I should see options to edit my profile information.
+
+  Scenario: Successfully update profile information
+    Given I am on my profile management page
+    And my current name is "Jane Doe"
+    When I change my name to "Jane A. Doe" in the profile form
+    And I save the changes
+    Then I should see a success message "Profile updated successfully."
+    And my displayed name on the profile page and potentially in the header should reflect "Jane A. Doe".
+    # And an API call to update the profile on the backend should be made
+
+  Scenario: Attempt to update profile with invalid data (e.g., invalid email format)
+    Given I am on my profile management page
+    When I try to change my email to an invalid format like "jane.doe"
+    And I save the changes
+    Then I should see an error message on the page stating "Invalid email format."
+    And my email should not be updated.
+```
+
+```gherkin
+Feature: US09 - Web Admin: Initial Vehicle Management Interface
+  As an Educational Administrator,
+  I want to use a web interface to view, add, and edit vehicle information,
+  So that I can manage the school's transport fleet effectively.
+
+  Scenario: View list of registered vehicles
+    Given I am logged in as an Educational Administrator
+    And I navigate to the "Fleet Management" or "Vehicles" section
+    When the page loads
+    Then I should see a table or list displaying registered vehicles with key details (e.g., Plate Number, Model, Capacity, Status).
+    And if no vehicles are registered, I should see a message like "No vehicles registered yet. Add a new vehicle."
+    # And an API call to the backend (US04 - List Vehicles) should be made
+
+  Scenario: Successfully add a new vehicle via web form
+    Given I am on the vehicle management page
+    When I click the "Add New Vehicle" button
+    And I fill in the new vehicle form with valid data (Plate: "NEW-001", Model: "Minibus", Capacity: 20, Status: "Active")
+    And I submit the form
+    Then I should see a success message "Vehicle NEW-001 added successfully."
+    And the new vehicle "NEW-001" should appear in the list of vehicles.
+    # And an API call to the backend (US04 - Register Vehicle) should be made
+
+  Scenario: Attempt to add a new vehicle with missing required fields
+    Given I am on the new vehicle form
+    When I fill in the Plate as "BAD-002" but leave the Capacity field empty
+    And I submit the form
+    Then I should see an error message on the page next to the Capacity field, like "Capacity is required."
+    And the vehicle should not be added.
+
+  Scenario: Successfully edit an existing vehicle's information
+    Given I am on the vehicle management page and vehicle "EDIT-003" with Capacity 15 exists
+    When I select vehicle "EDIT-003" to edit
+    And I change its Capacity to 18 in the edit form
+    And I save the changes
+    Then I should see a success message "Vehicle EDIT-003 updated successfully."
+    And the vehicle "EDIT-003" in the list should now show Capacity 18.
+    # And an API call to the backend (US04 - Update Vehicle) should be made
+
+  Scenario: Navigate to vehicle details page (if applicable)
+    Given I am on the vehicle management page and vehicle "DETAIL-004" exists
+    When I click on vehicle "DETAIL-004" or a "View Details" button associated with it
+    Then I should be navigated to a page showing more comprehensive details for vehicle "DETAIL-004".
+```
+
+\newpage
+
+::: info
+***Mobile App US (Parent/Tutor Application) - Gherkin***
+:::
+
+```gherkin
+Feature: US10 - Mobile App: Parent/Tutor Registration and Login
+  As a Parent/Tutor,
+  I want to register for an account and log in using the mobile app,
+  So that I can access RutaKids features to monitor my child's transport.
+
+  Scenario: Successful new parent/tutor registration via mobile app form
+    Given I am on the RutaKids mobile app registration screen
+    When I fill in the registration form with my valid details (Name "John Parent", Email "john.parent@example.com", Password "MyChildsSafeR!de", Confirm Password "MyChildsSafeR!de", and information to link to my child/children)
+    And I tap the "Register" button
+    Then I should see a success message on the screen (e.g., "Registration successful! Please check your email for verification.") or be taken to a verification pending screen
+    And my account creation process should be initiated.
+    # And an API call to the backend (US02 - Parent/Tutor Registration) should be made
+
+  Scenario: Attempt parent/tutor registration with mismatched passwords in mobile app
+    Given I am on the RutaKids mobile app registration screen
+    When I fill in the registration form with email "jane.parent@example.com", password "PassA", and confirm password "PassB"
+    And I tap the "Register" button
+    Then I should see an error message on the screen stating "Passwords do not match."
+    And the form should not be submitted.
+
+  Scenario: Attempt parent/tutor registration with an already registered email in mobile app
+    Given a parent/tutor account with "john.parent@example.com" already exists
+    When I attempt to register using "john.parent@example.com" again in the mobile app
+    And I tap the "Register" button
+    Then I should see an error message on the screen stating "This email is already registered."
+    # And an API call to the backend (US02 - Parent/Tutor Registration) results in a conflict
+
+  Scenario: Successful parent/tutor login via mobile app
+    Given I am on the RutaKids mobile app login screen
+    And a parent/tutor account exists for "lucy.guardian@example.com" with password "SecureApp123"
+    When I enter "lucy.guardian@example.com" in the email field
+    And I enter "SecureApp123" in the password field
+    And I tap the "Login" button
+    Then I should be navigated to the main screen or dashboard of the mobile app
+    And I should see elements indicating a successful login (e.g., my child's name, map view).
+    # And an API call to the backend (US02 - Parent/Tutor Login) should be successful
+
+  Scenario: Parent/tutor login with incorrect credentials via mobile app
+    Given I am on the RutaKids mobile app login screen
+    When I enter "lucy.guardian@example.com" in the email field
+    And I enter "WrongPassword" in the password field
+    And I tap the "Login" button
+    Then I should remain on the login screen or see it re-rendered
+    And I should see an error message on the screen stating "Invalid email or password."
+
+  Scenario: Accessing password recovery from mobile app login screen
+    Given I am on the RutaKids mobile app login screen
+    When I tap the "Forgot Password?" link or button
+    Then I should be navigated to a password recovery screen within the app
+    Where I can enter my email to initiate the recovery process.
+```
+
+```gherkin
+Feature: US11 - Mobile App: Real-time Vehicle Location Tracking
+  As a Parent/Tutor,
+  I want to view the real-time location of my child's assigned transport vehicle on a map within the mobile app,
+  So that I can be informed about the progress of their journey.
+
+  Scenario: View real-time location of the assigned vehicle on the map
+    Given I am logged into the RutaKids mobile app
+    And my child is assigned to a bus (e.g., "BUS-A1") which is currently on its route
+    And the bus "BUS-A1" is transmitting location updates
+    When I navigate to the "Track Ride" or "Map View" screen
+    Then I should see a map displayed on the screen
+    And I should see an icon representing my child's bus "BUS-A1" at its current location on the map
+    And the icon's position should update periodically to reflect real-time movement.
+    # And an API call to the backend (US05 - Query Vehicle Location) should be made to fetch location data
+
+  Scenario: Map displays correctly on different mobile devices and orientations
+    Given I am logged into the RutaKids mobile app and viewing the map screen
+    When I use the app on different mobile devices (e.g., Android, iOS, varying screen sizes)
+    Or I rotate my device screen (portrait/landscape)
+    Then the map should render correctly, filling the available space appropriately
+    And all map controls (zoom, pan) should remain functional.
+
+  Scenario: Handling situation when vehicle location data is unavailable
+    Given I am logged into the RutaKids mobile app
+    And my child's assigned bus "BUS-B2" is not currently transmitting location data (e.g., out of service, GPS issue)
+    When I navigate to the "Track Ride" or "Map View" screen for "BUS-B2"
+    Then I should see a message on the screen like "Vehicle location is currently unavailable" or "Bus is not active"
+    And the map might show a default view or the last known location with a clear indicator of its staleness.
+
+  Scenario: Display basic route information along with vehicle location (Future Enhancement Hint)
+    Given I am viewing the real-time location of my child's bus "BUS-C3"
+    When the map screen loads
+    Then I might see a faint overlay or markers indicating the planned route for "BUS-C3" (Ref: Tutor EP02-US02)
+    And I might see an estimated time of arrival (ETA) to the next stop or destination (Ref: Tutor EP02-US03).
+    # This scenario hints at related functionalities that might be built upon this core tracking.
+```
+
+```gherkin
+Feature: US12 - Mobile App: Initial Notification Configuration and Reception
+  As a Parent/Tutor,
+  I want to manage basic notification preferences in the mobile app and receive initial critical alerts,
+  So that I can stay informed about important events related to my child's transport.
+
+  Scenario: Access notification settings screen
+    Given I am logged into the RutaKids mobile app
+    When I navigate to the "Settings" or "Notifications" section within the app
+    Then I should see a screen where I can manage my notification preferences (Ref: Tutor EP01-US04, Tutor EP06-US01).
+
+  Scenario: Enable/Disable a basic notification type (e.g., "Child Aboard Vehicle")
+    Given I am on the notification settings screen
+    And there is an option to toggle notifications for "Child Aboard Vehicle"
+    When I toggle the "Child Aboard Vehicle" notification switch to "ON" (or "OFF")
+    Then the setting should be saved
+    And I should receive (or stop receiving) this type of notification accordingly.
+    # And an API call might be made to the backend to store this preference
+
+  Scenario: Receive a "Child Aboard Vehicle" push notification
+    Given I have "Child Aboard Vehicle" notifications enabled in the mobile app
+    And my child has just boarded their assigned school bus
+    And the system detects this event (e.g., via RFID scan, Ref: Admin EP03-US02)
+    When the event occurs
+    Then I should receive a push notification on my mobile device stating something like "Notification: [Child's Name] has boarded bus [Bus ID]." (Ref: Tutor EP03-US01)
+
+  Scenario: Receive a "Vehicle Arrived at Destination" push notification
+    Given I have relevant arrival notifications enabled
+    And my child's bus has just completed its route and arrived at the school (or home stop)
+    When the bus arrival event is registered by the system
+    Then I should receive a push notification on my mobile device stating something like "Notification: Bus [Bus ID] has arrived at [Destination]." (Ref: Tutor EP03-US02)
+
+  Scenario: View notification history (basic placeholder)
+    Given I have received several notifications
+    When I navigate to a "Notification History" or "Alerts" section in the app (if available in this sprint)
+    Then I should see a list of recent notifications I have received.
+    # This is a basic placeholder; full history might be a later feature (Ref: Tutor EP05)
+```
+
+\newpage
+
+#### Execution Evidence for Sprint Review
+
+::: box
+**Implemented Landing Page Evidence**
+:::
+
+::: warn
+Para acceder al repositorio de este proyecto, haga click a la [URL](https://github.com/orgs/LlantaTech/repositories)
+:::
+
+**Captura del repositorio:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/landing-deploy-1.png){ width=80% }
+
+**Landing Page en funcionamiento:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/landing-deploy-2.png){ width=80% }
+
+\newpage
+
+::: box
+**Implemented Frontend-Web Application Evidence**
+:::
+
+::: warn
+Para acceder al repositorio de este proyecto, haga click a la [URL](https://github.com/orgs/LlantaTech/repositories)
+:::
+
+**Captura del repositorio:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/webapp-deploy-1.png){ width=80% }
+
+**Web Application en funcionamiento:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/webapp-deploy-2.jpg){ width=80% }
+
+\newpage
+
+::: box
+**Implemented Native-Mobile Application Evidence**
+:::
+
+::: warn
+Para acceder al repositorio de este proyecto, haga click a la [URL](https://www.figma.com/design/ph6aTjM4mzxkNic0Hk4VLX/RutaKids?node-id=275-3006&t=aZ58NPtaowKWvMte-1)
+:::
+
+**Captura del figma:**
+
+![Organización LLantatech, imagen extraída de Figma](src/img/cap6/rutakids-mobileapp-github-implementation.png){ width=80% }
+
+**Mobile Application en funcionamiento:**
+
+![Organización LLantatech, imagen extraída de Figma](src/img/cap6/mobile-app-figma-view.png){ width=50% }
+
+\newpage
+
+::: box
+**Implemented RESTful API and/or Serverless Backend Evidence**
+:::
+
+::: warn
+Para acceder al repositorio de este proyecto, haga click a la [URL](https://github.com/LlantaTech/ruta-kids-microservicios)
+:::
+
+**Captura del repositorio:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/webservices-deploy-1.png){ width=80% }
+
+**Web Service Application en funcionamiento:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/webservices-deploy-2.jpg){ width=80% }
+
+\newpage
+
+**RESTful API documentation**
+
+::: warn
+Para acceder al repositorio de este proyecto, haga click a la [URL](https://github.com/LlantaTech/ruta-kids-microservicios)
+:::
+
+**Captura del repositorio:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/webservices-doc.png)
+
+\newpage
+
+#### Services Documentation Evidence for Sprint Review
+
+
+En esta seccion, se muestra la documentacion de los servicios del back end de la aplicación móvil, asi como tambien se muestra el uso de Swagger para la documentacion de los servicios.
+
+Utilizamos *SpringBoot*, *Spring Security*, *Spring Mongo*, *Spring Oauthclient*, *JWToken* y *Spring Data*
+
+::: warn
+**https://docs.spring.io/spring-boot/index.html**
+:::
+
+![Imagen extraída de la documentación de Spring](src/img/cap6/documentation1.png)
+
+\newpage
+
+::: warn
+**https://docs.spring.io/spring-boot/reference/web/spring-security.html#page-title**
+:::
+
+![Imagen extraída de la documentación de Spring](src/img/cap6/documentation2.png)
+
+::: warn
+**https://www.npmjs.com/package/jsonwebtoken**
+:::
+
+![Imagen extraída de NPMjs](src/img/cap6/documentation3.png)
+
+\newpage
+
+::: warn
+**https://spring.io/projects/spring-data-jpa**
+:::
+
+![Imagen extraída de la documentación de Spring](src/img/cap6/documentation4.png)
+
+\newpage
+
+#### Software Deployment Evidence for Sprint Review
+
+***Landing Page Deployment***
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/landing-deploy-2.png){ width=80% }
+
+**Web Application Deployment**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/webapp-deploy-2.jpg){ width=80% }
+
+\newpage
+
+**Mobile Application Deployment**
+
+![Organización LLantatech, imagen extraída del Github](src/img/cap6/mobile-app-figma-view.png){ width=50% }
+
+**Web Service Deployment**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/webservices-deploy-2.jpg){ width=80% }
+
+\newpage
+
+#### Team Collaboration Insights during Sprint
+
+::: warn
+Para acceder los insights de este proyecto, haga click a la [URL](https://github.com/orgs/LlantaTech/repositories)
+:::
+
+**Tablero Kanban:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/insights-kanban-todo-1.png){ width=80% }
+
+**Kanban List:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/insights-kanban-list-1.png){ width=80% }
+
+\newpage
+
+**Network Graph:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/insights-network-graph-tb2.png){ width=80% }
+
+**Traffic Map:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/insights-traffic-map-tb2.png){ width=80% }
+
+\newpage
+
+## Validation Interviews
+
+
+Las entrevistas de validación constituyen una herramienta cualitativa fundamental en la evaluación temprana de productos digitales, ya que permiten recopilar información directa y contextualizada sobre la experiencia de uso desde la perspectiva de los usuarios finales. En el presente proyecto, se llevaron a cabo entrevistas semiestructuradas con individuos representativos de los segmentos objetivo de la solución *RutaKids*, con el propósito de validar su adecuación funcional, nivel de usabilidad y grado de satisfacción percibida.
+
+Estas entrevistas se diseñaron cuidadosamente para cubrir los principales puntos de contacto del sistema, incluyendo:
+
+* La **landing page** promocional, orientada a captar nuevos usuarios y comunicar el valor diferencial de la propuesta.
+* El **dashboard escolar** (aplicación web), dirigido a instituciones educativas y personal administrativo encargado de la gestión de rutas, alumnos y control logístico.
+* La **aplicación móvil**, orientada principalmente a padres de familia y/o apoderados, quienes monitorean en tiempo real la ubicación y estado del transporte escolar.
+
+Durante las sesiones, se solicitaron a los participantes que ejecutaran tareas específicas previamente definidas por el equipo (por ejemplo: registrarse, asignar un alumno, monitorear una ruta o revisar notificaciones). Al mismo tiempo, se documentaron tanto sus reacciones espontáneas como sus comentarios verbales, siguiendo la técnica del *think-aloud protocol*, que facilita la identificación de puntos de fricción, malentendidos o barreras cognitivas.
+
+::: warn
+Para acceder al video de las entrevistas, haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EV28HExaIsFIh22vN6-VY-sBzdw5JApHhMXCx5KyLMdBPQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=X20C3t)
+:::
+
+![Recurso extraído de Canva](src/img/cap2/entrevistas-introduccion.png)
+
+\newpage
+
+### Diseño de Entrevistas 
+
+Las entrevistas de validación fueron diseñadas considerando las necesidades, contextos de uso y tareas más relevantes para cada segmento objetivo del proyecto. A cada entrevistado se le presentó un conjunto de escenarios y se le asignaron tareas concretas vinculadas con los *user flows* principales de su perfil de usuario.
+
+::: box
+**Segmento Objetivo 1:** Directivos escolares o personal administrativo
+:::
+
+**Interfaces validadas:**
+
+* **Dashboard web** (gestión de rutas, reportes, alertas, asistencia)
+
+* **Landing page** (como introducción al producto)
+
+**Objetivo:** Validar si la plataforma facilita la gestión del transporte escolar, si la interfaz es clara, y si la información mostrada es suficiente y útil para sus tareas diarias.
+
+**User Flows Evaluados y Preguntas de Validación:**
+
+1) **Landing Page**  
+
+  - **Objetivo:** Validar si la página comunica correctamente la propuesta de valor del sistema.  
+
+  - **Preguntas:**  
+
+    - ¿La información presentada en la landing page te ayudó a entender la solución?  
+
+    - ¿Qué parte te pareció más útil o convincente?  
+          
+    - ¿Qué información adicional crees que podría motivarte a adquirir esta solución?
+
+
+
+2) **User Flow 1: Ingreso al sistema**
+
+    - **Objetivo:** Validar que el login sea claro, sencillo y transmita seguridad.  
+
+    - **Preguntas:**  
+
+      - ¿El proceso de inicio de sesión fue claro y fácil de completar?  
+
+      - ¿La interfaz te generó confianza para ingresar tus credenciales?  
+
+      - ¿Cambiarías o mejorarías algo en esta pantalla?
+
+      
+
+3) **User Flow 2: Visualización del panel de rutas activas** 
+
+  - **Objetivo:** Evaluar si la información operativa de rutas es accesible y entendible. 
+
+  - **Preguntas:**  
+
+    - ¿Cómo percibes la organización del panel principal? ¿Te parece clara?
+
+    - ¿Puedes identificar fácilmente el estado de las rutas y de cada bus?  
+
+    - ¿La información presentada es la que necesitas para tomar decisiones?  
+
+    - ¿Te gustaría ver algún otro tipo de dato aquí?
+
+4) **User Flow 3: Emisión de notificaciones a padres**  
+
+  - **Objetivo:** Validar la facilidad de enviar alertas y la percepción de control sobre la comunicación.  
+
+  - **Preguntas:**  
+
+    - ¿Cómo fue tu experiencia al intentar enviar una notificación a los padres?  
+
+    - ¿Sentiste que el sistema te ofrecía suficiente control sobre el mensaje y el destinatario?  
+
+    - ¿Agregarías algún tipo de notificación o canal adicional (SMS, correo, etc.)?  
+
+    - ¿Consideras útil tener mensajes predefinidos o plantillas?
+
+5) **User Flow 4: Consulta de reportes de asistencia y trayectos**  
+
+  - **Objetivo:** Comprobar la utilidad, estructura y legibilidad de los reportes generados.  
+
+  - **Preguntas:**  
+
+    - ¿Los reportes presentados fueron fáciles de interpretar?  
+
+    - ¿Te parecen útiles para reuniones o auditorías internas?  
+
+    - ¿Preferirías recibir estos reportes automáticamente al correo?  
+
+    - ¿Sientes que hay datos innecesarios o que falta información clave?
+
+6) **User Flow 5: Configuración de alertas de llegada/salida**  
+
+  - **Objetivo:** Verificar si el proceso es intuitivo y útil desde una perspectiva operativa.  
+
+  - **Preguntas:**  
+
+    - ¿Te pareció sencillo configurar alertas para los trayectos escolares?  
+
+    - ¿Crees que estas alertas cubrirían tus necesidades diarias de supervisión?  
+
+    - ¿Qué nivel de personalización esperas tener en estas configuraciones?  
+
+    - ¿Preferirías una opción para programarlas automáticamente por curso o sección?
+
+      
+\newpage
+
+::: box
+**Segmento Objetivo 2:** Padres de familia con hijos en edad escolar
+:::
+
+
+**Interfaces validadas:**
+
+* **Aplicación móvil para padres** (visualización del bus, notificaciones, historial, perfil)
+
+* **Landing page** (introducción general del servicio)
+
+**Objetivo:** Validar que los padres puedan usar la aplicación sin dificultad, que perciban seguridad y tranquilidad, y que reciban la información relevante de manera oportuna.
+
+**User Flows Evaluados y Preguntas de Validación:**
+
+
+1) **Landing Page**  
+
+  - **Objetivo:** Evaluar si la landing page genera confianza y comunica el valor de la app.  
+
+  - **Preguntas:**  
+
+    - ¿La página te ayudó a entender qué hace la app?  
+
+    - ¿Confías en la solución después de ver la información?  
+
+    - ¿Qué mejorarías o agregarías para que más padres se interesen?
+
+
+2) **User Flow 1: Registro e inicio de sesión como padre**  
+
+  - **Objetivo:** Evaluar la claridad del proceso de registro e ingreso, especialmente en usuarios no técnicos.  
+
+  - **Preguntas:**  
+
+    - ¿Cómo te pareció el proceso de registro e inicio de sesión?  
+
+    - ¿Algún paso te generó confusión o fue innecesario?  
+
+    - ¿Te sentiste seguro al ingresar tu información personal?  
+
+    - ¿Qué parte mejorarías para que sea más rápida o clara?
+
+3) **User Flow 2: Visualización del bus escolar en tiempo real**  
+
+  - **Objetivo:** Confirmar que el tracking funcione de forma comprensible y confiable.  
+
+  - **Preguntas:**  
+
+    - ¿Pudiste ubicar el bus de forma clara en el mapa?  
+
+    - ¿La visualización te dio tranquilidad respecto al trayecto de tu hijo?  
+
+    - ¿Te gustaría ver algún otro dato en esta pantalla (nombre del chofer, tiempo estimado de llegada, etc.)?  
+
+    - ¿Te parece útil esta función en tu rutina diaria?
+
+4)  **User Flow 3: Recepción de alertas de llegada y salida**  
+
+  - **Objetivo:** Evaluar si las notificaciones automáticas son visibles, comprensibles y oportunas.  
+
+  - **Preguntas:**  
+
+    - ¿Las alertas de llegada o salida fueron fáciles de entender?  
+
+    - ¿En qué momento te gustaría recibir estas notificaciones?  
+
+    - ¿Qué medio prefieres: notificaciones en la app, correo, WhatsApp?  
+
+    - ¿Te gustaría personalizar el contenido o la frecuencia de las alertas?
+
+5) **User Flow 4: Consulta del historial de trayectos**  
+
+  - **Objetivo:** Verificar la utilidad del historial para el control parental.  
+
+  - **Preguntas:**  
+
+    - ¿Encontraste fácilmente el historial de rutas?  
+
+    - ¿Te parece útil ver los trayectos pasados de tu hijo?  
+
+    - ¿Qué información extra agregarías a este historial (fecha, hora, chofer, etc.)?  
+
+    - ¿Lo usarías como referencia ante algún problema o retraso?
+
+6) **User Flow 5: Acceso y edición del perfil del estudiante**  
+
+  - **Objetivo:** Evaluar si los padres pueden gestionar correctamente la información del alumno.  
+
+  - **Preguntas:**  
+
+    - ¿Fue fácil encontrar y editar la información de tu hijo?  
+
+    - ¿Qué datos crees que deberían estar incluidos en ese perfil?  
+
+    - ¿Preferirías tener un control más limitado o más detallado sobre el perfil?  
+
+    - ¿Consideras útil que puedas vincular este perfil a varios acudientes (mamá, papá, tutor)?  
+
+
+\newpage
+
+### Registro de Entrevistas 
+
+::: box
+**Segmento Objetivo 1:** Directivos escolares o personal administrativo
+:::
+
+**Entrevista #1**
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|p{5cm}|p{6cm}|}
+\hline
+\textbf{Nombre y Apellido}    & Max Paul Ramos Chupitazzi \\ \hline
+\textbf{Edad}                 & 55 años                   \\ \hline
+\textbf{Ubicación geográfica} & Paiján, Ascope, La Libertad, Perú \\ \hline
+\textbf{Cargo}                & Docente de secundaria y asesor tecnológico \\ \hline
+\textbf{Tiempo de entrevista} & 00:00 - 10:34             \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+**Resumen de la entrevista**
+
+Max Paul Ramos Chupitazzi, docente de matemáticas y asesor tecnológico, señala que el colegio donde trabaja no cuenta con un sistema propio de transporte escolar. Actualmente, la responsabilidad recae enteramente en los padres, quienes contratan transportes de forma independiente y sin supervisión de la institución. Esto genera una serie de problemas: falta de puntualidad, ausencia de control de asistencia, y condiciones inseguras en los vehículos, muchos de los cuales carecen de seguro y operan con sobrecupo.
+El colegio ha detectado una necesidad urgente de implementar un sistema institucional de transporte, especialmente para estudiantes que provienen de distritos cercanos como Rázuri y Macaví. Se ha planteado la adquisición de unidades propias, lo cual permitiría garantizar la seguridad de los alumnos, asegurar la puntualidad y mejorar la percepción del colegio ante la comunidad.
+Actualmente, el colegio utiliza un sistema de photochip para controlar el ingreso de los estudiantes, lo que permite identificar ausencias tempranas. Sin embargo, no existe ningún control al abordar o descender del transporte escolar, lo que ha causado incidentes preocupantes, como el caso de una estudiante que terminó en otra ciudad sin ser detectada.
+El entrevistado propone un sistema tecnológico que permita el registro digital de embarque y desembarque mediante códigos de barras, notificaciones automáticas a los padres, y una app o panel de control para el monitoreo en tiempo real. Destaca que esto brindaría beneficios como: Mayor seguridad y tranquilidad para las familias,  fidelización de los padres hacia la institución y una reputación positiva del colegio como espacio moderno y confiable.
+El principal obstáculo para la implementación es el costo adicional para las familias, aunque considera que si el incremento no es excesivo, los padres estarían dispuestos a asumirlo a cambio de mayor seguridad.
+
+![Imagen extraída del video de entrevistas](src/img/cap2/EntrevistaPaul.png)
+
+\newpage
+
+**Entrevista #2**
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|p{5cm}|p{6cm}|}
+\hline
+\textbf{Nombre y Apellido}    & Juliana Chávez \\ \hline
+\textbf{Edad}                 & 32 años                   \\ \hline
+\textbf{Ubicación geográfica} & Paiján, Ascope, La Libertad, Perú \\ \hline
+\textbf{Cargo}                & Directora de institución educativa privada \\ \hline
+\textbf{Tiempo de entrevista} & 10:34 - 19:40             \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+**Resumen de la entrevista**
+
+Juliana Chávez, directora de una institución educativa privada en Paiján, explica que actualmente no cuentan con un sistema de transporte escolar institucional. La organización del traslado de los alumnos recae completamente en los padres, quienes contratan por su cuenta movilidades desde distintas zonas como Puerto Malabrigo, Casagrande, Chiclín y Chumpón.
+La institución se encarga de definir los horarios escolares, pero no participa en la selección de choferes, rutas o tarifas. Las movilidades contratadas llegan hasta la puerta del colegio, donde auxiliares y porteros reciben a los estudiantes, y a la salida los acompañan hasta que aborden.
+Uno de los problemas identificados es la falta de respuesta rápida en caso de emergencias médicas. Si un estudiante se enferma durante el horario escolar, la movilidad no puede recogerlo, por lo que deben llamar a los padres, lo que puede generar complicaciones si no hay quien lo recoja de inmediato.
+Aunque no han recibido reclamos formales por parte de los padres sobre el transporte, existen comentarios informales sobre la posibilidad de que el colegio implemente su propia movilidad, lo que, según la directora, aumentaría la seguridad y tranquilidad de las familias.
+Juliana considera que sería muy útil implementar una aplicación o plataforma digital para monitorear en tiempo real el transporte escolar. Esta permitiría:
+
+   - Ver si los alumnos subieron o no a la movilidad.
+   - Notificar a los padres en caso de desvíos o incidentes.
+   - Usar un sistema tipo GPS que registre las rutas y desplazamientos.
+
+En cuanto a la viabilidad de este tipo de solución, cree que los padres estarían dispuestos a pagar por ella, siempre que el costo no sea mayor que el actual. Destaca que sería una inversión valiosa tanto para el bienestar emocional de los padres como para la imagen y compromiso del colegio.
+
+![Imagen extraída del video de entrevistas](src/img/cap2/EntrevistaJuliana.png)
+
+\newpage
+
+**Entrevista #3**
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|p{5cm}|p{6cm}|}
+\hline
+\textbf{Nombre y Apellido}    & Graciela Rios Alza \\ \hline
+\textbf{Edad}                 & 52 años                   \\ \hline
+\textbf{Ubicación geográfica} & Paiján, Ascope, La Libertad, Perú \\ \hline
+\textbf{Cargo}                & Promotora de institución educativa \\ \hline
+\textbf{Tiempo de entrevista} & 19:40 - 29:26             \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+**Resumen de la entrevista**
+
+Graciela Rios Alza se desempeña como promotora en una institución educativa de Paiján, donde observa de cerca las dinámicas del transporte escolar. Actualmente, la movilidad de los estudiantes es gestionada por terceros, especialmente combis que llegan desde distritos cercanos como Puerto Malabrigo. La institución no cuenta con un sistema de transporte propio, ni tecnología para monitorear en tiempo real los viajes.
+Aunque el colegio establece los horarios de entrada y salida, no interviene en la organización ni supervisión del transporte escolar: ni en rutas, ni en selección de choferes, ni en el control de asistencia. La única comunicación activa ocurre cuando:
+   - El conductor se comunica con el colegio para avisar retrasos por problemas como llantas pinchadas.
+   - Los padres avisan si un alumno no asistirá.
+Todo el proceso es manual y reactivo, sin herramientas tecnológicas. No existe un sistema para confirmar si los alumnos llegaron o regresaron, y no se registra asistencia al abordar o descender de los vehículos. Esto ha llevado a situaciones preocupantes: algunos estudiantes no fueron recogidos a la salida, obligando al conductor a regresar al colegio por ellos tras ser olvidados.
+Graciela señala que los padres se mantienen constantemente preocupados por la seguridad del traslado de sus hijos, y que no se sienten completamente tranquilos con el sistema actual. Aunque no hay una cantidad alta de reclamos formales, sí se han reportado fallas mecánicas y descuidos logísticos.
+A pesar de que no se ha usado nunca un sistema digital para la gestión del transporte, Graciela ve con buenos ojos la implementación de una aplicación tecnológica que permita:
+   - Notificar automáticamente cuando los niños llegan al colegio o están en camino a casa.
+   - Proveer información en tiempo real sobre el trayecto.
+   - Permitir a los padres confirmar si enviarán a su hijo o no, facilitando la gestión administrativa del colegio.
+También menciona que el uso de este tipo de tecnología sería bien recibido por los padres, especialmente aquellos que dependen del transporte escolar diariamente. Considera que esto mejoraría la seguridad y la tranquilidad emocional tanto de los padres como del personal educativo.
+Está convencida de que sería viable implementar esta solución en su colegio y que beneficiaría directamente a varias áreas institucionales, como administración, psicología y auxiliares, al mejorar la organización, la comunicación y la prevención de incidentes.
+
+
+![Imagen extraída del video de entrevistas](src/img/cap2/EntrevistaRocio.png)
+
+\newpage
+
+
+::: box
+**Segmento Objetivo 2:** Padres de familia con hijos en edad escolar
+:::
+
+**Entrevista #1**
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|p{5cm}|p{6cm}|}
+\hline
+\textbf{Nombre y Apellido}    & Gabriela Ríos Lazaro \\ \hline
+\textbf{Edad}                 & 52 años                   \\ \hline
+\textbf{Ubicación geográfica} & Trujillo, La libertad \\ \hline
+\textbf{Ocupación}            & Obstetra \\ \hline
+\textbf{Relación con la educación} & Madre de un estudiante de secundaria \\ \hline
+\textbf{Tiempo de entrevista} & 29:26 - 39:23             \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+**Resumen de la entrevista**
+
+Gabriela Ríos es madre de un estudiante de nivel secundario que utiliza un servicio de movilidad escolar privado de lunes a viernes. Aunque no recibe notificaciones diarias sobre la llegada de su hijo al colegio, confía en el conductor con el que ha establecido un acuerdo de transporte. La comunicación es directa, principalmente mediante llamadas en caso de imprevistos, como fallas menores del vehículo.
+En su experiencia, nunca ha tenido un incidente grave relacionado al transporte, aunque reconoce que ha habido ocasiones donde ha tenido que comunicarse por su cuenta para confirmar el paradero de su hijo. La movilidad cuenta con una persona encargada que apoya a los estudiantes durante el trayecto, lo cual le brinda seguridad adicional.
+Gabriela califica el servicio actual con un 8 sobre 10. El motivo de esta calificación se relaciona con un ajuste logístico reciente: debido a que el conductor asumió una nueva ruta para otro colegio, su hijo comenzó a ser dejado a unas cuadras de casa en lugar del domicilio exacto. Aun así, al tratarse de un adolescente y contar con su autorización previa, no lo considera un problema crítico ni un motivo para cambiar de proveedor, resaltando la responsabilidad y confiabilidad del conductor.
+En cuanto a mejoras al sistema actual, Gabriela está completamente a favor de que el colegio implemente su propio sistema de transporte escolar, respaldado por una aplicación digital que permita monitorear el trayecto en tiempo real. Considera que sería una forma efectiva de asegurar que los estudiantes llegan bien a su destino y retornan sin incidentes. Además, resalta que muchas familias no tienen la posibilidad de recoger personalmente a sus hijos y dependen del transporte contratado.
+Está dispuesta a pagar un costo adicional por un servicio así, siempre que venga respaldado por el colegio, que considera más preparado que los grupos de padres para seleccionar personal capacitado y prudente. Subraya que, así como confían en las escuelas para contratar buenos docentes, también deberían poder confiar en que contraten buenos conductores.
+Finalmente, considera que lo más importante en una solución tecnológica de este tipo es:
+   - Confirmar la llegada del alumno al colegio y su retorno al hogar.
+   - Notificaciones automáticas en caso de desvíos o emergencias.
+   - Gestión directa desde la institución, para mayor confianza y profesionalismo.
+
+![Imagen extraída del video de entrevistas](src/img/cap2/EntrevistaGabriela.png)
+
+\newpage
+
+**Entrevista #2**
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|p{5cm}|p{6cm}|}
+\hline
+\textbf{Nombre y Apellido}    & Zoila Lescano Nureña \\ \hline
+\textbf{Edad}                 & 43 años                   \\ \hline
+\textbf{Ubicación geográfica} & Trujillo, La libertad \\ \hline
+\textbf{Ocupación}            & Obstetra \\ \hline
+\textbf{Relación con la educación} & Madre de cuatro hijos (tres en primaria y una bebé) \\ \hline
+\textbf{Tiempo de entrevista} & 39:23 - 45:15             \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+**Resumen de la entrevista**
+
+Zoila Lescano Nureña es madre de cuatro hijos, tres de ellos actualmente cursando primaria. En el pasado, sus hijos utilizaron movilidad escolar tradicional, compartida con otros estudiantes. Sin embargo, cambió a un servicio de taxi particular exclusivo para sus tres hijos debido a preocupaciones por la logística y los horarios inflexibles de la movilidad escolar.
+Según Zoila, las movilidades compartidas recogían a los niños muy temprano y los devolvían a casa muy tarde, debido a la necesidad de recoger a varios estudiantes en diferentes puntos. Esta situación le generaba preocupación diaria, y por ello optó por una alternativa más personalizada y eficiente.
+Actualmente, el servicio de taxi contratado ofrece una experiencia altamente satisfactoria:
+
+   - El conductor informa detalladamente los horarios de recogida y llegada.
+   - La familia cuenta con comunicación directa constante.
+   - Considera que la seguridad, puntualidad y trato son excelentes.
+
+Aunque se siente tranquila con la situación actual, Zoila apoya la idea de implementar tecnología adicional para monitorear los desplazamientos escolares. En particular, valoraría una aplicación conectada a dispositivos como pulseras escaneables que envíen alertas al celular en tiempo real sobre:
+
+   - Abordaje y bajada del transporte.
+   - Notificaciones de incidentes o retrasos.
+   - Seguimiento de ruta sin necesidad de comunicación directa con el conductor.
+
+Además, considera que esta solución debería ser promovida e implementada por el colegio como parte de su compromiso con la seguridad estudiantil. Sugiere que esté disponible para las familias que quieran adoptarla, destacando que no todos los padres tienen el tiempo ni los medios para estar al tanto constantemente del transporte de sus hijos.
+Zoila estaría dispuesta a pagar un costo adicional por este servicio digital, siempre que garantice mayor tranquilidad, especialmente en contextos de inseguridad o posibles emergencias. También propone que la aplicación incorpore una señal de alarma o alerta que los niños puedan activar si algo inusual ocurre durante el trayecto.
+
+![Imagen extraída del video de entrevistas](src/img/cap2/EntrevistaZoila.png)
+
+\newpage
+
+**Entrevista #3**
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|p{5cm}|p{6cm}|}
+\hline
+\textbf{Nombre y Apellido}    & Hayle Ascoy Varas \\ \hline
+\textbf{Edad}                 & 40 años                   \\ \hline
+\textbf{Ubicación geográfica} & Paiján, Ascope, La Libertad \\ \hline
+\textbf{Ocupación}            & Docente \\ \hline
+\textbf{Relación con la educación} & Madre de una niña en tercer grado de primaria \\ \hline
+\textbf{Tiempo de entrevista} & 45:15 - 51:52             \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+**Resumen de la entrevista**
+
+Hayle Ascoy Varas, docente y madre de una niña de tercer grado, utiliza movilidad escolar privada de lunes a viernes. Aunque el servicio es funcional y el conductor es una persona en quien confía por su buen trato y responsabilidad, Hayle manifiesta una preocupación constante por la falta de seguimiento en tiempo real del traslado de su hija. La comunicación depende exclusivamente del celular del chofer, quien no siempre responde de inmediato, lo que la obliga a insistir para confirmar si su hija ha llegado al colegio o a casa.
+Ha experimentado situaciones de incertidumbre debido a retrasos ocasionados por fallas mecánicas o falta de gasolina, sin previo aviso. Si bien califica el servicio actual como más seguro que en el pasado, afirma que dejaría de usarlo si la puntualidad se ve afectada o si pierde transparencia en la comunicación directa.
+En un intento anterior por monitorear a su hija, utilizó un reloj GPS, pero dejó de hacerlo por restricciones del colegio y porque el dispositivo era fácilmente manipulado por la niña. Actualmente, no utiliza aplicaciones escolares específicas, y se comunica con el colegio únicamente vía WhatsApp con tutoras o la secretaría.
+Hayle estaría dispuesta a pagar hasta 100 soles mensuales por una aplicación que brinde más seguridad y control, siempre que sea de calidad. Considera importante que esta incluya funciones como:
+   - Notificaciones automáticas de embarque y desembarque.
+   - Seguimiento en tiempo real de la ruta.
+   - Alertas de paradas o incidencias no programadas.
+Cree firmemente que el colegio debería ser quien gestione la aplicación, ya que esto garantizaría un control compartido y mayor confianza institucional. Para ella, la implementación de este tipo de solución sería una muestra concreta del compromiso del colegio con la seguridad y bienestar emocional tanto de estudiantes como de sus familias.
+
+![Imagen extraída del video de entrevistas](src/img/cap2/EntrevistaHayle.png)
+
+\newpage
+
+### Evaluaciones según heurísticas 
+
+::: box
+**Segmento Objetivo 1:** Directivos escolares o personal administrativo
+:::
+
+**Perfil Demográfico**
+
+- **Edades:** Entre 32 y 55 años, con un promedio estimado de 46.3 años.  
+
+- **Ubicación Geográfica:** Todos los entrevistados pertenecen al distrito de Paiján, provincia de Ascope, La Libertad (Perú).  
+
+- **Cargos ocupados:**
+  - Directora de institución educativa privada  
+
+  - Docente y asesor tecnológico  
+
+  - Promotora educativa  
+
+Este segmento representa a profesionales con amplia experiencia en la gestión educativa, en su mayoría con roles de liderazgo o soporte tecnológico dentro de las instituciones. Su perspectiva combina conocimiento administrativo, contacto directo con padres de familia y comprensión de los problemas logísticos cotidianos.
+
+
+**Experiencia y Conocimientos sobre Transporte Escolar**
+
+Los directivos entrevistados muestran un conocimiento claro y directo sobre la situación actual del transporte escolar en sus instituciones, aunque ninguna de ellas gestiona un sistema institucional de transporte. La logística del traslado de estudiantes es responsabilidad exclusiva de los padres, quienes contratan servicios de movilidad de forma independiente. Esto genera una serie de limitaciones y problemas recurrentes:
+
+- **Ausencia de supervisión institucional:** Las instituciones no participan en la selección de choferes, control de rutas, ni en protocolos de seguridad o asistencia al abordar y descender.
+- **Falta de control ante emergencias:** No existe un plan o solución inmediata cuando un estudiante necesita regresar a casa por enfermedad u otro imprevisto durante el horario escolar.
+- **Inseguridad y desorganización:** Se reportan problemas como estudiantes que no son recogidos, falta de comunicación efectiva con los transportistas, fallas mecánicas, e incluso situaciones más graves como alumnos que terminan en otra ciudad.
+- **Ausencia de herramientas tecnológicas:** Aunque algunas instituciones utilizan sistemas de control de ingreso (como photochips), no existe ningún mecanismo de monitoreo del transporte escolar ni de control de asistencia en las unidades.
+
+En general, los entrevistados reconocen que la situación actual no garantiza ni la seguridad ni la puntualidad, y que los padres no se sienten plenamente tranquilos con el sistema informal de transporte escolar vigente.
+
+
+**Herramientas y Tecnología Actual**
+
+Actualmente, las instituciones del segmento no cuentan con tecnología dedicada al monitoreo o gestión del transporte escolar. Sin embargo, algunos elementos tecnológicos se usan de manera limitada y en contextos distintos:
+
+- **Herramientas existentes:**
+   - Control de asistencia con photochip: En una institución, los estudiantes registran su ingreso con un sistema de marcación electrónica, permitiendo identificar ausencias de manera temprana.
+   - Comunicación básica: La interacción con padres y transportistas se realiza principalmente por teléfono o WhatsApp, de forma manual y reactiva.
+   - Registro de incidencias: Se lleva a cabo de manera verbal o informal, sin plataformas estandarizadas.
+
+- **Brechas tecnológicas:**
+   - No existe un sistema digital que permita monitorear el abordaje o descenso de estudiantes.
+   - No hay plataforma institucional que gestione rutas, asistencia, ni alertas automatizadas.
+   - El registro y control del transporte es completamente manual y externo a las instituciones.
+
+**Intereses y Necesidades Tecnológicas**
+
+Todos los entrevistados coincidieron en la importancia de implementar soluciones tecnológicas que permitan gestionar de forma segura y eficiente el transporte escolar.
+
+- **Necesidades principales identificadas:**
+   - Monitoreo en tiempo real del trayecto de los estudiantes
+   - Registro digital de embarque y desembarque (códigos de barras o QR)
+   - Notificaciones automáticas a los padres
+   - Confirmación diaria por parte de los padres sobre si el alumno asistirá o no (evitando confusiones o ausencias imprevistas).
+   - Panel administrativo que brinde visibilidad al personal del colegio sobre:
+      - Alumnos presentes en movilidad
+      - Rutas y choferes asignados
+      - Incidentes o desviaciones en tiempo real
+
+
+- **Valor percibido:**
+   - Mayor seguridad y tranquilidad para las familias
+   - Imagen institucional moderna y confiable
+   - Apoyo a la gestión interna del colegio (administración, psicología, personal auxiliar)
+
+- **Sobre la viabilidad económica:**
+
+   - El costo es un obstáculo potencial, pero los entrevistados creen que los padres estarían dispuestos a pagar si el valor en seguridad es claro y el precio razonable.
+
+
+**Preferencias y Comportamientos**
+
+A pesar de no contar con sistemas digitales actualmente, los directivos muestran una actitud abierta, receptiva y proactiva hacia nuevas soluciones tecnológicas, siempre que sean:
+
+- Fáciles de implementar  
+
+- Comprensibles para los padres  
+
+- Accesibles económicamente  
+
+- **Comportamientos actuales:**
+   - Gestión manual y reactiva mediante llamadas y WhatsApp
+   - Supervisión parcial sin control al subir/bajar de la movilidad
+   - Ausencia de protocolos ante emergencias durante el traslado
+
+- **Cambios que buscan:**
+   - Automatización del proceso de abordaje/desembarque con trazabilidad
+   - Comunicación en tiempo real con los padres
+   - Sistemas preventivos, no solo reactivos ante incidentes
+
+En esencia, estos actores educativos buscan una solución que combine tecnología con simplicidad, que les permita mejorar la seguridad sin complejizar la rutina diaria, y que transforme un sistema informal en uno institucional y confiable.
+
+\newpage
+
+**Estadísticas y Porcentajes**
+
+
+![Creado en Excel](src/img/cap2/grafico1.png){ height=45% }
+
+![Creado en Excel](src/img/cap2/grafico2.png){ height=45% }  
+
+\newpage                                     
+
+![Creado en Excel](src/img/cap2/grafico3.png){ height=40% }
+
+![Creado en Excel](src/img/cap2/grafico4.png){ height=40% }
+
+\newpage
+
+**Análisis de datos**
+
+Todos los directivos entrevistados indicaron que el transporte escolar es gestionado de forma externa por los padres, sin participación de la institución educativa. Esta situación genera preocupaciones frecuentes por la falta de control, puntualidad y seguridad.
+
+El 33.3% de las instituciones cuenta con un sistema digital de asistencia, mientras que el 66.7% no utiliza ninguna herramienta tecnológica para registrar el ingreso escolar, lo que limita el control y la prevención de incidentes.
+
+Respecto al acceso digital, Windows es el sistema operativo más utilizado (100%), lo que sugiere una familiaridad general con entornos convencionales de oficina.
+
+En cuanto a dispositivos móviles, Android es el preferido por el 66.7% de los entrevistados, mientras que el 33.3% utiliza iOS, lo que muestra una ligera predominancia de accesibilidad sobre exclusividad.
+
+El navegador web más usado es Google Chrome (66.7%), seguido de Microsoft Edge (33.3%), reforzando la tendencia hacia herramientas de uso masivo y compatibles con múltiples plataformas educativas.
+
+Las funcionalidades tecnológicas más valoradas para un futuro sistema de gestión del transporte escolar incluyen:
+
+   - Monitoreo en tiempo real (GPS) y notificaciones automáticas a los padres (ambas mencionadas por el 100% de los entrevistados).
+   - Registro digital de embarque y desembarque, confirmación diaria de asistencia por parte de los padres y paneles administrativos, todos con una alta frecuencia de mención.
+   - También se valora la posibilidad de generar historiales o reportes de trayectos para revisión institucional.
+
+
+::: note 
+Este análisis revela que los directivos escolares tienen una percepción clara de las limitaciones actuales del sistema de transporte escolar, especialmente en términos de seguridad y control. A pesar de la falta de implementación tecnológica actual, existe una alta disposición a adoptar herramientas digitales, siempre que estas sean accesibles, intuitivas y contribuyan al bienestar de los estudiantes y la tranquilidad de los padres.
+Una solución digital de transporte bien diseñada podría no solo mejorar la logística, sino también fortalecer la imagen institucional y fidelizar a las familias mediante confianza y modernización.
+:::
+
+\newpage
+
+::: box
+**Segmento Objetivo 2:** Padres de familia con hijos en edad escolar
+:::
+
+
+**Perfil Demográfico**
+
+- **Edad promedio:** 45 años  
+
+- **Ubicación geográfica:** Mayoritariamente en las provincias de Trujillo y Ascope, departamento de La Libertad, Perú.  
+
+- **Ocupación predominante:** Profesionales activas, principalmente en el área de la salud (obstetricia) y la docencia.  
+
+- **Relación con el sistema educativo:** Madres de estudiantes en nivel primario y secundario, con participación activa en la supervisión del entorno escolar y toma de decisiones sobre movilidad.
+
+Este grupo representa un perfil de madres altamente comprometidas con la seguridad y puntualidad en el traslado escolar de sus hijos. Sus decisiones están guiadas por la experiencia directa, criterios de confianza interpersonal, y una creciente expectativa hacia herramientas tecnológicas que profesionalicen el sistema de transporte escolar.
+
+**Experiencia y Conocimientos sobre Transporte Escolar**
+
+Las entrevistadas han transitado por diferentes modalidades de movilidad escolar, desde servicios compartidos (combi escolar) hasta servicios exclusivos (taxis contratados directamente). La elección de un modelo sobre otro responde a experiencias acumuladas que destacan fortalezas y limitaciones relevantes:
+
+- **Problemas comunes en la movilidad compartida:**  
+  - Recojos demasiado tempranos y retornos fuera de horario.
+  - Recorridos extensos y falta de personalización.
+  - Comunicación deficiente o inexistente sobre retrasos o percances.
+
+- **Motivos de migración hacia transporte exclusivo:**  
+  - Mayor control del horario.
+  - Relación directa con el conductor.
+  - Sensación de mayor seguridad y atención personalizada.
+
+- **Percepción de confiabilidad:**  
+  - A pesar de confiar en sus actuales proveedores, las madres reconocen que esta seguridad está basada exclusivamente en la relación interpersonal, sin respaldo institucional ni tecnología que garantice trazabilidad o monitoreo.
+
+- **Situaciones críticas reportadas:**  
+  - Fallas mecánicas, demoras no informadas, paradas no justificadas y ausencia de canales formales de reporte o respuesta.
+
+
+
+**Herramientas y Tecnología Actual**
+
+En el entorno doméstico y profesional, las entrevistadas hacen uso cotidiano de tecnología, principalmente a través de dispositivos móviles con sistema operativo Android. Sin embargo, este uso no se traduce en una integración efectiva con el entorno educativo ni con la movilidad escolar:
+
+- **Dispositivos tecnológicos utilizados:**  
+  - Smartphones (Samsung Galaxy predominante, sistema Android).
+
+- **Herramientas de comunicación:**  
+  - WhatsApp como canal informal entre padres, tutores y choferes.
+  - Llamadas telefónicas directas en caso de emergencias o dudas.
+
+- **Intentos de implementación tecnológica:**  
+  - Una entrevistada intentó utilizar un reloj GPS infantil, pero fue restringido por la institución escolar y resultó inefectivo por manipulación del menor.
+
+- **Limitaciones identificadas:**  
+  - Falta de aplicaciones escolares dedicadas al monitoreo del transporte.
+  - No existen sistemas automatizados de embarque, llegada o descenso.
+  - Total ausencia de confirmaciones o alertas institucionales sobre el estado del trayecto o la asistencia del estudiante.
+
+
+**Intereses y Necesidades Tecnológicas**
+
+Existe un consenso claro sobre el interés y la apertura hacia soluciones tecnológicas que ofrezcan mayor visibilidad, trazabilidad y tranquilidad a las familias.
+
+- **Requerimientos clave identificados:**
+   - Monitoreo en tiempo real del trayecto escolar.
+   - Notificaciones automáticas sobre subida, bajada, llegada, desvíos y emergencias.
+   - Registro digital de embarque y desembarque mediante códigos o sensores.
+   - Confirmación diaria de asistencia gestionada desde el hogar.
+   - Historiales o bitácoras de trayectos para consulta y análisis posterior.
+   - Botón de emergencia o alerta para uso por parte del estudiante en caso de urgencia.
+
+- **Preferencias de gestión:**
+   - Las entrevistadas consideran indispensable que el colegio sea el ente encargado de la implementación, gestión y supervisión de la tecnología y el personal del transporte escolar.
+   - La participación institucional es percibida como un factor de garantía, profesionalismo y respaldo, frente a modelos gestionados informalmente por grupos de padres.
+
+- **Disposición económica:**
+   - Existe disposición general a asumir un costo adicional si el sistema garantiza seguridad, eficiencia y respaldo formal.
+   - Se menciona un rango aceptable de pago mensual que puede alcanzar los S/100 soles si el valor percibido justifica la inversión.
+
+
+
+**Preferencias y Comportamientos Observados**
+
+Las entrevistadas presentan comportamientos orientados a la supervisión activa del traslado escolar, aunque carecen de herramientas formales para hacerlo.
+
+- **Conductas comunes:**
+
+   - Seguimiento manual mediante llamadas y mensajes al chofer.
+
+   - Tolerancia a modificaciones en rutas o puntos de recojo si existe confianza previa.
+
+   - Evaluación continua de la puntualidad y confiabilidad del servicio.
+
+- **Criterios de cambio de servicio:**
+
+   - Incumplimiento reiterado de horarios.
+
+   - Falta de comunicación ante imprevistos.
+
+   - Ausencia de trazabilidad.
+
+- **Elementos prioritarios en una solución ideal:**
+
+   - Automatización de procesos críticos como embarque y notificación de llegada.
+
+   - Gestión institucional centralizada que permita reportes, control y respuestas rápidas.
+
+   - Sistema fácil de usar, tanto para padres como para personal educativo.
+
+
+**Estadísticas y Porcentajes**
+
+
+![Creado en Excel](src/img/cap2/grafico1S2.png)
+
+![Creado en Excel](src/img/cap2/grafico2S2.png)
+
+![Creado en Excel](src/img/cap2/grafico3S2.png)
+
+\newpage
+
+
+**Análisis de Datos**
+
+Las madres entrevistadas utilizan servicios de transporte escolar privado (movilidad compartida o taxi exclusivo), y coinciden en que, si bien actualmente no enfrentan grandes incidentes, la falta de seguimiento en tiempo real genera inseguridad y preocupación.
+
+El 100% de las entrevistadas confía principalmente en la relación personal con el conductor, ya que no utilizan apps escolares ni sistemas institucionales para hacer seguimiento del transporte.
+
+Asimismo, el 100% considera que el monitoreo digital debería estar gestionado por el colegio, lo cual reflejaría mayor compromiso institucional, profesionalismo en la selección del personal y respaldo en caso de emergencias.
+
+Respecto a su disposición económica, todas están abiertas a pagar un monto adicional por una solución digital que brinde seguridad y control, siempre que esté correctamente respaldada por la institución educativa.
+
+En cuanto a sus herramientas actuales:
+
+- El sistema operativo más utilizado es Android (100%), lo que sugiere una fuerte afinidad con dispositivos de fácil acceso y uso común.
+
+- Google Chrome fue el navegador mencionado con más frecuencia (66.7%), mientras que el 33.3% no especificó navegador, lo que puede deberse a menor uso activo de plataformas web escolares.
+
+
+Las funcionalidades tecnológicas más mencionadas para una aplicación ideal incluyen:
+
+- Monitoreo en tiempo real (GPS) y notificaciones automáticas a los padres (ambas mencionadas por el 100%).
+
+- Registro digital de embarque/desembarque y confirmación diaria desde la app, con una frecuencia del 66.7%.
+
+- También se valoraron herramientas innovadoras como una alerta de emergencia activada por el niño y la posibilidad de que el sistema sea gestionado institucionalmente.
+
+
+::: note
+Este análisis muestra que los padres de familia valoran altamente la seguridad, la puntualidad y el control durante el traslado escolar, y aunque confían en sus proveedores actuales, reconocen que la tecnología puede ofrecer un nivel de tranquilidad mucho más robusto y automatizado.
+Existe una clara expectativa de que el colegio sea el actor responsable en implementar soluciones digitales, lo cual no solo fortalecería la confianza de las familias, sino también proyectaría una imagen institucional comprometida con el bienestar emocional y físico de sus estudiantes.
+:::
+
+\newpage
+
+## Video About-the-Product 
+
+Para construir una solución realmente útil, hablamos directamente con quienes la usarán. A través de entrevistas, recolectamos información clave sobre su día a día, sus necesidades, frustraciones y cómo se relacionan con la tecnología. Esta información nos permitió entender sus emociones y comportamientos, y así diseñar una experiencia pensada realmente para ellos.
+
+![Recurso extraído de Canva](src/img/cap6/video-about-the-product-introduccion.png)
+
+::: warn
+Para acceder al video del producto, haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EWO4I1TkuVdCnZbW0aswNssBgLRcrsjVJa2rl-7IQv-QoA?e=2KDzPp&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+:::
+
+![Recurso extraído de Microsoft Stream](src/img/cap6/video-about-the-product-tb2.png){ heigth=35% }
+
+\newpage
+
+# Conclusiones
+
+1. **Gestión de Configuración Impecable:** Hemos concluido que la base del proyecto se sustenta en una Gestión de Configuración de Software (SCM) excepcionalmente bien definida. La estandarización de entornos, librerías y versiones de SDK asegura la reproducibilidad y minimiza los problemas de "funciona en mi máquina". Esto establece un pilar de estabilidad y profesionalismo desde el inicio.
+
+2. **Adopción Rigurosa de Metodologías Ágiles:** El equipo ha demostrado una aplicación rigurosa y transparente de las metodologías ágiles. La planificación detallada de los Sprints, la gestión visual a través de tableros Kanban y el desglose de tareas en Historias de Usuario (US) y Work Items (WI) con estimaciones, evidencian un control total sobre el flujo de trabajo, promoviendo la previsibilidad y la entrega continua de valor.
+
+3. **Cultura de Calidad Guiada por Comportamiento (BDD):** Destacamos el profundo compromiso con la calidad, que va más allá de las pruebas tradicionales. La implementación extensiva del Desarrollo Guiado por Comportamiento (BDD) a través de Gherkin sirve como un "contrato" claro entre los requisitos de negocio y la implementación técnica, asegurando que el software haga lo correcto de la manera correcta.
+
+4. **Arquitectura Políglota y Orientada a Propósito:** La elección de un stack tecnológico diversificado (React, Angular, Flutter, Spring Boot, Python) no es casual, sino una decisión arquitectónica deliberada. Observamos que se ha aplicado la filosofía de "usar la mejor herramienta para cada tarea", lo que permite optimizar cada componente del sistema (landing, app de admin, app móvil, servicios) de forma independiente y eficiente.
+
+5. **Diseño Arquitectónico Formal y Documentado:** El proyecto no solo se ha construido, sino que se ha diseñado con previsión. El uso de modelos como C4 con Structurizr y diagramas con Mermaid demuestra un esfuerzo consciente por planificar y comunicar la arquitectura del sistema. Esto facilita la comprensión, la escalabilidad y el mantenimiento a largo plazo.
+
+6. **Automatización del Despliegue como Pilar Fundamental (DevOps):** Hemos notado una fuerte orientación hacia las prácticas DevOps. La configuración de pipelines de CI/CD, el uso de contenedores con Docker y el despliegue automatizado en plataformas como Vercel y Netlify son indicativos de un enfoque moderno que busca agilidad, seguridad y fiabilidad en las entregas.
+
+7. **Validación del Problema a través de la Voz del Usuario:** Consideramos que la realización de entrevistas de validación con los segmentos objetivo ha sido el acto más estratégico del proyecto. Estas no solo confirmaron las hipótesis, sino que pusieron de manifiesto los "dolores" reales (inseguridad, falta de control, ansiedad) que RutaKids se propone resolver, dotando al proyecto de un propósito claro y validado.
+
+8. **Conexión Directa entre Funcionalidades y Necesidades Reales:** A raíz de la validación, concluimos que las funcionalidades propuestas no son arbitrarias. Características como el monitoreo en tiempo real, las notificaciones de embarque y la gestión centralizada desde el colegio responden directamente a las preocupaciones expresadas por padres y directivos, lo que garantiza una alta probabilidad de adopción y satisfacción.
+
+9. **Proceso de Diseño de Experiencia de Usuario Formalizado:** El uso de herramientas como UxPresia para mapas de historias y Figma para prototipos interactivos demuestra que la experiencia de usuario (UX/UI) ha sido una disciplina central en el proceso, y no una ocurrencia tardía. Esto asegura que las interfaces sean intuitivas y estén alineadas con los flujos de trabajo de los usuarios finales.
+
+10. **Cultura de Documentación Exhaustiva y Práctica:** El equipo ha cultivado una excelente cultura de la documentación. Desde la especificación de APIs con Swagger (OpenAPI) hasta la documentación de componentes con Storybook y la justificación de librerías, se ha creado un ecosistema de información que facilita la integración, la colaboración y la incorporación de nuevos miembros al equipo.
+
+11. Estandarización del Código para la Cohesión del Proyecto: La definición de guías de estilo, el uso de linters y la adopción de "Conventional Commits" son cruciales en un proyecto con múltiples tecnologías. Hemos concluido que estas convenciones unifican la base del código, mejorando drásticamente su legibilidad y mantenibilidad, y facilitando la revisión entre pares.
+
+12. **Trazabilidad Completa de Requisito a Despliegue:** Uno de los logros más notables es la trazabilidad completa que se puede seguir a lo largo del proyecto. Es posible rastrear una Historia de Usuario desde el backlog, pasando por sus pruebas en Gherkin, su implementación en una rama feature/, sus commits específicos, hasta su despliegue final. Este nivel de control es característico de equipos de alto rendimiento.
+
+13. **Colaboración Efectiva y Distribuida:** La evidencia presentada (gráficos de red, actividad en Kanban, asignación de roles) pinta la imagen de un equipo altamente colaborativo y bien organizado. La distribución de responsabilidades, con líderes y colaboradores por aspecto, fomenta el ownership y asegura que todas las áreas del proyecto avancen en paralelo de forma coordinada.
+
+14. **Validación de la Viabilidad del Modelo de Negocio:** Las entrevistas no solo validaron el producto, sino también su potencial de negocio. La disposición explícita de ambos segmentos de usuarios a pagar por una solución de este tipo proporciona una validación temprana del modelo de negocio, posicionando a RutaKids no solo como un proyecto técnico exitoso, sino como un producto potencialmente sostenible.
+
+15. **Visión Holística y Ejecución Integral:** En resumen, nuestra conclusión final es que el proyecto RutaKids representa un ejemplo de ejecución holística. El equipo ha demostrado una capacidad sobresaliente para integrar la gestión de proyectos, el diseño de UX, la ingeniería de software, la garantía de calidad y la validación de negocio en un proceso cohesivo y bien documentado, culminando en una solución que es a la vez robusta técnicamente y profundamente humana.
 
 \newpage
 

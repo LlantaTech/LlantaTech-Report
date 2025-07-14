@@ -129,6 +129,27 @@ pandoc-latex-environment:
   \hline
   tp1 & 14/05/2025 & Avila Asto, Alex & Apoyé en el Capítulo III con el \textit{To-Be Scenario Mapping} y validación de historias de usuario. También contribuí con la preparación visual de la landing page implementada y ayudé en la estructuración de las pruebas del Capítulo VI. \\
   \hline
+
+  tb2 & 15/06/2025 & Ortega Huaraca, Abel & Contribuí al desarrollo e implementación de la \textbf{aplicación móvil de RutaKids (Sprint 2)}, abarcando las historias de usuario US10 (Registro e Inicio de Sesión de Tutor), US11 (Visualización de Ubicación del Vehículo) y US12 (Configuración Inicial de Notificaciones). En el Capítulo VI, elaboré las \textbf{pruebas BDD (Gherkin) para la aplicación móvil} y participé en la definición de pruebas unitarias y de integración para sus componentes. Documenté las evidencias de implementación de la aplicación móvil en el Capítulo V y apoyé en la configuración de aspectos de \textbf{Continuous Integration/Deployment para el módulo móvil} en el Capítulo VII. \\
+  \hline
+  tb2 & 15/06/2025 & Ramos Rios, Belén del Rocio & Participé en la \textbf{actualización e integración de la Landing Page (Sprint 2)}, asegurando su coherencia con los nuevos componentes de la aplicación web de administración y la aplicación móvil para padres (US38-US43). Elaboré las \textbf{pruebas BDD (Gherkin) para la Landing Page} en el Capítulo VI. En el Capítulo V, continué con la organización de los \textbf{Sprint Backlogs (Sprint 2)} y la redacción de \textbf{Team Collaboration Insights}. Colaboré con la validación de los componentes implementados en el sprint y aporté en la documentación de los flujos de \textbf{Continuous Delivery y Deployment} del Capítulo VII. \\
+  \hline
+  tb2 & 15/06/2025 & Vilchez Rios, Mateo Alejandro & Colaboré en el desarrollo e implementación de la \textbf{aplicación web de administración de RutaKids (Sprint 2)}, enfocándome en las historias de usuario US07 (Interfaz Web: Registro e Inicio de Sesión Administrador), US08 (Interfaz Web: Dashboard Inicial y Gestión de Perfil) y US09 (Interfaz Web: Gestión Inicial de Vehículos). En el Capítulo VI, desarrollé las \textbf{pruebas BDD (Gherkin) para la aplicación web}. Documenté las evidencias de implementación de la aplicación web en el Capítulo V y contribuí a la configuración de los flujos de \textbf{CI/CD para los componentes web} en el Capítulo VII. \\
+  \hline
+  tb2 & 15/06/2025 & Avila Asto, Alex & Lideré el diseño e implementación de la \textbf{arquitectura de microservicios de RutaKids (Sprint 2)}, desarrollando los servicios para US01 (API Gestión Cuentas Admin), US02 (API Gestión Cuentas Padres), US03 (Autenticación JWT), US04 (API Gestión Flotas), US05 (API Captura Geolocalización), US06 (Infraestructura Microservicios Docker/Gateway) y US37 (Paginación y Filtrado). En el Capítulo VI, elaboré las \textbf{pruebas BDD (Gherkin) para las APIs de los microservicios} y participé en la estructuración de pruebas unitarias y de integración para el backend. Contribuí a la documentación de la configuración de despliegue de microservicios (Dockerfiles, API Gateway) en el Capítulo V. \\
+
+
+  tf1 & 08/07/2025 & Ortega Huaraca, Abel & Contribuí al desarrollo e implementación de la \textbf{aplicación móvil de RutaKids (Sprint 2)}, abarcando las historias de usuario US10 (Registro e Inicio de Sesión de Tutor), US11 (Visualización de Ubicación del Vehículo) y US12 (Configuración Inicial de Notificaciones). En el Capítulo VI, elaboré las \textbf{pruebas BDD (Gherkin) para la aplicación móvil} y participé en la definición de pruebas unitarias y de integración para sus componentes. Documenté las evidencias de implementación de la aplicación móvil en el Capítulo V y apoyé en la configuración de aspectos de \textbf{Continuous Integration/Deployment para el módulo móvil} en el Capítulo VII. \\
+  \hline
+  tf1 & 08/07/2025 & Ramos Rios, Belén del Rocio & Participé en la \textbf{actualización e integración de la Landing Page (Sprint 2)}, asegurando su coherencia con los nuevos componentes de la aplicación web de administración y la aplicación móvil para padres (US38-US43). Elaboré las \textbf{pruebas BDD (Gherkin) para la Landing Page} en el Capítulo VI. En el Capítulo V, continué con la organización de los \textbf{Sprint Backlogs (Sprint 2)} y la redacción de \textbf{Team Collaboration Insights}. Colaboré con la validación de los componentes implementados en el sprint y aporté en la documentación de los flujos de \textbf{Continuous Delivery y Deployment} del Capítulo VII. \\
+  \hline
+  tf1 & 08/07/2025 & Vilchez Rios, Mateo Alejandro & Colaboré en el desarrollo e implementación de la \textbf{aplicación web de administración de RutaKids (Sprint 2)}, enfocándome en las historias de usuario US07 (Interfaz Web: Registro e Inicio de Sesión Administrador), US08 (Interfaz Web: Dashboard Inicial y Gestión de Perfil) y US09 (Interfaz Web: Gestión Inicial de Vehículos). En el Capítulo VI, desarrollé las \textbf{pruebas BDD (Gherkin) para la aplicación web}. Documenté las evidencias de implementación de la aplicación web en el Capítulo V y contribuí a la configuración de los flujos de \textbf{CI/CD para los componentes web} en el Capítulo VII. \\
+  \hline
+  tf1 & 08/07/2025 & Avila Asto, Alex & Lideré el diseño e implementación de la \textbf{arquitectura de microservicios de RutaKids (Sprint 2)}, desarrollando los servicios para US01 (API Gestión Cuentas Admin), US02 (API Gestión Cuentas Padres), US03 (Autenticación JWT), US04 (API Gestión Flotas), US05 (API Captura Geolocalización), US06 (Infraestructura Microservicios Docker/Gateway) y US37 (Paginación y Filtrado). En el Capítulo VI, elaboré las \textbf{pruebas BDD (Gherkin) para las APIs de los microservicios} y participé en la estructuración de pruebas unitarias y de integración para el backend. Contribuí a la documentación de la configuración de despliegue de microservicios (Dockerfiles, API Gateway) en el Capítulo V. \\
+
+
+
+  \hline
 \end{longtable}
 
 \newpage
@@ -169,21 +190,74 @@ Para acceder los insights de este proyecto, haga click a la [URL](https://github
 
 **Tablero Kanban:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap6/insights-kanban-todo-1.png){ width=85% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/insights-kanban-todo-1.png){ width=85% }
 
 **Kanban List:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap6/insights-kanban-list-1.png){ width=85% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/insights-kanban-list-1.png){ width=85% }
 
 \newpage
 
 **Network Graph:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap1/insights-network-tp1.png){ width=85% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap1/insights-network-tp1.png){ width=85% }
 
 **Traffic Map:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap1/insights-trafic-tp1.png){ width=85% }
+![Organización LLantatech, imagen extraída de Github](src/img/cap1/insights-trafic-tp1.png){ width=85% }
+
+\newpage
+
+
+**TB2:**
+
+::: warn
+Para acceder los insights de este proyecto, haga click a la [URL](https://github.com/orgs/LlantaTech/repositories)
+:::
+
+**Tablero Kanban:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/insights-kanban-todo-1.png){ width=85% }
+
+**Kanban List:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/insights-kanban-list-1.png){ width=85% }
+
+\newpage
+
+**Network Graph:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/insights-network-graph-tb2.png){ width=85% }
+
+**Traffic Map:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/insights-traffic-map-tb2.png){ width=85% }
+
+\newpage
+
+**TF1:**
+
+::: warn
+Para acceder los insights de este proyecto, haga click a la [URL](https://github.com/orgs/LlantaTech/repositories)
+:::
+
+**Tablero Kanban:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/insights-kanban-todo-1.png){ width=85% }
+
+**Kanban List:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap6/insights-kanban-list-1.png){ width=85% }
+
+\newpage
+
+**Network Graph:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap1/insights-network-tp1.png){ width=85% }
+
+**Traffic Map:**
+
+![Organización LLantatech, imagen extraída de Github](src/img/cap1/insights-trafic-tp1.png){ width=85% }
 
 \newpage
 
@@ -246,6 +320,49 @@ Por su parte, Mateo Alejandro Vílchez Ríos mostró liderazgo desde la dimensi�
 } \\ 
 
 
+\parbox[t]{4cm}{
+
+} 
+&  
+\parbox[t]{6cm}{
+\textbf{TB2:} \\
+\textbf{Abel Ángel Ortega Huaraca} \\
+Me enfoqué en realizar aportes técnicos y documentales clave para la aplicación móvil, asumiendo responsabilidades desde la definición de sus requisitos (User Stories) hasta su implementación y validación inicial. \\
+\textbf{Belén del Rocío Ramos Ríos} \\
+Fui responsable y objetiva durante la planificación del Sprint 2 y la documentación de las evidencias de implementación, especialmente en la integración de la Landing Page.  \\
+\textbf{Mateo Alejandro Vílchez Ríos} \\
+Aporté en la redacción de requisitos y en la definición del impacto de las funcionalidades de la aplicación web de administración. Cuidé que la información y documentación, incluyendo las pruebas BDD, reflejara de manera justa nuestras contribuciones y los hallazgos técnicos durante la implementación de sus interfaces. \\
+\textbf{Alex Avila Asto} \\
+Cuidé que las evidencias y los escenarios definidos para los microservicios respetaran fielmente las necesidades del usuario y los requisitos funcionales. \\
+}
+&
+\parbox[t]{5cm}{
+\textbf{TB2:} \\
+Abel Ángel Ortega Huaraca lideró activamente áreas técnicas clave, desde la definición de requisitos hasta la implementación y validación de la aplicación móvil. Belén del Rocío Ramos Ríos también asumió un rol fundamental, al orientar la planificación del sprint y la generación de evidencias de implementación especialmente en la integración de la Landing Page con un enfoque ético y analítico. Por su parte, Mateo Alejandro Vílchez Ríos mostró liderazgo desde la dimensión de la justicia y la transparencia, al encargarse de redactar los requisitos y mapeos de impacto para la aplicación web de administración, asegurando que cada contribución a sus funcionalidades fuera reconocida de forma equitativa. Finalmente, Alex Avila Asto evidenció un liderazgo centrado en el usuario y en la ética del resultado, al asegurar que los escenarios y evidencias de los microservicios backend se ajustaran con precisión a las necesidades reales del usuario y a la integridad de los datos. \\
+} \\ 
+
+\parbox[t]{4cm}{
+
+} 
+&  
+\parbox[t]{6cm}{
+\textbf{TF1:} \\
+\textbf{Abel Ángel Ortega Huaraca} \\
+Me enfoqué en realizar aportes técnicos y documentales clave para la aplicación móvil, asumiendo responsabilidades desde la definición de sus requisitos (User Stories) hasta su implementación y validación inicial. \\
+\textbf{Belén del Rocío Ramos Ríos} \\
+Fui responsable y objetiva durante la planificación del Sprint 3 y la documentación de las evidencias de implementación, especialmente en la integración de la Landing Page.  \\
+\textbf{Mateo Alejandro Vílchez Ríos} \\
+Aporté en la redacción de requisitos y en la definición del impacto de las funcionalidades de la aplicación web de administración. Cuidé que la información y documentación, incluyendo las pruebas BDD, reflejara de manera justa nuestras contribuciones y los hallazgos técnicos durante la implementación de sus interfaces. \\
+\textbf{Alex Avila Asto} \\
+Cuidé que las evidencias y los escenarios definidos para los microservicios respetaran fielmente las necesidades del usuario y los requisitos funcionales. \\
+}
+&
+\parbox[t]{5cm}{
+\textbf{TF1:} \\
+Abel Ángel Ortega Huaraca lideró activamente áreas técnicas clave, desde la definición de requisitos hasta la implementación y validación de la aplicación móvil. Belén del Rocío Ramos Ríos también asumió un rol fundamental, al orientar la planificación del sprint y la generación de evidencias de implementación especialmente en la integración de la Landing Page con un enfoque ético y analítico. Por su parte, Mateo Alejandro Vílchez Ríos mostró liderazgo desde la dimensión de la justicia y la transparencia, al encargarse de redactar los requisitos y mapeos de impacto para la aplicación web de administración, asegurando que cada contribución a sus funcionalidades fuera reconocida de forma equitativa. Finalmente, Alex Avila Asto evidenció un liderazgo centrado en el usuario y en la ética del resultado, al asegurar que los escenarios y evidencias de los microservicios backend se ajustaran con precisión a las necesidades reales del usuario y a la integridad de los datos. \\
+} \\ 
+
+
 \hline
 
 \parbox[t]{4cm}{
@@ -290,6 +407,52 @@ Al diseñar escenarios de uso, me enfoqué en la equidad social, procurando que 
 Abel Ángel Ortega Huaraca aportó significativamente al evaluar la escalabilidad de la solución en diversos contextos urbanos, considerando el impacto que esta tendría en la vida cotidiana de las familias y de los estudiantes. Por otro lado, Belén del Rocío Ramos Ríos mostró una visión crítica y estratégica al estudiar el entorno competitivo desde un enfoque social. Su preocupación por evitar la creación de dependencias tecnológicas o brechas digitales innecesarias muestra una sensibilidad importante frente a la diversidad de usuarios. Mateo Alejandro Vílchez Ríos, al participar en la definición del problema, integró de manera activa aspectos sociales y ambientales como el tráfico y la contaminación, orientando al equipo hacia soluciones que no solo fueran funcionales, sino también responsables con el entorno. Finalmente, Alex Avila Asto mostró un fuerte compromiso con la equidad al diseñar escenarios de uso centrados en la diversidad económica de los usuarios. \\
 
 } \\
+
+
+\parbox[t]{4cm}{
+
+}
+&  
+\parbox[t]{6cm}{
+\textbf{TB2:} \\
+\textbf{Abel Ángel Ortega Huaraca} \\
+Al analizar cómo nuestra solución, y en particular la aplicación móvil para padres, podía escalar a distintos contextos urbanos, consideré sus efectos en la rutina familiar y escolar. \\
+\textbf{Belén del Rocío Ramos Ríos} \\
+Estudié el entorno competitivo con enfoque social, procurando que nuestra solución, comunicada inicialmente a través de la Landing Page, ofreciera un valor diferencial sin generar dependencia tecnológica o brechas innecesarias entre los distintos perfiles de usuarios (administradores y padres). \\
+\textbf{Mateo Alejandro Vílchez Ríos} \\
+En la definición del problema y el diseño de la aplicación web de administración, consideré factores sociales y ambientales como el tráfico urbano y la contaminación, buscando que las funcionalidades de gestión y optimización de rutas contribuyeran a alternativas viables que no agravaran estos problemas. \\
+\textbf{Alex Avila Asto} \\
+Al diseñar escenarios de uso y la arquitectura de los microservicios backend, me enfoqué en la equidad social. Procuré que la infraestructura subyacente soportara una solución global accesible. \\
+}
+&
+\parbox[t]{5cm}{
+\textbf{TB2:} \\
+Abel Ángel Ortega Huaraca aportó significativamente al evaluar la escalabilidad de la solución y cómo la aplicación móvil impactaría la vida cotidiana de las familias y estudiantes en diversos contextos urbanos. Por otro lado, Belén del Rocío Ramos Ríos mostró una visión crítica y estratégica al estudiar el entorno competitivo desde un enfoque social, lo cual se reflejó en la forma de comunicar el valor de RutaKids a través de la Landing Page. Mateo Alejandro Vílchez Ríos, al participar en la definición del problema para la aplicación web de administración, integró de manera activa aspectos sociales y ambientales. Finalmente, Alex Avila Asto mostró un fuerte compromiso con la equidad al diseñar los escenarios de uso para los microservicios backend. \\
+} \\
+
+
+\parbox[t]{4cm}{
+
+}
+&  
+\parbox[t]{6cm}{
+\textbf{TF1:} \\
+\textbf{Abel Ángel Ortega Huaraca} \\
+Al analizar cómo nuestra solución, y en particular la aplicación móvil para padres, podía escalar a distintos contextos urbanos, consideré sus efectos en la rutina familiar y escolar. \\
+\textbf{Belén del Rocío Ramos Ríos} \\
+Estudié el entorno competitivo con enfoque social, procurando que nuestra solución, comunicada inicialmente a través de la Landing Page, ofreciera un valor diferencial sin generar dependencia tecnológica o brechas innecesarias entre los distintos perfiles de usuarios (administradores y padres). \\
+\textbf{Mateo Alejandro Vílchez Ríos} \\
+En la definición del problema y el diseño de la aplicación web de administración, consideré factores sociales y ambientales como el tráfico urbano y la contaminación, buscando que las funcionalidades de gestión y optimización de rutas contribuyeran a alternativas viables que no agravaran estos problemas. \\
+\textbf{Alex Avila Asto} \\
+Al diseñar escenarios de uso y la arquitectura de los microservicios backend, me enfoqué en la equidad social. Procuré que la infraestructura subyacente soportara una solución global accesible. \\
+}
+&
+\parbox[t]{5cm}{
+\textbf{TF1:} \\
+Abel Ángel Ortega Huaraca aportó significativamente al evaluar la escalabilidad de la solución y cómo la aplicación móvil impactaría la vida cotidiana de las familias y estudiantes en diversos contextos urbanos. Por otro lado, Belén del Rocío Ramos Ríos mostró una visión crítica y estratégica al estudiar el entorno competitivo desde un enfoque social, lo cual se reflejó en la forma de comunicar el valor de RutaKids a través de la Landing Page. Mateo Alejandro Vílchez Ríos, al participar en la definición del problema para la aplicación web de administración, integró de manera activa aspectos sociales y ambientales. Finalmente, Alex Avila Asto mostró un fuerte compromiso con la equidad al diseñar los escenarios de uso para los microservicios backend. \\
+} \\
+
+
 \hline
 \end{longtable}
 
